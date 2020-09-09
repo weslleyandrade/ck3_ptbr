@@ -1,0 +1,72 @@
+﻿l_english:
+ trait_specific.1001.desc:0 "Pessoas estranhas têm aparecido na corte ultimamente – algumas eu só vejo como sombras no canto do meu olho, e outras eu vislumbro rapidamente e então elas parecem ter ido embora.\n\n Não importa quantos guardas eu possuo na tarefa essas pessoas estranhas não podem ser encontradas, mas a intensidade de suas provocações só está aumentando!"
+ trait_specific.1001.a:0 "Há-! Eu poderia jurar..."
+
+ trait_specific.1002.desc:0 "Ultimamente, tenho tido dificuldade em pensar direito – meus pensamentos estão espalhados como nuvens sobre um céu de verão.\n\nOs pássaros fora da minha janela começaram a cantar outra música. Outras pessoas parecem falar voluntariamente em enigmas, e ninguém reconhece que o coentro é um tempero verdadeiramente horrível."
+ trait_specific.1002.a:0 "Espere, no que eu estava pensando?"
+
+ trait_specific.1010.t:0 "Lunacy Emergente"
+ trait_specific.1010.desc:0 "Esta última semana eu estive em espiral, como uma folha em um tornado, dando a volta. O que é a realidade? O que é #EMP real#!? Eu não posso mais responder isso.\n\nAll eu sei que a mulher nas nuvens me entende, mas as sombras estão chegando mais longe a cada dia."
+ trait_specific.1010.a:0 "Agarrando como roedores... Shoo, longe com você!"
+
+ trait_specific.2001.t:0 "O Início"
+ trait_specific.2001.desc:0 "Um sentimento doentio está subindo no meu estômago. Eu tento voltar para meus aposentos, mas a porta encolhe diante dos meus olhos! O que está acontecendo? \n\nSuddenly eu posso sentir o cheiro de algo... algo que eu sei que já senti o cheiro antes, mas... #EMP onde#!? Um criado me pergunta se estou bem, mas não posso responder a ela, não posso fazer nada..."
+ trait_specific.2001.a:0 "Eu... Quanto tempo eu tinha ido embora?"
+
+ trait_specific.2002.desc:0 "Ultimamente eu tenho experimentado alguns... Episódios. Algo vem sobre mim, tomando conta do meu corpo, e me deixa cansado e confuso.\n\nEu tentei esconder isso das pessoas, tentei escondê-lo, mas é difícil controlar algo que vem e vai como quiser."
+ trait_specific.2002.a:0 "Eles estão olhando para mim como se eu estivesse possuído..."
+
+ trait_specific.3001.desc:0 "Como uma flecha perdida passa pela minha cabeça no quintal eu não sinto nada – sem medo, sem raiva, sem pânico.\n\nEste tem sido par para o curso recentemente – sinto como se existisse atrás de uma cortina, me afastando dos sentimentos e do mundo. E eu estou tão cansado..."
+ trait_specific.3001.a:0 "Acho que vou voltar para a cama."
+
+ trait_specific.3002.desc_opening:0 "Qual é o significado de tudo isso? Por que passamos por esses movimentos dia após dia..."
+
+ trait_specific.3999.t:0 "Dias Cinzentos"
+ trait_specific.3999.desc:0 "Toda a minha vida senti que a felicidade não veio tão facilmente para mim quanto para os outros, e agora o sentimento é tão estranho para mim quanto o ar é para um peixe."
+ trait_specific.3999.desc_end:0 "\n\nMotivação e energia me escapa. À medida que minha vida se afunda em tédio cinzento, sinto que deveria entrar em pânico, mas mesmo isso está além de mim agora."
+ trait_specific.3999.a:0 "É tudo demais..."
+
+ trait_specific.4001.t:0 "Leitura Alternativa"
+ trait_specific.4001.desc:0 "Em um canto empoeirado da biblioteca encontro um tomo – amarrado em couro e inscrito com símbolos estranhos – parcialmente escondido atrás de outros livros. É velho, mas obviamente já viu algum uso recente.\n\nAs eu folheo através dele eu rapidamente chegar à conclusão de que lida com alguns... conhecimento não convencional."
+ trait_specific.4001.a:0 "Interessante... Eu olho em volta antes de sentar para ler."
+ trait_specific.4001.a_tt:0 "Espero que aquele que tenha lido recentemente o livro não esteja por perto para me ver..."
+ trait_specific.4001.b:0 "Heresia! Vou entregá-lo ao [ROOT.Char.GetFaith.PriestNeuterPlural]."
+
+ trait_specific.5001.t:0 "Gourmand"
+ trait_specific.5001.desc:0 "Veado, alce, codorna... Há tantas coisas exóticas para experimentar neste mundo!\n\nAs prato após prato de carne requintada é colocado diante de mim eu não posso deixar de me perguntar o que mais há lá fora? Que aventuras mais saborosas eu posso continuar?"
+ trait_specific.5001.a:0 "Eu devo tentar tudo!"
+ trait_specific.5001.a.tt:0 "Vou procurar tipos mais exóticos de carne"
+ trait_specific.5001.b:0 "A variação que eu tenho aqui é boa."
+
+ trait_specific.5002.desc:0 "Na minha busca por carnes raras, um pensamento se enraizou em minha mente. Eu mal posso admitir isso até para mim mesmo, mas eu não posso deixar de imaginar como a carne humana teria gosto...\n\nComo um servo na corte adoece, e ficar na porta da morte, eu ordeno que ele seja colocado em meus cuidados particulares."
+ trait_specific.5002.a:0 "Perdoe-me - eu tenho que descobrir!"
+ trait_specific.5002.b:0 "Não farei nada além de rezar por sua alma."
+
+ trait_specific.5003.t:0 "Levado ao Extremo"
+ trait_specific.5003.desc:0 "Era apenas para ser uma excursão curta, um passeio agradável do lado do campo. Já se passaram dias desde que vimos outra pessoa viva, e nossos suprimentos já se foram há muito tempo – já comemos os cavalos.\n\nNosso guia promete que chegaremos à civilização dentro de uma semana, mas alguns dos criados já estão no seu limite, e meu estômago rosna mais alto para cada hora que passa."
+ trait_specific.5003.a:0 "Fazemos o que temos que sobreviver..."
+ trait_specific.5003.b:0 "Podemos resistir a isso!"
+
+ trait_specific.6001.t:0 "Sabor Alternativo"
+ trait_specific.6001.desc:0 "Ultimamente as atividades regulares não têm... #EMP feito#! para mim. Os médicos recomendaram várias pomadas, mas nada excita.\n\nAs eu fico cada vez mais desesperado eu me deparo com alguns livros, escondidos no fundo de uma pilha em uma barraca de comerciantes, que retratam alguns... atividades incomuns. Eu acho que eu não posso parar de virar as páginas, e o calor está mexendo em minhas entranhas."
+ trait_specific.6001.a:0 "Bem, se isso é o que é preciso..."
+ trait_specific.6001.b:0 "Eu sou melhor do que isso!"
+
+ trait_specific.6002.t:0 "Diversão no Quarto"
+ trait_specific.6002.desc:0 " [lover.GetSheHe] diz como [lover.GetSheHe] chega debaixo da cama com um sorriso, apenas para puxar para fora [ROOT.Char.Custom('DeviantObjectArticle')]. "I have been wanting to try some things with you, my [ROOT.Char.Custom('LoverPetName')]," [lover.GetSheHe] diz como [lover.GetSheHe] chega debaixo da cama com um sorriso, apenas para puxar para fora [ROOT.Char.Custom('DeviantObjectArticle')]. "I was thinking that we could... use this.""
+ trait_specific.6002.a:0 "Bem, não me deixe esperando!"
+ trait_specific.6002.b:0 "Você está em coisas como esta?"
+ trait_specific.6002.b_known:0 "Eu sabia [lover.GetSheHe] estava em algumas coisas estranhas, mas isso?!"
+
+ trait_specific.7001.t:0 "Bottoms Up!"
+ trait_specific.7001.desc:0 "Nada me acalma tão eficientemente quanto um copo cheio de [ROOT.Char.Custom('RegionalAlcoholicDrink')]. Depois de um dia difícil, depois de um bom dia, depois de #EMP algum dia#!... Eu encontrei consolo no fundo do copo."
+ trait_specific.7001.a:0 "Traga-me outro!"
+ trait_specific.7002.b:0 "Eu sou mais forte do que isso."
+
+ trait_specific.8001.t:0 "Sprouting Interest"
+ trait_specific.8001.desc:0 "Um comerciante me enviou amostras de sementes – plantas [ROOT.Char.Custom('RandomSheHe')] afirma que são boas para a saúde e a mente.\n\nI devo admitir que tenho pouca experiência em nutrir plantas, mas quão difícil poderia ser?"
+ trait_specific.8001.a:0 "Vou usá-los para começar um jardim privado!"
+ trait_specific.8001.a.success:0 "Você cultiva um jardim exuberante"
+ trait_specific.8001.a.small_success:0 "O projeto falha, mas você aprende muito"
+ trait_specific.8001.a.failure:0 "As sementes se recusam a crescer"
+ trait_specific.8002.b:0 "Eles devem valer alguma coisa..."

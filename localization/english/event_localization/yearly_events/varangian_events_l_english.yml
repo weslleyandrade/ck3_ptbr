@@ -1,0 +1,21 @@
+﻿l_english:
+ varangian_arrived.title:0 "Um Novo Varangiano"
+ varangian_arrived.desc:0 "[varangian_candidate.GetShortUIName|U] se juntou à Guarda Varangiana"
+
+ varangian.0002.t:0 "A Guarda Varangiana"
+ varangian.0002.opening:0 "Quando [varangian_candidate.Custom2('MyCharacterIntroduction', ROOT.Char )] vem até mim com [varangian_candidate.GetHerHis] plano, [varangian_candidate.GetSheHe] parece já ter feito [varangian_candidate.GetHerHis] mente.\n\n"Serving with the Varangians in"
+ varangian.0002.miklagard:0 "Miklagard"
+ varangian.0002.elsewhere:0 "Guarda do Imperador"
+ varangian.0002.end:0 "trará riqueza e glória!"\n\nI cannot deny that part, but I could deny [varangian_candidate.GetHerHis] request. On the other hand, would it be right to stop someone in their pursuit of glory?"
+ varangian.0002.a:0 "Vá, com [ROOT.Char.GetFaith.WarGodNamePossessive] bênção!"
+ varangian.0002.b:0 "Não, eu proíbo! Você é necessário aqui."
+
+ varangian.1002.t:0 "Voltando da Guarda Varangiana"
+ varangian.1002.opening:0 "Eu mal reconheço [returning_varangian.Custom2('MyCharacterIntroduction', ROOT.Char )] quando [varangian_candidate.GetSheHe] entra no meu grande salão."
+ varangian.1002.new_partner:0 "E eu certamente não reconheço a [partner.GetWomanMan] [varangian_candidate.GetHerHis] lado!"
+ varangian.1002.ending:0 "Tão estranho quanto é ver meu [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] depois de todos esses anos, não posso negar que estou impressionado com [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] vestido, [varangian_candidate.GetHerHis] joias estrangeiras, e o cofre pesado que [returning_varangian.GetSheHe] trouxe com [returning_varangian.GetHerHim]."I am home, [returning_varangian.Custom2('RelationToMeShort', ROOT.Char )]!"Tão estranho quanto é ver meu [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] depois de todos esses anos, não posso negar que estou impressionado com [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] vestido, [varangian_candidate.GetHerHis] joias estrangeiras, e o cofre pesado que [returning_varangian.GetSheHe] trouxe com [returning_varangian.GetHerHim]."There have been many a time I thought I would never see these shores again, but I am finally back."Tão estranho quanto é ver meu [ROOT.Char.Custom2('RelationToMeShort', returning_varangian )] depois de todos esses anos, não posso negar que estou impressionado com [varangian_candidate.GetHerHis] [emperor.GetCulture.GetNameNoTooltip] vestido, [varangian_candidate.GetHerHis] joias estrangeiras, e o cofre pesado que [returning_varangian.GetSheHe] trouxe com [returning_varangian.GetHerHim]."
+ varangian.1002.a:0 "Bem-vindo ao lar, [returning_varangian.GetFirstNameNoTooltip]!"
+
+ varangian.3001.t:0 "Guarda Varangiana: Uma Morte Honrosa"
+ varangian.3001.desc:0 "[varangian.Custom2('MyCharacterIntroduction', ROOT.Char)] morreu enquanto servia na Guarda Varangiana!\n\nI receberam uma missiva do [emperor.GetTitledFirstName] louvando [varangian.GetHerHis] nome, e descrevendo como [varangian.GetSheHe] lutou bravamente para salvar a vida do [emperor.GetTitleAsNameNoTooltip] de assassinos cruéis.\n\nNothing pode trazer [varangian.GetFirstNameNoTooltip] de volta, mas a recompensa póstuma de ouro do [emperor.GetTitleAsNameNoTooltip] ajuda a aliviar a tristeza."
+ varangian.3001.a:0 "Corajoso até o fim, [varangian.GetFirstNameNoTooltip]..."

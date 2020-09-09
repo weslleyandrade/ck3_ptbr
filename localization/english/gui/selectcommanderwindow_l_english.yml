@@ -1,0 +1,11 @@
+﻿l_english:
+ DETACH_COMMANDER:0 "Remover comandante"
+ CANT_COMMAND_TITLE:0 "#T [CHARACTER.GetUIName] não pode comandar um exército#!"
+ CANT_COMMAND_REASON_DEAD:0 "- Está morto"
+ CANT_COMMAND_REASON_IN_POOL:0 " - Está na piscina"
+ CANT_COMMAND_REASON_FEMALE:0 "-É mulher"
+ CANT_COMMAND_REASON_COMMANDING:0 "-Está comandando outro Exército"
+ CANT_COMMAND_REASON_CHILD:0 "- Não é um adulto"
+ CANT_COMMAND_REASON_IN_ACTIVITY:0 " - Está ocupado com uma atividade"
+ CANT_COMMAND_REASON_NOT_POTENTIAL:0 "- Não aceita ordens do dono do Exército"
+ CANT_COMMAND_REASON_AT_WAR:0 " - Em guerra contra [TARGET_CHARACTER.GetUIName]"

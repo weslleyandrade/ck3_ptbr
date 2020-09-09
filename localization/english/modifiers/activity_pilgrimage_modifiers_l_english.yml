@@ -1,0 +1,42 @@
+﻿l_english:
+ pilgrimage_sympathetic_towards_faiths_modifier:0 "Simpatia aos pagãos"
+ pilgrimage_disdainful_towards_faiths_modifier:0 "Desdém pelos pagãos"
+
+ pilgrimage_foreign_guards_modifier:0 "Guardas Estrangeiros"
+ pilgrimage_foreign_guards_modifier_desc:0 "Este personagem contratou guardas pessoais estrangeiros de terras distantes"
+
+ pilgrimage_divine_protection_modifier:0 "Proteção Divina"
+ pilgrimage_divine_protection_modifier_desc:0 "Este personagem viajou com segurança sem quase nenhuma proteção através de terras estrangeiras"
+
+ new_pilgrimage_companions_modifier:0 "Companheiros de Peregrinação Variados"
+ new_pilgrimage_companions_modifier_desc:0 "Este personagem viajou com uma ampla gama de pessoas diferentes"
+
+ pilgrimage_completely_lost_modifier:0 "Got Lost"
+ pilgrimage_completely_lost_modifier_desc:0 "Este personagem se perdeu completamente em uma peregrinação"
+
+ showy_about_pilgrimage_modifier:0 "Peregrinação Teatral"
+ showy_about_pilgrimage_modifier_desc:0 "Este personagem se certificou de que todos soubessem como sua peregrinação era piedosa"
+
+ pilgrimage_worldly_modifier:0 "Peregrinação Mundana"
+ pilgrimage_worldly_modifier_desc:0 "Uma peregrinação ensinou muito a esse personagem sobre o mundo"
+
+ dedicated_to_pilgrimage_modifier:0 "Peregrino Dedicado"
+
+ hajj_halq_modifier:0 "Halq"
+ hajj_halq_modifier_desc:0 "A cabeça deste personagem foi raspada, um sinal de sua recente conclusão do Hajj."
+
+ pilgrimage_armed_pilgrimages_modifier:0 "Peregrino Determinado"
+ pilgrimage_armed_pilgrimages_modifier_desc:0 "Este personagem esteve em uma peregrinação enquanto acompanha o [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName] [core_tenet|E]."
+ pilgrimage_mendicant_preachers_modifier:0 "Jornada da Pobreza"
+ pilgrimage_mendicant_preachers_modifier_desc:0 "Este personagem esteve em uma peregrinação enquanto acompanha o [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName] [core_tenet|E]."
+ pilgrimage_pentarchy_modifier:0 "As Sedes dos Bispos"
+ pilgrimage_pentarchy_modifier_desc:0 "Este personagem esteve em uma peregrinação enquanto acompanha o [GetFaithDoctrine('tenet_pentarchy').GetBaseName] [core_tenet|E]."
+ pilgrimage_struggle_submission_modifier:0 "Exibição de Submissão"
+ pilgrimage_struggle_submission_modifier_desc:0 "Este personagem esteve em uma peregrinação enquanto acompanha o [GetFaithDoctrine('tenet_struggle_submission').GetBaseName] [core_tenet|E]."
+ pilgrimage_ancestor_worship_modifier:0 "Nos Passos dos Meus Antepassados"
+ pilgrimage_ancestor_worship_modifier_desc:0 "Este personagem esteve em uma peregrinação enquanto acompanha o [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName] [core_tenet|E]."
+
+ pilgrimage_religious_reflections_modifier:0 "Met Mystic on Pilgrimage"
+
+ pilgrimage_rest_and_good_health_modifier:0 "Viajante Tranquilo"
+ pilgrimage_rest_and_good_health_modifier_desc:0 "Este personagem pega muito fácil ao viajar."

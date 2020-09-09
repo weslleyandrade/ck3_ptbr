@@ -1,0 +1,17 @@
+﻿l_english:
+ sibling_aids_in_diplomacy:0 "Irmão Diplomata"
+ sibling_aids_in_diplomacy_desc:0 "O irmão deste personagem está ajudando-os em assuntos de Diplomacia"
+ sibling_aids_in_martial:0 "Irmão Comandante"
+ sibling_aids_in_martial_desc:0 "O irmão deste personagem está ajudando-os em questões de guerra"
+ sibling_aids_in_intrigue:0 "Irmão conspirador"
+ sibling_aids_in_intrigue_desc:0 "O irmão deste personagem está ajudando-os em questões de intriga e sigilo"
+ sibling_aids_in_stewardship:0 "Mordomo de Irmãos"
+ sibling_aids_in_stewardship_desc:0 "O irmão deste personagem está ajudando-os em assuntos de Mordomia"
+ sibling_aids_in_learning:0 "Irmão Aprendido"
+ sibling_aids_in_learning_desc:0 "O irmão deste personagem está ajudando-os em questões de aprendizagem"
+
+ popular_sibling_modifier:0 "Família Generosa"
+ popular_sibling_modifier_desc:0 "Alguns membros da família dominante deste condado são muito amados pela população"
+
+ hated_sibling_county_modifier:0 "Família Odiada"
+ hated_sibling_county_modifier_desc:0 "Alguns membros da família dominante deste condado são desprezados pela população local"

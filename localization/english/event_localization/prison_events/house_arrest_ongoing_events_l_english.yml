@@ -1,0 +1,31 @@
+﻿l_english:
+ house_arrest_ongoing.0001.t:0 "Metas e Sonhos"
+ house_arrest_ongoing.0001.desc:0 "Cada dia passado como prisioneiro de [prison_holder.GetTitledFirstName] é outro dia em que meus planos cuidadosamente colocados escapam mais longe do meu alcance.\n\nA verdadeira punição não é o confinamento corporal em que me encontro, está sendo tão incapacitado!"
+ house_arrest_ongoing.0001.a:0 "Eu me pergunto em que estado meus assuntos estão?"
+ house_arrest_ongoing.0001.b:0 "Quando eu for solto, estarei pronto. Eu devo planejar!"
+
+ house_arrest_ongoing.0002.t:0 "Julgamento Equivocado"
+ house_arrest_ongoing.0002.desc:0 "Quem [prison_holder.GetTitledFirstName] acha que é [prison_holder.GetSheHe]?! Para me manter aqui, enjaulado como um animal, e depois ter a audácia de alegar que é justiça.\n\nAs se alguém além [ROOT.Char.GetFaith.HighGodName] tem o direito de julgar #EMP mim#!."
+ house_arrest_ongoing.0002.a:0 "Eu nunca fui tão insultado!"
+ house_arrest_ongoing.0002.b:0 "Eu devo tentar manter minha mente calma."
+
+ house_arrest_ongoing.0003.t:0 "Dias Solitários"
+ house_arrest_ongoing.0003.desc_opening:0 "Passar meu tempo separado de todos os que amo é um castigo cruel. Eu me encontro procurando qualquer fonte de conforto e companheirismo que eu possa encontrar, mas eles são poucos."
+ house_arrest_ongoing.0003.desc_friendly_prisoner:0 "A única coisa que me faz passar pelos longos dias é a minha conexão com [friendly_prisoner.GetTitledFirstName]."
+ house_arrest_ongoing.0003.a:0 "Alguém não vai falar comigo?"
+ house_arrest_ongoing.0003.b:0 "Eu ainda vou encontrar alguém que está disposto a falar comigo."
+ house_arrest_ongoing.0003.c:0 "[friendly_prisoner.GetSheHe|U] é minha única fonte de amizade."
+ house_arrest_ongoing.0003.d:0 "[friendly_prisoner.GetSheHe|U] é minha única fonte de conforto e amor."
+ house_arrest_ongoing.0003.e:0 "[ROOT.Char.GetFirstNameNoTooltip] é minha única fonte de conforto e amor."
+
+ house_arrest_ongoing.0004.t:0 "Facilitando meu tormento"
+ house_arrest_ongoing.0004.desc1:0 ""Eu sei como você sente falta de seus livros e pergaminhos, então eu trouxe-lhe uma coisinha do mercado!""
+ house_arrest_ongoing.0004.desc2:0 ""Eu sei o quanto você gosta de bolo, e o cozinheiro não estava prestando atenção, então...""
+ house_arrest_ongoing.0004.desc3:0 ""Eu vi esta pulseira na cidade hoje, e eu sabia que você iria adorar. Por favor, coloque-o!""
+ house_arrest_ongoing.0004.desc4:0 ""Eu só poderia convencer os guardas de tanto, mas espero que um passeio nos jardins vai levantar seus espíritos!""
+ house_arrest_ongoing.0004.desc:0 "Nossa querida [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('friend_at_court') )], [friend_at_court.GetTitledFirstName], está sempre pensando em mim e fazendo [friend_at_court.GetHerHis] melhor para tornar minha punição mais confortável."
+ house_arrest_ongoing.0004.a:0 "Eu não sei o que eu teria feito sem [friend_at_court.GetHerHim]!"
+
+ house_arrest_ongoing.0005.t:0 "Meu Atormentador Pessoal"
+ house_arrest_ongoing.0005.desc:0 ""Oh, você deveria ter visto os mummers no festival. Que show!"\n\nBeing locked up here is bad enough. Also having to deal with my [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('rival_at_court') )] [rival_at_court.GetTitledFirstNamePossessive] mockery is too much. [rival_at_court.GetSheHe|U] goes out of [rival_at_court.GetHerHis] way to make my life as miserable as [rival_at_court.GetSheHe] can, now that I am brought so low."
+ house_arrest_ongoing.0005.a:0 "Está funcionando, também!"

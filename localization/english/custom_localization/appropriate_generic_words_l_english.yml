@@ -1,0 +1,44 @@
+﻿l_english:
+ #GetSmallFood
+ #GetSmallFoodIndef
+ food_word_apple:0 "maçã"
+ food_word_apple_indef:0 "uma maçã"
+ food_word_biscuit:0 "Biscoito"
+ food_word_biscuit_indef:0 "um biscoito"
+ #GetClothingArticle
+ clothing_word_shirt:0 "camisa"
+ clothing_word_trousers:0 "calças"
+ clothing_word_blouse:0 "Blusa"
+ clothing_word_dress:0 "Vestido"
+ #GetFoodDetail
+ food_detail_cilantro:0 "coentro"
+ food_detail_lemon:0 "Limão"
+ food_detail_almond:0 "amêndoa"
+ #GetExpensiveMeal
+ expensive_food_roast_swan:0 "Cisne assado"
+ expensive_food_veal_cutlets:0 "Cutlets de viário"
+ expensive_food_fresh_quail:0 "Codorna fresca"
+ expensive_food_baked_truffles:0 "Trufas assadas"
+ expensive_food_spiced_breads:0 "pães temperados"
+ expensive_food_mustard_rolls:0 "rolos de mostarda"
+ #GetExpensiveMealAlt
+ expensive_food_fine_cheeses:0 "Queijos finos"
+ expensive_food_almond_eggs:0 "ovos de amêndoa"
+ expensive_food_sturgeon_caviar:0 "caviar de esturjão"
+ #GetExpensiveDessert
+ expensive_dessert_saffron_cake:0 "Bolos de açafrão"
+ expensive_dessert_candied_figs:0 "figos cristalados"
+ expensive_dessert_pomegranate_cake:0 "Bolos de romã"
+ expensive_dessert_entremets:0 "entremets"
+ expensive_dessert_quince_tarts:0 "tortas de quince"
+ #GetExpensiveDrink
+ expensive_drink_fancy_champagne:0 "champanhe caro"
+ expensive_drink_foreign_liqueurs:0 "Licor estrangeiro"
+ expensive_drink_spiced_wine:0 "Vinhos temperados"
+ expensive_drink_premium_tea:0 "Chás premium"
+ expensive_drink_violet_sharbah:0 "Violet Sharbah"
+ expensive_drink_aribica_coffee:1 "Café arábica"
+ #GetShockedExpression
+ shocked_expression_shocked:0 "chocado"
+ shocked_expression_appalled:0 "horrorizado"
+

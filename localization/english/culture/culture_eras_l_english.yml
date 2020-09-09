@@ -1,0 +1,15 @@
+﻿l_english:
+ #GROUPS
+ culture_group_military:0 "Militar"
+ culture_group_civic:0 "Cívico"
+ culture_group_regional:1 "Cultural e Regional"
+ culture_group_any:0 "qualquer"
+ #ERAS
+ culture_era_tribal:0 "Tribal"
+ culture_era_tribal_desc:0 "A Era Tribal de um [culture|E] antecede o surgimento de leis codificadas e de um governo institucionalizado. Governantes com [tribal_government|E] só podem fazer uso da Era Tribal [innovations|E]"
+ culture_era_early_medieval:0 "Early Medieval"
+ culture_era_early_medieval_desc:0 "A Era Medieval Primitiva vê o surgimento de administradores profissionais e uma série de [innovations|E] importantes, permitindo que um [culture|E] saia da Idade das Trevas."
+ culture_era_high_medieval:0 "Alto Medieval"
+ culture_era_high_medieval_desc:0 "A Alta Era Medieval é um momento de grande progresso tecnológico e administrativo, vendo as cidades crescerem em cidades e a ascensão da classe burgher, mesmo quando a aristocracia reina suprema."
+ culture_era_late_medieval:0 "Medieval Tardio"
+ culture_era_late_medieval_desc:0 "A Era Medieval Final marca o zênite do mundo feudal. Burocratas, artesãos, comerciantes e credores de dinheiro estão começando a invadir o poder das antigas classes privilegiadas, exceto os próprios monarcas."

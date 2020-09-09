@@ -1,0 +1,32 @@
+﻿l_english:
+ # Target is followed by ill omens
+ claim_throne_ongoing.1001.t:0 "Imens"
+ claim_throne_ongoing.1001.desc:0 "Eu claramente não ficar sozinho na minha ambição de governar [target_title.GetNameNoTooltip]! Corvos têm se reunido nos telhados de [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')], e algumas noites atrás até as estrelas pareciam estar caindo, em todo [target_title.GetNameNoTierNoTooltip].\n\n\nPeasants e nobres sussurram que é um sinal de que [target.GetFirstNameNoTooltip] perdeu o favor de [ROOT.Char.GetFaith.PantheonTerm]."
+ claim_throne_ongoing.1001.a:0 "É hora de uma nova [target.GetTitleAsNameNoTooltip]!"
+ claim_throne_ongoing.1001.b:0 "Só os [ROOT.Char.GetFaith.AltPriestTermPlural] podem interpretar esses sinais."
+ # Gradually take on more responsibility in the realm
+ claim_throne_ongoing.1002.t:0 "Autoridade Conquistada"
+ claim_throne_ongoing.1002.desc:0 "Minha busca pelo título de [target.GetTitleAsName] de [target_title.GetNameNoTier] não é impulsionada por um simples desejo de poder, mas porque sou o único que pode assumir a responsabilidade. Mesmo [target.GetTitledFirstName] parece reconhecer isso, pois me é concedida tarefas cada vez mais importantes a serviço do reino.\n\nSoon eu poderia muito bem estar agindo como [target.GetTitleAsNameNoTooltip] em todos, menos no nome."
+ claim_throne_ongoing.1002.a:0 ""Não se preocupe, meu senhor, eu vou cuidar disso também...""
+ claim_throne_ongoing.1002.b:0 "Isso tudo está ficando um pouco demais, na verdade."
+ # Buying support from vassals
+ claim_throne_ongoing.1003.t:0 "Ganhando Apoio"
+ claim_throne_ongoing.1003.desc:0 "Estou ciente de que, se eu fosse servir como [target.GetTitleAsName] de [target_title.GetNameNoTier], eu exigiria o apoio dos meus vassalos agora mais do que [target.GetTitledFirstName] atualmente tem.\n\nIllustrating quão generoso eu seria tão [target.GetTitleAsName] poderia ir longe."
+ claim_throne_ongoing.1003.a:0 "Nada pode ser bom demais para meus futuros servos!"
+ claim_throne_ongoing.1003.b:0 "Vou precisar de todo o meu ouro para a próxima luta."
+ # Lunatic declares themselves ruler
+ claim_throne_ongoing.1004.t:0 "Declaração de Régua"
+ claim_throne_ongoing.1004.desc:0 "Pode parecer que eu tenho que trabalhar para reivindicar o governo sobre o [target_title.GetName], mas eu já tenho um título de autoridade muito maior.\n\nI sou a [ROOT.Char.GetLadyLord|U] de Todos os Rabanetes em [target_title.GetNameNoTierNoTooltip]!"
+ claim_throne_ongoing.1004.a:0 "Castellan, traga-me meu radish-seal!"
+ claim_throne_ongoing.1004.b:0 "Não, não [ROOT.Char.GetLadyLord] de todos os Rabanetes em [target_title.GetNameNoTierNoTooltip]..."
+ claim_throne_ongoing.1004.b_flavor:0 "... mas no mundo!"
+
+ claim_throne_ongoing.1005.t:0 "[ROOT.Char.GetLadyLord|U] dos Rabanetes"
+ claim_throne_ongoing.1005.desc:0 ", mas agora meu Chanceler me mostrou o mandado que eu tinha elaborado insistindo nele.\n\n Parece uma piada cruel que o mundo está jogando em mim, mas ao mesmo tempo há uma vaga memória mexendo nas partes nebulosas da minha mente..."Your Radishness", mas agora meu Chanceler me mostrou o mandado que eu tinha elaborado insistindo nele.\n\n Parece uma piada cruel que o mundo está jogando em mim, mas ao mesmo tempo há uma vaga memória mexendo nas partes nebulosas da minha mente..."
+ claim_throne_ongoing.1005.a:0 "O que... o que eu tenho feito?"
+ claim_throne_ongoing.1005.b:0 "Eu não cometo erros. Todos vocês seguirão o mandado."
+
+ claim_throne_ongoing.1006.t:0 "Suporte firme"
+ claim_throne_ongoing.1006.desc:0 "[friend.GetSheHe] me avisa em segredo."I can think of far better candidates,"[friend.GetSheHe] me avisa em segredo."And you stand first among them. Give the word, and you have my support.""
+ claim_throne_ongoing.1006.a:0 "Amizade é a forma mais honrosa de lealdade."
+ claim_throne_ongoing.1006.b:0 "Gaste seus esforços para que os outros saibam o quão adequado eu sou."

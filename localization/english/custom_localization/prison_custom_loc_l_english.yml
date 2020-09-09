@@ -1,0 +1,7 @@
+﻿l_english:
+ #PrisonType
+ prisontype_dungeon:0 "Calabouço"
+ prisontype_house_arrest:0 "prisão domiciliar"
+ #PrisonTypeCell
+ prisontypecell_dungeon_cell:0 "Célula de masmorra"
+ prisontypecell_house_arrest:0 "prisão domiciliar"

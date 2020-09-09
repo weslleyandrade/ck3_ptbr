@@ -1,0 +1,11 @@
+﻿l_english:
+ parent_aids_martial_modifier:0 "Esforços Marciais de Aids dos Pais"
+ parent_aids_diplomacy_modifier:0 "Esforços Diplomáticos de Aids dos Pais"
+ parent_aids_stewardship_modifier:0 "Esforços de Administração de Aids dos Pais"
+ parent_aids_intrigue_modifier:0 "Esforços de intriga dos pais"
+ parent_aids_learning_modifier:0 "Esforços de Aprendizagem de Aids dos Pais"
+ mothered_many_children_modifier:0 "Mãe de muitos filhos"
+ parent_dealing_with_courtiers_modifier:0 "Cortesãos de manuseio de pais"
+ parent_dealing_with_courtiers_modifier_desc:0 "Este personagem tem um pai que mantém um olho atento em seus cortesãos."
+ parent_events_wrangling_courtiers_modifier:0 "Cortesãos de disputa"
+ parent_events_wrangling_courtiers_modifier_desc:0 "Este personagem mantém um olho atento em sua quadra, para manter seus cortesãos na linha."

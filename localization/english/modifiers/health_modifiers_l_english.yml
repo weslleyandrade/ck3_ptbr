@@ -1,0 +1,59 @@
+﻿l_english:
+ infected_wound_modifier:0 "Ferida Infectada"
+ gangrene_modifier:0 "Gangrena"
+ rejected_from_marriage_bed_modifier:0 "Rejeitado da cama do casamento"
+ rejected_from_marriage_bed_modifier_desc:0 "O casamento deste personagem não produzirá filhos."
+
+ safe_disease_treatment_success_high_modifier:0 "Sintomas de Doença Reduzida"
+ safe_disease_treatment_success_high_modifier_desc:0 "Um tratamento bem sucedido reduziu os sintomas da doença desse personagem."
+ safe_disease_treatment_success_low_modifier:0 "Sintomas de Doença Reduzida"
+ safe_disease_treatment_success_low_modifier_desc:0 "Um tratamento bem sucedido reduziu os sintomas da doença desse personagem."
+ safe_disease_treatment_failure_modifier:0 "Sintomas da doença piora"
+ safe_disease_treatment_failure_modifier_desc:0 "Um tratamento falho piorou os sintomas da doença desse personagem."
+ risky_disease_treatment_success_high_modifier:0 "Sintomas de doenças muito reduzidas"
+ risky_disease_treatment_success_high_modifier_desc:0 "Um tratamento muito bem sucedido reduziu os sintomas da doença desse personagem."
+ risky_disease_treatment_success_low_modifier:0 "Sintomas de doenças muito reduzidas"
+ risky_disease_treatment_success_low_modifier_desc:0 "Um tratamento muito bem sucedido reduziu os sintomas da doença desse personagem."
+ risky_disease_treatment_failure_modifier:0 "Tratamento de Doenças Malfeitos"
+ risky_disease_treatment_failure_modifier_desc:0 "Um tratamento desastroso piorou os sintomas da doença desse personagem."
+
+ safe_wound_treatment_success_high_modifier:0 "Tratamento de ferida bem sucedido"
+ safe_wound_treatment_success_high_modifier_desc:0 "Um tratamento bem sucedido reduziu a gravidade da ferida deste personagem."
+ safe_wound_treatment_success_low_modifier:0 "Tratamento de ferida bem sucedido"
+ safe_wound_treatment_success_low_modifier_desc:0 "Um tratamento bem sucedido reduziu a gravidade da ferida deste personagem."
+ safe_wound_treatment_failure_modifier:0 "Ferida Agravada"
+ safe_wound_treatment_failure_modifier_desc:0 "Um tratamento falho agravou a ferida deste personagem."
+ risky_wound_treatment_success_modifier:0 "Tratamento de ferida muito bem sucedido"
+ risky_wound_treatment_success_modifier_desc:0 "Um tratamento muito bem sucedido reduziu a gravidade da ferida deste personagem."
+ risky_wound_treatment_failure_modifier:0 "Tratamento de ferida mal feita"
+ risky_wound_treatment_failure_modifier_desc:0 "Um tratamento desastroso agravou severamente a ferida deste personagem."
+
+ chastised_physician_modifier:0 "Médico Castigado"
+ chastised_physician_modifier_desc:0 "Este médico vai pensar duas vezes da próxima vez."
+
+ exhausted_modifier:0 "Exausto"
+ exhausted_modifier_desc:0 "A exaustão pesa muito sobre este personagem."
+
+ low_social_energy_modifier:0 "Baixa Energia Social"
+ low_social_energy_modifier_desc:0 "Este personagem gastou sua energia social em outro lugar."
+
+ lunatic_made_of_glass_modifier:0 "Feito de Vidro"
+ lunatic_made_of_glass_modifier_desc:0 "Este personagem está convencido de que eles são feitos de vidro frágil"
+
+ lunatic_bat_ravings_modifier:0 "Delírios"
+ lunatic_bat_ravings_modifier_desc:0 "Este personagem regularmente adverte as pessoas sobre morcegos, e afirma estar sempre preparado para sua ameaça."
+
+ wounds_quickly_tended_to_modifier:0 "Feridas tendiam a"
+ wounds_quickly_tended_to_modifier_desc:0 "As feridas deste personagem foram rapidamente atendidas"
+
+ drank_water_modifier:0 "Água Bebido"
+ drank_water_modifier_desc:0 "Este personagem bebeu água feliz e fria em um dia quente"
+
+ malnourished_modifier:0 "Desnutrido"
+ malnourished_modifier_desc:0 "Este personagem sofre de fraqueza, falta de energia e baixo humor."
+ obese_modifier:0 "Obeso"
+ obese_modifier_desc:0 "Esse personagem sofre de falta de energia, dor nas articulações e falta de ar."
+ gaining_weight_modifier:0 "Ganhando Peso"
+ gaining_weight_modifier_desc:0 "Este personagem está tentando ganhar peso."
+ losing_weight_modifier:0 "Perdendo Peso"
+ losing_weight_modifier_desc:0 "Este personagem está tentando perder peso."

@@ -1,0 +1,51 @@
+﻿l_english:
+ councillor_spouse_martial.0001.message:0 "[councillor.GetTitleAsName] inspira recrutamento"
+
+ councillor_spouse_martial.0002.message:0 "Ajuda da Organização do Exército"
+
+ councillor_spouse_martial.0003.message:0 "[councillor.GetTitleAsName] inspiradores"
+
+ councillor_spouse_martial.0004.message:0 "[councillor.GetTitleAsName] incentiva o cavalheirismo"
+
+ councillor_spouse_martial.0005.message:0 "Apoio nas Negociações Mercenárias"
+
+ councillor_spouse_martial.0006.message:0 "Cuidando de Mim"
+
+ councillor_spouse_martial.0007.message:0 "[councillor.GetTitleAsName] Feridas Tendendo"
+
+ councillor_spouse_martial.0008.message:0 "Presença Intimidadora"
+
+ councillor_spouse_martial.0009.message:0 "Prática de Combate"
+
+ councillor_spouse_martial.1001.t:1 "Cônjuge: Dia do Tourney"
+ councillor_spouse_martial.1001.desc:2 "O sol está brilhando e os camponeses estão moendo sobre o torneio hospedado pelo meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))]. Todos os meus $knight_culture_player_plural_no_tooltip_lowercase$ torcer enquanto [councillor.GetTitledFirstName] anuncia o torneio em sua honra, e pela primeira vez eu posso simplesmente sentar e assistir.\n\nEu não vou passar um dia inteiro de torneio preso a um trono, no entanto!"
+ councillor_spouse_martial.1001.a:2 "Eu também, aplaudo para o meu $knight_culture_player_plural_no_tooltip_lowercase$!"
+ councillor_spouse_martial.1001.commanders:2 "Todo $knight_culture_player_no_tooltip_lowercase$"
+ councillor_spouse_martial.1001.b:0 "Esta é a chance perfeita para dar [child.GetFirstNameNoTooltip] algumas dicas!"
+ councillor_spouse_martial.1001.b.education_tt:0 "Eu avanço [child.GetFirstNamePossessiveNoTooltip] educação marcial"
+ councillor_spouse_martial.1001.c:0 "Este dia está em #EMP nossa honra#!, minha querida!"
+ 
+ councillor_spouse_martial.1002.t:1 "Cônjuge: Agindo em meu nome"
+ councillor_spouse_martial.1002.desc:0 "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] passa um tempo significativo viajando pelo reino com [councillor.GetHerHis] guarda de honra. Há muitos assuntos [councillor.GetSheHe] pode resolver em meu nome, e a presença militar [councillor.GetTitledFirstName] traz com [councillor.GetHerHim] é um lembrete firme do meu direito de governar."
+ councillor_spouse_martial.1002.a:0 "Meu [councillor.GetTitleAsNameNoTooltip] e eu estamos prontos em defesa do reino!"
+ councillor_spouse_martial.1002.b:0 "Certifique-se de que as pessoas rastejam apropriadamente, minha querida."
+ councillor_spouse_martial.1002.c:0 "Todos devem tanto me temer e adorar aos meus pés, [councillor.GetFirstNameNoTooltip]!"
+
+ councillor_spouse_martial.1003.t:1 "Cônjuge: Uma Questão de Honra"
+ councillor_spouse_martial.1003.desc:0 "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [ROOT.Char.Custom2('QuirkPresentPosOrNeg', SCOPE.sC('councillor'))]. É o conflito entre [attacker_vassal.GetTitledFirstName] e [defender_vassal.GetTitledFirstName] [councillor.GetSheHe] deseja discutir.\n\n"Their fighting is without honor, and they bring shame to your realm. Let me handle them. I know I can force them to a peace.""
+ councillor_spouse_martial.1003.a:0 "Veja resolvido, custe o que custar."
+ councillor_spouse_martial.1003.b:0 "Não, eu quero ver quem ganha!"
+ councillor_spouse_martial.1003.b.tt:0 "[attacker_vassal.GetFirstNameNoTooltip] e [defender_vassal.GetFirstNameNoTooltip] continuar sua guerra"
+ councillor_spouse_martial.1003.c:0 "Oh, eu confio que você pode, minha querida."
+ councillor_spouse_martial.1003.c.unlock_tt:0 "Esta opção está disponível devido ao [councillor.GetFirstNamePossessiveNoTooltip] brilho estratégico"
+
+ councillor_spouse_martial.1004.t:1 "Cônjuge: O Guarda"
+ councillor_spouse_martial.1004.desc:0 "\n\nEsse #EMP é#! um grande presente!"grand gift"\n\nEsse #EMP é#! um grande presente!"A complete regiment, raised from my own lands, ready to serve you."\n\nEsse #EMP é#! um grande presente!"
+ councillor_spouse_martial.1004.a:0 "Mais tropas para reforçar o exército!"
+ councillor_spouse_martial.1004.b:0 "Eles servirão como minha guarda pessoal."
+
+ councillor_spouse_martial.1005.t:1 "Cônjuge: Deixando uma Impressão"
+ councillor_spouse_martial.1005.desc:0 " meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] aponta."Seeing your overwhelming might would make anyone think twice if treason ever crossed their mind," meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))] aponta."
+ councillor_spouse_martial.1005.a:0 "Sim, [vassal.GetFirstNameNoTooltip] verá soldados em todos os lugares [vassal.GetSheHe] vira!"
+ councillor_spouse_martial.1005.a.tt:0 "[vassal.GetFirstNameNoTooltip] se torna [cowed|E]"
+ councillor_spouse_martial.1005.b:0 "Um desfile regular deve ser suficiente."

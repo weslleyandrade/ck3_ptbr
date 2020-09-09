@@ -1,0 +1,6 @@
+﻿l_english:
+ FLEET_PREDICTION_HEADER:0 "#T embarque no $DATE|V$#T"
+ FLEET_PREDICTION_BREAKDOWN_ENTRY:0 "[ARMY.GetName]"
+ FLEET_PREDICTION_BASE_COST:0 "Original"
+ EMBARK_COST:0 "#T [embark|E] Custo#!"
+ EMBARK_COST_EXPENSIVE:1 "@warning_icon! #X A taxa de embarque custará mais do que o seu ouro atual#!"

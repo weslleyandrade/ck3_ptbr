@@ -1,0 +1,10 @@
+﻿l_english:
+ romance_great_painting_gift_modifier:0 "Pintura Magnífica"
+ romance_great_painting_gift_modifier_desc:0 "Uma pintura habilmente feita que certamente chamará a atenção de qualquer um na sala."
+ romance_talented_troubadour_modifier:0 "Trovador Talentoso Empregado"
+ romance_talented_troubadour_modifier_desc:0 "Um trovador muito talentoso está no emprego deste personagem."
+ romance_less_talented_troubadour_modifier:0 "Trovador Empregado"
+ romance_less_talented_troubadour_modifier_desc:0 "Um trovador está no emprego deste personagem."
+ had_sex_with_effect.first_person.tt:1 "Você deita com [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.third_person.tt:0 "[root_character.GetShortUIName|U] se deita com [had_sex_with_effect_partner.GetShortUIName]"
+ had_sex_with_effect.other_person.tt:0 "Deite-se com [had_sex_with_effect_partner.GetShortUIName]"

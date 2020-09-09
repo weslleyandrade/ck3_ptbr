@@ -1,0 +1,582 @@
+﻿l_english:
+ #################
+ # Normal Events #
+ #################
+
+ # Guild Dispute, by Sean Hughes
+ stewardship_domain.1041.t:0 "Disputa de Guilda"
+ stewardship_domain.1041.desc:0 "Tanto os Grêmios do Ferreiro quanto dos Mercantes no [guild_county.GetName] enviaram um representante para se reunir comigo. As duas guildas chegaram a um impasse sobre o comércio de ferro cru dentro do condado e querem que eu arbitre sua disputa.\n\nSecretly, cada representante me ofereceu um acordo lucrativo com sua guilda na tentativa de me fazer ficar do lado deles."
+ stewardship_domain.1041.a:0 "Ambos poderiam se beneficiar se apenas cooperassem."
+ stewardship_domain.1041.a.success:0 "Eu faço as duas guildas trabalharem juntas"
+ stewardship_domain.1041.a.success.tt:0 "As guildas em [guild_county.GetNameNoTier] estão agora cooperando para reforçar a produção de armas"
+ stewardship_domain.1041.a.failure:0 "Eu não posso fazer com que as guildas cheguem a um acordo"
+ stewardship_domain.1041.a.failure.tt:0 "As guildas em [guild_county.GetNameNoTier] não foram capazes de concordar em como lidar com a produção de ferro"
+ stewardship_domain.1041.b:0 "Só os ferreiros podem distinguir o ferro bom do mal..."
+ stewardship_domain.1041.b.flavor:0 "... e a Guilda do Ferreiro vai dar minhas armas de graça impostos!"
+ stewardship_domain.1041.c:0 "O comércio é claramente o domínio dos comerciantes..."
+ stewardship_domain.1041.c.flavor:0 "... e a Guilda do Comerciante vai me pagar uma parte de seus lucros!"
+ stewardship_domain.1041.d:0 "[guild_county.GetNameNoTierNoTooltip] é #EMP minha#!! Só eu controlar o seu comércio!"
+
+ # Domineering Guild, by Sean Hughes
+ stewardship_domain.1042.t:0 "Domineering Guild"
+ stewardship_domain.1042.desc:0 "A [guild_county.Custom('Governance_1041_GuildType')] na [guild_county.GetName] desenvolveu um estrangulamento na venda de ferro lá.\n\nEles estão agora aproveitando seu poder de cobrar preços ultrajantes por seus bens, enriquecendo os mestres da guilda, mas afastando o comércio do condado."
+ stewardship_domain.1042.a:0 "Negocie com eles para baixar seus preços."
+ stewardship_domain.1042.a.success:0 "Eu recebo o [guild_county.Custom('Governance_1041_GuildType')] para baixar seus preços"
+ stewardship_domain.1042.a.failure:0 "O [guild_county.Custom('Governance_1041_GuildType')] se recusa a baixar seus preços"
+ stewardship_domain.1042.b:0 "Contanto que eles me paguem o imposto apropriado..."
+ stewardship_domain.1042.c:0 "Se eles não vão jogar de forma justa, eles não vão jogar em tudo!"
+ 
+ # Granary Infestation, by Sean Hughes
+ stewardship_domain.1052.t:0 "Infestação de Granary"
+ stewardship_domain.1052.desc:0 "Os vermes infestaram vários celeiros no [target_county.GetName], destruindo os grãos armazenados neles. Sem nada para plantar para as culturas do próximo ano, os inquilinos livres que vivem lá vieram até mim pedindo ajuda.\n\nGiven sua situação terrível, esses agricultores serão finalmente forçados a aceitar quaisquer termos que eu lhes ofereça."
+ stewardship_domain.1052.a:0 "Eu tenho muitos grãos, se eles se tornarem meus servos..."
+ stewardship_domain.1052.b:0 "Tenha pena deles e abra minhas lojas de grãos."
+ stewardship_domain.1052.c:0 "Comande os [ROOT.Char.Custom('DefaultPriestTitlePlural')] a lhes dar caridade."
+
+ # Corrupt Tax Collector, by Sean Hughes
+ stewardship_domain.1053.t:0 "Coletor de Impostos Corrupto"
+ stewardship_domain.1053.desc:0 "Notei várias inconsistências e omissões nos registros fiscais de [target_county.GetNameNoTier]. É claro que esses erros não podem ser erros simples — alguém tem desviado fundos!\n\nDeseticamente, o rastro deste misterioso culpado é errático o suficiente para que seja difícil para mim determinar exatamente qual coletor de impostos é responsável."
+ stewardship_domain.1053.a:0 "Investigue o assunto discretamente..."
+ stewardship_domain.1053.a.success:0 "Eu descubro o culpado e os trago à justiça"
+ stewardship_domain.1053.a.failure:0 "O culpado continua a me iludir"
+ stewardship_domain.1053.c:0 "Assuma o controle direto sobre a tributação em [target_county.GetNameNoTierNoTooltip]."
+ stewardship_domain.1053.d:0 "Executem todos eles e tragam novos colecionadores!"
+
+ # Culture Clash, by Sean Hughes
+ stewardship_domain.1073.t:0 "Culture Clash"
+ stewardship_domain.1073.desc:0 "A maioria dos plebeus que vivem em [target_county.GetName] são de [target_ruler.GetCulture.GetName] descendência. Orgulhosos de suas tradições, não se encaixa bem com eles que eles devem servir um estrangeiro como eu quando meu vizinho [target_ruler.GetTitledFirstName] compartilha sua cultura e história."
+ stewardship_domain.1073.a:0 "Ensine-lhes a superioridade da cultura [me.GetCulture.GetNameNoTooltip]!"
+ stewardship_domain.1073.a.success:0 "Os plebeus adotam [me.GetCulture.GetNameNoTooltip] costumes"
+ stewardship_domain.1073.a.failure:0 "Os plebeus se recusam a ser civilizados"
+ stewardship_domain.1073.c:0 "Eu não me importo se eles mantêm suas tradições estranhas."
+ stewardship_domain.1073.c.warning:0 "Promover a velocidade da cultura: #N -75% #!"
+ stewardship_domain.1073.d:0 "Os sentimentos do camponês são irrelevantes - eu sou o governante deles."
+
+ # Reduce revolt risk by being diligent, by Linnéa Thimrén
+ stewardship_domain.5031.t:0 "Um Condado em Necessidade"
+ stewardship_domain.5031.desc:0 "São tempos tumultuados para o [county.GetName]. Relatório após relatório chega detalhando os terríveis estados de coisas na área, e os camponeses começaram a murmurar sobre #EMP soluções alternativas#!..."
+ stewardship_domain.5031.a:0 "Cuide dos problemas pessoalmente."
+ stewardship_domain.5031.b:0 "Aumente o imposto como punição."
+
+ # Marshland Clearing, by Petter Vilberg
+ stewardship_domain.6001.t:0 "Drenagem"
+ stewardship_domain.6001.desc:0 "Há alguns meses, [baron.GetTitledFirstName] iniciou um elaborado esforço para limpar o pântano para assentamento em [barony.GetNameNoTier]. Arados pesados e valas frescas tornam o solo firme, mas é um trabalho lento.\n\n[baron.GetFirstName] agora escreveu meu [steward.GetCouncilTitle], para solicitar que [baron.GetHerHis] os direitos de impostos sejam reduzidos. Ansioso para concluir os trabalhos antes da próxima colheita, [baron.GetSheHe] espera recrutar soldados para o trabalho de parto"
+ stewardship_domain.6001.a:0 "Pegue todos os plebeus que você precisa, [baron.GetFirstNameNoTooltip]!"
+ stewardship_domain.6001.b:0 "A totalidade da [county.GetNameNoTier] poderia fazer com isso."
+ stewardship_domain.6001.c:0 "Não, os campos de batalha precisarão de muitos corpos este ano!"
+
+ # Forest Clearing, by Petter Vilberg
+ stewardship_domain.6002.t:0 "Clearing"
+ stewardship_domain.6002.desc:0 "Há alguns meses, [baron.GetTitledFirstName] começou a limpar terras nas florestas de [barony.GetNameNoTier] para se preparar para o assentamento. As árvores são arrancadas, os caminhos são cortados e o solo é limpo.\n\n[baron.GetFirstName] agora escreveu [steward.GetCouncilTitle] [steward.GetFirstName], para solicitar que [baron.GetHerHis] impostos sejam reduzidos. Ansioso para concluir os trabalhos antes da próxima colheita, [baron.GetSheHe] espera recrutar soldados para o trabalho de parto"
+
+ # Haggle with Masons, by Petter Vilberg
+ stewardship_domain.6011.t:0 "Negócios Maçônicos"
+ stewardship_domain.6011.desc:0 "Uma guilda de pedreiros se estabeleceu no [county.GetName]. Ter artesãos dedicados no meu serviço pessoal pode ajudar a região a florescer."
+ stewardship_domain.6011.a:0 "Vou fazer um acordo com o pedreiro chefe."
+ stewardship_domain_6011_great_deal:0 "Um Grande Negócio"
+ stewardship_domain.6011.offer_tt:0 "Me ofereceram:"
+ stewardship_domain_6011_fair_deal:0 "Um Acordo Justo"
+ stewardship_domain_6011_bad_deal:0 "Um Acordo Infeliz"
+ stewardship_domain.6011.b:0 "[steward.GetTitledFirstName], ganhe-me a sua lealdade!"
+ stewardship_domain.6011.c:0 "Por que eu precisaria da ajuda deles, quando tenho servos?"
+
+ stewardship_domain.6012.desc:0 "O líder dos pedreiros parecia relutante em fazer qualquer tipo de acordo em nome da guilda, até que eu apontei exatamente o quanto isso beneficiaria a nós dois."
+ stewardship_domain.6012.a:0 "Eu nem sequer tive que recorrer a ameaças de violência!"
+
+ stewardship_domain.6013.desc:0 "Depois de uma longa audiência, o pedreiro chefe não se moverá mais.\n\n"For a lower price than this, it cannot be done.""
+ stewardship_domain.6013.a:0 ""Então temos um acordo.""
+ stewardship_domain.6013.b:0 "Certamente eu posso encontrar pedreiros mais baratos em outro lugar."
+
+ stewardship_domain.6014.desc:0 ""Na verdade, os preços estão em alta. Simplesmente o custo do trabalho, é claro. Tenho certeza que o [ROOT.Char.GetTitleTierName] entende." The chief mason is not at all pleased with the offers I am willing to make. "Na verdade, os preços estão em alta. Simplesmente o custo do trabalho, é claro. Tenho certeza que o [ROOT.Char.GetTitleTierName] entende.""
+ stewardship_domain.6014.a:0 ""Eu entendo perfeitamente.""
+ stewardship_domain.6014.b:0 "A [county.GetTitleTierName] me serve, e as guildas também!"
+
+ stewardship_domain.6015.desc:1 "O pedreiro chefe deve ter gostado da companhia do meu [steward.GetCouncilTitle] [steward.GetTitledFirstName], porque [steward.GetSheHe] retornou com um acordo dos pedreiros que supera até mesmo minhas exigências."
+ stewardship_domain.6015.a:0 "Eu poderia escassos ter negociado melhor mim mesmo!"
+
+ stewardship_domain.6016.desc:0 "[steward.GetTitledFirstName] voltou para mim com uma oferta da guilda dos pedreiros."I inspected their records, my liege. I do not believe a better deal can be struck.""
+ stewardship_domain.6016.a:0 "Isso soa muito bem."
+ stewardship_domain.6016.b:0 "Então eu fui um tolo para enviá-lo, [steward.GetFirstNameNoTooltip]!"
+
+ stewardship_domain.6017.desc:0 ""No entanto, eu tenho uma oferta, mesmo que a guilda do pedreiro se recuse a falar comigo mais adiante." My [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('steward'))] sounds apologetic. "No entanto, eu tenho uma oferta, mesmo que a guilda do pedreiro se recuse a falar comigo mais adiante.""
+ stewardship_domain.6017.a:0 "Eu tenho que chegar a um acordo com o que meus servos realizam."
+ stewardship_domain.6017.b:0 "Eu vou falar com eles, então! Eu vou encomendá-los!"
+
+
+ ##################
+ # Special Events #
+ ##################
+
+ # Bad harvest, by Linnéa Thimrén and Sean Hughes
+ stewardship_domain_special.1001.t:0 "Colheita em [development_county.GetNameNoTier|U]"
+ stewardship_domain_special.1001.desc:0 "São tempos enxutos, e as terras de [county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)] em [development_county.GetNameNoTier] sofreram mais do que a maioria.\n\nReport após relatório é trazido antes de mim detalhando a colheita ruim, e eu começo a me perguntar se eu vou receber a minha parte dos impostos deles este ano..."
+ stewardship_domain_special.1001.a:0 "Investigue os problemas do condado."
+ stewardship_domain_special.1001.a.tt:0 "O destino de [development_county.GetNameNoTier] estará em minhas mãos..."
+ stewardship_domain_special.1001.b:0 "Aproveite minhas dívidas legítimas à força!"
+ stewardship_domain_special.1001.c:0 "Isso é responsabilidade [county_holder.GetFirstNamePossessiveNoTooltip], não minha."
+
+ stewardship_domain_special.1002.desc:0 "Aparentemente, o [development_county.GetName] pegou seu infortúnio em parte por má gestão. A terra não foi devidamente limpa, as sementes foram semeadas fora da estação, e os pastos foram super-pastados."
+ stewardship_domain_special.1002.desc.repentant:1 "\n\nA arrependido [county_holder.GetTitledFirstName] está diante de mim, torcendo [county_holder.GetHerHis] mãos."Please [ROOT.Char.Custom2('RelationToMeAddress', county_holder)], give me another chance! I can fix this, I swear!""
+ stewardship_domain_special.1002.desc.uncaring:0 "\n\nA [county_holder.GetTitledFirstName] de aparência entediada está diante de mim, aparentemente despreocupado."The peasants will sort this out, eventually. They always do. That is their job, is it not?""
+ stewardship_domain_special.1002.desc.blaming:0 "\n\nA frustrado [county_holder.GetTitledFirstName] está diante de mim, claramente estressado."How could those peasants mess this up so badly? They're dirt-diggers! It's all they do!""
+
+ stewardship_domain_special.1002.a:0 "Eu o responsabilizo por isso, [county_holder.GetFirstNameNoTooltip]."
+ stewardship_domain_special.1002.a.success:0 "[county_holder.GetTitledFirstName] e eu aprendemos com [county_holder.GetHerHis] erros"
+ stewardship_domain_special.1002.a.failure:0 "[county_holder.GetTitledFirstName] não pode resolver os problemas em [development_county.GetNameNoTier]"
+ stewardship_domain_special.1002.b:0 "Eu vou pessoalmente consertar isso, o que for preciso!"
+ stewardship_domain_special.1002.b.success:0 "Eu consertei com sucesso os problemas em [development_county.GetNameNoTier]"
+ stewardship_domain_special.1002.b.failure:0 "Eu não conserto os problemas em [development_county.GetNameNoTier]"
+ stewardship_domain_special.1002.c:0 "Você perdeu sua reivindicação de [development_county.GetNameNoTierNoTooltip]!"
+ stewardship_domain_special.1002.c.tt:0 "Eu tiro o [development_county.GetName] de [county_holder.GetTitledFirstName]"
+ 
+ stewardship_domain_special.1003.desc:1 ""Obrigado por acreditar em mim, [ROOT.Char.Custom2('RelationToMeAddress', county_holder)]!"\n\n[county_holder.Custom2('MyCharacterIntroduction', ROOT.Char)|U] has managed to solve the crisis [county_holder.GetSheHe] found [county_holder.GetHerselfHimself] in. Sometimes the best course of action is to trust in the skills of others, and then learn from them!"
+ stewardship_domain_special.1003.a:0 "Diga-me tudo sobre como você fez isso!"
+
+ stewardship_domain_special.1004.desc:0 "Os relatos do [development_county.GetName] só se tornam mais desastrosos, e logo se torna evidente que [county_holder.GetTitledFirstName] só piorou a situação."
+ stewardship_domain_special.1004.a:0 "Que tipo de [county_holder.GetTitleTierName] é [county_holder.GetSheHe]?"
+
+ stewardship_domain_special.1005.desc:0 "Enquanto vejo o [development_county.GetName] florescer sob minha orientação, não posso deixar de sentir orgulho do que realizei. Trabalhar em uma gestão menor de tempos em tempos é uma boa maneira de aprender!"
+ stewardship_domain_special.1005.a:0 "Este conhecimento será útil de fato!"
+
+ stewardship_domain_special.1006.desc:0 "Não importa o que eu tente o [development_county.GetName] não pode encontrar qualquer descanso. Não é tão ruim como antes, mas estou perdido como em como resolver as tarefas restantes antes de mim."
+ stewardship_domain_special.1006.a:0 "Bem, eu nem sempre posso ter sucesso..."
+
+ # Charter fair, by Linnéa Thimrén
+ stewardship_domain_special.1101.t:0 "Feira em [county.GetNameNoTierNoTooltip|U]"
+ stewardship_domain_special.1101.desc:0 "No [county.GetName] está um campo que seria perfeito para uma grande feira anual.\n\nTwo nobres locais, [local_baron.GetTitledFirstName] e [second_local_baron.GetTitledFirstName], me petiram para ser o receptor da carta que lhes permitiria manter a feira em meu nome."
+ stewardship_domain_special.1101.a:0 "A carta será concedida ao [second_barony.Custom('BaronyTownType')] em [second_barony.GetNameNoTierNoTooltip]."
+ stewardship_domain_special.1101.all_goes_well:0 "Se tudo correr bem"
+ stewardship_domain_special.1101.b:0 "O [local_baron.GetFaith.HouseOfWorship] em [barony.GetNameNoTierNoTooltip] será concedido a carta."
+ stewardship_domain_special.1101.c:0 "Use o campo para pastar em vez disso."
+
+ stewardship_domain_special.1102.desc:0 "[second_local_baron.GetTitledFirstName] me presenteia com produtos de todo o mundo; pano dos confins da rota da seda, culturas cultivadas localmente, maravilhas tecnológicas do leste...\n\n"My [ROOT.Char.GetLadyLord], what wares should we promote for the new fair?""
+ stewardship_domain_special.1102.a:0 "Vamos importar o máximo de seda que pudermos!"
+ stewardship_domain_special.1102.a.tt:0 "As pessoas são mais propensas a apreciar isso se a área é estável e próspera"
+ stewardship_domain_special.1102.b:0 "Vamos nos concentrar nas culturas cultivadas localmente!"
+ stewardship_domain_special.1102.b.tt:0 "As pessoas são mais propensas a apreciar isso se a área está em tumulto"
+ stewardship_domain_special.1102.c:0 "As maravilhas tecnológicas estarão na frente e no centro!"
+ stewardship_domain_special.1102.c.tt:0 "As pessoas são mais propensas a apreciar isso se o nível de desenvolvimento na área for baixo"
+
+ stewardship_domain_special.1103.desc_silk:0 "Seda fina para atrair os ricos em [county.GetNameNoTier] ao mercado, com os camponeses não muito atrás - foi uma semana de celebração e comércio!"
+ stewardship_domain_special.1103.desc_crops:0 "Uma abundância de comida para atrair os camponeses para o mercado e bens de primeira classe em todas as barracas os manteve voltando - foi uma semana de celebração e comércio!"
+ stewardship_domain_special.1103.desc_technology:0 "Maravilhas tecnológicas que entrada o povo, e bens de primeira classe em todas as barracas - tem sido uma semana de celebração e comércio!"
+ stewardship_domain_special.1103.a:0 "Você tem minha permissão para fazer isso anualmente a partir de agora."
+
+ stewardship_domain_special.1104.desc_silk:0 ""Meu [ROOT.Char.GetLadyLord], o que devemos fazer com toda essa seda?"\n\nApparently, the demand for silk was not high in the area, and [second_local_baron.GetTitledFirstName] is left with a lot of the expensive cloth unsold."
+ stewardship_domain_special.1104.desc_crops:0 ""Meu [ROOT.Char.GetLadyLord], as culturas estão ficando obsoletas e mofadas, o que devemos fazer com tudo isso?"\n\nApparently, the demand for local crops was not high in the area, and [second_local_baron.GetTitledFirstName] is left with a lot of it unsold."
+ stewardship_domain_special.1104.desc_technology:0 ""Meu [ROOT.Char.GetLadyLord], o que devemos fazer com essas bugigangas?"\n\nApparently, the demand for marvelous technology was not high in the area, and [second_local_baron.GetTitledFirstName] is left with a lot of it unsold."
+ stewardship_domain_special.1104.a:0 "Um começo tumultuado, mas tenho certeza que os locais podem lidar com isso agora!"
+
+ stewardship_domain_special.1105.desc:0 "[local_baron.GetTitledFirstName] me presenteia com produtos de todo o mundo; objetos religiosos de cidades sagradas, alimentos cultivados pela [local_baron.GetFaith.DevoteeMalePlural] e [local_baron.GetFaith.DevoteeFemalePlural] na área, maravilhas de religiões estrangeiras...\n\n"My [ROOT.Char.GetLadyLord], what wares should we promote for the new fair?""
+ stewardship_domain_special.1105.a:0 "Vamos honrar os santos locais focando em objetos religiosos!"
+ stewardship_domain_special.1105.a.tt:1 "As pessoas são mais propensas a apreciar isso se seu fervor religioso é forte"
+ stewardship_domain_special.1105.b:0 "Traga o máximo de comida possível!"
+ stewardship_domain_special.1105.b.tt:0 "As pessoas são mais propensas a apreciar isso se a área está precisando de apoio"
+ stewardship_domain_special.1105.c:0 "Se mostrarmos outras religiões, eles perderão sua novidade!"
+ stewardship_domain_special.1105.c.tt:1 "As pessoas são mais propensas a apreciar isso se seu fervor religioso é fraco"
+
+ stewardship_domain_special.1106.desc_religious_objects:0 "Objetos religiosos de cidades sagradas para entrada e cativam o povo, e bens de primeira classe em todas as barracas - foi uma semana de celebração piedosa e comércio!"
+ stewardship_domain_special.1106.desc_religious_food:0 "A comida fornecida pelo [local_baron.GetFaith.DevoteeMalePlural] e [local_baron.GetFaith.DevoteeFemalePlural] da área vendeu quase melhor do que qualquer outra coisa na feira — foi uma semana de celebração piedosa e comércio!"
+ stewardship_domain_special.1106.desc_religious_other:0 "Diante de religiões estrangeiras, o povo de [county.GetNameNoTier] orou e apreciou sua comunidade mais do que o habitual - foi uma semana de celebração piedosa e comércio!"
+ stewardship_domain_special.1106.a:0 "Você tem minha permissão para fazer isso anualmente a partir de agora."
+
+ stewardship_domain_special.1107.desc_religious_objects:0 ""Meu [ROOT.Char.GetLadyLord], o que devemos fazer com essas bugigangas sagradas?"\n\nApparently, the holy objects did not attract the pious to the degree I hoped, and [local_baron.GetTitledFirstName] is left with a lot unsold."
+ stewardship_domain_special.1107.desc_religious_food:0 ""Meu [ROOT.Char.GetLadyLord], o que devemos fazer com toda essa comida?"\n\nApparently, the meals prepared by the [local_baron.GetFaith.DevoteeMalePlural] and [local_baron.GetFaith.DevoteeFemalePlural] of the area would have benefited from some divine intervention — almost nothing got sold."
+ stewardship_domain_special.1107.desc_religious_other:0 ""Meu [ROOT.Char.GetLadyLord], o que devemos fazer com essas bugigangas blasfemos?"\n\nThe foreign items only repulsed the people — discouraging them from visiting the market. [local_baron.GetTitledFirstName] is soon instructed to burn them, but the damage is already done."
+ stewardship_domain_special.1107.a:0 "Um começo tumultuado, mas tenho certeza que os locais podem lidar com isso agora!"
+
+
+ # Building a Road chain, by Petter Vilberg
+ stewardship_domain_special.1301.increase_road_progress_1:0 "#V Progresso Rodoviário#! aumenta em #P 1#!"
+ stewardship_domain_special.1301.increase_road_progress_2:0 "#V Progresso Rodoviário#! aumenta em #P 2#!"
+ stewardship_domain_special.1301.increase_road_quality_1:0 "#V Qualidade rodoviária#! aumenta em #P 1#!"
+ stewardship_domain_special.1301.increase_road_quality_2:0 "#V Qualidade rodoviária#! aumenta em #P 2#!"
+ stewardship_domain_special.1301.decrease_road_quality_1:0 "#V Qualidade rodoviária#! diminui em #N 1#!"
+
+ stewardship_domain_special.1301.t:0 "A Estrada"
+ stewardship_domain_special.1301.steward_opening:0 "Meu mordomo [steward.GetTitledFirstName] me informa"
+ stewardship_domain_special.1301.no_steward_opening:0 "Meus prefeitos me informam"
+ stewardship_domain_special.1301.desc:0 "que há uma necessidade desesperada de um novo caminho para atravessar o [project_county.GetName]. Muitas das estradas antigas estão dilapidadas e até mesmo perigosas!\n\nA plebeus pelo nome de [peasant_leader.GetTitledFirstName] foi apresentado como o líder natural do esforço de construção."
+ stewardship_domain_special.1301.a:0 "Veja isso feito."
+ stewardship_domain_special.1301.a.peasant_leader_tt:0 "O projeto começa, supervisionado por [peasant_leader.GetTitledFirstName]"
+ stewardship_domain_special.1301.b:0 "Meu mordomo vai lidar com isso."
+ stewardship_domain_special.1301.a.steward_tt:0 "O projeto começa, supervisionado por [steward.GetTitledFirstName]"
+ stewardship_domain_special.1301.c:0 "Essas estradas eram boas o suficiente para nossos ancestrais!"
+ stewardship_domain_special.1301.c.tt:0 "Eles são bons o suficiente para nós, também!"
+
+
+ stewardship_domain_special.1311.t:0 "A Estrada: Um Feudo Distante"
+ stewardship_domain_special.1311.desc:0 "O trabalho na estrada em [project_county.GetNameNoTier] está progredindo, mas o trecho de terra que está sendo preparado vai além de uma colina, longe de ambas as aldeias de ambos os lados.\n\nAs aldeias estão relutantes em fornecer trabalhadores, e há incerteza sobre quem é mesmo o dono do feudo além da colina!"
+ stewardship_domain_special.1311.a:0 "Então pegamos trabalhadores de ambas as aldeias."
+ stewardship_domain_special.1311.b:0 "Eu mesmo pagarei pelo trabalho lá."
+ stewardship_domain_special.1311.c:0 "Se há incerteza, o feudo reverte para mim!"
+
+ stewardship_domain_special.1312.t:0 "A Estrada: Uso Regular"
+ stewardship_domain_special.1312.desc:0 "Mesmo antes de ser concluída, os comerciantes começaram a percorrer a nova estrada em [project_county.GetNameNoTier][project_leader.GetTitledFirstName] sugere que aqueles que utilizam a estrada devem contribuir para sua construção."
+ stewardship_domain_special.1312.a:0 "Ou eles poderiam contribuir para os meus cofres."
+ stewardship_domain_special.1312.b:0 "Que ideia original... Eu gosto disso!"
+
+ stewardship_domain_special.1313.t:0 "A Estrada: Ladrões"
+ stewardship_domain_special.1313.desc:0 "Até uma rodovia inacabada tem caminhoneiros, ao que parece. [project_leader.GetTitledFirstName] tem problemas com suprimentos que nunca chegam, e trabalhadores que têm medo de deixar suas aldeias. Nesse ritmo, a estrada em [project_county.GetNameNoTier] nunca será concluída."
+ stewardship_domain_special.1313.a:0 "Guardas dos correios ao longo da estrada."
+ stewardship_domain_special.1313.b:0 "Eu não me importo. #EMP terminar. Meu. Estrada. #!"
+
+ stewardship_domain_special.1314.t:0 "A Estrada: Botas marchando"
+ stewardship_domain_special.1314.war:0 "Com a guerra em curso, as taxas estão usando as partes completas da estrada em [project_county.GetNameNoTier] para acelerar sua marcha."
+ stewardship_domain_special.1314.end:0 "\n\nJá desgastado e danificado, [project_leader.GetTitledFirstName] afirma que os trabalhadores terão que voltar para reforçá-lo antes de ser feito."
+ stewardship_domain_special.1314.a:0 "Não vale a pena o esforço."
+ stewardship_domain_special.1314.b:0 "Infeliz, mas necessário."
+
+ stewardship_domain_special.1315.t:0 "A Estrada: Botas marchando"
+ stewardship_domain_special.1315.end:0 "\n\nOmidamente, o uso pesado é exatamente o que é necessário para pisar o chão em forma! Com um pouco de sorte, a maioria das taxas pode vir marchando de volta também."
+ stewardship_domain_special.1315.a:0 "Levá-los para as linhas de frente!"
+ stewardship_domain_special.1315.b:0 "Eles marcharão pelo caminho [project_leader.GetTitledFirstName] os comanda."
+
+ stewardship_domain_special.1316.t:0 "A Estrada: Melhoria Comissionada"
+ stewardship_domain_special.1316.desc:0 "Encontrando as partes já concluídas da nova estrada imensamente benéficas, a guilda do comerciante em [project_county.GetNameNoTier] fez uma doação para expandir ainda mais a estrada."
+ stewardship_domain_special.1316.a:0 "Isso vai ajudar a estrada."
+ stewardship_domain_special.1316.b:0 "Isso vai ajudar meus bolsos."
+
+ stewardship_domain_special.1317.t:0 "The Road: A Tavern"
+ stewardship_domain_special.1317.desc:0 "A construção da estrada em [project_county.GetNameNoTier] teve um atraso. [project_leader.GetTitledFirstName] relata que os trabalhadores foram encurralados por um zelador. Para acalmar suas almas, e a de outros viajantes, eles estão construindo uma taverna à beira da estrada."
+ stewardship_domain_special.1317.a:0 "Propriedade da coroa, é claro."
+ stewardship_domain_special.1317.b:0 "Levá-los de volta para a estrada!"
+
+ stewardship_domain_special.1318.t:0 "A Estrada: Progresso"
+ stewardship_domain_special.1318.desc:0 "De acordo com [project_leader.GetTitledFirstName], o trabalho na estrada em [project_county.GetNameNoTier] está indo bem.\n\n"The ground is firmer, and the stretches flatter than we hoped, my [ROOT.Char.GetLadyLord].""
+ stewardship_domain_special.1318.a:0 "Expanda ainda mais a estrada!"
+ stewardship_domain_special.1318.b:0 "As coisas estão indo exatamente como eu quero que eles."
+ stewardship_domain_special.1318.c:0 "Uma oportunidade perfeita para cortar custos!"
+
+ stewardship_domain_special.1319.t:0 "A Estrada: Ética no Trabalho"
+ stewardship_domain_special.1319.desc:0 "Meu mordomo parece quase chocado."I have been inspecting the road construction in [project_county.GetNameNoTier], and the peasant workers are so much more efficient than I expected... Even I might learn a thing or two from them.""
+ stewardship_domain_special.1319.a:0 "Podemos usar esse conhecimento em outro lugar?"
+ stewardship_domain_special.1319.b:0 "Aprendendo com os camponeses? O próprio pensamento é abominável."
+
+ stewardship_domain_special.1320.t:0 "A Estrada: [peasant_leader.GetTitledFirstNamePossessiveNoTooltip] Expertise"
+ stewardship_domain_special.1320.desc:0 "Não é sempre que um plebeu me aborda diretamente, mas [peasant_leader.GetTitledFirstName] relatórios sobre os esforços de construção em [project_county.GetNameNoTier].\n\n"The plan for the road was to pass through this field, my liegeness, but I know the kind of soil we're working with. Mighthaps my peasantness could request that— that we reroute it through the nearby forest?""
+ stewardship_domain_special.1320.a:0 "Eu confio no seu julgamento."
+ stewardship_domain_special.1320.b:0 "Muito longe e muito caro. Nós fazemos o que eu planejei."
+
+ stewardship_domain_special.1321.t:0 "A Estrada: Falta de Experiência"
+ stewardship_domain_special.1321.desc:0 ""O solo no campo é desigual e não é denso o suficiente, meu liege! A floresta é um caminho muito melhor." [steward.GetTitledFirstName] is visibly upset with the road work in [project_county.GetNameNoTier].\n\nHowever, [peasant_leader.GetTitledFirstName] keeps insisting on [peasant_leader.GetHerHis] approach. "O solo no campo é desigual e não é denso o suficiente, meu liege! A floresta é um caminho muito melhor.""
+ stewardship_domain_special.1321.a:0 "Ouça seus melhores, camponês!"
+ stewardship_domain_special.1321.b:0 "[peasant_leader.GetTitledFirstName] parece saber melhor..."
+
+ stewardship_domain_special.1391.t:0 "A Estrada: Liderança Perdida"
+ stewardship_domain_special.1391.desc:0 "Sem [project_leader.GetTitledFirstName], o trabalho na estrada em [project_county.GetNameNoTier] sem direção clara. Se é para ser terminado, alguém deve ser colocado no comando."
+ stewardship_domain_special.1391.a:0 "[peasant_leader.GetTitledFirstName] parece uma substituição capaz."
+ stewardship_domain_special.1391.b:0 "É hora de [steward.GetTitledFirstName] assumir."
+
+ stewardship_domain_special.1392.t:0 "A Estrada: Cortando Perdas"
+ stewardship_domain_special.1392.desc:0 "Com a perda do [project_county.GetName], completar a estrada não seria muito benéfico para mim. Pelo menos os impostos arrecadados para o projeto estão no meu tesouro, em vez de desperdiçados na estrada."
+ stewardship_domain_special.1392.a:0 "Nem tudo está perdido."
+
+ stewardship_domain_special.1396.t:0 "O Fim da Estrada"
+ stewardship_domain_special.1396.desc:0 "[project_leader.GetTitledFirstName] me diz."It is... very functional,"[project_leader.GetTitledFirstName] me diz."
+ stewardship_domain_special.1396.a:0 "Uma estrada não precisa ser luxuosa. É bom o suficiente."
+
+ stewardship_domain_special.1397.desc:0 "[project_leader.GetTitledFirstName] me diz."This will carry people where they need to go for decades to come,"[project_leader.GetTitledFirstName] me diz."
+ stewardship_domain_special.1397.a:0 "Mal posso esperar para colher os benefícios!"
+ stewardship_domain_special.1397.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! Eu tenho mais trabalho para você!"
+
+ stewardship_domain_special.1398.desc:0 "[project_leader.GetTitledFirstName] anuncia sem nenhum pouco orgulho."These roads will be the county's pumping veins for generations!"[project_leader.GetTitledFirstName] anuncia sem nenhum pouco orgulho."
+ stewardship_domain_special.1398.a:0 "Mal posso esperar para colher os benefícios!"
+ stewardship_domain_special.1398.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! Eu tenho mais trabalho para você!"
+
+ stewardship_domain_special.1399.desc:0 "[project_leader.GetTitledFirstName] anuncia com orgulho."This might very well be the best roads in the entire realm, my liege!"[project_leader.GetTitledFirstName] anuncia com orgulho."
+ stewardship_domain_special.1399.a:0 "Mal posso esperar para colher os benefícios!"
+ stewardship_domain_special.1399.b:0 "[peasant_leader.GetTitledFirstNameNoTooltip]! Eu tenho mais trabalho para você!"
+
+ # A Missing Village, by Petter Vilberg
+ stewardship_domain_special.1401.t:0 "Uma Vila Desaparecida"
+ stewardship_domain_special.1401.desc:0 "Iluminado apenas por uma única vela, meu dedo faz uma pausa em uma entrada no livro. Algo não está certo... Logo estou pesquisando todos os registros do [county.GetName] que eu posso encontrar.\n\n Até o fim, é claro como o dia. Parece que uma aldeia inteira desapareceu dos registros fiscais!"
+ stewardship_domain_special.1401.a:0 "O cobrador de impostos em [county.GetNameNoTierNoTooltip] deve investigar!"
+ stewardship_domain_special.1401.a.tt:0 "O colecionador vai liderar a investigação"
+ stewardship_domain_special.1401.b:0 "Viajarei para a aldeia pessoalmente."
+ stewardship_domain_special.1401.b.tt:0 "Eu mesmo lidero a investigação"
+ stewardship_domain_special.1401.c:0 "As aldeias desaparecem o tempo todo, não prestam atenção."
+
+ stewardship_domain_special.1411.desc:0 " aldeia para mim.\n\nSemuto dias de viagem, finalmente monto até a aldeia. Parece qualquer outro pedaço de terra de um acordo. [collector.GetTitledFirstName] é, no entanto, insistente. "missing" aldeia para mim.\n\nSemuto dias de viagem, finalmente monto até a aldeia. Parece qualquer outro pedaço de terra de um acordo. [collector.GetTitledFirstName] é, no entanto, insistente. "My liege, allow me to show you this place, I beg of you. This is my home.""
+ stewardship_domain_special.1411.a:0 "Muito bem, me mostre o lugar."
+ stewardship_domain_special.1411.a.tt:0 "[collector.GetTitledFirstName] me mostra [collector.GetHerHis] aldeia"
+ stewardship_domain_special.1411.b:0 "Você já desperdiçou muito do meu tempo!"
+ stewardship_domain_special.1411.b.tt:0 "Por que eu vim aqui?"
+
+ stewardship_domain_special.1412.desc:0 "Com [collector.GetTitledFirstNamePossessive] pés pendurados acima do verde da aldeia, eu faço para partir com meus guardas. Deixamos os primeiros prédios para trás quando uma garota aparece correndo ao lado do meu cavalo."Oh dearest [ROOT.Char.GetLadyLord], what will become of us? None of us can afford the penalty you are asking us to pay.""
+ stewardship_domain_special.1412.a:0 "O cobrador do ano que vem vai quitar sua dívida."
+ stewardship_domain_special.1412.b:0 "Estou cobrando sua dívida na íntegra. Agora."
+ stewardship_domain_special.1412.b.flavor:0 "Aproveite tudo valioso, depois queime o resto!"
+
+ stewardship_domain_special.1413.desc:0 "Como [collector.GetTitledFirstName] me mostra ao redor da aldeia, tudo o que vejo são vacas magros, galinhas cavando na terra, e camponeses voltando dos campos com cargas leves. Quando eu comento sobre isso, [collector.GetSheHe] faz [collector.GetHerHis] ponto.\n\n"These people can barely feed their livestock. If I demand more from them they would starve.""
+ stewardship_domain_special.1413.a:0 "Acho que posso conceder uma penhora de impostos..."
+ stewardship_domain_special.1413.b:0 "Mesmo dadas as circunstâncias, eles devem pagar."
+ stewardship_domain_special.1413.c:0 "Isso é o que você queria me mostrar? Traição!"
+ stewardship_domain_special.1413.c.tt:0 "Eu decidirei como lidar com a aldeia"
+
+ stewardship_domain_special.1414.desc:0 "A vila ainda está queimando quando meus guardas e eu partimos.\n\nEm vez que o velho deve ser limpo para dar espaço para o novo."
+ stewardship_domain_special.1414.a:0 "Há muitas maneiras de governar."
+
+ stewardship_domain_special.1421.collector_opening:0 "O cobrador de impostos enviado para inspecionar a vila desaparecida nunca voltou. Sob guarda pesada, eu decido investigar a mim mesmo, e finalmente descobrir por que esse foi o caso..."
+ stewardship_domain_special.1421.self_opening:0 "Quando chego à aldeia acompanhado dos meus guardas, descubro finalmente por que os moradores pararam de pagar seus impostos."
+ stewardship_domain_special.1421.desc:0 "\n\nEvery casa está abandonada e abandonada. Não há nenhum traço de pessoas, nem mesmo meu colecionador.\n\nA lentamente subindo sensação de pavor me ultrapassa enquanto meus guardas vasculham as casas silenciosas, rapidamente se transformando em pânico quando um deles grita repentinamente."
+ stewardship_domain_special.1421.a:0 "O que você encontrou!?!"
+ stewardship_domain_special.1421.a.tt:0 "Pode haver qualquer coisa aqui"
+ stewardship_domain_special.1421.b:0 "Nós saímos. Agora."
+
+ stewardship_domain_special.1422.desc:0 "O guarda gritando sai de uma porta apodrecida com uma criança debaixo de um braço. O [foundling.Custom('GirlBoy')] tentou evitar a detecção nos fundos da casa.\n\nAmano eu exijo respostas, a criança não oferece nenhuma palavra do que aconteceu com a aldeia — ou, nesse caso, qualquer palavra."
+ stewardship_domain_special.1422.a:0 "Pobre [foundling.Custom('GirlBoy')] não tem mais casa... Vou adotar [foundling.GetHerHim]!"
+ stewardship_domain_special.1422.b:0 "Deixe a criança com a aldeia mais próxima."
+ stewardship_domain_special.1422.c:0 "Queime a aldeia e esta criança amaldiçoada com ela."
+
+ stewardship_domain_special.1423.foundling:0 "O pequeno [foundling.GetTitledFirstName] está em segurança na corte agora, brincando — e até falando — com as outras crianças.\n\n"
+ stewardship_domain_special.1423.no_foundling:0 "O barulho e a conversa na corte pouco me distrai do que vi."
+ stewardship_domain_special.1423.desc:0 "Memórias da vila silenciosa ainda me assombram. No final, não encontramos um único traço de alguém que já tinha vivido lá."
+ stewardship_domain_special.1423.a:0 "Essa terra amaldiçoada nunca deve ser reassentada."
+ stewardship_domain_special.1423.b:0 "O tempo recuperará aquela vila, como faz com todas as coisas."
+
+ stewardship_domain_special.1424.desc:0 "O que me espera na casa abandonada é um fedor sujo e uma pilha de cadáveres. A decadência torna impossível dizer como eles morreram,"
+ stewardship_domain_special.1424.collector_end:0 "mas mesmo o cadáver mais recente encostado na parede - meu cobrador de impostos - é sem marcas perceptíveis."
+ stewardship_domain_special.1424.self_end:0 "mas mesmo os menos podres estão sem marcas óbvias de matar."
+ stewardship_domain_special.1424.a:0 "Queime este inferno-pit até o chão."
+ stewardship_domain_special.1424.b:0 "Enterre os corpos e ordene reassentamento."
+
+ stewardship_domain_special.1425.desc:0 "Os corpos são fáceis o suficiente para se livrar. Mais um desafio é encontrar famílias dispostas a se estabelecer em uma vila de mortos. Nenhum camponês pode se posicionar contra o fascínio de um terreno saudável por muito tempo, no entanto. Ou contra a ponta de uma lança, aliás.\n\nOverseeing os primórdios da reconstrução também me ensinou muito!"
+ stewardship_domain_special.1425.a:0 "Agora, se esta tosse amaldiçoada só passaria!"
+ 
+ stewardship_domain_special.1426.desc:0 "Não é cerimônia, mas o fogo faz o que precisa ser feito. Eu vejo como as chamas consomem as casas há muito abandonadas, mas não por muito tempo. Eu vi tudo o que eu precisava ver aqui."
+ stewardship_domain_special.1426.a:0 "É hora de voltar para casa."
+
+ stewardship_domain_special.1431.desc:0 "Depois de dias de viagem, encontro a vila que está faltando nos meus registros. Não só está prosperando - absolutamente próspero! – mas os moradores insistem que #EMP #! pagar seus impostos.\n\n[collector.GetTitledFirstName], cobrador de impostos do barão, não foi totalmente honesto."
+ stewardship_domain_special.1431.a:0 "[collector.GetFirstNameNoTooltip] tem perguntas a responder..."
+ stewardship_domain_special.1431.a.tt:0 "Vou confrontar [collector.GetFirstName]"
+ stewardship_domain_special.1431.b:0 "Arredondar os aldeões. Eles vão pagar novamente."
+
+
+ stewardship_domain_special.1432.desc:0 ""Oh, por favor, eu vou fazer qualquer coisa para ganhar o seu perdão!" [collector.GetTitledFirstName], the tax collector in [barony.GetNameNoTier], is terrified, not least because of the hulking soldiers I have brought to [collector.GetHerHis] manor.\n\n"Oh, por favor, eu vou fazer qualquer coisa para ganhar o seu perdão!""
+ stewardship_domain_special.1432.a:0 "Você será esquecido no escuro."
+ stewardship_domain_special.1432.b:0 "Eu poderia usar alguém que me deve a vida."
+ stewardship_domain_special.1432.b.collector_loyal:0 "Gratidão e Lealdade"
+ stewardship_domain_special.1432.b.collector_bad:0 "Uma Chance de Fuga"
+ stewardship_domain_special.1432.b.collector_bad.tt:0 "[collector.GetFirstNameNoTooltip] escapa!"
+ stewardship_domain_special.1432.c:0 "Alguma coisa? Que tal contar vermes?!"
+
+ stewardship_domain_special.1433.desc:0 "Essa larva traiçoeira! Eu ofereço perdão, e no momento seguinte [collector.GetTitledFirstName] está em cima de mim com uma lâmina na mão e um olhar vicioso no rosto [collector.GetHerHis].\n\nI luta por um momento para me defender antes que um guarda esteja sobre [collector.GetHerHim]."
+ stewardship_domain_special.1433.a:0 "Estrangule [collector.GetHerHim] de uma vez."
+ stewardship_domain_special.1433.b:0 "Você nunca mais verá a luz, [collector.GetFirstNameNoTooltip]!"
+
+ stewardship_domain_special.1441.desc:0 "Os impostos cobrados sobre meus camponeses podem ser difíceis às vezes. No entanto, como os acontecimentos recentes me mostraram, a vida #EMP é#! difícil. Nenhuma bondade que eu possa mostrar vai mudar isso."
+ stewardship_domain_special.1441.a:0 "Aprendi tanto."
+
+ stewardship_domain_special.1442.desc:0 "Os impostos cobrados sobre os camponeses do meu reino podem às vezes ser tão severos que até a vida é sufocada. Aliviá-lo pode muitas vezes ser o caminho para uma prosperidade cada vez maior para um paciente [ROOT.Char.GetTitleTierName]"
+
+ stewardship_domain_special.1443.t:1 "$stewardship_domain_special.1401.t$: Melhor Tributação"
+ stewardship_domain_special.1443.opening:0 "Debruçado sobre os registros fiscais, eu sou trazido de volta para o caso da vila desaparecida em [barony.GetNameNoTier]."
+ stewardship_domain_special.1443.end:0 "\n\nMas são muito melhoradas desde então, e a receita de [barony.GetNameNoTier] agora está maior do que nunca!"
+ stewardship_domain_special.1443.a:0 "Maravilhosa!"
+
+ stewardship_domain_special.1444.t:1 "$stewardship_domain_special.1401.t$: extensa sonegação de impostos"
+ stewardship_domain_special.1444.end:0 "\n\nMas são diferentes agora, mas aprendi que misericórdia e clemência às vezes só levam a perdas cada vez maiores. De qualquer forma, os impostos podem ser evitados se espalharão entre camponeses como pulgas."
+ stewardship_domain_special.1444.a:0 "Que desastre."
+
+ stewardship_domain_special.1445.t:1 "$stewardship_domain_special.1401.t$: Abandono Contínuo"
+ stewardship_domain_special.1445.end:0 "\n\nAgora faltam mais aldeias, mas meus colecionadores sabem de uma explicação óbvia. Os altos impostos levaram a muito abandono de terras perfeitamente boas, seja pela fome ou pela fuga para outros condados."
+ stewardship_domain_special.1445.a:0 "Bem, se eles não podem pagar sua vida..."
+
+ stewardship_domain_special.1451.t:1 "$stewardship_domain_special.1401.t$: Seared Into Memory"
+ stewardship_domain_special.1451.desc:0 "Eu acordo no meio da noite, ainda lembrando o olhar acusatório da criança enquanto a aldeia em [barony.GetNameNoTier] queima no chão."
+ stewardship_domain_special.1451.a:0 "Por que isso pesa tanto em mim?"
+ stewardship_domain_special.1451.b:0 "Ah, eu quase esqueci!"
+
+ # Domesday Book, by Stephen Arthur and Sean Hughes
+ stewardship_domain_special.1500.t.a:0 "A Grande Pesquisa"
+ stewardship_domain_special.1500.t.b:0 "O Livro do Domesday"
+ stewardship_domain_special.1500.desc:1 "Meu [domesday_steward.GetCouncilTitle] [domesday_steward.GetTitledFirstName] veio com a ideia ousada de avaliar todas as propriedades do meu reino em uma única pesquisa gigante, criando um registro definitivo das minhas participações.\n\nPor compilação desse conhecimento, eu ganharia melhor supervisão em questões administrativas, bem como arrecadação de impostos — embora o investimento inicial não fosse barato."
+ stewardship_domain_special.1500.a:0 "Eu vou conhecer cada acre, servo, e chefe de gado."
+ stewardship_domain_special.1500.a.tt:0 "#F Uma avaliação minuciosa é cara, mas será de maior qualidade. #!"
+ stewardship_domain_special.1500.b:0 "Um resumo das minhas participações será suficiente."
+ stewardship_domain_special.1500.b.tt:0 "#F Uma avaliação superficial é mais barata, mas pode não ser de qualidade tão alta. #!"
+ stewardship_domain_special.1500.c:0 "Por que se preocupar? Meus súditos sabem o que me devem."
+ stewardship_domain_special.1500.c.tt:0 "Todos os meus outros vassalos"
+ stewardship_domain_special.1500.quality_increase.tt:0 "A pesquisa #P aumentará a qualidade#!"
+ stewardship_domain_special.1500.quality_decrease.tt:0 "A pesquisa #N diminuirá a qualidade#!"
+ stewardship_domain_special.1500.quality_based_taxes:0 "Com base na qualidade da pesquisa concluída"
+ stewardship_domain_special.1500.every_county_control:0 "[control|E] aumenta em relação à qualidade da pesquisa"
+ stewardship_domain_special.1500.every_county_summary:0 "Dá impostos proporcionalmente maiores [holding|E] para #V 5 anos#!"
+ stewardship_domain_special.1500.survey_not_completed:0 "Se a pesquisa não estiver concluída"
+
+ stewardship_domain_special.1501.desc:0 "Meu marechal [domesday_marshal.GetTitledFirstName] está preocupado que meus assessores sejam o alvo principal para bandidos e ladrões. Mesmo uma pesquisa incompleta poderia dar aos criminosos informações valiosas sobre potenciais alvos que poderiam atacar para manter meus súditos seguros, [domesday_marshal.GetFirstNameNoTooltip] recomenda enviar um guarda armado com cada assessor."
+ stewardship_domain_special.1501.a:0 "Minha lei é proteção suficiente para meus súditos!"
+ stewardship_domain_special.1501.a.tt:0 "Meus assessores podem ser atacados em condados com baixa [control|E]."
+ stewardship_domain_special.1501.b:0 "Organize uma milícia para proteger meus assessores."
+ stewardship_domain_special.1501.b.success:0 "Minhas milícias são capazes de manter meus assessores seguros"
+ stewardship_domain_special.1501.b.failure:0 "Minhas milícias são incapazes de proteger meus assessores"
+ stewardship_domain_special.1501.c:0 "Envie uma [ROOT.Char.Custom('MountedWarriorTerm')] com cada grupo de assessores."
+ stewardship_domain_special.1501.c.tt:0 "Meus assessores estarão protegidos contra ataques na estrada."
+
+ stewardship_domain_special.1510.opening:0 "[upset_priest.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_domain_special.1510.desc_opening:0 "Eu estava em um despertar rude quando as únicas pessoas que apareceram para o meu serviço esta manhã foram seus assessores fiscais! Aparentemente, os funcionários de aparência severa esperando do lado de fora da minha porta dissuadiram muitos fiéis [upset_priest.GetFaith.GetAdherentNamePluralNoTooltip] de assistir ao meu serviço."
+ stewardship_domain_special.1510.desc_ending:0 "Enquanto estou feliz em pagar minhas dívidas, os assuntos da igreja são inerentemente uma questão espiritual, não temporal, e seus topógrafos não têm o direito de estar aqui e interromper meus serviços!"
+ stewardship_domain_special.1510.desc_ending_not_endorsed:0 "\n\nOs assuntos da igreja são inerentemente uma questão espiritual, não temporal, e seus lacaios não têm o direito de estar aqui e interromper meus serviços!"
+ stewardship_domain_special.1510.a:0 "O [upset_priest.GetFaith.HouseOfWorshipPlural] deve ser avaliado, quer [upset_priest.GetSheHe] goste ou não!"
+ stewardship_domain_special.1510.b:0 "[upset_priest.GetSheHe|U] está certo, o [upset_priest.GetFaith.HouseOfWorshipPlural] são [upset_priest.GetFaith.HighGodNamePossessive] domínio."
+ stewardship_domain_special.1510.b.tt:0 "Excluo [upset_priest.GetTitledFirstNamePossessive] participações da avaliação"
+ stewardship_domain_special.1510.c:0 "Usarei o [upset_priest.GetFaith.ReligiousText] para justificar a avaliação."
+ stewardship_domain_special.1510.c.success:0 "Eu [upset_priest.GetTitledFirstName] convencer"
+ stewardship_domain_special.1510.c.success.tt:0 "Eu [upset_priest.GetTitledFirstName] convencer que a avaliação é justificada"
+ stewardship_domain_special.1510.c.failure:0 "Eu não consigo convencer [upset_priest.GetTitledFirstName]"
+ stewardship_domain_special.1510.c.failure.tt:0 "Não consigo convencer [upset_priest.GetTitledFirstName] que a avaliação é justificada"
+ 
+ stewardship_domain_special.1520.opening:0 "[concerned_noble.Custom2('AppropriateGreeting', ROOT.Char)]"
+ stewardship_domain_special.1520.desc:0 "Eu tenho pago fielmente minhas dívidas com a coroa todos os anos, mas no outro dia seus assessores fiscais apareceram na minha porta exigindo inspecionar minhas propriedades!\n\nDo você confia em mim tão pouco que você deve enviar homens para invadir minha privacidade?"
+ stewardship_domain_special.1520.a:0 "Claro que confio em você! Meus homens devem partir posthaste."
+ stewardship_domain_special.1520.a.tt:0 "Excluo [concerned_noble.GetTitledFirstNamePossessive] participações da avaliação"
+ stewardship_domain_special.1520.b:0 "Eu vou saber o que minhas terras contêm. Sem exceções."
+ stewardship_domain_special.1520.c:0 "Escondendo alguma coisa, é [concerned_noble.GetSheHe]? Substitua meus assessores por espiões!"
+ stewardship_domain_special.1520.c.tt:0 "Eu descubro um de [concerned_noble.GetTitledFirstNamePossessive] [secrets|E]"
+
+ stewardship_domain_special.1530.desc:0 "[city_mayor.GetTitledFirstName] veio até mim dizendo que a [guild_town.GetNameNoTierNoTooltip] Guild de Carpenter na [guild_county.GetName] está se recusando à sua inclusão na avaliação.\n\nEles afirmam que a avaliação viola os privilégios que foram concedidos em relação à gestão de seus próprios assuntos, e querem que meus assessores sejam chamados do município para que possam operar livremente."
+ stewardship_domain_special.1530.a:0 "As guildas serão avaliadas, privilégios serão condenados!"
+ stewardship_domain_special.1530.b:0 "Eu poderia isentá-los em troca de seus serviços..."
+ stewardship_domain_special.1530.c:0 "Eles rejeitam a minha autoridade!? Revogar seus charters!"
+
+ stewardship_domain_special.1540.desc.a:0 "Enquanto viajavam pelo [domesday_robbed_county.GetName], um grupo de bandidos atacou meus assessores. Vários assessores foram mortos e os registros que carregavam foram perdidos."
+ stewardship_domain_special.1540.desc.b:0 "Enquanto viajavam pelo [domesday_robbed_county.GetName], um grupo de bandidos atacou meus assessores. Felizmente, os soldados que eu tinha guardando meus assessores foram capazes de despachar os ladrões."
+ stewardship_domain_special.1540.a:0 "Ignore [domesday_robbed_county.GetNameNoTierNoTooltip]. Ele estará ausente da avaliação."
+ stewardship_domain_special.1540.b:0 "Aumente as patrulhas ao longo das estradas lá e envie mais assessores!"
+ stewardship_domain_special.1540.c:0 "Que isso seja uma lição para aqueles em [domesday_robbed_county.GetNameNoTierNoTooltip] que se oporiam a mim!"
+
+ stewardship_domain_special.1550.desc:1 "Ao comparar os impostos pagos a mim no ano passado com as informações da pesquisa recebidas, notei várias discrepâncias importantes... ou meus súditos têm me pago de forma consistente, ou algo está muito errado com esta pesquisa!\n\nIndicando mais adiante, descubro que meu [domesday_steward.GetCouncilTitle] [domesday_steward.GetTitledFirstName] vem comprometendo a pesquisa aceitando subornos de proprietários em troca de deixar suas participações fora da avaliação!"
+ stewardship_domain_special.1550.a:0 "Cancele a pesquisa e obrigue [domesday_steward.GetHerHim] a me pagar pelos custos."
+ stewardship_domain_special.1550.b:0 "Use o dinheiro do suborno para reavaliar essas participações corretamente."
+ stewardship_domain_special.1550.c:1 "Aprisionar [domesday_steward.GetTitledFirstNameNoTooltip], [domesday_steward.GetHerHis] posse como [domesday_steward.GetCouncilTitle] acabou."
+
+ stewardship_domain_special.1560.desc:0 "[city_mayor.GetTitledFirstName] me diz que comerciantes viajantes têm reclamado dos meus assessores no [trade_county.GetName].\n\nOs comerciantes viajantes parecem achar injusto ter seus produtos avaliados quando não são residentes do [ROOT.Char.GetPrimaryTitle.GetName], e vários estão ameaçando sair e nunca mais voltar."
+ stewardship_domain_special.1560.a:0 "Todos serão pesquisados, residentes ou não!"
+ stewardship_domain_special.1560.b:0 "Se eles me pagarem uma taxa, eu vou isentá-los."
+ stewardship_domain_special.1560.c:0 "Os comerciantes fazem um bom ponto."
+
+ stewardship_domain_special.1590.desc.start:0 "Depois de muitos longos meses inspecionando minhas terras, está feito."
+ stewardship_domain_special.1590.perfect.desc:0 "Sob minha orientação, meus acessórios compilaram um registro absolutamente perfeito de minhas participações. Com tudo detalhado até o último frango, isso garantirá que eu recolha o imposto integral e completo que me é devido todos os anos!"
+ stewardship_domain_special.1590.excellent:0 "Meus assessores compilam um registro preciso das minhas participações"
+ stewardship_domain_special.1590.excellent.desc:0 "Meus assessores compilaram um registro excepcionalmente preciso das minhas participações. Isso vai garantir que eu recolha o imposto integral e completo que me é devido todos os anos!"
+ stewardship_domain_special.1590.good:0 "Meus assessores compilam uma estimativa precisa das minhas participações"
+ stewardship_domain_special.1590.good.desc:0 "Meus assessores compilaram uma estimativa precisa das minhas participações. Isso garantirá que meus cobradores de impostos não percam nada importante ao contabilizar o que me é devido."
+ stewardship_domain_special.1590.mediocre:0 "Meus assessores compilam uma vaga estimativa das minhas participações"
+ stewardship_domain_special.1590.mediocre.desc:0 "Meus assessores só compilaram uma vaga estimativa das minhas participações. Embora ainda útil, meus coletores de impostos quase certamente perderão as coisas ao contabilizar o que me é devido."
+ stewardship_domain_special.1590.poor:0 "A pesquisa é tão imprecisa que é inutilizável"
+ stewardship_domain_special.1590.poor.desc:0 "Infelizmente meus assessores compilaram uma pesquisa tão imprecisa que é completamente inutilizável! Meus coletores de impostos estarão por conta própria este ano..."
+ stewardship_domain_special.1590.none.desc:0 "\n\nAstonishingly, cada província do meu reino de alguma forma conseguiu adquirir uma isenção que a excluiu da pesquisa. Como resultado, os registros acabados não contêm literalmente nenhuma informação sobre as participações do meu reino."
+ stewardship_domain_special.1590.every_county:0 "Todos os condados do [THIS.Char.GetPrimaryTitle.GetName]"
+ stewardship_domain_special.1590.every_nonexcluded_county:0 "Todos os condados não excluídos do [THIS.Char.GetPrimaryTitle.GetName]"
+ stewardship_domain_special.1590.high_quality.desc:1 "\n\nBeaming com orgulho, meu [domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] pergunta onde devemos armazenar os registros agora que eles estão completos."
+ stewardship_domain_special.1590.low_quality.desc:1 "\n\nMy [domesday_final_steward.GetCouncilTitle] [domesday_final_steward.GetFirstName] está consternado, dizendo que este não é o resultado [domesday_final_steward.GetSheHe] esperado."
+ stewardship_domain_special.1590.no_steward.desc:1 "\n\nE que só eu ainda tinha um [ROOT.GetCouncillorPosition( 'councillor_steward' ).GetPositionName], essa pesquisa poderia ter sido melhor."
+ stewardship_domain_special.1590.high_quality.a:0 "Restringir o acesso apenas aos meus coletores de impostos."
+ stewardship_domain_special.1590.high_quality.a.tt:0 "#F restringir o acesso a esses registros me dará informações exclusivas sobre minhas terras que posso explorar. #!"
+ stewardship_domain_special.1590.high_quality.b:0 "Distribua os registros entre o público!"
+ stewardship_domain_special.1590.high_quality.b.tt:0 "#F ter os registros de conhecimento público vai admirar e inspirar a população, melhorando o desenvolvimento em minhas terras. #!"
+ stewardship_domain_special.1590.poor_quality.a:0 "Que perda de tempo e dinheiro..."
+ stewardship_domain_special.1590.poor_quality.b:0 "Fogo [domesday_final_steward.GetFirstNameNoTooltip] por incompetência [domesday_final_steward.GetHerHis]!"
+ stewardship_domain_special.1590.poor_quality.d.tt:0 "É demitido do meu [council|E]"
+ stewardship_domain_special.1590.poor_quality.c:0 "[domesday_final_steward.GetSheHe|U] pagará por esse fracasso com [domesday_final_steward.GetHerHis] vida!"
+
+ # Visit displeased county, by Stephen Arthur
+ stewardship_domain_special.3010.t:0 "Agitação em [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3010.desc:0 "As pessoas em [stewardship_domain_special_3010_county.GetNameNoTier] parecem descontentes com a minha regra.\n\n Se eu visitasse o condado pessoalmente, eu poderia impressioná-los... ahem, #EMP necessidade#! da minha autoridade."
+ stewardship_domain_special.3010.a:0 "Vou mostrar-lhes do que sou feito!"
+ stewardship_domain_special.3010.b:0 "Meu tempo é muito importante para desperdiçar com a opinião deles."
+
+ stewardship_domain_special.3012.t:0 "visita [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3012.desc.a:0 "[stewardship_domain_special_3010_baron.GetTitledFirstName] explica com desculpas que as pessoas aqui são um lote indisciplinado, e que elas precisam ser feitas para entender que minha regra não deve ser questionada. Sua aceitação passiva não é suficiente, eu preciso de lealdade e obediência.\n\nComo posso convencê-los a cumprir?"
+ stewardship_domain_special.3012.desc.b:0 "As pessoas aqui são um lote indisciplinado.  Eles precisam ser feitos para entender que a minha regra não deve ser questionada.  Sua aceitação passiva não é suficiente, eu preciso de lealdade e obediência.\nComo posso convencê-los a cumprir?"
+ stewardship_domain_special.3012.a:0 "Com ouro, mostrarei minha generosidade."
+ stewardship_domain_special.3012.b:0 "Impressione-os com um grande discurso sobre a minha regra."
+ stewardship_domain_special.3012.b.success:0 "Eu impressiono as pessoas com o meu discurso"
+ stewardship_domain_special.3012.b.failure:0 "Minhas palavras caem e as pessoas estão impassível"
+ stewardship_domain_special.3012.c:0 "Os camponeses sofrerão por sua insolência!"
+
+ stewardship_domain_special.3014.t.a:0 "Ordem restaurada em [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3014.t.b:0 "Agitação em [stewardship_domain_special_3010_county.GetNameNoTier]"
+ stewardship_domain_special.3014.spent_gold.desc:0 "Dinheiro bem gasto. Minha grandeza comprou a conformidade do povo ao meu governo."
+ stewardship_domain_special.3014.popular_appeal_fail_learn_success.desc:0 "[stewardship_domain_special_3010_county.GetNameNoTier] é tão indisciplinado como sempre. No início, meus discursos foram difíceis, mas acho que melhoraram no final da minha visita."
+ stewardship_domain_special.3014.popular_appeal_fail_learn_fail.desc:0 "Meus discursos caíram em ouvidos surdos. Não sei o que estou fazendo de errado. [stewardship_domain_special_3010_county.GetNameNoTier] é tão indisciplinado como sempre."
+ stewardship_domain_special.3014.popular_appeal_success.desc:0 "Meus discursos bateram um cordão e agora [stewardship_domain_special_3010_county.GetNameNoTier] mostra maior conformidade com a minha regra."
+ stewardship_domain_special.3014.intimidate_success.desc:0 "Jogar meu peso em torno [stewardship_domain_special_3010_county.GetNameNoTier] parecia fazer o truque.  Eles encolhidos diante do meu poder e será melhores assuntos agora."
+
+ stewardship_domain_special.3014.a:0 "O ouro sempre encontra mãos vazias."
+ stewardship_domain_special.3014.b:0 "Pelo menos aprendi alguma coisa."
+ stewardship_domain_special.3014.c:0 "Minhas palavras movem o reino."
+ stewardship_domain_special.3014.e:0 "Deixe-os odiar, desde que eles temam."
+ stewardship_domain_special.3014.f:0 "Isso é tão frustrante. Será que eu vou melhorar a minha diplomacia?"
+ stewardship_domain_special.3014.f.tt:0 "Eu não aprendi nada sobre administração."
+
+ stewardship_domain_special.8031.t:0 "$stewardship_domain_special.8001.t$: Trazendo vida"
+ stewardship_domain_special.8031.aqueduct:0 "Estou presente para testemunhar as últimas pedras que estão sendo colocadas no meu novo aqueduto no [county.GetName]. Meu mordomo segura um copo e pega as primeiras gotas de água corrente, antes de oferecê-lo para mim."
+ stewardship_domain_special.8031.irrigation:0 "Estou presente no dia em que os diques serão trazidos para trazer água para minha nova rede de valas no [county.GetName]. Leva horas para a água começar a se espalhar adequadamente,"
+ stewardship_domain_special.8031.interlude:0 "\n\nO chão ainda é duro e inóspito, e muito trabalho permanece,"
+ stewardship_domain_special.8031.full_scope:0 "mas a água é fresca,"
+ stewardship_domain_special.8031.scoped_down:0 "especialmente porque meu projeto não é tão grandioso quanto eu tinha imaginado. No entanto, a água é fresca,"
+ stewardship_domain_special.8031.conclusion:0 "e com o tempo trará vida nova a este solo. À medida que os riachos se tornam um fluxo, refundo sobre tudo o que meu trabalho me ensinou."
+ stewardship_domain_special.8031.a:0 "Mesmo daqui a décadas colheremos a recompensa por isso."
+
+ # The Irrigation Project, by Petter Vilberg
+ stewardship_domain_special.8001.progress_is_made:0 "Progresso Significativo"
+ stewardship_domain_special.8001.continued_problems:0 "Problemas Contínuos"
+ stewardship_domain_special.8001.troubled_construction:0 "Construção Problemática"
+ stewardship_domain_special.8001.slow_progress:0 "Progresso Lento"
+ stewardship_domain_special.8001.high_death_count:0 "Alto Número de Mortes"
+ stewardship_domain_special.8001.project_continues:0 "#V O projeto continua#!"
+ stewardship_domain_special.8001.project_completed:0 "#P o projeto está concluído#!"
+
+ stewardship_domain_special.8001.t:0 "Irrigação"
+ stewardship_domain_special.8001.desc:1 "Há trechos justos de terra instável no [county.GetName], muitas vezes culpados por terrenos inadequados.\n\nMy [steward.GetCouncilTitle] sugeriu que um projeto de irrigação poderia torná-lo arável, e, portanto, valioso."
+ stewardship_domain_special.8001.a:0 "Vou projetar um aqueduto!"
+ stewardship_domain_special.8001.b:0 "Precisamos de uma rede de valas e solos."
+ stewardship_domain_special.8001.c:0 "Essa terra está instável por uma boa razão."
+ stewardship_domain_special.8001.if_successful:0 "Se for bem sucedido:"
+
+ stewardship_domain_special.8011.t:1 "$stewardship_domain_special.8001.t$: Atropelando o Orçamento"
+ stewardship_domain_special.8011.desc:0 "Meu arquiteto assistente nomeado veio até mim, solicitando que eu gaste ainda mais no meu projeto de aqueduto no [county.GetName].\n\n"Surely you yourself can see that any construction project would be expensive under these conditions, my [ROOT.Char.GetLadyLord].""
+ stewardship_domain_special.8011.a:1 "[steward.GetFirstNameNoTooltip], encontre um substituto!"
+ stewardship_domain_special.8011.a.tt:0 "#F eu tinha grandes esperanças para este... #!"
+ stewardship_domain_special.8011.b:0 "Você está certo. Pegue o que você precisa."
+
+ stewardship_domain_special.8012.t:1 "$stewardship_domain_special.8001.t$: Problemas Contínuos"
+ stewardship_domain_special.8012.desc:0 "!"it cannot be done, my liege"!"
+ stewardship_domain_special.8012.a:0 "Pegue o ouro, mas é melhor você completá-lo com isso!"
+ stewardship_domain_special.8012.a.tt:0 "#F Como pode custar tanto para construir um simples aqueduto? #!"
+ stewardship_domain_special.8012.b:0 "Levy mais camponeses para o corvée."
+
+ stewardship_domain_special.8013.t:1 "$stewardship_domain_special.8001.t$: Construção Problemática"
+ stewardship_domain_special.8013.desc:0 "é tão difícil de seguir?"build an aqueduct the way I want it"é tão difícil de seguir?"
+ stewardship_domain_special.8013.a:0 "Eu mesmo cuidarei das obras."
+ stewardship_domain_special.8013.b:0 "Camponeses recrutas para compensar o tempo perdido."
+
+ stewardship_domain_special.8021.t:1 "$stewardship_domain_special.8001.t$: Dificuldades Imprevistas"
+ stewardship_domain_special.8021.desc:1 "Meu projeto de irrigação em [county.GetNameNoTier] está progredindo, mas com mais dificuldade do que o esperado.\n\nAcordando minha [steward.GetCouncilTitle], o solo é ambos"twice as rocky and twice as porous as we thought.""
+ stewardship_domain_special.8021.a:0 "Os camponeses terão que trabalhar duas vezes mais duro, então!"
+ stewardship_domain_special.8021.b:0 "Devemos tomar nosso tempo e fazer isso direito."
+ stewardship_domain_special.8021.c:0 "Há sempre cantos que podemos cortar para voltar aos trilhos!"
+
+ stewardship_domain_special.8022.t:1 "$stewardship_domain_special.8001.t$: Condições Infelizes"
+ stewardship_domain_special.8022.desc:0 "Infelizmente, os trabalhadores camponeses estão perecendo a uma taxa alarmante." my steward reports. My smugness soon fades, however. "Infelizmente, os trabalhadores camponeses estão perecendo a uma taxa alarmante.""
+ stewardship_domain_special.8022.a:0 "Eu poderia precisar supervisionar as coisas um pouco mais perto daqui em diante."
+ stewardship_domain_special.8022.b:0 "Eles não vivem para me servir?"
+ stewardship_domain_special.8022.c:0 "Ah... Substituição de levy conforme necessário."
+ stewardship_domain_special.8022.c.tt:0 "#F não diga a eles por que eles são necessários. #!"
+
+ stewardship_domain_special.8023.t:1 "$stewardship_domain_special.8001.t$: Progresso Estagnado"
+ stewardship_domain_special.8023.desc:0 ""Muito atrás. Tendo inspecionado o trabalho, eu me preocupo se ele será completo em minha vida." my steward reports. "Muito atrás. Tendo inspecionado o trabalho, eu me preocupo se ele será completo em minha vida."\n\nI cannot tell whether [steward.GetSheHe] is serious or not."
+ stewardship_domain_special.8023.a:0 "Substitua os chefes de tarefas. E dar-lhes novos chicotes."
+ stewardship_domain_special.8023.b:0 "Contrate, por mais que muitos trabalhadores sejam necessários!"
+ stewardship_domain_special.8023.c:0 "Talvez seja hora de mirar um pouco mais baixo..."
+ stewardship_domain_special.8023.c.tt:0 "Isso reduzirá o efeito do meu projeto"
+
+  #Localisation for completion of the governance lifestyle.
+ stewardship_domain_special.9999.t:0 "All in My Ledger"
+ stewardship_domain_special.9999.desc_opening:0 "Com um dedo em cada torta, um olho em cada assunto, e uma opinião sobre cada decisão que me concentrei em questões administrativas há muito tempo."
+ stewardship_domain_special.9999.desc_education_4:0 "\n\nAs eu levantamento minhas realizações Eu percebo que não há mais nada para eu aprender!"
+ stewardship_domain_special.9999.desc_not_education:0 "\n\nAs eu levantamento minhas realizações Eu percebo que me tornei uma força administrativa a ser contada!"
+ stewardship_domain_special.9999.a:0 "Nada no estudo da governança me iludiu!"
+ stewardship_domain_special.9999.a.tt:1 "Sinto como se tivesse alcançado o máximo que jamais alcançarei no estudo de [stewardship_lifestyle|E]."

@@ -1,0 +1,6 @@
+﻿l_english:
+ CREATE_CLAIMANT_FACTION_NO_CLAIMANT_IN_REALM:0 "@warning_icon!#X não está em [CHARACTER.GetShortUINamePossessive] reino#!"
+ CREATE_CLAIMANT_FACTION_NO_CLAIMANT_UNLANDED:0 "@warning_icon!#X não é desocupado#!"
+ CREATE_CLAIMANT_FACTION_INVITE:0 "#T Convide como requerente#!"
+ CREATE_CLAIMANT_FACTION_SELECT_CLAIMANT:0 "@warning_icon!#X nenhum requerente selecionado#!"
+ CREATE_CLAIMANT_FACTION_SELECT_TITLE:0 "@warning_icon!#X nenhum título selecionado#!"

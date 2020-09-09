@@ -1,0 +1,52 @@
+﻿l_english:
+ start_hunt_mystical_animal_story_cycle_effect.tt:0 "Eu não vou saber descansar até que eu encontrá-lo!"
+
+ hunt_mystical_animal.1001.t:0 "O [ROOT.Char.Custom('LocalAnimal')|U] Branco"
+ hunt_mystical_animal.1001.desc:0 "A [ROOT.Char.Custom('LocalAnimalDesc')] branco [ROOT.Char.Custom('LocalAnimal')] que estou caçando vem a mim em um sonho, me julgando com seus olhos profundos e exibindo sua jaleco de peles imaculada.\n\n Estamos em uma [ROOT.Char.Custom('TerrainType')], tudo ao nosso redor em silêncio, e não importa como eu me movo eu não me aproximo da minha presa.\n\nAs eu me garra acordada eu sinto minha determinação endurecendo."
+ hunt_mystical_animal.1001.a:0 "Ele não vai me iludir por muito mais tempo!"
+
+ hunt_mystical_animal.1002.desc:0 "Estou com minha comitiva em [location.GetNameNoTierNoTooltip] quando a estrada gira e nos leva perto da [ROOT.Char.Custom('TerrainType')]. É lá que eu vejo mais uma vez, brilhando ao sol – o [ROOT.Char.Custom('LocalAnimal')] branco.\n\nI viro para alertar os outros, mas quando eu voltar o [ROOT.Char.Custom('LocalAnimal')] já se foi."
+ hunt_mystical_animal.1002.a:0 "Isso me provoca!"
+
+ hunt_mystical_animal.1003.desc:0 "Desde que comecei, meus relatórios de busca estão chegando de todo o domínio das pessoas que viam o [ROOT.Char.Custom('LocalAnimalDesc')] branco [ROOT.Char.Custom('LocalAnimal')].\n\nPara mudar as contas e classificar fatos da ficção é uma tarefa enorme. Se ao menos os relatórios fossem mais confiáveis..."
+ hunt_mystical_animal.1003.a:0 "Eu vou empregar pessoas para procurá-lo!"
+ hunt_mystical_animal.1003.b:0 "Esta tarefa é muito grande. Eu não vou ter nada disso."
+ hunt_mystical_animal.1003.b.tt:1 "Você não vai mais caçar o animal."
+ hunt_mystical_animal.1003.c:0 "Meu [steward.GetCouncilTitle] vai resolver isso."
+ hunt_mystical_animal.1003.d:0 "Eu posso fazer isso. Eu #EMP deve#!!"
+
+ hunt_mystical_animal.1004.desc:0 ""Meu [ROOT.Char.GetLadyLord]! Recebemos relatos de pessoas vendo o [ROOT.Char.Custom('LocalAnimal')] branco na floresta local! Eles afirmam que tudo, da prosperidade à doença, segue-o, mas todos parecem bastante certos de que está na área."\n\nIt's here? In [location.GetNameNoTier]?!"
+ hunt_mystical_animal.1004.a:0 "Nós cavalgamos!"
+ hunt_mystical_animal.1004.a.tt:0 "Não vai me iludir desta vez."
+ hunt_mystical_animal.1004.b:0 "Eu não vou permitir que ele puxe minhas cordas assim."
+
+ hunt_mystical_animal.1005.desc:0 "\n\nE o [ROOT.Char.Custom('LocalAnimal')] se afasta para o [ROOT.Char.Custom('TerrainType')], foi tão rápido quanto parecia."
+ hunt_mystical_animal.1005.a:0 "Maldições! Eu vou levá-lo ainda!"
+
+ hunt_mystical_animal.1006.desc:0 "Enquanto olho pela janela, o [ROOT.Char.Custom('LocalAnimal')] branco está ali, na beira da [ROOT.Char.Custom('TerrainType')], #EMP provocação#! me.\n\nAs eu me viro me deparo com o tecido branco dos meus lençóis, e enquanto tento fugir deles eu corro na cabeça de um [ROOT.Char.Custom('LocalAnimal')], montado na parede. Eu fecho meus olhos e lá está ele – o [ROOT.Char.Custom('LocalAnimal')] branco – rindo de mim!"
+ hunt_mystical_animal.1006.a:0 "EU VOU TE PEGAR!"
+ hunt_mystical_animal.1006.b:0 "Você! Você agora é o [ROOT.Char.Custom('LocalAnimal')] branco! Volte aqui!"
+
+ hunt_mystical_animal.1007.desc:0 "A [ROOT.Char.Custom('LocalAnimal')] branca esquiva foi vista!\n\nAs eu sigo seus rastros em uma floresta local, cada vez mais profunda na vegetação, as coisas começam a mudar de forma. Eu vejo cogumelos do tamanho de um [ROOT.Char.Custom('ResidenceBuilding')], árvores tão pequenas quanto um rato, e lagartas do tamanho de um cavalo."
+ hunt_mystical_animal.1007.a:0 "Não importa o buraco que você rastejar para eu vou encontrá-lo!"
+ hunt_mystical_animal.1007.b:0 "Oh, esses cogumelos... Eles parecem saborosos."
+ hunt_mystical_animal.1007.b.success:0 "Yum!"
+ hunt_mystical_animal.1007.b.failure:0 "Estou me sentindo um pouco doente..."
+
+ hunt_mystical_animal.1008.desc:0 "Com o passar dos dias e não ouço nada sobre o [ROOT.Char.Custom('LocalAnimal')] branco eu fico inquieto.\n\nSurely alguém deve ter visto isso? E todos os camponeses sujando o [ROOT.Char.Custom('TerrainType')]? Talvez eu devesse apelar para a ajuda deles..."
+ hunt_mystical_animal.1008.a:0 "Envie uma missiva!"
+ hunt_mystical_animal.1008.b:0 "Eu não vou afundar tão baixo."
+ hunt_mystical_animal.1008.c:0 "Eu vou enviá[knight.GetFirstNameNoTooltip]."
+
+ hunt_mystical_animal.1009.desc:0 ""Meu [ROOT.Char.GetLadyLord], essa busca de vocês por uma mera besta... Eu tenho que admitir que me preocupa."\n\n[court_chaplain.Custom2('MyCharacterIntroduction', ROOT.Char)|U] approaches me as I sift through reports of new sightings of the white [ROOT.Char.Custom('LocalAnimal')]. Evidently anything that demands so much attention could be sent by [ROOT.Char.GetFaith.DevilName]; as if its existence is not a sign of [ROOT.Char.GetFaith.HighGodNameAlternate] [ROOT.Char.GetFaith.HighGodHerselfHimself]!"
+ hunt_mystical_animal.1009.a:0 "O [ROOT.Char.Custom('LocalAnimal')] é um mensageiro de [ROOT.Char.GetFaith.HighGodName]."
+ hunt_mystical_animal.1009.a.success:0 ""Você pode estar correto...""
+ hunt_mystical_animal.1009.a.failure:0 ""O que você está acontecendo?""
+ hunt_mystical_animal.1009.b:0 "Não é da sua conta."
+ hunt_mystical_animal.1009.c:0 "Você está certo, o que eu estive pensando?"
+
+ hunt_mystical_animal.9001.desc:0 "Eu sigo as trilhas cada vez mais profundamente na [ROOT.Char.Custom('TerrainType')] e tudo fica quieto ao meu redor.\n\nAs se nascido do próprio ar a [ROOT.Char.Custom('LocalAnimal')] branca de repente está diante de mim, pele brilhando na luz do sol e olhos tão profundos quanto sonhos. Eu levanto meu arco..."
+ hunt_mystical_animal.9001.a:0 "... e eu deixei a flecha voar."
+
+ hunt_mystical_animal.9002.desc:0 ""Meu [ROOT.Char.GetLadyLord]! Um camponês local lhe enviou um presente. [dummy_peasant_gender.GetSheHe|U] afirma que essa coloração branca é natural, mas eu nunca vi nada parecido!"\n\nWith rising trepidation I approach the bundle – and there it lies, the white [ROOT.Char.Custom('LocalAnimal')] I have spent years hunting."
+ hunt_mystical_animal.9002.a:0 "Isso tem que ser uma piada...!"

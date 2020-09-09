@@ -1,0 +1,377 @@
+﻿l_english:
+ activity_pilgrimage:0 "Peregrinação"
+ activity_pilgrimage_owner:0 "Peregrino"
+ activity_pilgrimage_name:0 "A Peregrinação"
+ pilgrimage_header:0 "[ROOT.Char.Custom('PilgrimageHeader')]"
+ very_long_pilgrimage_tt:0 "Esta é uma peregrinação #V excepcionalmente longa#!"
+ long_pilgrimage_tt:0 "Esta é uma peregrinação #V muito longa#!"
+ medium_pilgrimage_tt:0 "Esta é uma #V longa peregrinação#!"
+ short_pilgrimage_tt:0 "Esta é uma peregrinação #V curta#!"
+ pilgrimage_other_selections_available_tt:0 "Eu posso considerar outros Locais Sagrados"
+ pilgrimage_because_i_have_armed_pilgrimages:0 "Porque sua [faith|E] tem a [GetFaithDoctrine('tenet_armed_pilgrimages').GetBaseName] [core_tenet|E]:"
+ pilgrimage_because_i_have_tenet_mendicant_preachers:0 "Porque sua [faith|E] tem a [GetFaithDoctrine('tenet_mendicant_preachers').GetBaseName] [core_tenet|E]:"
+ pilgrimage_because_i_have_tenet_pentarchy:0 "Porque sua [faith|E] tem a [GetFaithDoctrine('tenet_pentarchy').GetBaseName] [core_tenet|E]:"
+ pilgrimage_because_i_have_tenet_esotericism:0 "Porque sua [faith|E] tem a [GetFaithDoctrine('tenet_esotericism').GetBaseName] [core_tenet|E]:"
+ pilgrimage_because_i_have_tenet_struggle_submission:0 "Porque sua [faith|E] tem a [GetFaithDoctrine('tenet_struggle_submission').GetBaseName] [core_tenet|E]:"
+ pilgrimage_because_i_have_tenet_ancestor_worship:0 "Porque sua [faith|E] tem a [GetFaithDoctrine('tenet_ancestor_worship').GetBaseName] [core_tenet|E]:"
+ pilgrimage_learn_from_the_bishops:0 "Tente entender os professores sagrados"
+ pilgrimage_learn_from_the_bishops_success:0 "Você absorve as lições"
+ pilgrimage_learn_from_the_bishops_failure:0 "O conhecimento ainda te ilude"
+
+ pilgrimage_return_home:0 "Eu volto para casa para [start_location.GetNameNoTier]"
+
+ # Generic Pilgrimage Start Events
+
+ pilgrimage.0001.t:0 "Peregrinação [ROOT.Char.GetFaith.GetAdjectiveNoTooltip]"
+ pilgrimage.0001.desc:0 "É hora de eu partir em minha jornada para um dos lugares sagrados. Mas qual deles?"
+ pilgrimage.0001.a:0 "O local em [holy_site_1.GetNameNoTierNoTooltip]."
+ pilgrimage.0001.b:0 "O [ROOT.Char.GetFaith.HouseOfWorshipPlural] em [holy_site_2.GetNameNoTierNoTooltip]."
+ pilgrimage.0001.c:0 "Para [holy_site_3.GetNameNoTierNoTooltip]!"
+ pilgrimage.0001.d:0 "Talvez em outro lugar..."
+ pilgrimage.0001.e:0 "Eu mudei de ideia. Este não é o momento certo."
+ pilgrimage.0002.a:0 "O local em [holy_site_4.GetNameNoTierNoTooltip]."
+ pilgrimage.0002.b:0 "O [ROOT.Char.GetFaith.HouseOfWorshipPlural] em [holy_site_5.GetNameNoTierNoTooltip]."
+ pilgrimage.0002.c:0 "Para [holy_site_6.GetNameNoTierNoTooltip]!"
+ pilgrimage.0003.a:0 "O local em [holy_site_7.GetNameNoTierNoTooltip]."
+ pilgrimage.0003.b:0 "O [ROOT.Char.GetFaith.HouseOfWorshipPlural] em [holy_site_8.GetNameNoTierNoTooltip]."
+ pilgrimage.0003.c:0 "Para [holy_site_9.GetNameNoTierNoTooltip]!"
+
+ pilgrimage.1001.t:0 "$pilgrimage_header$ Partida"
+ pilgrimage.1001.desc.opening:0 "Enquanto me preparo para minha jornada, sei que viajarei com segurança sob a proteção de [ROOT.Char.GetFaith.PantheonTerm]."
+ pilgrimage.1001.desc.short:0 "Embora eu não fique fora por muito tempo, rezo pelo bem-estar do reino na minha ausência."
+ pilgrimage.1001.desc.medium:0 "Enquanto eu vou com [ROOT.Char.GetFaith.HighGodNameAlternate], meu reino deve esperar, por mais tempo que eu possa ter ido embora."
+ pilgrimage.1001.desc.long:0 "\n\nMy destino está longe de casa, mas a serviço de [ROOT.Char.GetFaith.DivineRealm], até meu próprio reino deve esperar."
+ pilgrimage.1001.desc.very_long:0 "Muito tempo estarei fora, e só posso rezar [ROOT.Char.GetFaith.HighGodNameAlternate] cuida do meu reino também."
+ pilgrimage.1001.a:0 "É hora de partir."
+
+ # Generic Pilgrimage Journey Events 
+
+ pilgrimage.2001.t:0 "$pilgrimage_header$ Bandidos!"
+ pilgrimage.2001.desc:0 "Eu acordo com o barulho do caos no acampamento, mas só levo alguns momentos para perceber o que está acontecendo.\n\nEstamos sob ataque!\n\nBandits estão invadindo nossas tendas e vagões, enquanto nossos guardas fazem o que podem para resistir."
+ pilgrimage.2001.a:0 "Onde está minha espada? Eu vou afastar esses cães!"
+ pilgrimage.2001.a.success:0 "Os bandidos são expulsos"
+ pilgrimage.2001.a.success_title:0 "Bandidos Se defenderam"
+ pilgrimage.2001.a.failure:0 "Estou ferido na luta"
+ pilgrimage.2001.a.failure_title:0 "Ferido enquanto luta!"
+ pilgrimage.2001.b:0 "Tem que haver algum lugar por aqui que eu possa me esconder!"
+ pilgrimage.2001.b.success:0 "Eu encontro segurança debaixo de uma carroça"
+ pilgrimage.2001.b.success_tt:0 "Eu saio ileso"
+ pilgrimage.2001.b.success_title:0 "São e Salvo"
+ pilgrimage.2001.b.failure:0 "Os bandidos atearam fogo no vagão"
+ pilgrimage.2001.b.failure_title:0 "O Vagão Queima!"
+ pilgrimage.2001.c:0 ""Pare com essa loucura! Eu vou pagar o que você quiser!""
+
+ pilgrimage.2002.t:0 "$pilgrimage_header$ te amo próximo"
+ pilgrimage.2002.desc:0 A maioria das pessoas evitam seus olhos quando [dummy_gender.GetSheHe] olha para eles. Esta noite, eu não fui rápido o suficiente. "abominable monsters in the eyes of [ROOT.Char.GetFaith.PantheonTerm]! Deviants and child murderers all!A maioria das pessoas evitam seus olhos quando [dummy_gender.GetSheHe] olha para eles. Esta noite, eu não fui rápido o suficiente. "Do you not agree, o [ROOT.Char.GetTitleAsNameNoTooltip]?""
+ pilgrimage.2002.a:0 "Eles não são #EMP todos#! tão ruim."
+ pilgrimage.2002.b:0 "Eu concordo, e eu não confiaria em ninguém que veio em sua defesa!"
+ pilgrimage.2002.c:0 "Verdadeiramente! Eles cospem na cara de [ROOT.Char.GetFaith.HighGodName]!"
+
+ pilgrimage.2003.t:0 "$pilgrimage_header$ Perda de Companheiros"
+ pilgrimage.2003.desc:0 "Para cada semana que passa, minha bolsa fica cada vez menor. Alguns foram o mais longe que puderam antes que a necessidade de voltar para casa os ultrapasse, outros se encontraram com fins menos afortunados.\n\nNN preocupação é o fato de que meu grupo de guardas pessoais está diminuindo a uma taxa alarmante. Esse fato por si só mostra o que uma jornada traiçoeira isso pode ser."
+ pilgrimage.2003.a:0 "Alguns dos locais parecem fazer guardas ferozes."
+ pilgrimage.2003.b:0 "Tudo que eu preciso é a proteção de [ROOT.Char.GetFaith.PantheonTerm]."
+
+ pilgrimage.2004.t:0 "$pilgrimage_header$ um encontro inesperado"
+ pilgrimage.2004.desc:0 "\n\nÉ ninguém menos que [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"[ROOT.Char.GetTitledFirstNameNoTooltip]?! Is that you?"\n\nÉ ninguém menos que [potential_friend.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ pilgrimage.2004.a:0 "Fomos reunidos por [ROOT.Char.GetFaith.PantheonTerm]!"
+ pilgrimage.2004.b:0 "Uma reunião auspiciosa, mas devo rezar na solidão."
+
+ pilgrimage.2005.t:0 "$pilgrimage_header$ Uma História Rude"
+ pilgrimage.2005.desc:0 "Passando pela fogueira, um dos meus companheiros de viagem está contando uma história [dummy_peasant_gender.GetSheHe] uma vez ouviu falar de algum [ROOT.Char.GetTitleAsNameNoTooltip], para risos raivosos. Todos eles ficam em silêncio quando eu me aproximo - exceto pelo contador de histórias.\n\n"Ah, don't worry, m'[ROOT.Char.GetLadyLord], you're nothing like the [ROOT.Char.Custom('InsultNoun')] in this story! It's about the [ROOT.Char.GetTitleAsNameNoTooltip] of some far away place called [title.GetNameNoTierNoTooltip].""
+ pilgrimage.2005.a:0 ""Realmente, agora? Diga-me mais deste [ROOT.Char.GetTitleAsNameNoTooltip].""
+ pilgrimage.2005.a.flavor:0 "Eu me sento perto do fogo."
+ pilgrimage.2005.b:0 ""Guardas! Buscar o meu chicote.""
+ pilgrimage.2005.c:0 "Talvez seja hora de encontrar outros para viajar."
+
+ pilgrimage.2006.t:0 "$pilgrimage_header$ perdido!"
+ pilgrimage.2006.desc:0 "Eu poderia jurar que este deveria ser o caminho a seguir!\n\nNone dos meus companheiros - ou eu - conseguiram encontrar o caminho de volta para a rota de peregrinação. Estamos olhando para as estrelas certas à noite? Parece que estamos desperdiçando semanas."
+ pilgrimage.2006.a:0 "Temos que encontrar um guia, não importa o custo."
+ pilgrimage.2006.b:0 "Eu juro que é apenas um pouco mais longe nesta direção..."
+
+ pilgrimage.2007.t:0 "Reflexões $pilgrimage_header$"
+ pilgrimage.2007.desc:0 "Aqui fora, tarde da noite, às vezes olho para as estrelas e me pergunto. Pode [ROOT.Char.GetFaith.PantheonTerm] me ver, tão longe de casa?\n\n Por que estou fazendo tudo isso?"
+ pilgrimage.2007.a:0 "[ROOT.Char.GetFaith.PantheonTerm|U] gostaria que eu, é claro!"
+ pilgrimage.2007.b:0 "O que eu realmente quero é ver terras estrangeiras."
+ pilgrimage.2007.c:0 "Isso é tudo por causa das aparências."
+
+ pilgrimage.2008.t:0 "Doença $pilgrimage_header$"
+ pilgrimage.2008.desc:0 "Parece que eu não levei bem para toda essa viagem. Talvez sejam as terras estranhas cheias de ar desconhecido, ou talvez minhas peles não estejam quentes o suficiente.\n\nOumais, minha tosse tem sido persistente por semanas, e esta manhã eu mal pude reunir forças para sair da cama. Será que eu ainda tenho a força para continuar em frente?"
+ pilgrimage.2008.a:0 "Não é hora de desistir!"
+ pilgrimage.2008.a.tt:0 "Viajar enquanto [GetTrait('ill').GetName( GetPlayer )] representa maiores riscos à saúde"
+ pilgrimage.2008.b:0 "Eu não posso continuar assim."
+ pilgrimage.2008.whole_of_body:0 "Oh, esta pequena tosse vai passar rápido o suficiente."
+
+ pilgrimage.2009.t:0 "$pilgrimage_header$ tosse raspando"
+ pilgrimage.2009.desc:0 "A jornada não está me fazendo bem. Minha saúde não melhorou na minha busca para buscar a graça da [ROOT.Char.GetFaith.PantheonTerm]. Ficou muito, muito pior. Eu não me lembro como é respirar sem luta."
+ pilgrimage.2009.a:0 "Eu vou ver isso através. Que [ROOT.Char.GetFaith.HighGodNameAlternate] tenha misericórdia."
+ pilgrimage.2009.b:0 "É claramente [ROOT.Char.GetFaith.HighGodNamePossessive] desejo que eu recue."
+
+ # Meet a mystic
+ pilgrimage.2010.t:0 "$pilgrimage_header$ O Místico"
+ pilgrimage.2010.desc:0 "[mystic.GetTitledFirstName] é uma das pessoas mais estranhas que conheci nesta jornada. [mystic.GetSheHe|U] parece ser um crente firme, mas também expõe sobre a verdadeira natureza do [ROOT.Char.GetFaith.HighGodName] e o que tudo isso significa. À noite, [mystic.GetHerHis] tenda é iluminada pelas velas dentro, e ocasionalmente estranhos cantos e incenso incomum flui a partir dela.\n\nI estou totalmente despreparado quando [mystic.GetFirstNameNoTooltip] me oferece para entrar."
+ pilgrimage.2010.a:0 "Estou muito curioso..."
+ pilgrimage.2010.a.tt:0 "Você entra na tenda"
+ pilgrimage.2010.b:0 "Não obrigado, isso tudo cheira de heresia para mim!"
+
+ pilgrimage.2011.desc:0 " [mystic.GetSheHe] explica e se senta.\n\n"It is important that we turn our gaze within ourselves," [mystic.GetSheHe] explica e se senta.\n\n"I want you to close your eyes and focus, as I do. Let [ROOT.Char.GetFaith.PantheonTerm] flow through you. Reach for the ecstasy of divinity!""
+ pilgrimage.2011.a:0 "Sim! Eu posso sentir a minha conexão com [ROOT.Char.GetFaith.HighGodNameAlternate]!"
+ pilgrimage.2011.a.tt:0 "Você experimenta o êxtase da divindade"
+ pilgrimage.2011.b:0 "Isso é tão confortável, eu poderia apenas dormir..."
+ pilgrimage.2011.b.tt:0 "Você tem um cochilo agradável"
+ pilgrimage.2011.c:0 "Diga-me, como isso tem algo a ver com [ROOT.Char.GetFaith.HighGodName]?"
+ pilgrimage.2011.c.tt:0 "Você engaja o místico no debate"
+ 
+ pilgrimage.2012.desc:0 "Eu não consigo lembrar muito bem o que aconteceu depois que eu entrei na tenda mística. Tudo o que me lembro são imagens vagas e um senso de tontura.\n\nAgora me pergunto se [mystic.GetSheHe] já esteve aqui..."
+ pilgrimage.2012.a:0 "[mystic.GetSheHe|U] tinha um monte de ideias estranhas."
+
+ pilgrimage.2013.desc:0 "Depois de seguir [mystic.GetTitledFirstNamePossessive] instruções, posso ver tudo muito mais claramente. Eu #EMP posso sentir#! isso. [ROOT.Char.GetFaith.PantheonTerm|U], o mundo, tudo tem sido correndo pelo meu corpo. Através da minha alma.\n\nQuando eu saio da tenda horas depois, eu tenho uma nova compreensão de mim mesmo, e da vida."
+ pilgrimage.2013.a:0 "Eu era cego antes, e agora eu vejo."
+
+ pilgrimage.2014.desc:0 "Quando acordo dormindo na [mystic.GetTitledFirstNamePossessive] tenda, a tenda em si se foi. Meus criados estão me despertando do tapete em que dormi, mas não há outro traço do místico.\n\nAlto pelo menos o sono era revigorante!"
+ pilgrimage.2014.a:0 "Por que minha bolsa se sente curiosamente leve?"
+
+ pilgrimage.2015.desc:0 "Vou ser honesto, nunca esperei que [mystic.GetTitledFirstName] fosse capaz de responder por [mystic.GetHerHis] práticas estranhas, bem como [mystic.GetSheHe] fez.\n\nEu ainda sou suspeito de... o que quer que seja [mystic.GetSheHe] está fazendo, mas eu certamente tenho algumas novas perspectivas a considerar!"
+ pilgrimage.2015.a:0 "Como #EMP pode#! você se aproximar [ROOT.Char.GetFaith.PantheonTerm]?"
+
+ # 'Temptation/Virtue' Journey Events
+ pilgrimage.2501.t:0 "$pilgrimage_header$ Pobre Miserável"
+ pilgrimage.2501.desc.opening:0 "Enquanto minha comitiva viaja por uma cidade pequena, sinto um puxão na bainha das minhas roupas. Voltando-se para olhar, eu vejo um fino, esfarrapado [beggar.GetWomanMan], olhando para mim.\n\n"Oh great lord, I beg of you, could you spare some coins for a poor beggar? I am starving, and none of the locals will aid me.""
+ pilgrimage.2501.desc.virtue.generous:0 "\n\nOmessão da generosidade não é da minha natureza, estar em peregrinação me lembra que a caridade é esperada de todos os devotos [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]..."
+ pilgrimage.2501.desc.virtue.compassionate:0 "\n\nOde eu sou indiferente à [beggar.GetHerHis] situação, estar em peregrinação me lembra que a compaixão pelos menos afortunados é esperada de todos os devotos [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip]..."
+ pilgrimage.2501.desc.sin.generous:0 "\n\nAs lamentáveis como o miserável parece, lembro-me que [ROOT.Char.GetFaith.PantheonTerm] considera a caridade um pecado grave..."
+ pilgrimage.2501.a.virtue:0 "Em [ROOT.Char.GetFaith.HighGodNamePossessive] nome, acho que você pode pegar essas moedas..."
+ pilgrimage.2501.a.sin:0 "Eu não posso trazer-me a dizer não!"
+ pilgrimage.2501.b:0 "Bah! Vá conseguir um emprego de verdade, ganhe seu sustento!"
+ pilgrimage.2501.c.arrogant:0 "Você ousa tocar minhas roupas, camponês!?"
+
+ pilgrimage.2502.t:0 "$pilgrimage.2501.t$"
+ pilgrimage.2502.desc.gave:0 ""Sim! Sim, obrigado [ROOT.Char.Custom('LadyLordWomanMan')], obrigado... [ROOT.Char.GetFaith.HighGodName], não é? Agradeça a eles também! Mas, oh generoso [ROOT.Char.Custom('LadyLordWomanMan')], se eu pudesse pedir outro favor?"
+ pilgrimage.2502.desc.refused:0 ""Não! Não meu [ROOT.Char.Custom('LadyLordWomanMan')], por favor, tenha misericórdia!"
+ pilgrimage.2502.desc.end:0 "Minha irmã está doente, e precisa desesperadamente de remédio! Seu dinheiro pode salvar a vida dela, por favor! Nós seríamos muito gratos a você!""
+ pilgrimage.2502.a:0 "Eh... Sim. OKEY. Para o remédio."
+ pilgrimage.2502.b:0 "Não, eu não posso! Não é #EMP certo#!!"
+ pilgrimage.2502.c.gave:0 "Não, eu fiz a minha parte!"
+ pilgrimage.2502.c.refused:0 "Eu disse #EMP não#!! Agora scram!"
+
+ pilgrimage.2503.t:0 "$pilgrimage.2501.t$"
+ pilgrimage.2503.desc:0 ""Maravilhosa! Que ela se recupere de sua doença em breve. Mas se eu pudesse pedir apenas mais um favor? Minha irmã, ela tem filhos, e bem, você sabe como são as crianças. Eles comem tanto! Se você pudesse fornecer alguma comida para eles também...?""
+ pilgrimage.2503.a:0 "Tudo bem. Sim. Nenhuma criança deve passar fome."
+ pilgrimage.2503.b:0 "Acho que já dei o suficiente."
+
+ pilgrimage.2504.t:0 "$pilgrimage.2501.t$"
+ pilgrimage.2504.desc:0 "Muitos, muito obrigado a você meu [ROOT.Char.Custom('LadyLordWomanMan')]! Sou eternamente grato, pois estou em dívida com você por algo que nunca poderei retribuir!\n\n[ROOT.Char.GetFaith.HighGodNamePossessive] generosidade é realmente grande, cantarei [ROOT.Char.GetFaith.HighGodHerHis] louvores até o fim dos meus dias!"
+ pilgrimage.2504.a:0 "Você esqueceu, eu dei isso também."
+ pilgrimage.2504.a.flavor:0 "Você deixaria o melhor para trás?"
+ pilgrimage.2504.b:0 "Em dívida comigo, você diz? Hmm..."
+ pilgrimage.2504.c.virtue:0 "Você é bem-vindo. Agora vá, com [ROOT.Char.GetFaith.HighGodNamePossessive] bênção."
+ pilgrimage.2504.c.sin:0 "Sim, sim, por favor... ir."
+
+ pilgrimage.2511.t:0 "$pilgrimage_header$ Cocky Lordling"
+ pilgrimage.2511.desc.start:0 "[destination_title.GetNameNoTierNoTooltip] atrai peregrinos de todo o mundo [ROOT.Char.GetFaith.GetAdjectiveNoTooltip], então não é inconcebível que eu corra para [lordling.Custom2('MyCharacterIntroduction', ROOT.Char)] na minha jornada.\n\nO que #EMP é#! inconcebível é a maneira insolente que [lordling.GetSheHe] me tratou, cortando minha comitiva em [lordling.GetHerHis] cavalo e me chamando de [ROOT.Char.Custom('InsultNoun')]... #EMP na minha cara#!, nada menos!"
+ pilgrimage.2511.desc.wrathful:0 "\n\nMy sangue ferve, temperado apenas pelo conhecimento de que o [ROOT.Char.GetFaith.PriestNeuterPlural] nos dizer para exercitar a contenção e não deixar nossas emoções assumirem o controle."
+ pilgrimage.2511.desc.vengeful:0 "Estamos em momentos como este, me lembro [ROOT.Char.GetFaith.PantheonTerm] nos ordena perdoar aqueles que nos injustiçaram."
+ pilgrimage.2511.desc.vengeful.christian:0 "\n\nÉ momentos como este eu sou lembrado Jesus nos ordenou a virar a outra face..."
+ pilgrimage.2511.a:0 "Droga tudo, eu vou ensinar que whelp uma lição!"
+ pilgrimage.2511.b:0 "Respire... respire..."
+ pilgrimage.2511.c:0 "Não #EMP tem#! ser uma maneira melhor de lidar com essa raiva."
+
+ # Christian Pilgrimage Journey Events
+
+ pilgrimage.3001.t:0 "$pilgrimage_header$ Lágrimas de [ROOT.Char.GetFaith.WaterGodName]"
+ pilgrimage.3001.desc:0 "Mesmo em peregrinação, os padres ainda realizam missa todos os domingos. É realizada ao ar livre quando nenhuma igreja está por perto, mas no início desta manhã, uma tempestade rolou e não cessou.\n\nUndeterred, um zeloso [ROOT.Char.Custom('DefaultPriestTitle')] está se destacando na chuva, dando um sermão sobre perseverança diante das adversidades. Apesar disso, o tamanho do público [zealous_priest.GetHerHis] está diminuindo rapidamente à medida que os adeptos desencorajados buscam refúgio da chuva torrencial."
+ pilgrimage.3001.a:0 "O que é um pouco de chuva para um fiel [ROOT.Char.GetFaith.GetAdherentNameNoTooltip]?"
+ pilgrimage.3001.a.tt:0 "$pilgrimage.2008.a.tt$"
+ pilgrimage.3001.b:0 "Esqueça essa loucura, estarei na minha tenda."
+
+ pilgrimage.3002.t:0 "$pilgrimage_header$ Inocência de Adão"
+ pilgrimage.3002.desc:0 "Enquanto meu partido se prepara para quebrar o acampamento, notei uma enorme comoção nas proximidades - um [naked_preacher.GetWomanMan] nu subiu em cima de uma grande rocha e está pregando para a multidão montada.\n\n"The original sin still stains our souls my friends, but that need not be so! If we shed our garbs, can we recover the lost innocence of Adam and Eve... then, and #EMP only#! then, will the Holy Spirit see fit to touch us and show us God's true love!""
+ pilgrimage.3002.a:0 "[naked_preacher.GetSheHe|U] tem a ideia certa! Eu nunca me senti tão perto de [ROOT.Char.GetFaith.HighGodName]!"
+ pilgrimage.3002.b:0 "Herege! Obter [naked_preacher.GetHerHim] para baixo de lá!"
+ pilgrimage.3002.c:0 "Desafie [naked_preacher.GetHerHim] a um debate teológico."
+ pilgrimage.3002.c.success:0 "Você convence o pregador da loucura [naked_preacher.GetHerHis]"
+ pilgrimage.3002.c.failure:0 "Você é incapaz de contrariar os argumentos do pregador"
+ pilgrimage.3002.d:0 "Ignore [naked_preacher.GetHerHim] e continue minha jornada."
+
+ pilgrimage.3003.t:0 "$pilgrimage_header$ o fim está próximo"
+ pilgrimage.3003.desc:0 "Quando meu partido passa por uma cidade pequena, percebo uma multidão de pessoas enchendo a praça do mercado. No centro, um [doomsayer.GetWomanMan] fica em um carrinho de peixes virado, gritando descontroladamente para todos que vão ouvir.\n\n"The Day of Judgement is nigh! Repent! Repent I say, or you shall be damned for all eternity!\n\nThe worried looking townsfolk nervously whisper to each other, fearful of the doomsayer's words."
+ pilgrimage.3003.a:0 ""De die autem illa et hora nemo scit!""
+ pilgrimage.3003.a.flavor:0 "A Bíblia é clara; nenhum homem sabe quando o Dia deve ser!"
+ pilgrimage.3003.b:0 "Estou feliz que esta peregrinação vem com uma indulgência!"
+ pilgrimage.3003.c:0 "Esse [doomsayer.GetWomanMan] não é #EMP#! um padre! Elenco [doomsayer.GetHerHim] para baixo!"
+
+ # Muslim Pilgrimage Journey Events
+ pilgrimage.3101.t:0 "$pilgrimage_header$ Ihram"
+ pilgrimage.3101.desc:0 "Quando me aproximo de Meca, me encontro agora diante do Mīqāt, a fronteira entre os espaços sagrados de Meca, o mundo exterior.\n\nDe agora devo entrar em um estado de Ihram, passando por um ritual de limpeza e vestindo apenas o traje prescrito. Devo também abster-me de atos sexuais, palavrões e pensamentos arrogantes ou rudes."
+ pilgrimage.3101.a:0 "Eu me comprometerei com Ihram com a maior dedicação."
+ pilgrimage.3101.b:0 "Ehh... não é como se ninguém vai saber se eu escorregar."
+
+ pilgrimage.3102.t:0 "$pilgrimage_header$ Ziyarat"
+ pilgrimage.3102.desc:0 "Embora o Hajj seja obrigatório para todos os muçulmanos, peregrinações a outros locais são muito menos comuns. Como esses Ziyarat não são exigidos pela doutrina islâmica, os muçulmanos que optaram por empreendê-los podem ter uma grande variedade de motivações para fazê-lo.\n\nAs viajamos ao longo da estrada para [destination_title.GetNameNoTierNoTooltip], eu me encontro pensando no que me fez querer fazer essa viagem em particular..."
+ pilgrimage.3102.a:0 "Quero ver a criação gloriosa de Alá."
+ pilgrimage.3102.b:0 "Meu zelo queima tão quente que eu desejo fazer mais do que apenas o Hajj."
+ pilgrimage.3102.c:0 "As dúvidas que tenho me obrigam a procurar respostas em terras distantes."
+
+ # Hindu Pilgrimage Journey Events
+ pilgrimage.3201.t:0 "limpeza ritual $pilgrimage_header$"
+ pilgrimage.3201.desc:0 "A purificação ritual é uma parte crucial da jornada de cada peregrino hindu. Uma forma comum disso é lavar-se nas águas de uma travessia sagrada do rio.\n\nHá uma dessas travessias logo à frente, mas não posso deixar de notar que está #EMP cheia#! com plebeus que também vieram em peregrinação..."
+ pilgrimage.3201.a:0 "Junte-se aos outros fiéis nas águas sagradas."
+ pilgrimage.3201.b:0 "Eu não vou tomar banho com #EMP camponeses#!!"
+
+ pilgrimage.3202.t:0 "$pilgrimage_header$ Santidade da Floresta"
+ pilgrimage.3202.desc.hinduism:0 "Enquanto as Sete Cidades Sagradas são os lugares mais sagrados, o próprio deserto tem seu próprio tipo de sacralidade."
+ pilgrimage.3202.desc.buddhism:0 "Gautama Buda nos ensinou que toda a vida é sagrada. Embora os seres sencientes sejam a forma mais alta da vida, mesmo a menor folha de grama ainda merece respeito."
+ pilgrimage.3202.desc.jainism:0 "Ahiisā, ou não-violência, é um dos principais preceitos do jainismo. Até mesmo a violência contra as plantas é proibida, excluindo o mínimo necessário para sustentar a vida."
+ pilgrimage.3202.desc.nature:0 "A arrogância do homem levou muitos a acreditar que estão acima da natureza, mas estão errados. O mundo natural existe no estado mais verdadeiro e mais puro do ser."
+ pilgrimage.3202.desc.end:0 "\n\nAs que passamos por uma simples clareira florestal, me parece sereno e silencioso. Sem luta, sem conflitos... apenas uma paz simples desfrutado pelas árvores e arbustos."
+ pilgrimage.3202.a:0 "Vamos passar algum tempo aqui, e contemplar o universo."
+ pilgrimage.3202.a.tt:0 "Sua peregrinação será #N adiada vários meses#!"
+ pilgrimage.3202.b:0 "Apresse-se, vamos continuar com isso!"
+ pilgrimage.3202.b.tt:0 "Você chegará ao seu destino #P várias semanas antes#!"
+
+ # Buddhist Pilgrimage Journey Events
+ pilgrimage.3301.t:0 "$pilgrimage_header$ Bhikkhu Crítico"
+ pilgrimage.3301.desc:0 "Ao longo do caminho do peregrino vejo muitos andarilhos, aqueles que abandonaram o mundo e libertaram-se de todos os apegos mund mesmos.\n\nToday um andarilho idoso olha minha comitiva enquanto [wanderer.GetSheHe] caminha ao meu lado."You bring too much with you. To achieve enlightenment, you must cast off your worldly possessions like me, and travel in naught but simple robes.""
+ pilgrimage.3301.a:0 "Eu posso gerenciar isso, pelo menos para esta jornada."
+ pilgrimage.3301.b:0 "Mas minha tenda, meus cobertores? É demais. Eu não estou pronto!"
+ pilgrimage.3301.c:0 "Ah, mas é contra Ṛta por um [ROOT.Char.GetTitleAsNameNoTooltip] viajar em austeridade."
+
+ # Generic Pilgrimage Destination Events
+ # Standard arrival
+ pilgrimage.4001.t:0 "$pilgrimage_header$ a Chegada"
+ pilgrimage.4001.desc:0 "I am finally here, body and soul, at the great [ROOT.Char.GetFaith.HouseOfWorship] of [destination_title.GetNameNoTierNoTooltip].\n\nAs the [ROOT.Char.GetFaith.BishopNeuter] offers me blessings, I reflect on everything that had to happen for [ROOT.Char.GetFaith.PantheonTerm] to bring me here, at this moment in time."
+ pilgrimage.4001.cynical_end:0 "\n\nUm monte de caminhadas."
+ pilgrimage.4001.a:0 "Eu andei pelo caminho sagrado."
+ pilgrimage.4001.b:0 "O importante é que eu sou visto e ouvido aqui."
+
+ # The Mystic is there!
+ pilgrimage.4002.desc:0 " [mystic.GetSheHe] diz."Look around you, [ROOT.Char.GetFirstNameNoTooltip]!" [mystic.GetSheHe] diz."Is this glory not as I said it would be?""
+ pilgrimage.4002.a:0 "Na verdade é, meu amigo!"
+ pilgrimage.4002.b:0 "É... algo tudo bem."
+ pilgrimage.4002.c:0 "Oh sim, eu gosto do que estou vendo."
+
+ # Specific Pilgrimage Destination Events
+
+   # Christian
+ pilgrimage.5001.t:0 "$pilgrimage_header$ todas as estradas levam a Roma"
+ pilgrimage.5001.desc:0 "Peregrinos se reúnem em Roma de todo o mundo cristão. Alguns seguem a Via Francigena; outros tomam caminhos menos conhecidos. No final, todos nós convergimos aqui, na Basílica de São Pedro, onde o próprio grande homem foi colocado para descansar.\n\n Ao lado dos outros peregrinos, sinto um sentimento de unidade solene e comunhão compartilhada entre os reunidos, todos tendo superado vários julgamentos e tribulações ao longo de sua jornada."
+ pilgrimage.5001.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5001.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5011.t:0 "$pilgrimage_header$ Jerusalém, Jerusalém!"
+ pilgrimage.5011.desc.beginning:0 "Nenhuma outra cidade do mundo tem uma história como Jerusalém. Além dos muitos outros locais sagrados lá, a cidade contém "
+ pilgrimage.5011.desc.christian:0 "a Igreja do Santo Sepulcro, construída sobre os lugares combinados onde Jesus foi crucificado, enterrado e ressuscitado."
+ pilgrimage.5011.desc.muslim:0 "o Haram esh-Sharif, o local onde Muhammad subiu ao Céu depois de seu tempo na Terra."
+ pilgrimage.5011.desc.jewish:0 "o Monte do Templo, a localização do Santo dos Santos, e o local onde o Terceiro Templo é profetizado para ser reconstruído."
+ pilgrimage.5011.desc.end:0 "Estamos fora do Monte do Templo, com a mão na Muralha Ocidental, me encontro refletindo sobre tudo o que aconteceu na minha jornada para esta cidade de lendas."
+ pilgrimage.5011.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5011.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5021.t:0 "$pilgrimage_header$ a Cidade do Desejo do Mundo!"
+ pilgrimage.5021.desc:0 "Finalmente estou nas colinas fora de Constantinopla, uma joia brilhante da civilização que ecoa com a glória do Império Romano. É realmente um local para contemplar!\n\nNear o centro eu posso ver a Hagia Sophia, o grande centro de adoração, que muitas vezes é o epítome da arquitetura bizantina.\n\nÉ longe da única maravilha aqui, porém, e enquanto olho para a cidade eu me maravilha com as glórias de [ROOT.Char.GetFaith.CreatorNamePossessive] criação."
+ pilgrimage.5021.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5021.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5031.t:0 "$pilgrimage_header$ Alexandria!"
+ pilgrimage.5031.desc:0 "Finalmente cheguei a Alexandria, o lar do monásticismo cristão. Os primeiros monges e eremitas começaram suas jornadas nas cavernas do deserto ao redor da cidade, que ainda estão em uso hoje.\n\n Embora não seja tão famosa quanto Jerusalém ou Roma, Alexandria tem longa história como centro de teologia e aprendizado. Mesmo após séculos de ocupação islâmica, enclaves de cristãos que vivem dentro da cidade ainda mantêm sua fé forte."
+ pilgrimage.5031.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5031.b:0 "$pilgrimage.4001.b$"
+
+   # Jewish
+ pilgrimage.5101.t:0 "$pilgrimage_header$ Sinai e Horeb"
+ pilgrimage.5101.desc:1 "[ROOT.Char.GetFaith.HighGodName] falou pela primeira vez com Moisés no topo do Monte Sinai, assumindo a forma de um arbusto em chamas. Mais tarde, na mesma montanha, [ROOT.Char.GetFaith.HighGodNameSheHe|U] entregou a ele os Dez Mandamentos, que formaram a base de toda a doutrina abraâmica.\n\nÉ sem dúvida que [ROOT.Char.GetFaith.HighGodName] favorece este lugar, e eu me pergunto se [ROOT.Char.GetFaith.HighGodNameSheHe|U] está olhando para mim como eu estou nessas encostas sagradas..."
+ pilgrimage.5101.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5101.b:0 "$pilgrimage.4001.b$"
+
+   # Muslim
+ pilgrimage.5201.t:0 "$pilgrimage_header$ a Hegira"
+ pilgrimage.5201.desc:0 "Muhammad nem sempre foi amado, e nos primeiros dias da fé muçulmana muitos o rejeitaram e seus ensinamentos.\n\nDepois de ser avisado de um plano de assassinato, ele deixou Meca para viajar para Yathrib, onde um grupo crescente de muçulmanos o recebeu de braços abertos. Esta jornada era conhecida como Hegira, e em sua nova casa Muhammad foi capaz de reunir as tribos em guerra ao seu redor em submissão a Alá.\n\nYathrib passaria a ser renomeada Medina, a cidade do Profeta, em honra disso. Agora aqui estou eu, pronto para honrar sua jornada eu mesmo."
+ pilgrimage.5201.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5201.b:0 "$pilgrimage.4001.b$"
+
+   # Hindu
+ pilgrimage.5301.t:0 "$pilgrimage_header$ Varanasi"
+ pilgrimage.5301.desc:0 "Finalmente cheguei em Varanasi. Fundada pelo deus Shiva na antiguidade distante, a grande cidade atrai peregrinos de longa e longe.\n\n Não são apenas peregrinos hindus que viajam para cá, porém, como a cidade é perto do local onde Gautama Buda primeiro ensinou seus discípulos.\n\nSeeing esta mistura dos fiéis em primeira mão, e o conhecimento e discussão que fluem dele, me faz recentemente consciente de como todos nós vivemos neste mundo juntos."
+ pilgrimage.5301.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5301.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5311.t:0 "$pilgrimage_header$ Ayodhya"
+ pilgrimage.5311.desc:1 "Finalmente cheguei a Ayodhya, berço do deus Rama e cenário do grande épico Ramayana. Como uma encarnação de Vishnu, o nascimento e a vida de Rama são considerados um exemplo brilhante de dharma em ação.\n\nComo um conto que inspirou gerações de hindus, estar no lugar da Ramayana me faz pensar que tipo de marca meu próprio legado deixará na história..."
+ pilgrimage.5311.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5311.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5321.t:0 "$pilgrimage_header$ Mathura"
+ pilgrimage.5321.desc:0 "Finalmente cheguei ao meu destino, Mathura. É aqui que o deus Krishna nasceu, a deidade compaixão, amor e ternura.\n\nLooking ao redor, eu posso ver todos esses aspectos exibidos pelos peregrinos que se reúnem aqui para adorar no Complexo do Templo Krishna Janmasthan, uma das mais esplêndidas e grandes peças da arquitetura religiosa construída até hoje."
+ pilgrimage.5321.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5321.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5331.t:0 "$pilgrimage_header$ Haridwar"
+ pilgrimage.5331.desc:0 "Finalmente cheguei à nascente do sagrado rio Ganges, Haridwar.\n\nA cidade foi construída sobre o local onde a deusa Ganga desceu quando Lorde Shiva libertou o poderoso rio de suas mechas de cabelo.\n\nKnown por ser capaz de lavar pecados, peregrinos de todo o mundo se reúnem aqui para tomar banho nas águas do rio. Agora eu vou ser um deles."
+ pilgrimage.5331.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5331.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5341.t:0 "$pilgrimage_header$ Kanchipuram"
+ pilgrimage.5341.desc:0 "Finalmente cheguei a Kanchipuram, lar do Templo Kamkshi Amã.\n\nDedicado à deusa mãe, este templo é conhecido como um lugar de paz e prosperidade, e continua sendo um dos sete locais mais sagrados do hinduísmo."
+ pilgrimage.5341.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5341.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5351.t:0 "$pilgrimage_header$ Ujjayini"
+ pilgrimage.5351.desc:0 "Chegando na antiga cidade de Ujjain, começo a seguir para o Mahakaleshwar Jyotirlinga.\n\nIndicado a Lorde Shiva em sua encarnação como Mahakaleshwar, a cidade tem sido uma peregrinação e um centro administrativo, criando uma grande metrópole movimentada que pulsa com a vida dos fiéis.\n\nDepois de chegar ao grande templo eu busco a bênção do [ROOT.Char.GetFaith.BishopNeuter] , limpando minha alma de seus pecados."
+ pilgrimage.5351.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5351.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5361.t:0 "$pilgrimage_header$ Dwarka"
+ pilgrimage.5361.desc:0 "Finalmente estou no limiar da Cidade gateway, Dwarka, um dos maiores locais do Hinduísmo.\n\n De acordo com a lenda, a encarnação de Vishnu de Krishna recuperou grandes faixas de terra do próprio mar para que a cidade pudesse ser construída aqui. Desde então, a cidade cresceu substancialmente, tornando-se um centro religioso e econômico que atrai peregrinos de todos os lugares... me entre eles."
+ pilgrimage.5361.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5361.b:0 "$pilgrimage.4001.b$"
+
+   # Buddhism
+ pilgrimage.5401.t:0 "$pilgrimage_header$ Bodh Gaya"
+ pilgrimage.5401.desc:0 "Cheguei no lugar mais sagrado do mundo para os budistas, Bodh Gaya é o lugar onde [ROOT.Char.GetFaith.HighGodName] [ROOT.Char.GetFaith.HighGodHerselfHimself] alcançado iluminação sob a Árvore bodhi.\n\nSin então o elaborado Templo Mahabodi foi construído em torno da árvore sagrada, e peregrinos de todo o mundo se reúnem aqui para aprender mais sobre [ROOT.Char.GetFaith.HighGodNameAlternatePossessive] história e celebrar [ROOT.Char.GetFaith.HighGodHerHis] vida."
+ pilgrimage.5401.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5401.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5411.t:0 "$pilgrimage_header$ Kushinagar"
+ pilgrimage.5411.desc:0 "Finalmente cheguei a Kushinagar, onde se diz [ROOT.Char.GetFaith.HighGodName] passado do mundo mortal.\n\nTerado Nirvana em vida, [ROOT.Char.GetFaith.HighGodHerHis] morte deve ser celebrada, pois [ROOT.Char.GetFaith.HighGodNameSheHe] atingiu Parinirvana depois de morrer e se libertar das cadeias do renascimento. Este moksha, ou libertação, é o objetivo final de um budista devoto."
+ pilgrimage.5411.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5411.b:0 "$pilgrimage.4001.b$"
+
+ pilgrimage.5421.t:0 "$pilgrimage_header$ Sarnath"
+ pilgrimage.5421.desc:0 "Minha jornada finalmente me trouxe a Sarnath, o local onde [ROOT.Char.GetFaith.HighGodName] primeiro ensinaram as quatro nobres verdades aos seguidores [ROOT.Char.GetFaith.HighGodHerHis], bem como os ensinamentos associados a ela.\n\nÉ aqui que a primeira escola budista foi fundada, que até hoje atrai peregrinos de todo o mundo."
+ pilgrimage.5421.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5421.b:0 "$pilgrimage.4001.b$"
+
+   # Jainism
+ pilgrimage.5501.t:0 "$pilgrimage_header$ Shikharji"
+ pilgrimage.5501.desc:1 "De acordo com o Nirvana Kanda, vinte dos vinte e quatro tirthankaras Jain atingiram Moksha aqui na montanha de Shikharji. Tal história histórica fez deste lugar o local de peregrinação mais importante da comunidade jain, e como meu olhar vagueia dos picos mais altos para os mais baixos, eu me encontro refletindo sobre minha própria jornada aqui e o que isso significa para minha vida."
+ pilgrimage.5501.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5501.b:0 "$pilgrimage.4001.b$"
+  
+ # Zoroastrian
+ pilgrimage.5601.t:0 "$pilgrimage_header$ a Consciência Divina"
+ pilgrimage.5601.desc:0 "Enquanto estou sobre as encostas do Monte Ushi-darena, a vista dos confins se espalha diante de mim. Diante da visão inspiradora, não posso deixar de pensar em como Zoroaster alcançou a iluminação aqui, recebendo o conhecimento de Ahura Mazda para se espalhar para o mundo abaixo. Como a maioria dos peregrinos aqui eu não sinto nenhuma centelha divina de profecia, mas mesmo assim eu não posso deixar de me maravilhar com o que estava diante de mim."
+ pilgrimage.5601.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5601.b:0 "$pilgrimage.4001.b$"
+
+   # Norse Germanic
+ pilgrimage.5901.t:0 "$pilgrimage_header$ Paderborn!"
+ pilgrimage.5901.desc:0 "Nas profundezas das florestas de Paderborn uma vez estava Irminsul, o Grande Pilar. Erguido para homenagear Odin, o monumento foi destruído por Carlos Magno durante as Guerras Saxãs, mas nosso povo continua a se reunir no local onde outrora esteve em honra de sua memória. Agora eu posso dizer que eu, também, fiz peregrinação ao lugar sagrado."
+ pilgrimage.5901.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5901.b:0 "$pilgrimage.4001.b$"
+
+   # Tengri
+ pilgrimage.5911.t:0 "$pilgrimage_header$ Céu Azul Aberto"
+ pilgrimage.5911.desc:0 "O mundo é [ROOT.Char.GetFaith.HighGodNamePossessive] templo, o grande céu azul maior do que o teto de qualquer mesquita ou igreja. Aqui em grandes estepes abertas de [destination_title.GetNameNoTierNoTooltip] me sinto especialmente perto de [ROOT.Char.GetFaith.PantheonTerm], e me encontro refletindo sobre minha jornada para chegar a este lugar sagrado."
+ pilgrimage.5911.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5911.b:0 "$pilgrimage.4001.b$"
+
+   # Sanctity of Nature
+ pilgrimage.5921.t:0 "$pilgrimage_header$ Sacred Groves"
+ pilgrimage.5921.desc:0 "Finalmente cheguei em [destination_title.GetNameNoTierNoTooltip]. Enquanto alguns cultos em igrejas ou mesquitas, eu sei que os lugares mais sagrados estão na floresta aberta onde os pés descalços são acariciados pela terra macia e nutritiva.\n\nOs antigos bosques aqui são especialmente veneráveis, e eu me pergunto sobre o meu lugar no mundo natural como eu estou entre as grandes árvores."
+ pilgrimage.5921.a:0 "$pilgrimage.4001.a$"
+ pilgrimage.5921.b:0 "$pilgrimage.4001.b$"
+
+ # Generic Pilgrimage Return Events
+ pilgrimage.9001.t:0 "$pilgrimage_header$ O Retorno"
+ pilgrimage.9001.desc:0 "Minha jornada tem sido longa, mas finalmente voltei para casa. Embora muito permaneça o mesmo, algo mudou na forma como o [ROOT.Char.GetFaith.PriestNeuterPlural] e [ROOT.Char.GetFaith.BishopNeuterPlural] me tratam.\n\nEu passaram pela jornada de um santo [ROOT.Char.GetWomanMan], e eles insistem que mudou algo sobre mim, se eu posso vê-lo eu mesmo ou não."
+ pilgrimage.9001.a:0 "É bom estar em casa."

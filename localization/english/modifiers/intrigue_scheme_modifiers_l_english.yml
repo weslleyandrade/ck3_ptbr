@@ -1,0 +1,36 @@
+﻿l_english:
+ lifestyle_soldier_source_modifier:0 "Fonte do Soldado"
+ lifestyle_soldier_source_modifier_desc:0 "Um soldado na capital do alvo está voluntariamente compartilhando informações."
+
+ lifestyle_studied_habits_modifier:0 "Hábitos Estudados"
+ lifestyle_studied_habits_modifier_desc:0 "Os hábitos do alvo foram estudados."
+
+ lifestyle_converted_informants_modifier:0 "Informantes"
+ lifestyle_converted_informants_modifier_desc:0 "Informantes no tribunal do alvo estão divulgando informações."
+
+ lifestyle_intercepting_communication_modifier:0 "Interceptando Comunicação"
+ lifestyle_intercepting_communication_modifier_desc:0 "As comunicações do alvo estão sendo lidas."
+
+ lifestyle_intercepted_communication_modifier:0 "Comunicação Interceptada"
+ lifestyle_intercepted_communication_modifier_desc:0 "As comunicações do alvo foram interceptadas uma vez."
+
+ lifestyle_close_to_courtier_modifier:0 "Perto de um cortesão"
+ lifestyle_close_to_courtier_modifier_desc:1 "Ao chegar perto de um dos cortesãos do alvo, tenho acesso mais fácil ao alvo"
+
+ intrigue_scheme_mapped_surroundings_modifier:0 "Ambiente Mapeado"
+ intrigue_scheme_mapped_surroundings_modifier_desc:0 "As rotas de acesso e fuga foram cuidadosamente mapeadas."
+
+ intrigue_scheme_tattletale_modifier:0 "Tattletale"
+ intrigue_scheme_tattletale_modifier_desc:0 "Alguém não ficou de boca fechada."
+
+ intrigue_scheme_in_a_hurry_modifier:0 "Com pressa"
+ intrigue_scheme_in_a_hurry_modifier_desc:0 "Não há tempo, devemos nos mover #EMP agora#!."
+
+ intrigue_scheme_no_contact_modifier:0 "Contato Mínimo"
+ intrigue_scheme_no_contact_modifier_desc:0 "O contato foi reduzido ao mínimo para evitar a descoberta."
+
+ intrigue_scheme_involved_modifier:0 "Envolvido"
+ intrigue_scheme_involved_modifier_desc:0 "O interesse do planejador no alvo é amplamente conhecido."
+
+ intrigue_scheme_messenger_pigeon_modifier:0 "Pombo Mensageiro"
+ intrigue_scheme_messenger_pigeon_modifier_desc:0 "Um pombo mensageiro treinado está pronto para entregar mensagens secretas."

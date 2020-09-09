@@ -1,0 +1,50 @@
+﻿l_english:
+ embassies_perk_modifier:0 "Embaixadas"
+ embassies_perk_modifier_desc:0 "Este personagem se beneficia de embaixadas colocadas em tribunais estrangeiros."
+
+ confidants_perk_modifier:0 "Confidentes"
+ confidants_perk_modifier_desc:0 "Quando as coisas estão difíceis, esse personagem sempre tem alguém a quem recorrer."
+
+ sound_foundations_martial_gain:0 "Fundações de Som"
+ sound_foundations_martial_gain_desc:0 "Nada ensina tanto a um sobre a vida como criar um filho."
+ sound_foundations_diplomacy_gain:0 "Fundações de Som"
+ sound_foundations_diplomacy_gain_desc:0 "Nada ensina tanto a um sobre a vida como criar um filho."
+ sound_foundations_intrigue_gain:0 "Fundações de Som"
+ sound_foundations_intrigue_gain_desc:0 "Nada ensina tanto a um sobre a vida como criar um filho."
+ sound_foundations_stewardship_gain:0 "Fundações de Som"
+ sound_foundations_stewardship_gain_desc:0 "Nada ensina tanto a um sobre a vida como criar um filho."
+ sound_foundations_learning_gain:0 "Fundações de Som"
+ sound_foundations_learning_gain_desc:0 "Nada ensina tanto a um sobre a vida como criar um filho."
+
+ commission_epic_modifier:0 "Épico familiar comissionado"
+ commission_epic_modifier_desc:0 "Este personagem se aproveita da glória da história; de contos contados das realizações de seus antepassados."
+
+ commission_exceptional_epic_modifier:0 "Excelente épico familiar encomendado"
+ commission_exceptional_epic_modifier_desc:0 "Este personagem se aproveita da glória da história; de contos contados das realizações de seus antepassados."
+
+ commission_epic_emphasized_intrigue_modifier:0 "Histórias de Intriga"
+ commission_epic_emphasized_intrigue_modifier_desc:0 "Esse personagem vem de uma longa linhagem de manipuladores cruéis. Supostamente."
+
+ commission_epic_military_innovation_modifier:0 "Inovações Storied"
+ commission_epic_military_innovation_modifier_desc:0 "Inspirado por histórias inventadas, este personagem descobriu algumas táticas militares originais."
+
+ commission_epic_shared_with_vassals_modifier:0 "Histórias Compartilhadas"
+ commission_epic_shared_with_vassals_modifier_desc:0 "Este personagem espalhou histórias de lealdade e glória tradicionais."
+
+ commission_epic_honesty_modifier:0 "Honestidade"
+ commission_epic_honesty_modifier_desc:0 "Este personagem provou uma dedicação à honestidade sobre a glória."
+
+ commission_epic_clerical_guidance_modifier:0 "Orientação Clerical"
+ commission_epic_clerical_guidance_modifier_desc:0 "Como nas eras de ouro de sua dinastia, este personagem está ouvindo atentamente os conselhos do clero."
+
+ sell_titles_related_to_wisdom_modifier:0 "Relacionado à Sabedoria"
+ sell_titles_related_to_wisdom_modifier_desc:0 "Este personagem trouxe alguém sábio e piedoso de volta ao seu rebanho familiar."
+
+ sell_titles_clever_servant_modifier:0 "Primo Inteligente"
+ sell_titles_clever_servant_modifier_desc:0 "Este personagem tem um membro da família leal que é excepcionalmente hábil na arte da manipulação."
+
+ sell_titles_respected_by_peers_modifier:0 "Respeitado por Pares"
+ sell_titles_respected_by_peers_modifier_desc:0 "Este personagem tem grande respeito dentro do reino."
+
+ sell_titles_shameful_behavior_modifier:0 "Comportamento Vergonhoso"
+ sell_titles_shameful_behavior_modifier_desc:0 "Este personagem tem sido chamado para a prática desonrosa de venda de títulos."

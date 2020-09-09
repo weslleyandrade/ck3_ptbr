@@ -1,0 +1,41 @@
+﻿l_english:
+
+ stewardship_lifestyle_rank_up_indication:1 "Eu poderia ganhar um [stewardship_lifestyle|E] [perk|E]"
+ 
+ ###################
+ # Standard Events #
+ ###################
+
+ # Peasant mob brings someone before you, accusing them of witchcraft. By Sean Hughes 
+ stewardship_general.1054.t:0 "Acusações de [witch.Custom('MagicPracticeTerm')|U]"
+ stewardship_general.1054.desc:0 "Pano manchado de sangue... penas de corvos... misturas estranhas cheirosas. Esta é a evidência apresentada por um grupo de moradores de [target_county.GetNameNoTier] como prova de que [witch.GetFirstName] vem praticando [witch.Custom('MagicPracticeTerm')] em [witch.GetHerHis] cabana nos arredores de sua aldeia.\n\nOs moradores afirmam que [witch.GetHerHis] obras malignas devem ser a causa de seus [witch.Custom('MagicSuperstitionTerm')] e estão pedindo [witch.GetHerHis] execução."
+ stewardship_general.1054.a:0 "Essa 'evidência' é circunstancial. Liberte [witch.GetHerHim]."
+ stewardship_general.1054.b:0 "[witch.GetSheHe|U] deve queimar por [witch.GetHerHis] crimes contra [ROOT.Char.GetFaith.HighGodName]!"
+ stewardship_general.1054.c:0 "Um [witch.Custom('MagicUserTerm')] você diz? Eu poderia usar um novo conselheiro."
+ stewardship_general.1054.d:0 "Encenar uma execução elaborada para [witch.GetHerHim]..."
+ stewardship_general.1054.d.flavor:0 "... mas, na realidade, esgueirar-se [witch.GetHerHim] de volta para o meu tribunal!"
+
+ # Build a fish pond, by Linnéa Thimrén
+ stewardship_general.5011.t:0 "Os Carps"
+ stewardship_general.5011.desc:0 ""Se é um lago para carpas que você está interessado em que eu posso construir-lhe um fantástico, meu [ROOT.Char.GetLadyLord]!"\n\nThe builder before me has good credentials, and my courtiers seem very excited about the prospect..."
+ stewardship_general.5011.a:0 "Você terá todos os recursos que você precisa!"
+ stewardship_general.5011.b:0 "É que #EMP verdadeiramente#! o melhor negócio que você pode me dar?"
+ stewardship_general.5011.b.message_1:0 "Você faz um grande negócio"
+ stewardship_general.5011.b.message_2:1 "O construtor te engana"
+ stewardship_general.5011.c:0 "Pare de desperdiçar meu tempo!"
+ stewardship_general.5011.every_courtier:1 "Todo [courtier|E]"
+
+ stewardship_general.5013.t:0 "Bestas das Profundezas"
+ stewardship_general.5013.desc:0 "Enquanto passei pelos jardins, percebo meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('carp_food')) ] [carp_food.GetTitledFirstName] sentado em uma pedra perto da lagoa de carpas. Inclinando-se sobre a borda, [carp_food.GetSheHe] trilhas [carp_food.GetHerHis] dedos através da água. Uma sombra se agita sob a superfície..."
+ stewardship_general.5013.a:0 "[carp_food.GetFirstNameNoTooltip], um passo para trás! Afaste-se de... NOOO!"
+
+ # Catch a servant stealing from me, by Linnéa Thimrén
+ stewardship_general.5041.t:0 "Rogue Servant"
+ stewardship_general.5041.desc:0 "Um humilde [ROOT.GetCharacter.Custom('lowly_servant_type')] tem roubado da minha casa!"
+ stewardship_general.5041.desc_highgod:0 "O [servant_character.GetWomanMan] se acovardar diante de mim, choramingando sobre crianças famintas e misericórdia em nome de [ROOT.Char.GetFaith.HouseholdGodName]."
+ stewardship_general.5041.desc_other:0 "O [servant_character.GetWomanMan] se acovardar diante de mim, choramingando sobre crianças famintas e implorando por misericórdia."
+ stewardship_general.5041.desc_ending:0 "Oon"Please my [ROOT.Char.GetLadyLord], I will do anything you ask!""
+ stewardship_general.5041.a:0 "Mostre [servant_character.GetHerHim] como é a verdadeira fome."
+
+ stewardship_general.5041.b:0 "Aprisione [servant_character.GetHerHim]"
+ stewardship_general.5041.c:0 "Mostre misericórdia e ganhe [servant_character.GetHerHis] lealdade."

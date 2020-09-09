@@ -1,0 +1,5 @@
+﻿l_english:
+ perk_interaction.0002.t:0 "Uma reivindicação em minhas terras!"
+ perk_interaction.0002.same_faith:0 "Por alguma razão impensável, o [actor.GetFaith.AltPriestTermPlural] sancionou [actor.GetTitledFirstNamePossessive] alegação completamente infundada sobre o [target.GetName]!"
+ perk_interaction.0002.other_faith:0 "Os sacerdotes charlatães da fé [actor.GetFaith.GetAdjective] declararam publicamente apoio à [actor.GetTitledFirstNamePossessive] alegação completamente infundada sobre o [target.GetName]!"
+ perk_interaction.0002.a:1 "Vou mostrar [actor.GetHerHim] quando chegar a hora..."

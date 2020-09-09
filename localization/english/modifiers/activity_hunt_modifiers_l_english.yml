@@ -1,0 +1,75 @@
+﻿l_english:
+ held_hunt_modifier:0 "Caçado recentemente"
+ held_hunt_modifier_desc:0 "Este personagem arranjou recentemente uma Caçada, e pode não fazê-lo novamente até a data especificada."
+ 
+ hunt_punished_locals_modifier:0 "Caçadores Castigados"
+ hunt_punished_locals_modifier_desc:0 "As pessoas neste condado carregam o fardo de compensar os caçadores furtivos nas florestas."
+ 
+ hunt_poacher_training_modifier:0 "Treinamento de Caçadores"
+ hunt_poacher_training_modifier_desc:0 "Este personagem foi treinado por caçadores furtivos para caçar."
+ 
+ hunt_upset_hunting_county_modifier:0 "Caça Furtiva Ultrajante"
+ hunt_upset_hunting_county_modifier_desc:0 "Este condado está chateado com a forma como tem sido tratado para as ações de um punhado de caçadores furtivos"
+
+ modifier_hunt_hunting_trophy:0 "Troféu de Caça"
+ modifier_hunt_hunting_trophy_desc:0 "Um impressionante troféu de caça está pendurado no grande salão deste personagem, mostrando suas conquistas."
+ 
+ modifier_hunt_friend_of_animal:0 "Amigo dos Animais"
+ modifier_hunt_friend_of_animal_desc:0 "Este personagem tem uma habilidade incrível para lidar com animais."
+ 
+ hunt_guide_local_madman_modifier:0 "Guia Local"
+
+ hunt_killed_local_madman_modifier:1 "Killed Local"
+ 
+ hunt_talked_to_madman_modifier:1 "Ouvi as preocupações locais"
+
+ hunt_peasants_denied_forest_modifier:0 "Camponeses Floresta Negada"
+ hunt_peasants_denied_forest_modifier_desc:0 "Os camponeses deste condado foram negados o direito de forragem nas florestas."
+
+ hunt_peasants_hunted_modifier:0 "Camponeses Caçados"
+ hunt_peasants_hunted_modifier_desc:0 "Os camponeses têm medo de se estabelecer neste condado, devido às coisas indescritíveis que aconteceram aqui."
+
+ hunt_aided_peasants_modifier:0 "Camponeses Auxiliados"
+ hunt_aided_peasants_modifier_desc:0 "As pessoas mais pobres deste condado receberam ajuda de caridade significativa."
+
+ hunt_fresh_air_and_exercise_modifier:0 "Ar Fresco e Exercício"
+ hunt_fresh_air_and_exercise_modifier_desc:0 "Este personagem desfrutou de exercícios rigorosos durante suas caçadas."
+
+ hunt_focused_attention_modifier:0 "Atenção Focada"
+ hunt_focused_attention_modifier_desc:0 "Este personagem sabe como se concentrar nas coisas que exigem atenção imediata."
+
+ modifier_hunt_dog_trophy_modifier:0 "Troféu de Caça"
+ modifier_hunt_dog_trophy_modifier_desc:0 "Um impressionante troféu de caça está pendurado no grande salão deste personagem, mostrando suas conquistas."
+
+ modifier_hunt_dog_fighting_modifier:0 "Proeza melhorada"
+ modifier_hunt_dog_fighting_modifier_desc:0 "Este personagem realizou um feito impressionante de proezas durante suas caçadas."
+
+ modifier_hunt_resisted_advances:0 "Avanços Resistidos"
+ modifier_hunt_resisted_advances_desc:0 "Este personagem resistiu ao canto da sereia da tentação."
+
+ hunt_mediated_fight_modifier:0 "Mediador"
+ hunt_mediated_fight_modifier_desc:0 "Este personagem negociou com sucesso entre duas pessoas em conflito, uma lição valiosa."
+
+ hunt_protected_peasants_modifier:0 "Camponeses Protegidos"
+ hunt_protected_peasants_modifier_desc:0 "Os camponeses deste condado se sentem protegidos"
+
+ hunt_disturbed_locals_modifier:0 "Locais Perturbados"
+ hunt_disturbed_locals_modifier_desc:0 "Os moradores deste condado só querem ser deixados em paz"
+
+ hunt_focused_effort_modifier:0 "Esforço de caça focado"
+ hunt_focused_effort_modifier_desc:0 "Este personagem está muito focado na caçada"
+
+ hunt_treated_injury_modifier:0 "Cirurgia de Campo Praticada"
+ hunt_treated_injury_modifier_desc:0 "Este personagem tem alguma experiência recente com tratamentos médicos muito difíceis"
+
+ hunt_tasted_the_belt_modifier:0 "Provei o Cinturão"
+ hunt_tasted_the_belt_modifier_desc:0 "Este personagem está sofrendo de uma traseira machucada"
+
+ hunt_treated_wound_modifier:0 "Feridas Vestidas"
+ hunt_treated_wound_modifier_desc:0 "As feridas deste personagem foram vistas de alguma forma"
+
+ hunt_chose_truth_modifier:0 "Honestidade Humilde"
+ hunt_chose_truth_modifier_desc:0 "Este personagem falou a verdade em detrimento de si mesmos"
+
+ hunt_mystical_animal_modifier:0 "Animal Místico Caçado"
+ hunt_mystical_animal_modifier_desc:0 "Este personagem caçava e matava um animal branco místico"

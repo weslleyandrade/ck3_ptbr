@@ -1,0 +1,62 @@
+﻿l_english:
+
+ war_event.1901:1 "Seu liege ganhou sua guerra com [defender_loser.GetShortUIName]!"
+ war_event.1902:1 "Seu liege perdeu sua guerra com [attacker_winner.GetShortUIName]!"
+ war_event.1903:1 "Seu liege assinou uma Paz Branca com [defender_white_peace.GetShortUIName]!"
+ war_event.1904:1 "Seu liege assinou uma Paz Branca com [attacker_white_peace.GetShortUIName]!"
+ war_event.1905:1 "Seu liege perdeu sua guerra com [defender_winner.GetShortUIName]!"
+ war_event.1906:1 "Seu liege ganhou sua guerra com [attacker_loser.GetShortUIName]!"
+ war_event.notification_liege_win.t:0 "Liege Ganhou Guerra"
+ war_event.notification_liege_loss.t:0 "Liege Lost War"
+
+ war_event.1001.t:0 "Meu Liege declara guerra"
+ war_event.1001.desc:0 "É estranho a rapidez com que uma situação pode mudar durante a guerra.\n\nEm meio à luta contra [recipient.Custom2('MyCharacterIntroduction', ROOT.Char)], uma missiva de [liege_invalidator.Custom2('MyCharacterIntroduction', ROOT.Char)] chega. [liege_invalidator.GetSheHe|U] está me dizendo para abandonar minha própria causa e me juntar a [liege_invalidator.GetHerHim] na guerra #EMP [liege_invalidator.GetHerHis]#! contra [recipient.GetTitledFirstName]."
+ war_event.1001.a:0 "B-mas e a minha guerra!? Dane-se você!"
+
+ war_event.2001.t:0 "Um Novo Oponente"
+ war_event.2001.desc:0 "Nada neste mundo é certo, especialmente em tempos de guerra. A [war.GetName] não foi diferente.\n\nAs que este conflito não é mais contra [previous_defender.Custom2('MyCharacterIntroduction', ROOT.Char)] mas [defender.Custom2('MyCharacterIntroduction', ROOT.Char)] em vez disso, pode ser sábio reavaliar a situação."
+ war_event.2001.a:0 "Meu objetivo ainda é o mesmo."
+ war_event.2001.a.tt:0 "A guerra continua"
+ war_event.2001.b:0 "Este não é mais o melhor curso de ação."
+
+ war_event.2002.t:0 "[invalidator.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.2002.desc:0 "Lamentavelmente nos encontramos em lados opostos neste conflito. Nunca foi minha intenção, e assim vou retirar minhas tropas."
+ war_event.2002.a:0 "Uma escolha sábia."
+
+ war_event.3001.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3001.desc:0 "Há dois anos você prometeu me ajudar no [war.GetName], mas até agora você não fez nada para me apoiar nesta empreitada.\n\n Qual é o objetivo da nossa aliança se você nunca levantar um dedo para me ajudar?"
+ war_event.3001.a:0 "Enviarei minhas tropas em seu auxílio imediatamente!"
+ war_event.3001.a.tt:0 "Se eu não ganhar nenhuma [war_contribution|E] dentro de 12 meses eu vou perder um [prestige_level|E] e colocar minha aliança com [war_owner.GetTitledFirstNameNoTooltip] em risco!"
+ war_event.3001.b:0 "Este baú de ouro deve compensar a minha ausência..."
+ war_event.3001.b.tt:0 "Não se espera mais que enviem soldados para lutar em [war.GetName]."
+ war_event.3001.c:0 "Peço desculpas, eu não deveria ter afirmado que eu iria ajudar."
+
+ war_event.3002.t:0 "[war_owner.Custom2('AppropriateGreeting', ROOT.Char)]"
+ war_event.3002.desc.start:0 "Apesar de sua promessa de enviar tropas em meu auxílio, ainda não vi nenhum de seus soldados no campo de batalha."
+ war_event.3002.desc.end.1:0 "Ao quebrar seu juramento desta forma você trouxe desonra a si mesmo e sua família."
+ war_event.3003.desc.end.2:0 "Seu fracasso a este respeito prejudicou severamente minha confiança em você, [ROOT.Char.GetTitledFirstName]."
+ war_event.3002.1.a:0 "Muito bem."
+ war_event.3003.2.a:0 "Eu vou fazer melhor da próxima vez."
+ war_event.3003.2.b:0 "Talvez eu devesse acabar com nossa aliança...?"
+
+ war_event.neighbor_war.both_neighbors.t:0 "Guerra dos Vizinhos Resolvida"
+ war_event.neighbor_war.both_neighbors.desc:0 "Seu vizinho [winner.GetTitledFirstName] vencido contra seu outro vizinho [loser.GetTitledFirstName] no [this_war.GetName]!"
+
+ war_event.neighbor_war.only_winner.t:0 "Governante vizinho ganhou guerra"
+ war_event.neighbor_war.only_winner.desc:2 "Seu vizinho [winner.GetTitledFirstName] venceu contra [loser.Custom2('YourCharacterIntroductionNoComma', this_player)] no [this_war.GetName]!"
+
+ war_event.neighbor_war.only_loser.t:0 "Governante vizinho perdeu guerra"
+ war_event.neighbor_war.only_loser.desc:1 "Seu vizinho [loser.GetTitledFirstName] perdeu contra [winner.Custom2('YourCharacterIntroductionNoComma', this_player)] no [this_war.GetName]!"
+
+ #Holy wars "soft invalidated" by faith change
+ war_event.3101.t:0 "Fé Recém-Descoberta"
+ war_event.3101.desc:0 "As notícias chegaram a mim de [defender.GetTitledFirstNamePossessive] conversão para [defender.GetFaith.GetNameNoTooltip]. Eu não tenho mais o direito [ROOT.Char.GetFaith.HighGodName] dado de travar uma guerra contra [defender.GetPrimaryTitle.GetNameNoTierNoTooltip]."
+ war_event.3101.a:0 "Chegou a hora de abaixar nossas espadas."
+ war_event.3101.b.tt:0 "[war.GetName] continua"
+ war_event.3101.b:0 "[defender.GetSheHe|U] acha que isso vai me parar? Ha!"
+
+ war_event.3102.t:0 "[attacker.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ war_event.3102.desc:0 "Sua fé recém-descoberta em [ROOT.Char.GetFaith.HighGodName] não é convincente. Minha causa ainda é justa - não haverá misericórdia."
+ war_event.3102.a:0 "[ROOT.Char.Custom('CulturalCurse')|U]!"
+
+

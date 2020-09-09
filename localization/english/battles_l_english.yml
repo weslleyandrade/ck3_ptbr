@@ -1,0 +1,55 @@
+﻿l_english:
+ # Knight wounded/slain event strings for use in battle events. 
+ knight_wounded_no_enemy_friendly:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] foi ferido por um soldado inimigo!"
+ knight_wounded_no_enemy_enemy:2 "Um de nossos valentes soldados conseguiu ferir o inimigo [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_wounded_by_enemy_friendly:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] foi ferido por [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_wounded_by_enemy_enemy:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] [CHARACTER.GetShortUINameNoTooltip] ferido!"
+ knight_maimed_no_enemy_friendly:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] foi mutilado por um soldado inimigo!"
+ knight_maimed_no_enemy_enemy:2 "Um de nossos valentes soldados conseguiu mutilar o inimigo [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_maimed_by_enemy_friendly:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] foi mutilado por [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_maimed_by_enemy_enemy:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] mutilado [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_no_enemy_friendly:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] foi morto por um soldado inimigo!"
+ knight_killed_no_enemy_enemy:2 "Um de nossos valentes soldados conseguiu matar o inimigo [CHARACTER.Custom('KnightCultureNoTooltipLowercase')] [CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_by_enemy_friendly:2 "Nossa $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] foi morta por [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ knight_killed_by_enemy_enemy:2 "Nosso $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] matou [CHARACTER.GetShortUINameNoTooltip]!"
+ 
+ berserker_rage_killed_enemy_enemy:1 "Nosso $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] foi arrancado [TARGET_CHARACTER.GetHerHis] cabeça pelo [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_friendly:1 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] arrancou a cabeça de [TARGET_CHARACTER.GetShortUINameNoTooltip] e se tornou um [GetTrait('berserker').GetName( GetNullCharacter )]!"
+ berserker_rage_killed_enemy_no_trait_enemy:1 "Nosso $knight_culture_player_no_tooltip_lowercase$ [TARGET_CHARACTER.GetShortUINameNoTooltip] foi arrancado [TARGET_CHARACTER.GetHerHis] cabeça pelo [GetTrait('berserker').GetName( GetNullCharacter )] [CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_killed_enemy_no_trait_friendly:1 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] arrancou a cabeça de [TARGET_CHARACTER.GetShortUINameNoTooltip]!"
+ berserker_rage_no_enemy_enemy:1 "O inimigo $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] atravessou nossos soldados e se tornou um [GetTrait('berserker').GetName( GetNullCharacter )]!"
+ berserker_rage_no_enemy_friendly:1 "Nosso $knight_culture_player_no_tooltip_lowercase$ [CHARACTER.GetShortUINameNoTooltip] atravessou os soldados inimigos e se tornou um [GetTrait('berserker').GetName( GetNullCharacter )]!"
+
+ # Commander injured/killed event string for use in battle events.
+ commander_wounded_no_enemy_friendly_player:1 "Você foi ferido por um soldado inimigo enquanto liderava suas tropas em batalha!"
+ commander_wounded_no_enemy_friendly:0 "O Comandante [CHARACTER.GetUINameNoTooltip] foi ferido enquanto liderava tropas [CHARACTER.GetHerHis] em batalha!"
+ commander_wounded_no_enemy_enemy:0 "Um de nossos valentes soldados conseguiu ferir o comandante inimigo, [CHARACTER.GetUINameNoTooltip], em batalha!"
+
+ commander_wounded_by_enemy_friendly_player:1 "Você foi ferido por [TARGET_CHARACTER.GetUINameNoTooltip] enquanto liderava suas tropas em batalha!"
+ commander_wounded_by_enemy_friendly:0 "O Comandante [CHARACTER.GetUINameNoTooltip] foi ferido por [TARGET_CHARACTER.GetUINameNoTooltip] enquanto liderava as tropas [CHARACTER.GetHerHis] em batalha!"
+ commander_wounded_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] feriu o comandante inimigo, [CHARACTER.GetUINameNoTooltip], em batalha!"
+
+ commander_maimed_no_enemy_friendly_player:0 "Fui mutilado por um soldado inimigo enquanto liderava minhas tropas em batalha!"
+ commander_maimed_no_enemy_friendly:0 "Comandante [CHARACTER.GetUINameNoTooltip] foi mutilado enquanto liderava tropas [CHARACTER.GetHerHis] em batalha!"
+ commander_maimed_no_enemy_enemy:0 "Um de nossos valentes soldados conseguiu mutilar o comandante inimigo, [CHARACTER.GetUINameNoTooltip], em batalha!"
+
+ commander_maimed_by_enemy_friendly_player:1 "Você foi mutilado por [TARGET_CHARACTER.GetUINameNoTooltip] enquanto liderava suas tropas em batalha!"
+ commander_maimed_by_enemy_friendly:0 "Comandante [CHARACTER.GetUINameNoTooltip] foi mutilado por [TARGET_CHARACTER.GetUINameNoTooltip] em batalha!"
+ commander_maimed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] mutilaram o comandante inimigo, [CHARACTER.GetUINameNoTooltip], em batalha!"
+
+ commander_killed_no_enemy_friendly_player:0 "Fui morto por um soldado inimigo enquanto liderava minhas tropas em batalha!"
+ commander_killed_no_enemy_friendly:0 "Comandante [CHARACTER.GetUINameNoTooltip] foi morto enquanto liderava tropas [CHARACTER.GetHerHis] em batalha!"
+ commander_killed_no_enemy_enemy:0 "Um de nossos valentes soldados conseguiu matar o comandante inimigo, [CHARACTER.GetUINameNoTooltip], enviando seu exército em desordem!"
+
+ commander_killed_by_enemy_friendly_player:1 "Você foi morto por [TARGET_CHARACTER.GetUINameNoTooltip] enquanto liderava suas tropas em batalha!"
+ commander_killed_by_enemy_friendly:0 "Comandante [CHARACTER.GetUINameNoTooltip] foi morto por [TARGET_CHARACTER.GetUINameNoTooltip]!"
+ commander_killed_by_enemy_enemy:0 "[TARGET_CHARACTER.GetUINameNoTooltip] matou o comandante inimigo, [CHARACTER.GetUINameNoTooltip], enviando seu exército para a desordem!"
+
+ # Commander injured/killed event strings for use in messages/toasts.
+ commander_wounded_no_enemy_interface_friendly_player:1 "Você foi ferido por um soldado inimigo enquanto liderava suas tropas em batalha!"
+ commander_wounded_by_enemy_interface_friendly_player:1 "Você foi ferido por [enemy_knight.GetUINameNoTooltip] enquanto liderava suas tropas em batalha!"
+ commander_maimed_no_enemy_interface_friendly_player:1 "Você foi mutilado por um soldado inimigo enquanto liderava suas tropas em batalha!"
+ commander_maimed_by_enemy_interface_friendly_player:1 "Você foi mutilado por [enemy_knight.GetUINameNoTooltip] enquanto liderava suas tropas em batalha!"
+ commander_killed_no_enemy_interface_friendly:1 "[ROOT.Char.GetUINameNoTooltip] foi morto por um soldado inimigo enquanto liderava suas tropas em batalha!"
+ commander_killed_by_enemy_interface_friendly:1 "[ROOT.Char.GetUINameNoTooltip] foi morto por [enemy_knight.GetUINameNoTooltip] enquanto liderava suas tropas em batalha!"
+

@@ -1,0 +1,6 @@
+﻿l_english:
+ KILL_LIST:0 "Lista de Mortes"
+ KILL_LIST_LABEL:0 "[KillListWindow.GetCharacter.GetUINamePossessive|U] Mata"
+ OPEN_KILL_LIST_TOOLTIP:0 "Lista de mortes abertas"
+ DEATH_DATE:0 "Data da Morte"
+ DEATH_REASON:0 "Razão da Morte"

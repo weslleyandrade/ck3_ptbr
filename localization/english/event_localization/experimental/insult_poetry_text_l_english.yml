@@ -1,0 +1,63 @@
+﻿l_english:
+ insult_poetry.0001.t:0 "Um insulto!"
+ insult_poetry.0001.from_other:0 "[actor.GetTitledFirstName] lhe enviou um poema:\n"
+ insult_poetry_line_1_a_01:0 "Você é mais estúpido do que um [ROOT.GetCharacter.Custom('rhyme_group_a_one')]"
+ insult_poetry_line_1_a_02:0 "\nYou é mais feio que um [ROOT.GetCharacter.Custom('rhyme_group_a_one')]"
+ insult_poetry_line_1_b_01:0 "Você é mais estúpido do que um [ROOT.GetCharacter.Custom('rhyme_group_b_one')]"
+ insult_poetry_line_1_b_02:0 "\nYou é mais feio que um [ROOT.GetCharacter.Custom('rhyme_group_b_one')]"
+ insult_poetry_line_1_c_01:0 "\nUmas que é muito baixa para [ROOT.Char.Custom('rhyme_group_c_one')]"
+ insult_poetry_line_1_c_02:0 "\nUm pária, indigno até mesmo de um [ROOT.Char.Custom('rhyme_group_c_one')]"
+
+ insult_poetry_line_2_a_01:0 "\nComo ninguém [ROOT.GetCharacter.Custom('rhyme_group_a_two')]"
+ insult_poetry_line_2_a_02:0 "Mais do que deus [ROOT.GetCharacter.Custom('rhyme_group_a_two')]"
+ insult_poetry_line_2_b_01:0 "\nBeing ao seu redor é um [ROOT.GetCharacter.Custom('rhyme_group_b_two')]"
+ insult_poetry_line_2_b_02:0 "Mais do que até mesmo o [ROOT.GetCharacter.Custom('rhyme_group_b_two')] do Senhor"
+ insult_poetry_line_2_c_01:0 "\nNão nem mesmo digno de ser [ROOT.GetCharacter.Custom('rhyme_group_c_two')]"
+ insult_poetry_line_2_c_02:0 "\nSurely você está acostumado a ser [ROOT.GetCharacter.Custom('rhyme_group_c_two')]"
+
+ insult_poetry_recipient_line_1_a_01:0 "Você é mais estúpido do que um [recipient.Custom('rhyme_group_a_one')]"
+ insult_poetry_recipient_line_1_a_02:0 "\nYou é mais feio que um [recipient.Custom('rhyme_group_a_one')]"
+ insult_poetry_recipient_line_1_b_01:0 "Você é mais estúpido do que um [recipient.Custom('rhyme_group_b_one')]"
+ insult_poetry_recipient_line_1_b_02:0 "\nYou é mais feio que um [recipient.Custom('rhyme_group_b_one')]"
+ insult_poetry_recipient_line_1_c_01:0 "\nUmas que é muito baixa para [ROOT.Char.Custom('rhyme_group_c_one')]"
+ insult_poetry_recipient_line_1_c_02:0 "\nUm pária, indigno até mesmo de um [ROOT.Char.Custom('rhyme_group_c_one')]"
+
+ insult_poetry_recipient_line_2_a_01:0 "\nComo ninguém [recipient.Custom('rhyme_group_a_two')]"
+ #insult_poetry_recipient_line_2_a_02: "\nMore than even God [recipient.Custom('rhyme_group_a_two')]"
+ insult_poetry_recipient_line_2_b_01:0 "\nBeing ao seu redor é um [recipient.Custom('rhyme_group_b_two')]"
+ #insult_poetry_recipient_line_2_b_02: "\nMore than even the Lord's [recipient.Custom('rhyme_group_b_two')]"
+ insult_poetry_recipient_line_2_c_01:0 "\nNão nem mesmo digno de ser [recipient.Custom('rhyme_group_c_two')]"
+ insult_poetry_recipient_line_2_c_02:0 "\nSurely você está acostumado a ser [recipient.Custom('rhyme_group_c_two')]"
+ 
+ insult_poetry.0001.a:0 "Como você se atreve?"
+
+ #Rhyme group A
+ insult_cow:0 "vaca"
+ insult_plough:0 "Arado"
+ insult_prow:0 "proa"
+ insult_sow:0 "Semear"
+
+ insult_should_allow:0 "deve permitir"
+ insult_understands_how:0 "entende como"
+ insult_knows_quite_how:0 "sabe bem como"
+ insult_could_use_as_a_plough:0 "poderia usar como arado"
+ 
+ #Rhyme group B
+ insult_dog:0 "cachorro"
+ insult_bog:0 "pântano"
+ insult_hog:0 "porco"
+ insult_sprog:0 "Linguagem"
+ insult_slog:0 "banged"
+ insult_clog:0 "entupimento"
+ insult_grog:0 "grog"
+
+ #Rhyme group C
+ insult_hunt:0 "Caçar"
+ insult_grunt:0 "grunhido"
+ insult_stunt:0 "dublê"
+ insult_punt:0 "ponto"
+
+ insult_runt:0 "chamado de runt"
+ insult_errant:0 "um errante"
+ insult_shunt:0 "evitado"
+ insult_blunt:0 "chamado de contundente"

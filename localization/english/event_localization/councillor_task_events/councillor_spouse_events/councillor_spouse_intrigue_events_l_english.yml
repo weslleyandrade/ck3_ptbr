@@ -1,0 +1,47 @@
+﻿l_english:
+ councillor_spouse_intrigue.0001.message:0 "[councillor.GetTitleAsName] e [spymaster.GetCouncilTitle] cooperam"
+
+ councillor_spouse_intrigue.0002.message:0 "[councillor.GetTitleAsName] expõe esquema"
+
+ councillor_spouse_intrigue.0003.message:0 "[councillor.GetTitleAsName] descobre segredo"
+
+ councillor_spouse_intrigue.0004.message:0 "[councillor.GetTitleAsName] Aids Scheme"
+
+ councillor_spouse_intrigue.0005.message:0 "[councillor.GetTitleAsName] manipula sujeito"
+
+ councillor_spouse_intrigue.0006.message:0 "Ingenuidade Perdida"
+
+ councillor_spouse_intrigue.0007.message:0 "Prática Tortuosa"
+
+ councillor_spouse_intrigue.1001.t:1 "Cônjuge: Não confie em ninguém"
+ councillor_spouse_intrigue.1001.desc:0 ""Eu descobri que, mesmo enquanto falamos, [spymaster.GetTitledFirstName] está tramando contra você!" The expression in my [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('councillor'))] eyes is deathly serious. "Eu descobri que, mesmo enquanto falamos, [spymaster.GetTitledFirstName] está tramando contra você!"\n\nCould it really be? My own [spymaster.GetCouncilTitle]?!"
+ councillor_spouse_intrigue.1001.a:0 "Eu fui tido por um tolo!"
+
+ councillor_spouse_intrigue.1002.t:1 "Cônjuge: Boato e Especulação"
+ councillor_spouse_intrigue.1002.desc:0 "Eu me inclino mais perto enquanto [councillor.GetSheHe] abaixa [councillor.GetHerHis] voz."You know the rumors about [target.GetTitledFirstName], that [target.GetSheHe] is hiding something terrible?"Eu me inclino mais perto enquanto [councillor.GetSheHe] abaixa [councillor.GetHerHis] voz."They are all true. All we need is proof.""
+ councillor_spouse_intrigue.1002.a:0 "É hora de alguma espionagem, meu [councillor.Custom('LoverPetName')]!"
+ councillor_spouse_intrigue.1002.b:0 "Eu devo descobrir o que é!"
+ councillor_spouse_intrigue.1002.c:0 "Eu protejo meus segredos melhor do que [target.GetFirstNameNoTooltip] faz."
+
+ councillor_spouse_intrigue.1003.t:1 "Cônjuge: Revelado"
+ councillor_spouse_intrigue.1003.desc:0 " [councillor.GetSheHe] diz."[agent.GetTitledFirstName] is participating in a conspiracy," [councillor.GetSheHe] diz."[agent.GetSheHe|U] does not yet know that I know, but I suggest you offer [agent.GetHerHim] amnesty, in exchange for absolute loyalty...""
+ councillor_spouse_intrigue.1003.a:0 "Faça [agent.GetHerHim] entender o quanto está em jogo."
+ councillor_spouse_intrigue.1003.b:0 "Use [agent.GetHerHim] para encontrar o verdadeiro gênio!"
+ councillor_spouse_intrigue.1003.c:0 "Rastreie [agent.GetHerHis] cada movimento, e me mantenha a salvo do mal!"
+
+ councillor_spouse_intrigue.1004.t:1 "Cônjuge: Pesquisa de Oposição"
+ councillor_spouse_intrigue.1004.desc:1 "[secret_holder.GetTitledFirstName] tem sido uma dor, apoiando vocalmente a [faction.GetName]. Felizmente, eu pareço prestes a obter a vantagem.\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] descobriu um segredo bem guardado de [secret_holder.GetHerHis], [councillor.GetSheHe] me diz com um sorriso inteligente.\n\n"I thought you might find it interesting, my dear...""
+ councillor_spouse_intrigue.1004.a:0 "Um pouco de chantagem manterá [secret_holder.GetHerHim] na linha."
+ councillor_spouse_intrigue.1004.b:0 "Isso é escandaloso! O reino deve saber!"
+ councillor_spouse_intrigue.1004.c:0 "Às vezes é melhor esperar com uma mão vencedora."
+ councillor_spouse_intrigue.1004.c.tt:1 "Você ainda não revela [secret_holder.GetFirstNamePossessiveNoTooltip] Segredo"
+
+ councillor_spouse_intrigue.1005.t:1 "Cônjuge: Dividir e Conquistar"
+ councillor_spouse_intrigue.1005.desc:0 "[faction_member.GetTitledFirstName] tem apoiado ativamente [leader.GetTitledFirstName] e [leader.GetHerHis] [faction.GetName]. No entanto, meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] tem um plano para mudar isso."Trust me, the things I could tell [faction_member.GetTitledFirstName] would make [faction_member.GetHerHim] disavow [leader.GetFirstNameNoTooltip] in an instant.""
+ councillor_spouse_intrigue.1005.a:0 "Certifique-se de que nunca mais [faction_member.GetFirstNameNoTooltip] [leader.GetFirstNameNoTooltip] apóia!"
+ councillor_spouse_intrigue.1005.b:0 "Você poderia fazer #EMP mim#! parecer uma escolha melhor?"
+
+ councillor_spouse_intrigue.1006.t:1 "Cônjuge: Um Representante Apropriado"
+ councillor_spouse_intrigue.1006.desc:0 "Estando bem ciente dos meus planos em relação ao [target.GetTitledFirstName], meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('councillor'))] [councillor.GetFirstName] veio até mim com uma proposta.\n\n"I have friends at [court_owner.GetTitledFirstNamePossessive] court. I could request that they house a guest for some time. With a small token of loyalty and all the support I can offer, [plant.GetTitledFirstName] could do wonders on your behalf...""
+ councillor_spouse_intrigue.1006.a:0 "Uma ideia brilhante, minha [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('councillor'))]!"
+ councillor_spouse_intrigue.1006.b:0 "Acho que precisamos de [plant.GetFirstNameNoTooltip] aqui."

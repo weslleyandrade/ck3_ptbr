@@ -1,0 +1,304 @@
+﻿l_english:
+ witch.1001.message:0 "Indução de Bruxaria"
+ child_witch_conversion_success_effect.desc:0 "[child.GetFirstNameNoTooltip] está convencido"
+ child_witch_conversion_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] é duvidoso"
+ child_witch_conversion_critical_failure_effect.desc:0 "[child.GetFirstNameNoTooltip] revela meu segredo"
+ child_witch_conversion_critical_failure_effect.liege.desc:0 "[child.GetFirstNameNoTooltip] revela guardião das bruxas"
+
+ witch.1002.t:0 "A Era do Conhecimento"
+ witch.1002.desc:0 "[child.Custom2('MyCharacterIntroduction', ROOT.Char)|U] paira no limbo entre a infância e a idade adulta. Ensinei [child.GetHerHim] o suficiente para entender a verdade, e [child.GetSheHe] ainda é jovem o suficiente para ter uma mente aberta. Se eu quiser induzir [child.GetHerHim] a serviço de [ROOT.Char.GetFaith.WitchGodName], é agora ou nunca."
+ witch.1002.a:0 "[child.GetSheHe|U] merecem saber [ROOT.Char.GetFaith.WitchGodHerHis|U] poder."
+ witch.1002.b:0 "[child.GetFirstNameNoTooltip] é uma causa perdida."
+
+ witch.1003.t:0 "Conhecimento Oculto"
+ witch.1003.desc:0 "Há certas coisas [guardian.Custom2('MyCharacterIntroduction', ROOT.Char)] me disse que ninguém nunca fala. Nunca nos aprofundamos muito nesses tópicos, e sei que não faço perguntas. Ao mesmo tempo, esta noite, algo parece diferente entre nós. Enquanto nos sentamos para ler, [guardian.GetSheHe] pergunta se há algo que eu esteja curioso..."
+ witch.1003.a:0 "Sim, me diga tudo! Por favor,!"
+ witch.1003.b:0 "Não, acho que não..."
+ witch.1003.c:0 "Isso é blasfêmia!"
+
+ witch.2001.t:1 "$convert_to_witch$: Chegou a hora"
+ witch.2001.start.desc:0 "Não posso forçar [target.GetFirstName] a ver a verdade, mas fiz tudo o que pude para abrir [target.GetHerHis] mente para isso."
+ witch.2001.secrecy.desc:0 "Rezo para [owner.GetFaith.WitchGodName] que [target.GetFirstNameNoTooltip] tenha se conectado a algo em nossas conversas inocentes e aos textos sagrados que deixei em câmaras [target.GetHerHis]."
+ witch.2001.no_secrecy.desc:0 "Rezo para [owner.GetFaith.WitchGodName] que [target.GetFirstNameNoTooltip] tenha se conectado a algo nessas longas discussões e nos textos sagrados que dei [target.GetHerHim]."
+ witch.2001.end.desc:0 "\n\nAgora devo ir a [target.GetHerHim] e estender o convite para [owner.GetFaith.WitchGodHerHis|U] comunhão — ou desistir dessa empreitada."
+ witch.2001.a:0 "[target.GetSheHe|U] merece fazer [target.GetHerHis] própria mente."
+ witch.2001.b1:0 "Os riscos são muito grandes."
+ witch.2001.b2:0 "[target.GetFirstNameNoTooltip] não está pronto."
+ witch.2001.a.tt:1 "Você vai em frente com o seu plano de converter [target.GetShortUIName] para o caminho da [owner.GetFaith.WitchGodName]"
+
+ witch.2002.t:0 "Um Servo de [owner.GetFaith.WitchGodName]"
+ witch.2002.start.desc:0 "Quando abro meus olhos no escuro, estou imediatamente sobrecarregado por um sentimento sinistro. Alguém está me observando?"Are you ready to embrace the truth, [ROOT.Char.GetFirstNameNoTooltip]?""
+ witch.2002.discovery.desc:0 "Eu reconheceria essa voz em qualquer lugar. Deve ser [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
+ witch.2002.no_discovery.desc:0 "Eu me sento, de repente completamente acordado. Eu olho em volta para a fonte da voz do [owner.GetWomanMan] desconhecido, mas há apenas sombras."
+ witch.2002.end.desc:0 "Oon"[owner.GetFaith.WitchGodName|U] offers you [owner.GetFaith.WitchGodHerHis|U] blessing. Will you accept it?""
+ witch.2002.a:0 "Com todo o meu coração!"
+ witch.2002.b:0 "Eu não quero ter nada a ver com isso. Begone, demônio!"
+ witch.2002.c:0 "O mundo saberá do seu pecado, [owner.GetFirstNameNoTooltip]!"
+
+ witch.2003.t:1 "$convert_to_witch$: Um Novo Novato"
+ witch.2003.desc:0 "Eu vejo a forma de dormir de [target.GetFirstName] enquanto envio uma oração rápida para [owner.GetFaith.WitchGodName]. Assim que a última palavra sussurrada passa pelos meus lábios, [target.GetSheHe] agita, como se [target.GetHerHis] mente subconsciente esperasse por este momento.\n\nQuando eu saio das sombras e ofereço [target.GetFirstNameNoTooltip] [owner.GetFaith.WitchGodHerHis|U] bênção, não há medo ou hesitação nos olhos [target.GetHerHis]. Não, [target.GetHerHis] aceitação é de todo o coração e fome."
+
+ witch.2003.a:0 "Bem-vindo à nossa comunhão, [target.Custom('SisterBrother')|U]."
+ witch.2003.b:0 "Agora eu posso finalmente mostrar [target.GetHerHim] meu verdadeiro eu."
+ witch.2003.b.tt:0 "[target.GetShortUIName|U] deve saber de sua [secret|E] para ser convidado para um $activity_witch_ritual$"
+ witch.2003.c:0 "[target.GetSheHe|U] deve encontrar [target.GetHerHis] próprio caminho."
+
+ witch.2003.message:0 "A bruxa revela [owner.GetHerselfHimself] para mim"
+
+ witch.2004.t:1 "$convert_to_witch$: Mente Fechada, Coração Frio"
+ witch.2004.start.desc:0 "Oon"Who goes there?"Oon"My name is not relevant. I am here in the service of [owner.GetFaith.WitchGodName]."Oon"
+ witch.2004.discovered.desc:0 "[target.GetFirstNameNoTooltip] esguios."[ROOT.Char.GetFirstNameNoTooltip], is that you? '[owner.GetFaith.WitchGodName|U]'? What is this nonsense?!"
+ witch.2004.not_discovered.desc:0 "[target.GetFirstNameNoTooltip] gritos, e eu não sou lento para obedecer."I want nothing to do with you or your lies! Begone, demon!"[target.GetFirstNameNoTooltip] gritos, e eu não sou lento para obedecer."
+ witch.2004.a:0 "Câmara errada, desculpe!"
+
+ witch.2005.end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip], é você?" [owner.GetFaith.WitchGodName|U]'? [target.GetLiege.Custom2('MyCharacterIntroduction', target)|U] vai ouvir de sua blasfêmia!""
+ witch.2005.a:0 "Por favor, não é o que você pensa!"
+ witch.2005.a.tt:0 "Na verdade, pode ser #EMP exatamente#! o que [target.GetSheHe] pensa..."
+
+ witch.2006.t:0 "$convert_to_witch$: A Revelação"
+ witch.2006.desc:0 "\n\nI torcer ao redor para encontrar [target.GetTitledFirstName] agachado sobre um pentagrama esboçado no chão."Who is that?!"\n\nI torcer ao redor para encontrar [target.GetTitledFirstName] agachado sobre um pentagrama esboçado no chão."
+ witch.2006.a:0 "Oh, você já estava...! Olá, [target.Custom('SisterBrother')|U]!"
+
+ witch.2007.t:0 "Ally Oculta"
+ witch.2007.desc:0 "Estou no meio de um ritual noturno em homenagem a [owner.GetFaith.WitchGodName] quando há um barulho repentino atrás de mim. Um ladrão? Um visitante? Um assassino? \n\nAs eu torço ao redor eu me encontro cara a cara com [owner.Custom2('MyCharacterIntroduction', ROOT.Char)], vestido com um manto escuro adornado pela marca inconfundível de [owner.GetFaith.WitchGodName] – uma roupa clássica para conversões."
+ witch.2007.a:1 "Não há necessidade disso comigo, #EMP [owner.Custom('SisterBrother')|U]#!!"
+
+ witch.2010.t:1 "$convert_to_witchcraft_key$: Overheard"
+ witch.talk.2010:1 "[target.GetFirstName] e eu falamos sobre [owner.GetFaith.WitchGodName] e [owner.GetFaith.WitchGodHerHis] vai por muitas horas. Quando o céu muda sutilmente para azul no horizonte, fazemos nossas despedidas."
+ witch.leave.2010:0 "Uma vez que eu tenha dado a mais essencial de [ROOT.Char.GetFaith.WitchGodHerHis|U] sabedoria para [target.GetFirstName], e dado [target.GetHerHim] [target.GetHerHis] próprio grimório, eu tiro minha licença."
+ witch.end.2010:0 "\n\nAs eu abro a porta da câmara, ouço passos rápidos desaparecendo pelo corredor. Alguém estava ouvindo?"
+ witch.2010.a:0 "[ROOT.Char.GetFaith.HighGodName] ser condenado!"
+ witch.2010.a.tt:1 "Alguém conhece seu [secret|E]"
+
+ convert_to_witchcraft_key:0 "Converta-se à Bruxaria"
+ convert_to_witchcraft_interaction:1 "$convert_to_witchcraft_key$ #weak (Esquema)#!"
+ convert_to_witchcraft_interaction_desc:0 "Tente converter [recipient.GetShortUINameNoTooltip] para os caminhos da [actor.GetFaith.WitchGodName]"
+ convert_to_witchcraft:1 "Esquema $convert_to_witchcraft_key$"
+ convert_to_witchcraft_desc:0 "Vou levá[SCHEME.GetTarget.GetShortUINameNoTooltip] pelo caminho da [SCHEME.GetOwner.GetFaith.WitchGodName] e mostrar [SCHEME.GetTarget.GetHerHim] a verdadeira extensão do poder [SCHEME.GetOwner.GetFaith.WitchGodHerHis|U]."
+ convert_to_witchcraft_desc_general:0 "Leve um alvo pelo verdadeiro caminho e mostre-lhes a extensão desse poder."
+ convert_to_witchcraft_action:0 "Converter"
+ convert_to_witchcraft_interaction_notification:0 "Converta-se à Bruxaria"
+ convert_to_witchcraft_scheme_invalidated_title:0 "@scheme_icon! converter para o esquema de bruxaria termina"
+
+
+ ### REVEAL AS WITCH INTERACTION ###
+ reveal_as_witch_interaction:0 "Revele como bruxa"
+ reveal_as_witch_interaction_desc:0 "Revele sua devoção a [actor.GetFaith.WitchGodName] a um companheiro [GetTrait('witch').GetName( GetNullCharacter )]"
+
+ witch.2900.t:0 "[actor.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
+ witch.2900.desc:1 "Você tem sido uma inspiração para mim, e eu sinto que você merece saber o que eu tenho escondido do mundo.\n\nI, também, sou um seguidor de [actor.GetFaith.WitchGodName] e um estudante de [actor.GetFaith.WitchGodHerHis|U] mistérios. Espero que nosso esforço compartilhado nos aproxime.\n\nMay nossa astúcia [actor.GetFaith.WitchGodMistressMaster] cuidar de você."
+ witch.2900.a:0 "Nossos números crescem!"
+
+ witch.2901.t:0 "[recipient.Custom2('AppropriateGreetingPositive', ROOT.Char )]"
+ witch.2901.desc:0 "Fico feliz em ouvir de seu serviço fiel à nossa astúcia [ROOT.Char.GetFaith.WitchGodMistressMaster]! Que [ROOT.Char.GetFaith.WitchGodSheHe|U] cuide de você e guie-o pelo caminho da verdade."
+ witch.2901.a:0 "E que [ROOT.Char.GetFaith.WitchGodSheHe|U] cuide de você!"
+
+ ####GRAND RITE####
+
+ #Activity & decision
+ host_witch_ritual_decision:0 "Anfitrião Grande Rito"
+ host_witch_ritual_decision_desc:0 "Vamos adorar [ROOT.Char.GetFaith.WitchGodName] e mergulhar profundamente em [ROOT.Char.GetFaith.WitchGodHerHis|U] mistérios! O $activity_witch_ritual$ é uma excelente oportunidade para socializar e trocar conhecimento com meus companheiros bruxos."
+ host_witch_ritual_decision_tooltip:0 "Rito hospedeiro"
+ host_witch_ritual_decision_confirm:0 "Que o rito comece!"
+ activity_witch_ritual:0 "Grande Rito"
+ activity_witch_ritual_name:0 "[ACTIVITY.GetOwner.GetNamePossessiveOrMy|U] Grande Rito"
+ activity_witch_ritual_owner:0 "Host"
+ activity_witch_ritual_desc:1 "Todos os verdadeiros seguidores de [ACTIVITY.GetOwner.GetFaith.WitchGodName] foram convidados a celebrar [ACTIVITY.GetOwner.GetFaith.WitchGodHerHis|U] poder e mergulhar profundamente em [ACTIVITY.GetOwner.GetFaith.GetWitchGodHerHis|U] mistérios."
+
+ host_witch_ritual_decision_cooldown:0 "Não poderei hospedar outro Grande Rito por #N 10 anos#!"
+
+ #Invitation
+ witch.3001.t:0 "Querido [ROOT.Char.Custom('SisterBrother')|U] [ROOT.Char.GetFirstNameNoTooltip],"
+ witch.3001.desc:0 "Chegou a hora do [host.GetHouse.GetBaseNameNoTooltip] $activity_witch_ritual$ do Coven. Convido você a adorar [ROOT.Char.GetFaith.WitchGodName] na noite da lua cheia. Juntos, cantaremos [ROOT.Char.GetFaith.WitchGodHerHis|U] nome e mergulharemos profundamente em [ROOT.Char.GetFaith.WitchGodHerHis|U] mistérios!"
+ witch.3001.a:0 "Eu não posso esperar!"
+ witch.3001.b:0 "Eu prefiro comer uma tigela de lesmas."
+
+ #Uninvited guest
+ witch.3003.t:1 "$activity_witch_ritual$: Um convidado não convidado"
+ witch.3003.desc:0 "Quando meus companheiros bruxas chegam em [capital.GetNameNoTooltip], eu tenho um vislumbre de um rosto desconhecido.\n\nQuando vou cumprimentar [inviter.Custom2('MyCharacterIntroduction', ROOT.Char)] [inviter.GetSheHe] introduz a estranha [new_guest.GetWomanMan] como [new_guest.GetFirstName]. Eles são velhos conhecidos, como se vê, e [inviter.GetFirstNameNoTooltip] pergunta se [new_guest.GetFirstNameNoTooltip] pode se juntar ao nosso rito."
+ witch.3003.a:0 "Quanto mais, melhor!"
+ witch.3003.b:0 "Você será meu convidado de honra, [new_guest.GetFirstNameNoTooltip]."
+ witch.3003.c:0 "A $activity_witch_ritual$ é um assunto privado."
+
+ #No one attended
+ witch.3002.t:0 "$activity_witch_ritual$: Falta de devoção"
+ witch.3002.desc:0 "Nenhuma alma aceitou meu convite. Eles não merecem as bênçãos de [ROOT.Char.GetFaith.WitchGodName]!"
+ witch.3002.a:0 "Eles saberão [ROOT.Char.GetFaith.WitchGodHerHis|U] fúria."
+
+ #Starting event
+ every_grand_rite_participant:0 "Todos os convidados do $activity_witch_ritual$"
+ witch.3010.t:1 "$activity_witch_ritual$: A Lua Cheia Nasce"
+ witch.3010.desc:0 "À medida que a lua nasce nos céus, anunciando [ROOT.Char.GetFaith.WitchGodHerHis|U] chegada, posso sentir meu corpo respondendo às estranhas energias no ar. As silhuetas ao redor da grande fogueira são silenciosas, impassível. Esperando o que está por vir.\n\nComo o anfitrião deste encontro, cabe a mim começar o ritual. Eu vou..."
+ witch.3010.a:0 "Leia de um antigo grimório."
+ witch.3010.a.great:0 "Minha tradução é impressionante"
+ witch.3010.a.poor:0 "Minha tradução é pobre"
+ witch.3010.b:0 "Toque alguns truques com sons e sombras."
+ witch.3010.b.great:0 "Meus truques são espetaculares"
+ witch.3010.b.poor:0 "Meus truques são risíveis"
+ witch.3010.c:0 "Confie no meu carisma e improvise"
+ witch.3010.c.great:0 "Minha improvisação é inspiradora"
+ witch.3010.c.poor:0 "Meu improviso é incoerente"
+ witch.3010.d:0 "Apresente uma grande oferta."
+ witch.3010.e:0 "Recite as orações tradicionais."
+ witch.3010.e.tt:0 "[activity.GetName] continua normalmente"
+
+ #What to do after the rite
+ witch.3014.host.great_translation.desc:0 "As velhas palavras são estranhas, mas falam comigo em um nível instintivo. Eles tecem um padrão encantador, cheio de beleza e promessa. Meus convidados são totalmente ligados ao feitiço.\n\nAs eu fecho o grimório com um gesto dramático, seus aplausos irrompem através da clareira."
+ witch.3014.host.poor_translation.desc:0 "Não importa o quanto eu tente, as palavras antigas não fazem sentido. As expressões dos meus convidados vão de ansiosos, confusos, para consternados. Antes de me fazer um tolo ainda maior, improviso um final um pouco menos decepcionante. A multidão rapidamente dispersa uma vez que eu sou feito."
+ witch.3014.host.great_tricks.desc:0 "As bênçãos de [ROOT.Char.GetFaith.WitchGodName] são muitas, e entre elas está saber quando aplicar um pouco de truque. Com a ajuda de alguns espelhos, chifres e assistentes dispostos, fiz um show espetacular. O ar é espesso com a mistura emocionante de medo e excitação. Eu não me lembro da última vez que eu senti isso vivo!"
+ witch.3014.host.poor_tricks.desc:0 "Enquanto meus truques funcionavam bem quando os praticava sozinhos no meu quarto, parece que meus nervos melhoraram de mim esta noite. Ninguém está convencido - eu posso até ouvir alguém sufocar uma risada na parte de trás da multidão. Antes de fazer papel de bobo ainda maior, improviso um final rápido para a cerimônia."
+ witch.3014.host.great_improvisation.desc:0 "Enquanto conduzo a multidão durante a cerimônia, estudo cuidadosamente suas reações e ajustei minhas palavras de acordo. Em pouco tempo, estou em uma onda de sua excitação, aplausos apaixonados me alimentando enquanto eu construo em direção a um magnífico crescendo. Nós alcançamos juntos, uivando [ROOT.Char.GetFaith.WitchGodHerHis|U] nome na lua como um só."
+ witch.3014.host.poor_improvisation.desc:0 "Talvez eu deveria ter preparado melhor, afinal. Minha improvisação é sem brilho e sinuosa. Eu posso dizer que estou perdendo a multidão, então no final, eu recorto a uma oração tradicional. A multidão rapidamente dispersa uma vez que eu sou feito."
+ witch.3014.host.offering.desc:0 "Todos sabemos [ROOT.Char.GetFaith.WitchGodHerHis|U] carinho por alimentos e bebidas suntuosas. As mesas são pesadas com guloseimas açucardas, barris de vinho, frutas exóticas e tortas amanteigada. Juntos, oferecemos o melhor para [ROOT.Char.GetFaith.WitchGodName], antes de nos banquetearmos com o resto nós mesmos. "
+ witch.3014.host.fallback.desc:0 "As orações antigas podem não ser elaboradas, mas nem são simples. Curto e ao ponto, eles têm [ROOT.Char.GetFaith.WitchGodHerHis|U] verdades mais sagradas e poderosas. Recitá-los novamente é como cair no abraço seguro de uma mãe."
+ witch.3014.guest.start.desc:0 "Na véspera do grande rito, nos reunimos em uma clareira isolada. A grande fogueira está aquecendo nossas costas e o ar está cheio de emoção."
+ witch.3014.guest.good.desc:0 "[host.GetTitledFirstName] nos conduz a uma cerimônia espetacular. As orações antigas rolam de nossas línguas em um padrão encantador, cheio de beleza e promessa. Começamos a dançar, construindo em direção a um magnífico crescendo. Nós alcançamos juntos, uivando [ROOT.Char.GetFaith.WitchGodHerHis|U] nome na lua como um só."
+ witch.3014.guest.bad.desc:0 "[host.GetTitledFirstName] nos leva a uma cerimônia embaraçosa. [host.GetSheHe|U] está se esforçando para tornar a noite especial, mas [host.GetHerHis] tentativas são fracas. Pelo menos a lista de convidados é interessante..."
+ witch.3014.host.end.desc:0 "Agora que a cerimônia principal está terminada, meus convidados e eu somos livres para adorar como quiser."
+ witch.3014.guest.end.desc:0 "\n\nAgora que a cerimônia principal está terminada, somos livres para adorar como ela nos agrada."
+ witch.3014.a:0 "Experimente com ervas junto com [herbalist.GetFirstNameNoTooltip]."
+ witch.3014.a.knowledge:0 "[herbalist.GetFirstNameNoTooltip] me ensina algo novo"
+ witch.3014.a.inspiration:0 "A conversa é inspiradora"
+ witch.3014.b.start:0 "Peça a [teacher.GetFirstNameNoTooltip] para me instruir na arte de"
+ witch.3014.b.diplomacy:0 "charme"
+ witch.3014.b.martial:0 "estratégia"
+ witch.3014.b.stewardship:0 "comércio"
+ witch.3014.b.intrigue:0 "esquemas"
+ witch.3014.b.learning:0 "poesia"
+ witch.3014.c:0 "Compartilhe [ROOT.Char.GetFaith.WitchGodHerHis|U] presentes carnais com alguém."
+ witch.3014.c.tt:1 "Você tenta encontrar alguém com um desejo semelhante"
+ witch.3014.d:0 "Passe tempo com o [new_guest.Custom('ComplimentAdjective')] [new_guest.GetFirstNameNoTooltip]."
+ witch.3014.e:0 "Onde está minha [sex_partner.Custom('LoverPetName')]? Eu anseio [sex_partner.GetHerHis] toque..."
+ witch.3014.d.move_in:0 "Nós nos damos bem esplêndidamente"
+ witch.3014.d.friend:0 "Nós nos damos bem"
+ witch.3014.d.enemy:0 "Nós entramos em uma discussão acalorada"
+ witch.3014.f:1 "Rir, beber, dançar — aproveite [ROOT.Char.GetFaith.WitchGodHerHis|U] bênçãos!"
+
+ #Regular seduction event
+ witch.3015.t:0 "$activity_witch_ritual$: By the Pond"
+ witch.3015.start.desc:0 "O poder da [ROOT.Char.GetFaith.WitchGodName] está latejando em minhas veias enquanto eu vagueio pela floresta. Um coro de suspiros e gemidos me cumprimenta - Eu não sou a única companhia de desejo esta noite.\n\n"
+ witch.3015.new_guest.desc:0 "Eu me deparo com meu novo conhecido, [sex_partner.GetFirstName], por um lago iluminado pela lua."
+ witch.3015.regular.desc:0 "Eu acho [sex_partner.Custom2('MyCharacterIntroduction', ROOT.Char)] por um lago iluminado pela lua."
+ witch.3015.end.desc:0 "Quando olho para [sex_partner.GetHerHis] olhos, tudo se encaixa. Isso é [ROOT.Char.GetFaith.WitchGodHerHis|U] vontade. [sex_partner.GetSheHe|U] me chama mais de perto..."
+ witch.3015.a:0 "Vamos adorar juntos."
+ witch.3015.b:0 "Eu... estava procurando outra pessoa."
+ witch.3015.b.tt:1 "Você passa a noite sozinho"
+
+ #Lover/spouse seduction event
+ witch.3016.t:0 "$activity_witch_ritual$: As Estrelas Se Alinham"
+ witch.3016.end.desc:0 "Uma voz familiar me chama - é [sex_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]. Quando me viro e encontro [sex_partner.GetHerHis] olhar, tudo se encaixa. Nós dois... É [ROOT.Char.GetFaith.WitchGodHerHis|U] vontade. Estamos destinados a ficar juntos."
+ witch.3016.a:0 "Para sempre"
+ witch.3016.b:0 "Eu... Eu não estou pronto para isso."
+
+ #Soulmate seduction event
+ witch.3017.end.desc:0 "Eu não vi para onde [sex_partner.GetFirstName] ido, mas eu não preciso. Sou atraído por [sex_partner.GetHerHim] como uma pedra de ferro. Quando encontro [sex_partner.GetHerHim], não há surpresa em [sex_partner.GetHerHis] belos olhos - apenas amor e desejo."
+ witch.3017.a:0 "Como eu ansiava por você."
+ witch.3017.b:0 "Eu... esqueci de uma coisa! Desculpe!"
+
+ #End events
+ witch.3098.t:0 "$activity_witch_ritual$: Até a Próxima Vez"
+ witch.3098.start.desc:0 "Meus convidados e eu"
+ witch.3098.end.desc:0 "adoraram [ROOT.Char.GetFaith.WitchGodName], trocaram conhecimento sagrado e amarraram laços profundos. Minha mente está cheia de novas ideias, mas meu corpo está precisando desesperadamente de descanso. Uma cama quente nunca se sentiu tão tentadora."
+ witch.3098.a:0 "Que [ROOT.Char.GetFaith.WitchGodSheHe|U] cuide de nós até o próximo $activity_witch_ritual$."
+ witch.3099.start.desc:0 "Juntos, nós"
+ witch.3099.tt:0 "Você se aventura em casa quando o $activity_witch_ritual$ termina"
+
+
+ ########################
+ # ONGOING WITCH EVENTS #
+ ########################
+
+ ### Court chaplain / other clergy is an idiot ###
+ witch.4001.t:0 "Julgamento Divino"
+ witch.4001.start.desc:0 "[annoying_clergy.Custom2('MyCharacterIntroduction', ROOT.Char)|U] está realmente me irritando! Não passa um momento em que [annoying_clergy.GetSheHe] não esteja falando sobre [annoying_clergy.GetFaith.HighGodName] e [annoying_clergy.GetFaith.HighGodHerHis|U] vai.\n\n[annoying_clergy.GetSheHe|U] especialmente adora dizer a todos como [annoying_clergy.GetFaith.HighGodNameAlternate]"
+ witch.4001.forgiving.desc:0 "acha que perdão é fraqueza."
+ witch.4001.deceitful.desc:0 "punirá mentirosos."
+ witch.4001.gluttonous.desc:0 "puna aqueles que se divertem com comida e bebida."
+ witch.4001.wrathful.desc:0 "punirá aqueles com mau humor."
+ witch.4001.greedy.desc:0 "punirá aqueles que cobiçam riqueza."
+ witch.4001.arbitrary.desc:0 "exige que sejamos justos e justos."
+ witch.4001.sadistic.desc:0 "punirá aqueles que são cruéis com os outros."
+ witch.4001.craven.desc:0 "punirá aqueles que são tímidos e cuidadosos."
+ witch.4001.lustful.desc:0 "punirão prostitutas e fornicadores."
+ witch.4001.vengeful.desc:0 "exige que viremos a outra face."
+ witch.4001.arrogant.desc:0 "acha que ter orgulho das realizações é pecado."
+ witch.4001.fallback.desc:0 "punirá os pecadores."
+ witch.4001.witch.desc:0 "Mas por que eu ouviria [annoying_clergy.GetHerHim], quando [ROOT.Char.GetFaith.WitchGodName] nos abraça como somos, falhas e tudo mais? Que vida triste [annoying_clergy.GetFirstNameNoTooltip] deve viver!"
+ witch.4001.impious.desc:0 "[annoying_clergy.GetFaith.HighGodName] é um bastardo julgador!"
+ witch.4001.a:0 "Eu vou fazer [annoying_clergy.GetHerHim] motivo de riso de [capital.GetNameNoTooltip]!"
+ witch.4001.a.tt:0 "[annoying_clergy.GetFaith.HighGodName] não é o único que pode julgar!"
+ witch.4001.a.success:0 "Você faz um tolo de [annoying_clergy.GetShortUINameNoTooltip]"
+ witch.4001.a.failure:0 "[annoying_clergy.GetShortUINameNoTooltip] descobre seu esquema"
+ witch.4001.c:0 "Agindo como um pansy piedoso vai calar [annoying_clergy.GetHerHim]."
+ witch.4001.b:0 "[annoying_clergy.GetSheHe|U] não saberei no que acreditar quando eu terminar com [annoying_clergy.GetHerHim]."
+ witch.4001.b.success:0 "Você quebra [annoying_clergy.GetShortUINamePossessiveNoTooltip] fé no [annoying_clergy.GetFaith.HighGodName]"
+ witch.4001.b.neutral:0 "[annoying_clergy.GetShortUINameNoTooltip] é incerto"
+ witch.4001.b.neutral.tt:0 "Você pode optar por desistir ou continuar tentando"
+ witch.4001.b.failure:0 "Você não influencia [annoying_clergy.GetShortUINameNoTooltip]"
+ witch_4001_corruption_success_effect.tt:0 "Você pode [blackmail|E] [annoying_clergy.GetShortUIName] sobre [annoying_clergy.GetHerHis] [secret|E]"
+ witch.4002.witch.desc:0 "[ROOT.Char.GetFaith.WitchGodName|U] deve ter me ajudado, porque meu plano foi ainda melhor do que o esperado!\n\n"
+ witch.4002.impious.desc:0 "Meu plano era perfeito!\n\n"
+ witch.4002.gluttonous.desc:0 "[annoying_clergy.GetTitledFirstName] [annoying_clergy.GetHerselfHimself] gorged sobre os bolos de drogas que eu tinha enviado para [annoying_clergy.GetHerHis] câmaras. [annoying_clergy.GetSheHe|U] então começou a vagar pela cidade com geleia e desmorona espalhados ao redor [annoying_clergy.GetHerHis] boca, antes de dormir nos degraus da [annoying_clergy.GetFaith.HouseOfWorship]!"
+ witch.4002.lustful.desc:0 ", forjou [annoying_clergy.GetTitledFirstNamePossessive] assinatura, e mandou entregá-la aos aposentos do [lustful_desc.GetLadyLord]. [lustful_desc.GetFirstName] não #EMP estava #! satisfeito com a dedicação, nem [lustful_desc.GetSheHe] foi discreto sobre isso."[lustful_desc.Custom('ObjectifiedFeature')]", forjou [annoying_clergy.GetTitledFirstNamePossessive] assinatura, e mandou entregá-la aos aposentos do [lustful_desc.GetLadyLord]. [lustful_desc.GetFirstName] não #EMP estava #! satisfeito com a dedicação, nem [lustful_desc.GetSheHe] foi discreto sobre isso."
+ witch.4002.craven.desc:0 "Enquanto [annoying_clergy.GetTitledFirstName] dormia, eu coloquei um rato entre [annoying_clergy.GetHerHis] lençóis. Eu mal tive tempo de me esconder antes [annoying_clergy.GetSheHe] acordar com um grito, jogar [annoying_clergy.GetHerselfHimself] para fora da cama e correr para fora da porta - nua como o dia em que [annoying_clergy.GetSheHe] nasceu!"
+ witch.4002.vengeful.desc:0 "Eu subornei um funcionário para convencer [annoying_clergy.GetTitledFirstName] que [vengeful_desc.Custom2('MyCharacterIntroduction', ROOT.Char)] estava insultando [annoying_clergy.GetHerHim] pelas costas [annoying_clergy.GetHerHis]. Nos dias seguintes, [annoying_clergy.GetFirstNameNoTooltip] foi incrivelmente rude com os pobres [vengeful_desc.GetFirstNameNoTooltip] todas as chances que [annoying_clergy.GetSheHe] teve. No final, [vengeful_desc.GetFirstNameNoTooltip] confrontado [annoying_clergy.GetHerHim] sobre [annoying_clergy.GetHerHis] comportamento malicioso. [annoying_clergy.GetFirstNameNoTooltip] não tinha nada a dizer em [annoying_clergy.GetHerHis] defesa."
+ witch.4002.wrathful.desc:0 "Acontece que eu sei que [annoying_clergy.GetTitledFirstName] é um bêbado médio, e que [annoying_clergy.GetSheHe] está um pouco apaixonado por um dos meus servos. Eu tive a [wrathful_desc.GetWomanMan] trazer uma garrafa de bebida muito cara e ainda mais forte para [annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] câmaras. Motivado com a promessa de uma promoção, [wrathful_desc.GetSheHe] ficou [annoying_clergy.GetHerHim] bêbado bem a tempo de [annoying_clergy.Custom('GetReligiousRite')]."
+ witch.4002.arrogant.desc:0 "Mesmo que [annoying_clergy.GetSheHe] tente escondê-lo, sei [annoying_clergy.GetTitledFirstName] está muito preocupado com [annoying_clergy.GetHerHis] aparência. [annoying_clergy.GetSheHe|U] tem uma pomada que [annoying_clergy.GetSheHe] se aplica religiosamente todas as manhãs. Eu olhei para [annoying_clergy.GetHerHis] câmaras e adicionei algumas ervas irritantes a ele. No dia seguinte, [annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] rosto estava coberto de colmeias!"
+ witch.4002.end.desc:0 "Foi a única coisa que meus cortesãos falaram ontem à noite. [annoying_clergy.GetFirstNameNoTooltip] nunca vai viver este para baixo!"
+ witch.4002.a:0 "Serve [annoying_clergy.GetHerHim] certo!"
+
+ witch.4003.desc:0 "\n\n[annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] voz se despedaça para soluços incoerentes."Oh, [annoying_clergy.GetFaith.HighGodName]! I need a sign! I have believed in you, exerted your will on Earth, but now... All I can see are the contradictions, the fallacies, the... the lies!"\n\n[annoying_clergy.GetTitledFirstNamePossessiveNoTooltip] voz se despedaça para soluços incoerentes."
+ witch.4003.a:0 "Eu tiro minha licença, meu trabalho concluído."
+ witch.4003.b:0 "[annoying_clergy.GetSheHe|U] está pronto para as verdades maiores."
+ witch.4003.c:0 "[annoying_clergy.GetSheHe|U] se tornará meu discípulo!"
+
+ witch.4004.desc:0 "Sob o disfarce inocente de consultas teológicas, eu semeei dúvidas em [annoying_clergy.GetTitledFirstNamePossessive] coração. Posso dizer [annoying_clergy.GetHerHis] fé está vacilando de [annoying_clergy.GetHerHis] respostas incertas e a sombra de preocupação que cai sobre [annoying_clergy.GetHerHis] rosto quando [annoying_clergy.GetSheHe] acha que ninguém está assistindo.\n\nEu não estou lá, ainda não, mas uma tentativa final #EMP #EMP deve#! quebrar [annoying_clergy.GetHerHim]."
+ witch.4004.a:0 "É um esforço digno!"
+ witch.4004.b:0 "Meu tempo é melhor gasto em outras coisas."
+
+ witch.4005.desc:0 "Deixei um tomo de verdades desconfortáveis em [annoying_clergy.GetTitledFirstNamePossessive] câmaras, mas vi [annoying_clergy.GetHerHim] jogá-lo no fogo depois de ler apenas algumas páginas. O desafio deve ter se fortalecido [annoying_clergy.GetHerHis] fé — não consigo mais detectar nenhuma incerteza no [annoying_clergy.GetHerHis] coração."
+ witch.4005.a:0 "[annoying_clergy.GetSheHe|U] não era digno, de qualquer maneira!"
+
+#PERSONAL WITCH RITUAL
+ witch.4010.t:0 "[ROOT.Char.GetFaith.WitchGodHerHis|U] presentes são abundantes"
+ witch.4010.desc:0 "\n\nEu peço [ROOT.Char.WitchGodName] para..."[ROOT.Char.GetFaith.WitchGodMistressMaster|U]! Knower of all truths, [ROOT.Char.GetFaith.WitchGodMotherFather] of all power! Please accept my humble gifts, and offer me your guidance in turn!"\n\nEu peço [ROOT.Char.WitchGodName] para..."
+ witch.4010.a:0 "Sorte na arte do amor."
+ witch.4010.b:0 "Charme e tato"
+ witch.4010.c:0 "A mente de um estrategista."
+ witch.4010.d:0 "Uma mente para moeda e ordem."
+ witch.4010.e:0 "A ajuda das sombras."
+ witch.4010.f:0 "Sabedoria e sagacidade."
+ witch.4010.g:0 "Sorte com a lâmina."
+ witch.4010.h:0 "Paz de espírito"
+
+# Witch friends: prayer, by Mathilda Bjarnehed
+ witch.4020.t:0 "Tomando ou Dando"
+ witch.4020.two_witches.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] e [prayer_witch_2.Custom2('MyCharacterIntroduction', ROOT.Char)] se juntaram a mim para"
+ witch.4020.one_witch.desc:0 "[prayer_witch_1.Custom2('MyCharacterIntroduction', ROOT.Char)|U] se juntou a mim para"
+ witch.4020.full_moon.desc:0 "um rito da lua cheia"
+ witch.4020.new_moon.desc:0 "um novo rito lunar"
+ witch.4020.equinox.desc:0 "um ritual de equinócio"
+ witch.4020.solstice.desc:0 "um ritual de equinócio"
+ witch.4020.end.desc:0 "em homenagem ao [ROOT.Char.GetFaith.WitchGodName]. Como anfitrião, é meu dever nos levar em oração."
+ witch.4020.a:0 "Sábia [ROOT.Char.GetFaith.WitchGodMistressMaster|U], traga [prayer_witch_1.GetFirstNameNoTooltip] paz e clareza!"
+ witch.4020.b:0 "Conceda suas bênçãos para [prayer_witch_2.GetFirstNameNoTooltip]!"
+ witch.4020.c:0 "[ROOT.Char.GetFaith.WitchGodMotherFather|U] segredos, me dê seu poder!"
+
+ witch.4030.t:0 "Segredos ligados ao couro"
+ witch.4030.no_friend.desc:1 "Meus contatos me enviaram um tomo escrito em algum código estranho, suas capas de couro decoradas com os símbolos do meu [ROOT.Char.GetFaith.WitchGodMistressMaster|U].\n\nI só foram capazes de decifrar as primeiras páginas até agora, mas são profundamente fascinantes."
+ witch.4030.friend.desc:1 "Meu bom [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('witch_friend'))] [witch_friend.GetTitledFirstName] me trouxe um tomo escrito em algum código estranho, suas capas de couro decoradas com os símbolos do nosso [ROOT.Char.GetFaith.WitchGodMistressMaster|U].\n\n[witch_friend.GetSheHe|U] só foi capaz de decifrar as primeiras páginas até agora, mas elas são profundamente fascinantes."
+
+ witch.4030.friend.a:0 "Juntos, vamos desvendar seus segredos."
+ witch.4030.no_friend.a:0 "Vou desvendar seus segredos, não importa quanto tempo leve!"
+ witch.4030.b:0 "Eu conheço um companheiro crente que pagaria um bom ouro por isso."
+ witch.4030.c:0 "Mesmo [convince_target_1.GetTitledFirstNameNoTooltip] será seduzido por esses segredos."
+ witch.4030.c.success:0 "[convince_target_1.GetShortUIName|U] está encantada com o tomo"
+ witch.4030.c.failure:0 "[convince_target_1.GetShortUIName|U] queima o tomo"
+ witch.4030.d:0 "[convince_target_2.GetTitledFirstNameNoTooltip] vai achar isso #EMP muito#! interessante."
+
+ witch.4031.start.desc:0 "Tenho uma visão desobstruída do tomo, que deixei na mesa [convince_target.GetTitledFirstNamePossessive], da passagem secreta atrás [convince_target.GetHerHis] câmaras. [convince_target.GetHerHis|U] olhos são atraídos para ele assim que [convince_target.GetSheHe] passos acima do limiar, quase como se o livro possuisse sua própria magia estranha.\n\n"
+ witch.4031.end.desc:0 "Quando [convince_target.GetFirstNameNoTooltip] terminar de ler as páginas traduzidas, [convince_target.GetSheHe] começa a andar para frente e para trás. No final, o empate do tomo parece impossível de resistir; [convince_target.GetSheHe] corre de volta para a mesa e pega uma pena."
+ witch.4031.a:0 "Isso mesmo, meu amigo. Aprofunde-se cada vez mais..."
+
+ witch.4032.end.desc:0 "[convince_target.GetFirstNameNoTooltip] nem sequer abre o livro. Um suspiro audível escapa [convince_target.GetHerHis] lábios quando [convince_target.GetSheHe] vê os símbolos estranhos, e [convince_target.GetSheHe] joga no fogo."
+ witch.4032.a:0 "#EMP Não! #! maio [ROOT.Char.GetFaith.HighGodName] amaldiçoar este tolo covarde!"

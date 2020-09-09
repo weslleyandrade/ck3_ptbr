@@ -1,0 +1,121 @@
+﻿l_english:
+ murder_save_header:0 "Prevenção de Assassinatos:"
+ murder_save.failure_known_owner_tt:0 "[owner.GetTitledFirstNameNoTooltip] falhou em me matar"
+ murder_save.failure_unknown_owner_tt:0 "Alguém falhou em me matar"
+ murder_save.used_up_guile_legacy_5_save:0 "Passei a proteção do [GetDynastyPerk('guile_legacy_5').GetName]"
+ murder_save.dynasty_member_used_guile_legacy_5_save:0 "Tentativa de Assassinato"
+ murder_save.dynasty_member_used_guile_legacy_5_save_desc:0 "[target.GetTitledFirstName] sobreviveu a um atentado contra [target.GetHerHis] vida devido à proteção de [GetDynastyPerk('guile_legacy_5').GetName]!"
+
+ murder_save.0001.t:1 "$murder_save_header$ Frustrado pelo Amor"
+ murder_save.0001.opening:1 "Meu atentado contra [target.GetTitledFirstNamePossessive] vida foi frustrado!\n\nO assassino fez [dummy_assassin_gender.GetHerHis] caminho para as câmaras do [target.GetTitleTierName], mas encontrou [target.GetHerHim] na companhia de"
+ murder_save.0001.rel_to_me:0 "- meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]-"
+ murder_save.0001.end:0 "[lover.GetTitledFirstName], [target.GetHerHis] amante[lover.GetFirstName] saltou para [target.GetFirstNamePossessive] ajuda, e a luta defensiva deixou tanto [lover.GetHerHim] quanto o assassino mortos no chão."
+ murder_save.0001.a:0 "Eu nunca vou ter [target.GetHerHim] agora."
+ murder_save.0001.b:0 "Preciso de um novo plano..."
+
+ murder_save.1001.desc:0 ""Você não vai machucar [target.GetHerHim]!" [lover.GetTitledFirstName] shouted and leapt at the shadowy figure that had entered my chambers, dagger unsheathed.\n\nWhat a blessing and a curse that [lover.GetSheHe] was with me this night. Without [lover.GetHerHim] it would have cost me my life, but this way the struggle saw [lover.GetHerHim] bleeding out in my arms, next to the dead assassin."
+ murder_save.1001.a:0 "Que degenerado cruel estava por trás disso?"
+ murder_save.1001.b:0 "[owner.GetTitledFirstNameNoTooltip] vai pagar por isso!"
+ murder_save.1001.c:0 "Melhor [lover.GetFirstNameNoTooltip] do que eu!"
+
+ murder_save.0002.t:2 "$murder_save_header$ [SCOPE.Custom('VenomousCreatureAttackPlural')|U] amor"
+ murder_save.0002.opening:0 "[target.GetTitledFirstName] ainda está vivo!\n\nA [SCOPE.Custom('VenomousCreature')] foi plantada na cama [target.GetTitleTierNamePossessive], mas atingiu o alvo errado! Em vez disso, é"
+ murder_save.0002.rel_to_me:0 "- meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('lover'))]-"
+ murder_save.0002.end:0 "[lover.GetTitledFirstName], amante [target.GetHerHis], que está morto!"
+
+ murder_save.1002.desc:1 ""O que é isso?"\n\nI am about to act on my lover's invitation when [lover.GetSheHe] starts to scream. "O que é isso?" My question is answered when [lover.GetSheHe] twists and thrashes enough to reveal the [SCOPE.Custom('VenomousCreatureType')] crawling between the sheets.\n\nBy the time a physician arrives, [lover.GetFirstName] is already turning stiff and cold. I am left cold as well. That [SCOPE.Custom('VenomousCreatureType')] was intended for me."
+
+ murder_save.0003.t:1 "$murder_save_header$ Assassino"
+ murder_save.0003.desc:0 "[target.GetTitledFirstName] vidas ainda!\n\nMy assassino chegou às câmaras do [target.GetTitleTierName], mas [broken_person.GetTitledFirstName] - de todas as pessoas - interveio! [target.GetFirstName] não fez nada além de atormentar [broken_person.GetHerHim], e ainda assim [broken_person.GetSheHe] deu [broken_person.GetHerHis] vida para protegê[target.GetHerHim]. Meu assassino está morto, e [target.GetFirstName] pode ir embora."
+ murder_save.0003.a:0 "Que mundo injusto em que vivemos."
+ murder_save.0003.b:0 "Eu devo tentar com um novo plano!"
+
+ murder_save.1003.desc:0 "\n\nAlgunto muda [broken_person.GetHerHis] olhos. Com um grito, [broken_person.GetSheHe] joga [broken_person.GetHerselfHimself] no suposto assassino. No final da luta, ambos estão mortos no chão."Leading a killer to my chambers, [broken_person.GetFirstNameNoTooltip], even after your screams professed eternal loyalty?"\n\nAlgunto muda [broken_person.GetHerHis] olhos. Com um grito, [broken_person.GetSheHe] joga [broken_person.GetHerselfHimself] no suposto assassino. No final da luta, ambos estão mortos no chão."What a terrible disappointment. You wouldn't want to be a disappointment, would you?"\n\nAlgunto muda [broken_person.GetHerHis] olhos. Com um grito, [broken_person.GetSheHe] joga [broken_person.GetHerselfHimself] no suposto assassino. No final da luta, ambos estão mortos no chão."
+ murder_save.1003.a:0 "Considere isso uma punição apropriada, [broken_person.GetFirstNameNoTooltip]."
+
+ murder_save.0004.t:1 "$murder_save_header$ abordado"
+ murder_save.0004.desc:0 "[target.GetTitledFirstName] ainda está vivo!\n\nMy contratou bandidos emboscados [target.GetHerHis] comitiva como planejado, mas não conseguiu dominá-los! Eles poderiam ter sido capazes de aproveitar a [target.GetTitleTierName] se não fosse por aquele cavalo de guerra cruel e três vezes condenado [target.GetSheHe] está tão orgulhoso!"
+ murder_save_failure_warhorse_tt:0 "[target.GetFirstNamePossessiveNoTooltip] cavalo de guerra morre de suas feridas"
+ 
+ murder_save.1004.opening:0 " Uma emboscada!\n\nEleses não são meros bandidos atrás do meu ouro, mas bandidos depois da minha vida! No entanto, meu [ROOT.Char.Custom('HorseStoryMareStallion')] de confiança sabe o que fazer! [ROOT.Char.Custom('HorseStorySheHe')|U] traseiros e chutes para me manter longe de suas lâminas balançando enquanto meus guardas se reúnem para combatê-los."Attack! Go for the [ROOT.Char.GetTitleTierName]!" Uma emboscada!\n\nEleses não são meros bandidos atrás do meu ouro, mas bandidos depois da minha vida! No entanto, meu [ROOT.Char.Custom('HorseStoryMareStallion')] de confiança sabe o que fazer! [ROOT.Char.Custom('HorseStorySheHe')|U] traseiros e chutes para me manter longe de suas lâminas balançando enquanto meus guardas se reúnem para combatê-los."
+ murder_save.1004.warhorse_dies:0 "É só quando a luta diminuiu que [ROOT.Char.Custom('WarhorseStoryName')] se curva debaixo de mim, e eu descubro [ROOT.Char.Custom('HorseStoryHerHis')] feridas profundas. [ROOT.Char.Custom('HorseStorySheHe')|U] realmente me protegeu até o último..."
+ murder_save.1004.a:0 "Esses bandidos estavam no emprego de alguém, mas de quem?"
+ murder_save.1004.b:0 "É óbvio quem estava por trás disso!"
+ murder_save.1004.c:0 "Eu vou encontrar quem fez isso!"
+ murder_save.1004.d:0 "Você me custou um cavalo muito bom, [owner.GetFirstNameNoTooltip]!"
+ murder_save_warhorse_dies_to_thugs:0 "#F [THIS.Char.Custom('WarhorseStoryName')] morre de [THIS.Char.Custom('HorseStoryHerHis')] feridas"
+
+ murder_save.0005.t:1 "$murder_save_header$ alarme levantado"
+ murder_save.0005.desc:0 "O grupo de conspiradores foi para [target.GetTitledFirstNamePossessive] cela, mas o prisioneiro começou a fazer uma raquete cruel. Pagar o carcereiro é uma coisa, mas é outra coisa fingir que nada está acontecendo quando todo o castelo é acordado!\n\nMy assassinos batem em um retiro apressado, e [target.GetFirstName] permanece seguro..."
+
+ murder_save.1005.desc:0 "Eu grito, e meu [ROOT.Char.Custom('prison_pet')] voa para eles, pronto para lutar pela minha vida! Eu sei que eles não são páreo para o meu amigo, e quando eu começo a gritar e torcer eles fogem em terror abjeto!\n\nO gaoler logo vem para me calar com uma surra, mas pelo menos eu ainda respiro."Get them!"Eu grito, e meu [ROOT.Char.Custom('prison_pet')] voa para eles, pronto para lutar pela minha vida! Eu sei que eles não são páreo para o meu amigo, e quando eu começo a gritar e torcer eles fogem em terror abjeto!\n\nO gaoler logo vem para me calar com uma surra, mas pelo menos eu ainda respiro."
+ murder_save.1005.a:0 "Eu te devo minha vida, [ROOT.Char.Custom('prison_pet')]."
+ murder_save.1005.b:0 "Seu sacrifício não foi em vão, meu [ROOT.Char.Custom('prison_pet')]!"
+
+ murder_save.0006.t:1 "Guardiões $murder_save_header$"
+ murder_save.0006.opening:0 " abordou [target.GetTitledFirstName] como planejado, mas o que eu não tinha planejado era o guarda pessoal que"hired help"" abordou [target.GetTitledFirstName] como planejado, mas o que eu não tinha planejado era o guarda pessoal que"
+ murder_save.0006.spouse:0 "[spouse.GetTitledFirstName] tinha criado para [target.GetHerHim]."
+ murder_save.0006.no_spouse:0 "que tinha sido criado por [target.GetHerHis] cônjuge."
+ murder_save.0006.end:0 "Eles lutaram terrivelmente bravamente e repugnantemente bem, bem o suficiente para que [target.GetFirstName] ainda viva para ver outro dia."
+
+ murder_save.1006.opening:0 "Eu estava viajando quando minha comitiva foi abordada por um bando de bandidos! Felizmente, o guarda levantou para mim por"
+ murder_save.1006.spouse:0 "[spouse.GetTitledFirstName]"
+ murder_save.1006.no_spouse:0 "meu cônjuge"
+ murder_save.1006.end:0 "lutou bravamente, e me protegeu do ataque.\n\nAs eles lutaram até o fim, ficou claro que esses bandidos não estavam atrás de ouro, mas da minha vida! No final, eles foram expulsos, mas minha guarda pessoal foi quase aniquilada."
+
+ murder_save.0007.t:1 "$murder_save_header$ Guardião Peludo"
+ murder_save.0007.desc:0 "[target.GetTitledFirstName] ainda está vivo!\n\nO [SCOPE.Custom('VenomousCreature')] foi plantada na cama [target.GetTitleTierNamePossessive], mas antes que pudesse atingir o [target.GetTitleTierNamePossessive] gato fez um tumulto e começou a lutar contra a criatura!"
+ murder_save_failure_cat_tt:0 "[target.GetFirstNamePossessiveNoTooltip] gato morre de suas feridas"
+
+ murder_save.1007.opening:1 "Ao entrar no meu quarto, imediatamente percebo que meu querido gato, [THIS.Char.Custom('CatStoryName')], está no limite – [THIS.Char.Custom('CatStorySheHe')] está andando diante da minha cama em evidente agitação. Como uma raia de [THIS.Char.Custom('CatFurColor')] relâmpago [THIS.Char.Custom('CatStorySheHe')] de repente ataca, expondo a [SCOPE.Custom('VenomousCreatureType')] entre meus lençóis!"
+ murder_save.1007.cat_dies:0 "\n\nA criatura horrível não desce facilmente, e como [THIS.Char.Custom('CatStoryName')] finalmente morde seu pescoço [THIS.Char.Custom('CatStorySheHe')] [THIS.Char.Custom('CatStoryHerselfHimself')] está longe demais para salvar."
+ murder_save.1007.a:0 "Eu te devo minha vida, [THIS.Char.Custom('CatStoryName')]!"
+ murder_save.1007.b:0 "É óbvio quem estava por trás disso!"
+ murder_save.1007.c:0 "Eu vou encontrar quem fez isso!"
+ murder_save.1007.d:0 "Você vai pagar por isso, [owner.GetFirstNameNoTooltip]!"
+ murder_save_creepy_crawlies_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] morre de [THIS.Char.Custom('CatStoryHerHis')] feridas"
+
+ murder_save.0008.t:1 "$murder_save_header$ Guardião Peludo"
+ murder_save.0008.desc:1 "Meu atentado contra [target.GetTitledFirstNamePossessive] vida foi frustrado!\n\nO assassino fez [dummy_assassin_gender.GetHerHis] caminho para as câmaras [target.GetTitleTierNamePossessive], mas antes [dummy_assassin_gender.GetSheHe] poderia atingir um cão começou a latir! O [target.GetTitleTierNamePossessive] cão, que [target.GetSheHe] é tão orgulhoso, rapidamente assustou o assassino."
+
+ murder_save.1008.desc:0 "Assim que entro em meus aposentos meu querido cão, [THIS.Char.Custom('DogStoryName')], começa a latir, e de repente [THIS.Char.Custom('DogStorySheHe')] lança por uma sombra escura... Uma sombra que tropeça! [THIS.Char.Custom('DogStoryName')] persegue o assassino até eu chamá[THIS.Char.Custom('DogStoryHerHim')] de volta ao meu lado."
+ murder_save.1008.a:0 "Eu te devo minha vida, [THIS.Char.Custom('DogStoryName')]!"
+
+ murder_save.0009.t:1 "$murder_save_header$ Conexões familiares"
+ murder_save.0009.desc:0 "Nos últimos momentos do meu plano de assassinato [target.GetTitledFirstName], tudo desmoronou!\n\n Parece que meus esforços foram completamente infiltrados por partidários da Dinastia [target.GetDynasty.GetBaseName], e na noite fatídica, todos os outros foram parados antes mesmo da trama ser posta em prática!"
+ murder_save.0009.a:0 "Devo recuar, antes que eles busquem vingança!"
+ murder_save.0009.b:0 "O que foi perdido, eu posso reconstruir."
+ murder_save.targets_guile_legacy_save_used_up:0 "[target.GetShortUIName|U] não pode ser salvo por [GetDynastyPerk( 'guile_legacy_5' ).GetName] novamente"
+
+ murder_save.1009.opening:0 "Um atentado contra minha vida foi frustrado!"
+ murder_save.1009.owner_discovered:0 "\n\n[owner.GetTitledFirstName] tinham planos cuidadosos, mas aqueles não contavam com o fato de que [owner.GetHerHis] trama foi infiltrada por partidários da Câmara [target.GetHouse.GetNameNoTooltip]!"
+ murder_save.1009.owner_not_discovered:0 "\n\nThankly, quem colocou esta trama viciosa não contava que seu esquema fosse infiltrado por agentes virtuosamente leais à Casa [target.GetHouse.GetNameNoTooltip]!"
+ murder_save.1009.end:0 "\n\nO enredo desmoronou, mesmo quando estava sendo colocado em movimento, e minha vida ainda está segura."
+ murder_save.1009.a:0 "Meu próprio nome salvou minha vida!"
+
+ # Saved by a Varangian
+ murder_save.0010.t:0 "$murder_save_header$ Varangianos"
+ murder_save.0010.desc:0 "Meu atentado contra [target.GetTitledFirstNamePossessive] vida foi frustrado!\n\nO assassino foi parado por um desses varangianos insípidos! Acho que o [target.GetTitleAsNameNoTooltip] ficou [target.GetHerHis] guarda depois de tudo..."
+ murder_save.0010.varangian_dies:0 "Pelo menos o assassino levou a melhor sobre o guarda. [varangian.GetTitledFirstName] não vai ficar no meu caminho novamente."
+ murder_save.0010.a:0 "Eu nunca vou ter [target.GetHerHim] agora!"
+ murder_save.0010.b:0 "Preciso de um novo plano..."
+
+ murder_save.1010.desc:0 "Um assassino fez um atentado contra minha vida! Felizmente, [varangian.GetFirstName], um membro da minha Guarda Varangiana, estava do lado de fora dos meus aposentos e rapidamente interveio. [varangian.GetSheHe|U] feito um trabalho rápido do assassino antes de eu chegar a qualquer dano."
+ murder_save.1010.varangian_dies:0 "Tragicamente, [varangian.GetFirstNameNoTooltip] sofreram ferimentos fatais no processo."
+ murder_save.1010.owner_discovered:0 "\n\nHá não há dúvida de que isso foi tudo o que [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ murder_save.1010.a:0 "Quem poderia estar por trás dessa tentativa cruel?"
+ murder_save.1010.b:0 "[owner.GetSheHe|U] vai pagar por isso!"
+
+ murder_save.0011.t:0 "$murder_save_header$ O Gato Faminto"
+ murder_save.0011.desc:1 "Meu atentado contra [target.GetTitledFirstNamePossessive] vida foi frustrado!\n\nO veneno, o pato, a refeição... Tudo estava indo de acordo com o plano até [target.GetHerHis] gato esgueirar um pedaço do prato [target.GetHerHis] antes [target.GetSheHe] teve tempo de comer! Ver o gato torcer de dor até morrer um pouco desencorajado [target.GetTitledFirstNameNoTooltip] de participar [target.GetHerHis] refeição."
+ murder_save_poison_cat_tt:0 "[target.GetFirstNamePossessiveNoTooltip] gato morre do veneno"
+
+ murder_save.1011.desc:0 "Enquanto me sento para comer meu gato [THIS.Char.Custom('CatStoryName')] pula no meu colo, batendo no meu prato, e deixei [THIS.Char.Custom('CatStoryHerHim')] passar um pedaço antes que [THIS.Char.Custom('CatStorySheHe')] pule novamente.\n\nJust como eu estou prestes a começar a comer estou assustado com gemido, alto e dolorido. [THIS.Char.Custom('CatStoryName')] está se contorcendo no chão, [THIS.Char.Custom('CatStoryHerHis')] gritos de dor ficando cada vez mais fracos à medida que [THIS.Char.Custom('CatStorySheHe')] cai. A comida foi envenenada?!"
+ murder_save_poison_cat_dies:0 "[THIS.Char.Custom('CatStoryName')] te salvou e morreu do veneno"
+
+ murder_save.0012.t:0 "$murder_save_header$ O Cão Faminto"
+ murder_save.0012.desc:1 "[target.GetTitledFirstName] ainda vive!\n\nO veneno, o pato, a refeição... Tudo estava indo de acordo com o plano até [target.GetHerHis] cão implorou um pedaço fora do prato [target.GetHerHis] antes [target.GetSheHe] teve tempo para comer! Ver o cão torcer de dor até morrer um pouco desencorajado [target.GetTitledFirstNameNoTooltip] de participar [target.GetHerHis] refeição"
+ murder_save_poison_dog_tt:0 "[target.GetFirstNamePossessiveNoTooltip] cão morre do veneno"
+
+ murder_save.1012.desc:0 "Enquanto me sento para comer meu cachorro [THIS.Char.Custom('DogStoryName')] me segue com olhos implorando, e eu suavemente derrubo um pedaço do meu prato para o chão por [THIS.Char.Custom('DogStoryHerHim')].\n\nJust quando estou prestes a começar a comer, estou assustado com um gemido alto, dolorido e choramingando. [THIS.Char.Custom('DogStoryName')] está se contorcendo no chão, [THIS.Char.Custom('DogStoryHerHis')] reclamando cada vez mais fracos à medida que [THIS.Char.Custom('DogStorySheHe')] cai. A comida foi envenenada?!"
+ murder_save_poison_dog_dies:0 "[THIS.Char.Custom('DogStoryName')] te salvou e morreu do veneno"

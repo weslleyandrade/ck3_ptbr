@@ -1,0 +1,157 @@
+﻿l_english:
+ ##########
+ #DRUNKARD#
+ ##########
+
+ #############
+ #HASHISHIYAH#
+ #############
+ stress_trait_ongoing.0501.t:0 "Uma Noite Relaxante"
+ stress_trait_ongoing.0501.desc:0 "O negócio de governar o reino tem sido tão estressante, recentemente. Se não é isso, é que, se não é isso, é isso. Um desfile interminável de camponeses, padres e problemas, todos esperando #EMP mim#! para resolver suas preocupações mesquinhas.\n\nEu mereço um dia para mim mesmo, sem pretendentes ou peticionários, sem diplomatas ou juízes. Só eu e esse prato grande de bolos de haxixe..."
+ stress_trait_ongoing.0501.a:0 "De volta ao trabalho!"
+ stress_trait_ongoing.0501.b:0 "É só um dia de folga..."
+ overworking_diplomacy_modifier:0 "Diplomacia de Trabalho Excessivo"
+ overworking_diplomacy_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ overworking_martial_modifier:0 "Overworking Martial"
+ overworking_martial_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ overworking_stewardship_modifier:0 "Administração de Excesso de trabalho"
+ overworking_stewardship_modifier_desc:0 "Este personagem está colocando seu trabalho à frente de sua saúde mental."
+ overworking_intrigue_modifier:0 "Intriga sobrecarregada"
+ overworking_intrigue_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ overworking_learning_modifier:0 "Aprendizagem sobrecarregada"
+ overworking_learning_modifier_desc:0 "$overworking_stewardship_modifier_desc$"
+ stress_trait_ongoing.0506.t:0 "Doce Alívio"
+ stress_trait_ongoing.0506.desc_leper:0 "Essa doença de desperdiçar come meu corpo lentamente, descascando minha carne dia após dia. Um [ROOT.GetCharacter.GetTitleAsNameNoTooltip] que eu possa ser, mas às vezes temo que meus súditos olhem para mim e não vejam nada além de um leproso."
+ stress_trait_ongoing.0506.desc_gout_ridden:0 "Essa dor latejante nos meus membros dói tanto, horas de agonia de florescimento lento me incapacitando dia após dia. Às vezes me pergunto se seria melhor ou pior se fosse consistente, em vez de ter que surfar a onda de tormento de pulsar maçante para tortura e volta cada vez."
+ stress_trait_ongoing.0506.desc_cancer:0 "Semanas se arrastando, um jogo de espera para esta dor de tiro ou aqui. Alguns dias são toleráveis, mas outros eu mal posso me mover ou falar, e minha respiração vem mais devagar e mais lenta. Posso sentir meu tempo restante na Terra se afastando de mim, roubado por esse crescimento cancerígeno matando meu corpo."
+ stress_trait_ongoing.0506.desc_disfigured:1 "Minhas feridas podem ter sarado externamente, mas internamente, a agonia da minha desfiguração ainda queima. Eu traço o caminho de velhas cicatrizes com um dedo, ea memória da miséria vem inundando de volta."
+ stress_trait_ongoing.0506.desc_maimed:0 "Eu tossir, cortando um gobbet de sangue fleumy. Eu nem sei se isso é um novo problema ou não, não com a agonia constante que destrói meu corpo mutilado e arruinado."
+ stress_trait_ongoing.0506.desc_one_eyed:0 "A tomada vazia que costumava abrigar meu olho ainda dói, às vezes. Dores de tiro, principalmente. Estranhos fantasmas visuais e explosões de formas não naturais nos piores dias."
+ stress_trait_ongoing.0506.desc_one_legged:0 "Eu pressiono meus dedos para o toco gnarled da minha perna faltando. Às vezes, especialmente quando ando por rotas familiares, ainda sinto. A agonia do meu desmembramento volta, real como sempre, inundando meu cérebro."
+ stress_trait_ongoing.0506.desc_wounded:0 "Eu estremecer como meus dedos sondam o corte. Eles voltam empoeirados em pó de crosta vermelho-preto, com um choque acentuado de agonia, deixando-me saber que minhas feridas ainda estão muito frescas e doendo."
+ stress_trait_ongoing.0506.desc_fallback:0 "Esta agonia abalou meu corpo, uma provação muito dura para o meu cérebro agredido. Eu preciso de algum alívio, apenas uma maneira de lidar."
+ stress_trait_ongoing.0506.desc:0 "\n\nHashish deve aliviar a dor, por um tempo. A única questão é se consumi-lo sozinho, ou se a companhia me ajudaria a me animar. [medication_friend.GetTitledFirstName] perguntou se eu queria um companheiro esta noite..."
+ stress_trait_ongoing.0506.a:0 "Eu só preciso ficar sozinho por um tempo."
+ hashish_alone_modifier:0 "Medicando sozinho"
+ hashish_alone_modifier_desc:0 "Este personagem está administrando sua dor com bolos de haxixe à noite."
+ stress_trait_ongoing.0506.b:0 "Talvez [medication_friend.GetFirstNameNoTooltip] gostaria de compartilhar?"
+ hashish_with_friend_modifier:0 "Medicando com companhia"
+ hashish_with_friend_modifier_desc:0 "Este personagem está compartilhando suas noites com um bom amigo e bom haxixe."
+ stress_trait_ongoing.0511.t:0 "Foi sempre assim"
+ stress_trait_ongoing.0511.desc:0 "Estou curtindo uma noite fria nos jardins de [hashishiyah_capital.GetNameNoTierNoTooltip], sentei casualmente mastigando uma pequena pilha de bolos de haxixe, quando de repente sinto o hálito pesado e cuspido de um [crusty_old_person.GetTitledFirstName] enfurecido na minha bochecha.\n\n"Put down that accursed-shrub, [ROOT.GetCharacter.GetFirstNameNoTooltip], and cease clouding your mind! [crusty_old_person.GetFaith.HighGodName] did not put you on this Earth so that you could waste your time away in a stupor!""
+ stress_trait_ongoing.0511.a:0 "Você está certo! Devo parar com isso imediatamente."
+ stress_trait_ongoing.0511.a_flavour:0 "Você joga fora os bolos de haxixe"
+ stress_trait_ongoing.0511.b:0 "<respiração profunda> Acordado, #EMP ancião#!."
+ stress_trait_ongoing.0511.b_flavour:0 "Coma. Cada. Maldito. Bolo."
+ stress_trait_ongoing_0516.t:0 "Um Mi Errante"
+ stress_trait_ongoing_0516.desc:0 ""- e é por isso que essa reunião é tão importante".\n\nWuh? Oh, right, yes, the meeting with [important_guest.GetTitledFirstName]. About... Something. What #EMP were#! we talking about? [important_guest.GetSheHe|U] looks very serious about it, whatever it was.\n\nI reach out, grab another hashish-topped cake, and begin nibbling thoughtfully. [important_guest.GetFirstNameNoTooltip] raises an eyebrow at my vacant pause, and it dawns on me that maybe I've had a few #EMP too#! many cakes."
+ stress_trait_ongoing.0516.a:0 "Sim, é claro, uma reunião tão importante..."
+ stress_trait_ongoing.0516.a.tt_success:0 "[important_guest.GetFirstNameNoTooltip] está impressionado com suas respostas calmas e constantes"
+ stress_trait_ongoing.0516.a.tt_fail:0 "Está ofendido por sua óbvia embriaguez"
+ stress_trait_ongoing.0516.b:0 "Sinto muito, mas estou me sentindo mal."
+ stress_trait_ongoing.0516.b_flavour:0 "Você sai da reunião mais cedo e vai deitar"
+ stress_trait_ongoing.0516.c:0 "Solte-se, [important_guest.GetFirstNameNoTooltip]. Tenha um pouco de haxixe!"
+ stress_trait_ongoing.0516.c_flavour:0 "Você tem um criado trazer mais bolos para compartilhar"
+
+ ###########
+ #RECLUSIVE#
+ ###########
+
+ ########
+ #RAKISH#
+ ########
+ stress_trait_ongoing.1501.t:0 "Obsessão"
+ stress_trait_ongoing.1501.desc_1_a:0 "Eu tive um vislumbre de [obsession.GetTitledFirstNamePossessive] decote tentador quando passei [obsession.GetHerHim] no corredor esta manhã."
+ stress_trait_ongoing.1501.desc_1_b:0 "Notei uma protuberância sugestiva saindo da mangueira [obsession.GetTitledFirstNamePossessive] quando passei [obsession.GetHerHim] no corredor esta manhã."
+ stress_trait_ongoing.1501.desc_1_c:0 "[obsession.Custom2('MyCharacterIntroduction', ROOT.Char)|U] sorriu calorosamente para mim quando passei [obsession.GetHerHim] no corredor esta manhã."
+ stress_trait_ongoing.1501.desc_1_d:0 "Eu não pude deixar meu olhar vagar por cima [obsession.GetTitledFirstNamePossessive] corpo quando passei [obsession.GetHerHim] no corredor esta manhã."
+ stress_trait_ongoing.1501.bridge:0 "Desde então, não consigo parar de pensar em [obsession.GetHerHim], e minhas fantasias lúdicas continuam me distraindo do meu trabalho.\n\n"
+ stress_trait_ongoing.1501.desc_2_a:0 "[obsession.GetHerHis|U] seios amplos,"
+ stress_trait_ongoing.1501.desc_2_b:0 "[obsession.GetHerHis|U] quadris largos,"
+ stress_trait_ongoing.1501.desc_2_c:0 "[obsession.GetHerHis|U] masculinidade tentadora,"
+ stress_trait_ongoing.1501.desc_2_d:0 "[obsession.GetHerHis|U] moldura lithe,"
+ stress_trait_ongoing.1501.desc_2_e:0 "[obsession.GetHerHis|U] ombros largos,"
+ stress_trait_ongoing.1501.desc_2_f:0 "[obsession.GetHerHis|U] físico atraente,"
+ stress_trait_ongoing.1501.desc_3_a:0 "a maneira como [obsession.GetHerHis] corpo ágil desliza pelos corredores..."
+ stress_trait_ongoing.1501.desc_3_b:0 "a maneira como [obsession.GetHerHis] corpo gordo balança enquanto [obsession.GetSheHe] caminha pelo corredor..."
+ stress_trait_ongoing.1501.desc_3_c:0 "a maneira como os músculos [obsession.GetHerHis] flexionam sob [obsession.GetHerHis] pele enquanto [obsession.GetSheHe] passa..."
+ stress_trait_ongoing.1501.desc_3_d:0 "a postura e a dignidade [obsession.GetSheHe] carrega [obsession.GetHerselfHimself] com..."
+ stress_trait_ongoing.1501.desc_3_e:0 "a maneira como [obsession.GetSheHe] travesso ronda pelos corredores..."
+ stress_trait_ongoing.1501.desc_3_f:0 "o ritmo medido em que [obsession.GetSheHe] anda pelos corredores..."
+ stress_trait_ongoing.1501.end:0 "É demais! Eu devo encontrar algum alívio desta paixão, ou eu nunca vou conseguir nada feito!"
+ stress_trait_ongoing.1501.warning:0 "Sabe que [obsession.GetFirstName] não tem interesse em [ROOT.Char.GetWomenMen], e assim [obsession.GetSheHe] não terá interesse em mim."
+ stress_trait_ongoing.1501.a:0 "Eu devo saber se [obsession.GetSheHe] sente o mesmo!"
+ stress_trait_ongoing.1501.a.flavor:0 "Isso vai resolver as coisas, de uma forma ou de outra."
+ stress_trait_ongoing.1501.a.success:0 "[obsession.GetTitledFirstName] também tem me desejado"
+ stress_trait_ongoing.1501.a.failure:0 "[obsession.GetTitledFirstName] rejeita meus avanços"
+ stress_trait_ongoing.1501.b:0 "Um pouco de fantasia não pode machucar, pode?"
+ stress_trait_ongoing.1501.b.flavor:0 "Algum tempo sozinho trará alívio temporário, pelo menos."
+ stress_trait_ongoing.1501.c:0 "Uma viagem ao bordel vai tirar minha mente de [obsession.GetHerHim]..."
+ stress_trait_ongoing.1501.c.flavor:0 "#EMP alguém#! há certeza de me ajudar a superar isso."
+ stress_trait_ongoing.1501.d:0 "Eu não deveria objetificar [obsession.GetFirstName] como este, é #EMP errado#!!"
+ stress_trait_ongoing.1501.d.flavor:0 "Essa obsessão é injusta com [obsession.GetHerHim] e prejudicial para mim."
+
+ ###########
+ #IRRITABLE#
+ ###########
+
+ ############
+ #FLAGELLANT#
+ ############
+
+ #############
+ #IMPROVIDENT#
+ #############
+
+ ############
+ #PROFLIGATE#
+ ############
+
+ ##########
+ #CONTRITE#
+ ##########
+
+ ###############
+ #COMFORT EATER#
+ ###############
+
+ #############
+ #INAPPETETIC#
+ #############
+ stress_trait_ongoing.4501.t:0 "Nem uma mordida para comer"
+ stress_trait_ongoing.4501.desc:0 "As últimas semanas foram particularmente estressantes, e tudo o que eu quero é uma boa e saborosa [ROOT.Char.Custom('FavoriteTreat')] para comer... talvez vários...\n\nDamn tudo, talvez uma mesa inteira deles!\n\nAlas, meu cozinheiro me informa que ele não tem nenhum sobrando, nem os ingredientes para fazer mais."
+ stress_trait_ongoing.4501.a:0 "Pegue essas moedas. O que for preciso, me dê minha comida!"
+ stress_trait_ongoing.4501.b:0 "Você tem #EMP alguma coisa#! na mão que possa satisfazer meus desejos?"
+ stress_trait_ongoing.4501.b.success:0 "Você descobre uma nova sobremesa favorita"
+ stress_trait_ongoing.4501.b.cannibal:0 "Você desenvolve um gosto pela carne humana"
+ stress_trait_ongoing.4501.b.failure:0 "Seu desejo fica insatisfeito"
+ stress_trait_ongoing.4501.c:0 "Ugh... Acho que só preciso ficar sem."
+
+ stress_trait_ongoing.4502.t:0 "A Fome"
+ stress_trait_ongoing.4502.desc:0 "As últimas semanas foram particularmente estressantes, e tudo o que eu quero é um corte agradável e suculento de carne. Um bom corte macio como um lombo, ou talvez costelas?\n\nMy boca saliva com o pensamento, e eu sei que não posso conter a fome. Não desta vez."
+ stress_trait_ongoing.4502.a:0 "Não é como se alguém perdesse [prisoner.GetTitledFirstName]."
+ stress_trait_ongoing.4502.b:0 "[courtier.GetTitledFirstName] tem que vir para [courtier.GetHerHim], de qualquer maneira..."
+ stress_trait_ongoing.4502.c:0 "Hora de uma viagem até [hapless_village.GetNameNoTier]!"
+
+ stress_trait_ongoing.5001.t:0 "Festa das Intenções"
+ stress_trait_ongoing.5001.desc:0 ""Bem? Cavar, meu [ROOT.Char.GetLadyLord]!" [giver.Custom2('MyCharacterIntroduction', ROOT.Char)] says excitedly. "Bem? Cavar, meu [ROOT.Char.GetLadyLord]!"\n\nFollowing [giver.GetHerHim] into the banquet hall, I see a table piled with a wide variety of gourmet dishes. [ROOT.Char.Custom('GetExpensiveMeal')|U] and [ROOT.Char.Custom('GetExpensiveMealAlt')]... [ROOT.Char.Custom('GetExpensiveDessert')]... the smell alone makes my stomach turn.\n\n"Bem? Cavar, meu [ROOT.Char.GetLadyLord]!""
+ stress_trait_ongoing.5001.a:0 ""É... muito bom. Tão saboroso.""
+ stress_trait_ongoing.5001.a.flavor:0 "Eu vou comer a refeição, mas apenas para ser educado."
+ stress_trait_ongoing.5001.b:0 ""Você não deveria ter... Não, é sério. #EMP Servos! #! tire isso.""
+ stress_trait_ongoing.5001.c.dog:0 "Fingir comer, mas alimentar tudo para [ROOT.Char.Custom('DogStoryName')] debaixo da mesa."
+ stress_trait_ongoing.5001.c.cat:0 "Fingir comer, mas alimentar tudo para [ROOT.Char.Custom('CatStoryName')] debaixo da mesa."
+ stress_trait_ongoing.5001.c.no_pet:0 "Fingir comer, mas alimente tudo para um cão debaixo da mesa."
+ stress_trait_ongoing.5001.c.success:0 "[giver.GetTitledFirstName] acha que gostei da refeição"
+ stress_trait_ongoing.5001.c.failure:0 "[giver.GetTitledFirstName] notamos que eu não comi a comida"
+
+ ############
+ #JOURNALLER#
+ ############
+
+ ##########
+ #CONFIDER#
+ ##########
+
+ ##########
+ #ATHLETIC#
+ ##########

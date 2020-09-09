@@ -1,0 +1,87 @@
+﻿l_english:
+ chancellor_task.1001.t:0 "Um Novo Requerente"
+ chancellor_task.1001.desc:0 "De toda a palhaçada que já vi...\n\nEm [councillor.GetTitledFirstNamePossessive] esforços inanos para melhorar minhas relações com meus vizinhos, meu [councillor.GetCouncilTitle] não é nada reconheceu oficialmente [neighboring_ruler.GetTitledFirstNamePossessive] reivindicação ao [target_county.GetName]!"
+ chancellor_task.1001.a:0 "Você deveria me fazer amigos, não inimigos!"
+
+ chancellor_task.1002.t:0 "O Fim da Paz"
+ chancellor_task.1002.desc:0 "Em [councillor.GetTitledFirstNamePossessive] tentativa de melhorar minha reputação, meu [councillor.GetCouncilTitle] incompetente concordou com um tratado que #EMP cancela#! partes do meu antigo tratado com [target.GetName]!\n\nO jeito que o [target.GetTitleTierName] vê, [target.GetSheHe] é livre para declarar guerra contra mim como [target.GetSheHe] desejar."
+ chancellor_task.1002.a:0 "Por que você nunca concordaria com isso, [councillor.GetFirstNameNoTooltip]?"
+
+ chancellor_task.1003.opening:1 "[neighbor.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ chancellor_task.1003.desc:0 "Eu tenho correspondido com o seu [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], e tem sido uma demonstração diplomática vergonhosa. Você não é o [ROOT.Char.GetWomanMan] eu pensei que você fosse!"
+ chancellor_task.1003.a:0 "Isso tem que ser um terrível mal-entendido..."
+
+ chancellor_task.1003.message:0 "[councillor.GetCouncilTitle] perturba [neighbor.GetTitledFirstName]"
+
+ chancellor_task.1102.t:0 "Diplomacia Hábil"
+ chancellor_task.1102.desc:0 "Meu [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], trabalhou duro para convencer nossos reinos e vassalos vizinhos de que o tratado de paz que entrei com [target.GetName] é falho, ilegítimo e injusto comigo!\n\n Estou mais uma vez livre para declarar guerra a [target.GetHerHim] como eu quiser."
+ chancellor_task.1102.a:0 "Trabalho incrível, [councillor.GetFirstNameNoTooltip]!"
+
+ chancellor_task.1103.opening:0 "[neighbor.Custom2('AppropriateGreetingPositive', ROOT.Char)]"
+ chancellor_task.1103.desc:0 "Eu tenho correspondido com o seu [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], e devo dizer que eu vim vê-lo em uma nova luz. Talvez você seja mesmo alguém que eu um dia teria orgulho de chamar meu amigo."
+ chancellor_task.1103.a:0 "Sua língua de prata está brilhando hoje, [councillor.GetFirstNameNoTooltip]!"
+
+ chancellor_task.1103.message:0 "[councillor.GetCouncilTitle] impressiona [neighbor.GetTitledFirstName]"
+
+ chancellor_task.2001.t:0 "Resistência Local"
+ chancellor_task.2001.desc:0 "Meu homenageado [councillor.Custom2('RelationToMe', ROOT.Char)],\n Enquanto meus esforços para reorganizar o [county.GetName] estão progredindo em ritmo acelerado, nem todos estão tão convencidos de seus benefícios.\nEu parece ter pisado nos dedos de vários prefeitos e anciãos da aldeia. Todo prefeito e ancião da aldeia, isso é."
+ chancellor_task.2001.a:0 "O que você fez, [councillor.GetFirstNameNoTooltip]..."
+ chancellor_task.2001.notification:0 "A incompetência do meu [councillor.GetCouncilTitle]" fez com que as pessoas de [county.GetName] perdessem o respeito por mim."
+
+ chancellor_task.2002.desc:0 "Meu [councillor.Custom2('RelationToMe', ROOT.Char)] honrado...\n\n Parece que cometi alguns erros de julgamento. As reformas que apresentei no [county.GetName] foram destinadas a fortalecer seu controle sobre a região, mas em vez disso as pessoas parecem mal saber quem é seu [ROOT.Char.GetTitleTierName]..."
+ chancellor_task.2002.a:0 "Você fez as coisas #EMP ainda pior?! #!"
+ chancellor_task.2002.notification:0 "Meu [councillor.GetCouncilTitle] está perdendo o controle no [county.GetName]!"
+
+ chancellor_task.2003.t:0 "Uma Decepção"
+ chancellor_task.2003.desc:0 "Saudações, meu [baron.Custom2('RelationToMe', ROOT.Char)],\n Devo reclamar do comportamento de seus [councillor.GetCouncilTitle], [councillor.GetTitledFirstName]!\n [councillor.GetSheHe|U] apareceu no [county.GetName] e começou a mudar as coisas por capricho, sem levar em conta nossas tradições ou práticas antigas!"
+ chancellor_task.2003.a:0 "Você não pode ser um pouco mais delicado, [councillor.GetFirstNameNoTooltip]?"
+ chancellor_task.2003.notification:0 "Meu [councillor.GetCouncilTitle] incompetente perturbou um dos meus vassalos!"
+
+ chancellor_task_2001.message:0 "$baron_plural_upper_case$ resistem à integração"
+
+ chancellor_task_2002.message:1 "[resisting_culture.GetNameNoTooltip] Resistência à Integração"
+
+ chancellor_task_2101.message:0 "Integração de suporte $baron_plural_upper_case$"
+
+ chancellor_task_2102.message:1 "[supporting_culture.GetNameNoTooltip] suporte à integração"
+ chancellor_task_every_county_of_culture_in_title:0 "Todos os condados de [supporting_culture.GetAdjective] em [title.GetNameNoTier]"
+
+ chancellor_task.2103.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.2103.desc:0 "Nossos esforços de integração no [title.GetName] estão indo muito bem. Na verdade, podemos tentar impor as práticas tributárias do [ROOT.Char.GetPrimaryTitle.GetNameNoTooltip] em escala limitada."
+ chancellor_task.2103.a:0 "Perfeito. Fazê-lo assim!"
+ chancellor_task.2103.b:0 "Talvez haja mais coisas que poderíamos aprender com suas práticas em vez disso?"
+ chancellor_task.2103.c:0 "Não, essas coisas levam tempo, e devemos dar-lhe o quanto ele precisa."
+
+ chancellor_task.3001.opening:0 "[vassal.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3001.desc:0 "Eu tenho hospedado o seu [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], já há algum tempo. A maneira como [councillor.GetSheHe] impõe [councillor.GetHerselfHimself] em minha casa, o tempo todo encorajando nada menos do que rastejando servidão para você, me enoja!\n\nO [ROOT.Char.GetLadyLord] enviaria um representante tão terrível?"
+ chancellor_task.3001.a:0 "[councillor.GetFirstNameNoTooltip]! O que você fez?!"
+
+ chancellor_task.3002.opening:0 "[councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3002.desc:0 "Parece que nos meus negócios com [vassal.GetTitledFirstName], eu posso ter... acidentalmente fiz certas promessas de isenções de obrigações [vassal.GetHerHis]...\n\nEu tentei, mas suspeito que pode não haver outra saída para isso agora..."
+ chancellor_task.3002.a:0 "Seu tolo!"
+ chancellor_task.3002.c:0 "Não, eu ainda posso salvar isso."
+ chancellor_task.3002.d:0 "Oh, eu acho que não."
+
+ chancellor_task.3101.opening:0 "[active_councillor.Custom2('AppropriateGreeting', ROOT.Char)]"
+ chancellor_task.3101.desc:0 "Com o conflito em curso entre [attacker_vassal.GetTitledFirstName] e [defender_vassal.GetTitledFirstName], tenho trabalhado incansavelmente para chegar ao centro de sua briga. Acredito que, com o incentivo certo, um acordo pode ser alcançado."
+ chancellor_task.3101.a:0 "Custe o que custar, faça com que parem de lutar."
+ chancellor_task.3101.b:0 "Eles vão fazer o que eu digo, como seu [ROOT.Char.GetTitleTierName]!"
+ chancellor_task.3101.c:0 "Deixe-os resolver suas diferenças."
+ chancellor_task.3101.c.tt:0 "A guerra entre [attacker_vassal.GetFirstNameNoTooltip] e [defender_vassal.GetFirstNameNoTooltip] continua"
+
+ chancellor_task.3102.desc:0 "Descobri que [vassal.GetTitledFirstNamePossessive] contrato herdado obriga [vassal.GetHerHim] a mais do que você coletou."
+ chancellor_task.3102.a:0 "Hora de corrigir esse erro!"
+ chancellor_task.3102.c:0 "[vassal.GetFirstNameNoTooltip] certamente apreciaria se eu deixasse isso passar..."
+
+ chancellor_task.3003.t:0 "Perda de Autoridade"
+ chancellor_task.3003.desc:0 "Parece que qualquer trabalho que meu [councillor.GetCouncilTitle] está fazendo - se houver! – não basta.\n\nOn [councillor.GetTitledFirstNamePossessive] relógio, meus vassalos estão agindo livremente como bem entenderem, raramente buscando minha aprovação em qualquer assunto."
+ chancellor_task.3003.a:0 "Parece que o poder está escapando do meu alcance."
+ chancellor_task.3003.notification:0 "[councillor.GetCouncilTitle] falha em lidar com vassalos"
+
+ chancellor_task.3103.desc:0 "Eu tenho hospedado seu [councillor.GetCouncilTitle], [councillor.GetTitledFirstName], por várias semanas, e [councillor.GetSheHe] me ajudou a ver verdadeiramente o esplendor do reino sob sua regra.\n\nEu sou nada menos do que honrado em servir como seu vassalo!"
+ chancellor_task.3103.a:0 "Sou abençoado por ter servos tão gratos."
+
+ chancellor_task.3104.desc:0 "Descobri alguns contratos antigos relacionados com a [primary_title.GetName]. O caso poderia ser feito de que [vassal.GetTitledFirstName] é obrigado a ser mais uniforme com [vassal.GetHerHis] herança eventual do que se pensava."
+ chancellor_task.3104.a:0 "Devemos proteger os direitos dos herdeiros [vassal.GetFirstNamePossessiveNoTooltip]!"
+ chancellor_task.3104.b:0 "As coisas podem ficar do jeito que estão. Por um preço..."
+ chancellor_task.3104.c:0 "Não há necessidade de fragmentar o reino."

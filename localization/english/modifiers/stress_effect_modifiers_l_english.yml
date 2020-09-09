@@ -1,0 +1,40 @@
+﻿l_english:
+ stress_frozen_grief:0 "Luto Congelado"
+ stress_frozen_grief_desc:0 "Nunca tendo processado a morte de um ente querido, esse personagem acha mais difícil se conectar com os outros."
+ stress_stuffed_corpse:0 "Cadáver recheado"
+ stress_stuffed_corpse_desc:0 "Este personagem mantém o cadáver de pelúcia de seu ente querido por perto e tem conversas com eles, uma prática desconcertante e sacrilégio."
+ stress_managed_grief:0 "Luto Gerenciado"
+ stress_managed_grief_desc:0 "Este personagem está trabalhando através da perda de um ente querido, um dia de cada vez."
+
+ #Coping Mechanism Penalties
+ stress_disturbing_confession:0 "Confissão Perturbadora"
+ stress_disturbing_confession_desc:0 "Este personagem confessou abertamente algumas coisas inquietantes..."
+ stress_drinking_binge:0 "Bebedeira"
+ stress_drinking_binge_desc:0 "Este personagem tem batido na garrafa com mais força do que o normal."
+ stress_hashish_habit:0 "Hábito de Haxixe"
+ stress_hashish_habit_desc:0 "É raro encontrar esse personagem sóbrio hoje em dia."
+ stress_hashish_stupor:0 "Hashish Stupor"
+ stress_hashish_stupor_desc:1 "Este personagem se drogou em um estupor."
+ stress_poppy_haze:0 "Poppy Haze"
+ stress_poppy_haze_desc:0 "A neblina do ópio muitas vezes enche a mente deste personagem ultimamente."
+ stress_inappetetic_hunger_1:0 "Famished"
+ stress_inappetetic_hunger_1_desc:0 "Este personagem não está comendo comida suficiente para se manter saudável."
+ stress_inappetetic_hunger_2:0 "Faminto"
+ stress_inappetetic_hunger_2_desc:0 "Este personagem está sofrendo de uma severa falta de comida."
+ stress_inappetetic_hunger_3:0 "Desperdiçando"
+ stress_inappetetic_hunger_3_desc:0 "Este personagem não come nada há semanas, e isso mostra."
+
+ angry_at_everyone_modifier:0 "Ira Sem Restrições"
+ angry_at_everyone_modifier_desc:0 "Este personagem está cheio de raiva, e ninguém é poupado."
+ 
+ stress_smelling_of_sweat:0 "Fedor Suado"
+ stress_smelling_of_sweat_desc:0 "O fedor do suor segue esse personagem por aí."
+
+ stress_busy_writing:0 "Escrita Ocupada"
+ stress_busy_writing_desc:0 "Este personagem está gastando a maior parte do tempo escrevendo"
+
+ irritating_everyone_modifier:1 "Atacando"
+ irritating_everyone_modifier_desc:1 "Este personagem não está fazendo nada para reinar em sua irritação e raiva."
+
+ irritating_everyone_courtier_modifier:1 "$irritating_everyone_modifier$"
+ irritating_everyone_courtier_modifier_desc:1 "$irritating_everyone_modifier_desc$"

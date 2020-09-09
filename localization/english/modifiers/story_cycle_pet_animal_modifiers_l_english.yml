@@ -1,0 +1,13 @@
+﻿l_english:
+ cat_story_modifier:0 "Gato de Estimação"
+ cat_story_modifier_desc:0 "Este personagem gosta da companhia de um companheiro felino"
+ dog_story_modifier:0 "Cão de Estimação"
+ dog_story_modifier_desc:0 "Um cão leal segue esse personagem onde quer que vá"
+ dog_story_walking_modifier:0 "Walking Dog"
+ dog_story_walking_modifier_desc:0 "Este personagem gosta de caminhadas frequentes com seu cão"
+ dog_story_fur_carpet_modifier:0 "Tapete de Pele"
+ dog_story_fur_carpet_modifier_desc:0 "Este personagem tem um lindo tapete de pele"
+ cat_story_allergy_modifier:0 "Sensibilidade ao Gato"
+ cat_story_allergy_modifier_desc:0 "Este personagem está experimentando sintomas incômodos da presença de um gato"
+ cat_killing_rodents_modifier:0 "Rat Free"
+ cat_killing_rodents_modifier_desc:0 "A residência deste personagem é quase completamente desprovida de ratos"

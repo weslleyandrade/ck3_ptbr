@@ -1,0 +1,235 @@
+﻿l_english:
+ seduce_outcome.permanent_block:0 "[owner.GetTitledFirstName] nunca mais tentarei me seduzir"
+ seduce_outcome.cooldown:0 "[owner.GetTitledFirstName] não tentará me seduzir novamente por algum tempo"
+
+ seduce_outcome.0001.t:0 "Agora ou Nunca"
+ seduce_outcome.0001.desc:0 "[target.GetTitledFirstNamePossessive] reações aos meus avanços me dizem tudo o que preciso saber. Chegou a hora de colocar meu plano em ação.\n\n"
+ seduce_outcome.0001.positive.desc:0 "Acho que minhas chances são boas, mas devo lembrar que [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)] está sempre assistindo..."
+ seduce_outcome.0001.negative.desc:0 "No entanto, eu temo as consequências. [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U] e agentes [discoverer.GetHerHis] podem estar escondidos em qualquer sombra, ouvindo através de qualquer parede..."
+ seduce_outcome.0001.a:0 "[target.GetFirstNameNoTooltip] será minha!"
+ seduce_outcome.0001.a.tt:0 "Eu vou em frente com a minha tentativa de seduzir [target.GetTitledFirstName]"
+ seduce_outcome.0001.b:0 "Não posso arriscar a descoberta."
+
+ seduce_outcome.0003.t:0 "Uma Proposta Sensual"
+ seduce_outcome.0003.success.desc:0 "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] entrou [owner.GetHerHis] caminho na minha vida com palavras doces e toques mais doces. Tarde da noite, eu luto para manter [owner.GetHerHim] fora da minha mente...\n\nOs sentimentos que ardiam entre nós em breve explodirão em chamas ou morrerão."
+ seduce_outcome.0003.failure.desc:1 "Onde quer que eu vá, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] com certeza seguirá. Aquele olhar nos olhos [owner.GetHerHis], as palavras nos lábios [owner.GetHerHis]... Eu sei exatamente o que [owner.GetSheHe] é depois."
+ seduce_outcome.0003.a.success:0 "Eu quero viver para sempre no inferno!"
+ seduce_outcome.0003.a.failure:0 "Eu vou mantê[owner.GetHerHim] perto. #EMP muito#! perto."
+ seduce_outcome.0003.a.tt:1 "[owner.GetShortUIName|U] pode se tornar meu amante"
+ seduce_outcome.0003.b.success:0 "Este é um romance que vai queimar brilhante, mas curto."
+ seduce_outcome.0003.b.failure:0 "Uma distração para esta noite, mas nada mais."
+ seduce_outcome.0003.c:0 "Que doce... mas não."
+ seduce_outcome.0003.d:0 "Nunca! O mundo saberá de [owner.GetHerHis] natureza pervertida!"
+ seduce_outcome.0003.e:0 "Eu me canso desses jogos. Deixe-me em paz, todos vocês!"
+ seduce_outcome.0003.e.tt:0 "Ninguém tentará me seduzir por #V 10#! anos"
+ 
+ seduce_outcome.0004.t:0 "Meu [target.Custom('LoverPetName_uppercase')]"
+ seduce_outcome.0004.desc:0 "Quando olho para o meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )], a [ROOT.Char.Custom2('DescriptorPositive', SCOPE.sC('target'))] [target.GetTitledFirstName], dormindo em meus braços, me encontro sorrindo de satisfação e felicidade.\n\nTo acho que [target.GetSheHe] devolve o afeto e devoção que sinto!"
+ seduce_outcome.0004.a:0 "Eu sou o [ROOT.Char.GetWomanMan] mais sortudo vivo!"
+
+ seduce_outcome.0005.t:0 "Corte Tragicamente Curto"
+ seduce_outcome.0005.desc:0 "Com a morte do meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target') )] [target.GetTitledFirstName], meus planos para o nosso futuro não importam mais.\n\nO que pode ter sido, agora está morto."
+ seduce_outcome.0005.a:0 "Se eu tivesse ganho [target.GetHerHis] afetos mais cedo!"
+
+ seduce_outcome.2000.t:0 "A Bênção Secreta"
+ seduce_outcome.2000.desc:0 "À medida que nos encontramos clandestinamente, o Sumo Pontífice e eu, meu ser está cheio de temor e desejo mais carnal da natureza do que espiritual. Certamente, ninguém antes de mim recebeu a bênção de [target.GetHerHis|U] Santidade desta forma.\n\n[target.GetHerHis|U] mão estende, fecho meus olhos e me ajoelho..."
+ seduce_outcome.2000.a:0 "[target.GetSheHe|U] detém a chave do meu reino."
+ seduce_outcome.2000.b:0 "Eu recebi minha bênção."
+ 
+ seduce_outcome.2010.t:0 "In Voluptas Wine"
+ seduce_outcome.2010.desc:0 "Chego a [target.GetNamePossessive] câmaras com dois tipos de sede, e carrego muito vinho para o primeiro deles. É instantaneamente óbvio que [target.GetSheHe] é da mesma mente que eu.\n\nO primeiro beijo sela o pacto, e então passamos o dia seguinte bebendo, amando, bebendo, amando..."
+ seduce_outcome.2010.a:0 "Oh, deixe isso continuar para sempre!"
+ seduce_outcome.2010.b:0 "Doce esquecimento, me abrace."
+
+ seduce_outcome.2020.t:0 "Assuntos Privados"
+ seduce_outcome.2020.desc:0 "O privado é um espaço pequeno, e o ar fede a coisas sujas recentemente depositadas. Mas é privado, oh tão privado...\n\n[target.GetName] olha para mim com fome, removendo [target.GetHerHis] roupas. Eu faço o mesmo, e quando beijamos uma onda de luxúria sobe para nos fazer esquecer tanto o desconforto espacial quanto as vistas sombrias e cheiros que nos cercam."
+ seduce_outcome.2020.a:0 "Devemos fazer isso de novo, mas talvez em outro lugar..."
+ seduce_outcome.2020.b:0 "Vá para a privada para alívio, eu sempre digo."
+
+ seduce_outcome.2030.t:0 "Fome Carnal"
+ seduce_outcome.2030.a.desc:0 "Comida. Sei que [target.GetSheHe] gosta, e trouxe muitos. Enquanto acenei com a mão, [target.GetSheHe] pega suas roupas e deita. Eu armei a cena, colocando queijo, frutas, mel. Em [target.GetHerHim], ao lado de [target.GetHerHim]. "
+ seduce_outcome.2030.alcohol.desc:0 "Então, uma rica libação de vinho sobre [target.GetHerHis] peito."
+ seduce_outcome.2030.b.desc:0 "\n\nUm beijo, um toque - nós dois logo engolidos pelo prazer. À medida que o sabor e o cheiro do corpo [target.GetHerHis] se misturam com o da comida, fecho meus olhos e rio - essa é uma vida doce!"
+ seduce_outcome.2030.a:0 "Vamos ter muito mais momentos como este!"
+ seduce_outcome.2030.b:0 "Que refeição nós compartilhamos!"
+
+ seduce_outcome.2040.t:0 "Até a Brecha"
+ seduce_outcome.2040.desc:0 "À medida que as sombras se alongam, encontro [target.GetTitledFirstName] na escuridão sob a parede do castelo, esperando por mim.\n\n[target.GetSheHe|U] vem em minha direção, hesitante no início, depois ansiosamente. Ouvi [target.GetHerHis] respiração acelerar quando [target.GetHerHim] me aproximo. À sombra da parede fazemos amor, os guardas patrulhando acima alheios à nossa paixão..."
+ seduce_outcome.2040.a:0 "Mais uma vez!"
+ seduce_outcome.2040.b:0 "Depois de tomar o castelo, eu me retiro."
+
+ seduce_outcome.2050.t:0 "Votos Secretos"
+ seduce_outcome.2050.desc:0 "Nos encontramos à noite, clandestinamente, protegidos dos olhos e ouvidos do mundo lá fora. Eu fiz uma promessa de [target.GetHerHim]: "Vamos nos casar, verdadeiramente, mas em segredo. Ninguém saberá além de nós dois. Um casamento puro, superior ao que a convenção nos forçou! \n\n[target.GetSheHe|U] acena [target.GetHerHis] avasso, emoção deixando [target.GetHerHim] falta de ar. Então, sob a mortalha protetora da noite, consumamos nossos votos secretos..."
+ seduce_outcome.2050.a:0 "Um vínculo para durar para sempre!"
+ seduce_outcome.2050.b:0 "Uma noite de maravilhas, mas não podemos nos encontrar assim novamente."
+
+ seduce_outcome.2301.t:0 "In [target.GetHerHis|U] Chambers"
+ seduce_outcome.2301.desc:0 "Um arrepio de antecipação encontra seu caminho até minha coluna enquanto eu encontro meu caminho para [target.GetTitledFirstNamePossessive] câmaras. Assim que [target.GetSheHe] abre a porta [target.GetSheHe] [target.Custom('quirk_pos_present')], sorri [target.Custom('quirk_pos_adverb')], e me puxa para dentro com um aperto no meu [ROOT.Char.Custom('GetUpperClothingArticle')].\n\nAs [target.GetHerHis] braços me envolvem o fogo no meu peito explodiu em chamas, e o resto da noite é gasto em uma névoa quente e ardente."
+ seduce_outcome.2301.a:0 "Oh [target.GetFirstNameNoTooltip], meu [target.Custom('LoverPetName')], vamos nos encontrar novamente!"
+ seduce_outcome.2301.a.tt:0 "#F E de novo, e de novo, e de novo...! #!"
+ seduce_outcome.2301.b:1 "[target.GetSheHe|U] sabia como agradar um [ROOT.Char.GetWomanMan]."
+
+
+ seduce_outcome.2302.t:0 "Em qualquer outro tribunal"
+ seduce_outcome.2302.desc_court_owner:0 ""Você veio até aqui por mim, meu [ROOT.Char.Custom('LoverPetName')]?"\n\nAfter searching the hallways of [court_owner.GetTitledFirstNamePossessive] [court_owner.Custom('ResidenceBuilding')], clad in servants' garb to avoid notice, I find [target.GetHerHim] in a secluded garden."
+ seduce_outcome.2302.desc_not_court_owner:1 ""Você veio até aqui por mim, meu [ROOT.Char.Custom('LoverPetName')]?"\n\nAfter searching the hallways of [target.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')], clad in servants' garb to avoid notice, I find [target.GetFirstName] in a secluded garden."
+ seduce_outcome.2302.desc_end:0 "[target.GetSheHe|U] acende enquanto [target.GetSheHe] me vê, e a visão de [target.GetHerHim] me ilumina por sua vez.\n\nO rato [ROOT.Char.Custom('GetClothingArticle')] que eu tinha vestido logo está esquecido no chão enquanto passamos a noite inteira certificando-se de que minha viagem valeu a pena o esforço!"
+ seduce_outcome.2302.a:0 "Para você eu faria esta jornada cem vezes mais!"
+ seduce_outcome.2302.b:0 "Foi tão doce quanto fugaz."
+
+ seduce_outcome.2303.t:0 "Sussurros do Coração"
+ seduce_outcome.2303.desc:0 ""nem seu abraço."\n\n"nem seu abraço." [target.GetTitledFirstName] counters with a blush, "nem seu abraço."\n\nThe mumbling adorations we share soon turns incomprehensible, but what they are replaced by speaks an even clearer language."
+ seduce_outcome.2303.a:0 "Quem sou eu para negar uma [target.GetWomanMan] tão eloquente?"
+ seduce_outcome.2303.b:0 "Eu com certeza gostei da troca, mas esta conversa acabou."
+
+ seduce_outcome.2304.t:0 "Sob o Céu Aberto"
+ seduce_outcome.2304.desc:0 "[target.GetTitledFirstName] e eu nos agachámos lado a lado, o [ROOT.Char.Custom('LocalAnimalDesc')] [ROOT.Char.Custom('LocalAnimal')] na nossa frente sem saber da nossa presença. Minha própria atenção é inabalável - especialmente quando [target.GetFirstNamePossessive] [target.Custom('GetClothingArticle')] escovas contra mim. Quando eu me encontro para abraçar [target.GetHerHim] eu acho que [target.GetSheHe] também tinha [target.GetHerHis] atenção #EMP em outro lugar#!.\n\nAs as [ROOT.Char.Custom('LocalAnimal')] desaparecem no [ROOT.Char.Custom('TerrainType')] nossa carne nua já está embalada pela terra macia, assim como umas às outras."
+ seduce_outcome.2304.a:0 "Para nós estarmos juntos é natural!"
+ seduce_outcome.2304.b:0 "Unir-se apenas para se separar - é tudo parte da vida."
+
+ seduce_outcome.2305.t:0 "A Carta de Amor"
+ seduce_outcome.2305.desc_opening:0 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"
+ seduce_outcome.2305.desc_ending:0 ""Não há mais cedo eu li a carta entregue de [target.GetTitledFirstName] do que estou a caminho de [target.GetHerHis] câmaras."
+ seduce_outcome.2305.a:0 "Minhas ações responderão [target.GetHerHis] palavras!"
+ seduce_outcome.2305.a_terrible:0 "#F ou melhor, o significado por trás [target.GetHerHis] palavras - esse poema era terrível! #!"
+ seduce_outcome.2305.a_okay:0 "#F e compensar o que faltavam! #!"
+ seduce_outcome.2305.a_great:0 "#F Um autor tão eloquente merece ser recompensado! #!"
+ seduce_outcome.2305.a_amazing:0 "#F O fogo [target.GetSheHe] iluminado com [target.GetHerHis] prosa só pode ser saciado em [target.GetHerHis] abraço! #!"
+ seduce_outcome.2305.b:0 "Nossa união será tão singular quanto [target.GetHerHis] poema."
+
+ seduce_outcome.2306.t:0 "Meu amado [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))|U]"
+ seduce_outcome.2306.desc:0 "Os criados foram todos mandados embora, e nossa cama foi decorada com [SCOPE.Custom('SeductionObjectMultiple')]. À medida que [target.GetTitledFirstName] entra em nossas câmaras [target.GetSheHe] sorri [target.Custom('quirk_pos_adverb')] e se junta a mim sem hesitar.\n\nCom a ajuda de mãos, bocas e membros, reafirmamos a devoção que juramos antes [ROOT.Char.GetFaith.HighGodName] – talvez de forma mais carnal do que o pretendido."
+ seduce_outcome.2306.a:0 "Como estávamos unidos no casamento, agora estamos unidos de coração!"
+ seduce_outcome.2306.b:0 "Os laços do casamento são suficientes."
+
+ seduce_outcome.2307.t:0 "Meu [target.Custom('InsultAdjective')|U] Paramour"
+ seduce_outcome.2307.desc:0 "Quando me aproximo de [target.GetTitledFirstName] não sei se devo rasgar as roupas de [target.GetHerHis] corpo ou socar o [target.Custom('quirk_neg_adjective')] sorriso de [target.GetHerHis] rosto. [target.GetSheHe|U] me beija — um desafio — e eu arrasto [target.GetHerHim] mais de perto - um riposte adequado.\n\nOs sentimentos bélicos no meu peito são ecoados por nossos corpos; passamos a noite entregando insulto e felicidade um ao outro."
+ seduce_outcome.2307.a:0 "Beije-me de novo meu [target.Custom('InsultAdjective')] [target.Custom('InsultNoun')]!"
+ seduce_outcome.2307.b:0 "Deixe-me em frente, [target.Custom('InsultNounSexual')]."
+
+
+ seduce_outcome.2308.t:0 "Meu amado [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))|U]"
+ seduce_outcome.2308.desc_illigal:0 "À medida que minha [target.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] sorri [target.Custom('quirk_pos_adverb')] acho difícil lembrar que a atração que sinto é desaprovada.\n\nAnd então — enquanto [target.GetSheHe] puxa meu [ROOT.Char.Custom('GetUpperClothingArticle')] e deixa [target.GetHerHis] mãos vagarem — acho que não me importo."
+ seduce_outcome.2308.desc_not_illigal:0 "Como meu [target.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] sorri [target.Custom('quirk_pos_adverb')] eu largo qualquer pretensão de contenção. Rasgando o [ROOT.Char.Custom('GetUpperClothingArticle')] de [target.GetHerHim], colocando minhas mãos em volta [target.GetHerHis] cintura, minha boca no pescoço [target.GetHerHis], meu desejo doendo contra [target.GetHerHis] próprio...\n\n"
+ seduce_outcome.2308.a:0 "O amor que um [target.Custom2('RelationToMeShort', ROOT.Char)] sente por [ROOT.Char.GetHerHis] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] não pode estar errado!"
+ seduce_outcome.2308.b:0 "[target.GetSheHe|U] não será nada além do meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))]."
+
+ seduce_outcome.2309.t:0 "Throes of Passion"
+ seduce_outcome.2309.desc_opening:0 "Eu acho que o meu [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target'))] [target.GetTitledFirstName] espera ansiosamente."
+ seduce_outcome.2309.desc_ending:0 "[ROOT.Char.Custom2('sex_scene', SCOPE.sC('target'))]"
+ seduce_outcome.2309.a:0 "Isso era bom demais para ser uma coisa única."
+
+ seduce_outcome.2900.t:0 "[target_liege.GetTitledFirstNamePossessiveNoTooltip] Ira"
+ seduce_outcome.2900.start.desc:0 "Quando os gritos e latidos começam, o [target_liege.Custom('FortifiedBuilding')] paredes"
+ seduce_outcome.2900.capital.desc:0 "de [capital.GetNameNoTierNoTooltip]"
+ seduce_outcome.2900.end.desc:1 "ainda estão desconfortavelmente perto. Antes que alguém possa me ver, eu desmonto e me escondo atrás de alguns [target_liege.Custom('OutdoorsHidingPlace')] ao lado da estrada.\n\nMy coração está trovejando como um tambor enquanto o grupo de caça galopa passado. "Hurry! [ROOT.Char.GetTitledFirstNameNoTooltip] cannot have gotten far!""
+ seduce_outcome.2900.a:0 "O que vai acontecer conosco agora?"
+
+ seduce_outcome.3901.t:0 "Uma Cobra na Corte"
+ seduce_outcome.3901.desc:0 "Eu reconheço o olhar ansioso no rosto do meu servo. [dummy_servant_gender.GetSheHe|U] está aqui para me trazer más notícias."My [ROOT.Char.GetLadyLord], you must come quickly! [owner.Custom2('YourCharacterIntroduction', ROOT.Char)|U] was just seen leaving the chambers of [target.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]!""
+ seduce_outcome.3900.a:0 "Isso só pode significar uma coisa!"
+
+ seduce_outcome.3000.desc:0 "À medida que nos encontramos clandestinamente, o Sumo Pontífice e eu, meu ser está cheio de temor e desejo mais carnal da natureza do que espiritual. Certamente, ninguém antes de mim recebeu a bênção de [SCOPE.sC(owner).GetHerHis|U] Santidade desta forma.\n\n[owner.GetHerHis|U] mão estende, fecho meus olhos e me ajoelho..."
+ seduce_outcome.3000.a:0 "[owner.GetSheHe|U] detém a chave do meu reino."
+
+ seduce_outcome.3010.desc:0 "[owner.GetTitledFirstName ] chega aos meus aposentos, evidentemente com dois tipos de sede, e carregando muito vinho para o primeiro deles. É preciso pouco esforço para mostrar que eu sou da mesma mente que [owner.GetSheHe].\n\nO primeiro beijo sela o pacto e depois passamos o dia seguinte bebendo, amando, bebendo, amando..."
+
+ seduce_outcome.3020.desc:0 "O privado é um espaço pequeno, e o ar fede a coisas sujas recentemente depositadas. Mas é privado, oh tão privado...\n\nEu olho com fome para [owner.GetTitledFirstName ], removendo minhas roupas. [owner.GetSheHe|U] faz o mesmo, e quando beijamos uma onda de luxúria se levanta para nos fazer esquecer tanto o desconforto espacial quanto as vistas sombrias e cheiros que nos cercam."
+
+ seduce_outcome.3030.a.desc:0 "[owner.GetTitledFirstName ] chega, carregando comida — muito dele; Ele sabe que eu gosto. [owner.GetSheHe|U] ondas [owner.GetHerHis] mão, e eu flexível tirar minhas roupas e deitar. [owner.GetSheHe|U] define a cena, colocando queijo, frutas, mel. No meu corpo, ao meu lado."
+ seduce_outcome.3030.alcohol.desc:0 "Então, uma rica libação de vinho sobre meu peito."
+ seduce_outcome.3030.b.desc:0 "\n\nUm beijo, um toque - começamos a desfrutar, nós dois logo engolidos pelo prazer. À medida que o sabor e o cheiro do corpo [owner.GetHerHis] se misturam com o da comida, fecho meus olhos e rio - essa é uma vida doce!"
+
+ seduce_outcome.3040.desc:0 "À medida que as sombras se alongam, vejo [owner.GetTitledFirstName] me aproximar na escuridão sob a parede do castelo, sorrindo [target.Custom('quirk_pos_adverb')] enquanto [owner.GetSheHe] sussurra: "Você sabe por que eu vim." \n\nI ir em direção a [owner.GetHerHim], hesitante no início, depois ansiosamente. Meu pulso acelera quando [owner.GetSheHe] me aproxima. À sombra da parede fazemos amor, os guardas patrulhando acima alheios à nossa paixão."
+
+ seduce_outcome.3050.desc:0 "Nos encontramos à noite, clandestinamente, protegidos dos olhos e ouvidos do mundo lá fora. [owner.GetSheHe|U] se compromete comigo: "Vamos nos casar, verdadeiramente, mas em segredo. Ninguém saberá além de nós dois. Um casamento puro, superior ao que a convenção nos forçou! \n\nEu aceno meu parecer favorável, emoção deixando-me sem fôlego. Então, sob a mortalha protetora da noite, consumamos nossos votos secretos..."
+
+ seduce_outcome.3301.t:0 "Em Meus Aposentos"
+ seduce_outcome.3301.desc:0 "Um arrepio de antecipação encontra seu caminho até minha coluna como uma batida ressoa através da quietude de meus aposentos. Poderia ser #EMP [owner.GetHerHim]#!?\n\nI sou recebido por [owner.GetTitledFirstName], sorrindo [owner.Custom('quirk_pos_adverb')], luxúria na [owner.GetHerHis] rosto. Enfim! Enquanto [owner.GetHerHis] braços me envolvem, o fogo no meu peito explodiu em chamas, e o resto da noite é passado em uma névoa quente e ardente."
+ seduce_outcome.3301.a:0 "Oh [owner.GetFirstNameNoTooltip], meu [owner.Custom('LoverPetName')], vamos nos encontrar novamente!"
+ seduce_outcome.3301.a.tt:0 "#F E de novo, e de novo, e de novo...! #!"
+ seduce_outcome.3301.b:0 "Isso [owner.GetTitleTierName] sabe como agradar um [ROOT.Char.GetWomanMan]."
+ 
+ seduce_outcome.3302.desc_opening:1 "Passeando pelos jardins, de repente sou recebido por uma visão mais doce do que qualquer flor: [owner.GetTitledFirstName] vestindo o traje dos criados e um sorriso [owner.Custom('quirk_pos_adjective')].\n\n"
+ seduce_outcome.3302.desc_court_owner:0 ""Nada poderia me afastar de você, meu [ROOT.Char.Custom('LoverPetName')] – muito menos distância!""
+ seduce_outcome.3302.desc_not_court_owner:0 ""Nada poderia me afastar de você, meu [ROOT.Char.Custom('LoverPetName')] – nem distância, nem [court_owner.GetTitledFirstName]!""
+ seduce_outcome.3302.desc_end:0 "\n\nEu descartar rapidamente a [ROOT.Char.Custom('GetUpperClothingArticle')] [owner.GetSheHe] dos servidores está usando, seguido por todas as outras roupas. Afinal, eu quero agradecer [owner.GetFirstName] por vir todo este caminho!"
+ seduce_outcome.3302.a:0 "Vamos nunca ficar separados por muito tempo novamente!"
+
+ seduce_outcome.3303.t:0 "Sussurros do Coração"
+ seduce_outcome.3303.desc:0 ""nem seu abraço."\n\n"nem seu abraço." [owner.GetTitledFirstName] counters with a blush, "nem seu abraço."\n\nThe mumbling adorations we share soon turns incomprehensible, but what they are replaced by speaks an even clearer language."
+ seduce_outcome.3303.a:0 "Vamos ter essa conversa uma e outra vez!"
+
+ seduce_outcome.3304.desc:0 "[owner.GetTitledFirstName] e eu nos agachámos lado a lado, o [owner.Custom('LocalAnimalDesc')] [owner.Custom('LocalAnimal')] na nossa frente sem saber da nossa presença. Minha própria atenção é inabalável - especialmente quando [owner.GetFirstNamePossessive] [owner.Custom('GetClothingArticle')] escova contra mim. Quando eu me encontro para abraçar [owner.GetHerHim] eu acho que [owner.GetSheHe] também tinha [owner.GetHerHis] atenção #EMP em outro lugar#!.\n\nAs as [owner.Custom('LocalAnimal')] desaparecem no [ROOT.Char.Custom('TerrainType')] nossa carne nua já está embalada pela terra macia, assim como umas às outras."
+ seduce_outcome.3304.a:0 "Para nós estarmos juntos é natural!"
+
+ seduce_outcome.3305.desc:1 ""[letterAuthor.Custom2('love_letter', SCOPE.sC('love_letter_target'))]"\n\nThe appreciation I feel towards [owner.GetFirstName] for writing me such a poem pales in comparison to the passion with which I thank [owner.GetHerHim]."
+ seduce_outcome.3305.a:0 "Que nossos corpos recitem poesia juntos, meu [owner.Custom('LoverPetName')]!"
+
+ seduce_outcome.3306.t:0 "Meu amado [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))|U]"
+ seduce_outcome.3306.desc:0 "Quando volto às câmaras, compartilho com [owner.GetTitledFirstName] sou recebido por uma visão inesperada - mas apreciada. Nossa cama foi decorada com [SCOPE.Custom('SeductionObjectMultiple')], e [owner.GetFirstName] [owner.GetHerselfHimself] está reclinando sobre ela, sorrindo [owner.Custom('quirk_pos_adverb')].\n\nCom mãos, boca e membros reafirmamos a devoção que juramos antes [ROOT.Char.GetFaith.HighGodName] – talvez de forma mais carnal do que o pretendido."
+ seduce_outcome.3306.a:0 "Como estávamos unidos no casamento, agora estamos unidos de coração!"
+
+ seduce_outcome.3307.t:0 "Meu [owner.Custom('InsultAdjective')|U] Paramour"
+ seduce_outcome.3307.desc:0 "À medida que [owner.GetTitledFirstName] se aproxima, não sei se devo rasgar as roupas de [owner.GetHerHis] corpo ou socar o [owner.Custom('quirk_neg_adjective')] sorriso do rosto [owner.GetHerHis]. Beijo [owner.GetHerHim] – um desafio – e [owner.GetSheHe] me arrasta mais perto – um riposte adequado.\n\nOs sentimentos bélicos no meu peito são ecoados por nossos corpos; passamos a noite entregando insulto e felicidade um ao outro."
+ seduce_outcome.3307.a:0 "Beije-me de novo meu [owner.Custom('InsultAdjective')] [owner.Custom('InsultNoun')]!"
+ seduce_outcome.3307.b:0 "Este momento de fraqueza é melhor de esquecido."
+
+ seduce_outcome.3308.t:0 "Meu amado [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('owner'))|U]"
+ seduce_outcome.3308.desc_illigal:0 "À medida que minha [owner.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] sorri [owner.Custom('quirk_pos_adverb')] acho difícil lembrar que a atração que sinto é desaprovada.\n\nAnd então — enquanto [owner.GetSheHe] puxa meu [ROOT.Char.Custom('GetUpperClothingArticle')] e deixa [owner.GetHerHis] mãos vagarem — acho que não me importo."
+ seduce_outcome.3308.desc_not_illigal:0 "Enquanto minha [owner.Custom('ComplimentAdjective')] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] sorri [owner.Custom('quirk_pos_adverb')] e rasga o [ROOT.Char.Custom('GetUpperClothingArticle')] de mim eu me derreto em [owner.GetHerHis] braços. [owner.GetSheHe|U] coloca [owner.GetHerHis] mãos em volta da minha cintura, [owner.GetHerHis] boca no meu pescoço, [owner.GetHerHis] desejo doía contra o meu próprio...\n\n"
+ seduce_outcome.3308.a:0 "O amor que compartilhamos não pode estar errado!"
+
+ seduce_outcome.3309.desc_opening:0 "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetTitledFirstName] se aproxima de mim ansiosamente."
+ seduce_outcome.3309.desc:0 "[ROOT.Char.Custom2('sex_scene', SCOPE.sC('owner'))]"
+
+ seduce_outcome.4001.t:0 "A Picada da Rejeição"
+ seduce_outcome.4001.incest.desc:0 ""Mas você é meu #EMP [target.Custom2('RelationToMe', SCOPE.sC('owner') )]#!, e isso é, bem, quem sabe o que o futuro pode conter." [target.GetTitledFirstName] smiles [target.Custom('quirk_pos_adverb')] as [target.GetSheHe] turns me away. "Mas você é meu #EMP [target.Custom2('RelationToMe', SCOPE.sC('owner') )]#!, e isso é, bem, quem sabe o que o futuro pode conter.""
+ seduce_outcome.4001.regular.desc:0 ""Só [target.GetFaith.HighGodName] sabe o que o futuro pode nos sustentar." says [target.GetTitledFirstName] and [target.Custom('quirk_neg_present')]. "Só [target.GetFaith.HighGodName] sabe o que o futuro pode nos sustentar.""
+ seduce_outcome.4001.a:0 "Oh... Sim, claro..."
+
+ seduce_outcome.4002.desc:0 "Quando entro [target.GetTitledFirstNamePossessive] câmara tarde da noite, não sou recebido por um abraço doce, mas por um [target.Custom('InsultNoun')] zombando!\n\n"I have endured your laughable attempts to charm me out of politeness. But this I cannot stomach! Stay away from me, you [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')]!""
+ seduce_outcome.4002.a:0 "Bem, você é um... [target.Custom('InsultAdjective')]... [target.Custom('InsultNounSexual')]!"
+
+ seduce_outcome.4003.t:0 "Exposto"
+ seduce_outcome.4003.plot.desc:0 "Como um bebê recém-nascido, eu fico do outro lado da sala e rastejei pela janela."Guards! There is an intruder in my chambers! #EMP Guards!#!"Como um bebê recém-nascido, eu fico do outro lado da sala e rastejei pela janela."
+ seduce_outcome.4003.regular.desc:0 "Até que esta noite piore, eu rastejei de volta do jeito que vim."Help! Guards! There is an intruder in my chambers!"Até que esta noite piore, eu rastejei de volta do jeito que vim."
+ seduce_outcome.4003.a.plot:0 "A [target.Custom('InsultAdjective')] [target.Custom('InsultNoun')] vai pagar!"
+ seduce_outcome.4003.a.regular:0 "Eu posso ter julgado mal [target.GetHerHis] ânsia."
+
+ seduce_outcome.4004.t:0 "Um Jogo Perigoso"
+ seduce_outcome.4004.start.desc:0 "Meu coração está batendo como um martelo quando eu bato."
+ seduce_outcome.4004.incest.desc:0 ""Doce [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('target') )], você está lá? Sou eu – [ROOT.Char.GetFirstNameNoTooltip]!""
+ seduce_outcome.4004.end.desc:0 "\n\nLost para palavras, [target.GetSheHe] me beija rapidamente, e bate a porta na minha cara!"Forgive me [target.Custom2('RelationToMeShort', ROOT.Char)], but I cannot do this. I wish... No, it is too dangerous!"\n\nLost para palavras, [target.GetSheHe] me beija rapidamente, e bate a porta na minha cara!"
+ seduce_outcome.4004.sodomy.desc:0 ""[target.Custom('LoverPetName')|U], você está lá? Sou eu – [ROOT.Char.GetFirstNameNoTooltip]!""
+ seduce_outcome.4004.a:0 "Por que devemos nos importar? Por favor, abra a porta!"
+
+ seduce_outcome.4005.desc:0 "Eu olho para cima. [target_liege.GetTitledFirstName] está inclinando-se para fora da janela acima de mim!"[target.GetFirstNameNoTooltip]! Open up, my [target.Custom('LoverPetName')]! It is I – [ROOT.Char.GetFirstNameNoTooltip]!"Eu olho para cima. [target_liege.GetTitledFirstName] está inclinando-se para fora da janela acima de mim!"What did you just call my [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], you [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')]?!"Eu olho para cima. [target_liege.GetTitledFirstName] está inclinando-se para fora da janela acima de mim!"
+ seduce_outcome.4005.a:0 "Hora de sair, eu acho!"
+
+ seduce_outcome.4900.desc:0 "Eu empurro as persianas abertas, e eis que, eis que eu um [owner.GetWomanMan] subiu até [target.GetTitledFirstNamePossessive] janela! É [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"[target.GetFirstNameNoTooltip]! Open up, my [target.Custom('LoverPetName')]! It is I – [owner.GetFirstNameNoTooltip]!"Eu empurro as persianas abertas, e eis que, eis que eu um [owner.GetWomanMan] subiu até [target.GetTitledFirstNamePossessive] janela! É [owner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!"
+ seduce_outcome.4900.a.family:0 "Como você acabou de chamar meu [target_liege.Custom2('RelationToMeShort', SCOPE.sC('target'))], você [owner.Custom('InsultNounSexual')]?"
+ seduce_outcome.4900.a.courtier:0 "Pelo [ROOT.Char.GetFaith.DevilName], você não tem vergonha? Guardas!"
+   
+ seduce_outcome.8101.t:1 "[ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('owner') )|U] Amor"
+ seduce_outcome.8101.desc:0 "Não pode mais haver qualquer dúvida. [owner.GetTitledFirstName] – meu próprio [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner') )] – quer ser mais do que família...\n\n"
+ seduce_outcome.8101.desc_positive:0 "Embora eu não possa dizer que o pensamento nunca passou pela minha cabeça, a realização ainda vem como um choque."
+ seduce_outcome.8101.desc_neutral:0 "Embora eu tenha [owner.GetHerHim] em alta consideração, a realização ainda vem como um choque."
+ seduce_outcome.8101.desc_negative:0 "Não há fim para a depravação desse [ROOT.Char.Custom2('InsultNounSexual', SCOPE.sC('owner'))]?"
+ seduce_outcome.8101.a:0 "Pare com essa loucura! Eu sou sua #EMP [owner.Custom2('RelationToMe', SCOPE.sC('target') )] #!!"
+ seduce_outcome.8101.c:0 "O mundo saberá de suas perversões grotescas!"
+ seduce_outcome.8101.b:0 "Bem, o que é a vida sem algumas indulgências?"
+ seduce_outcome.8101.b.tt:0 "Não vou desencorajar [owner.GetFirstNameNoTooltip] de [owner.GetHerHis] perseguição"
+ 
+ seduce_outcome.blocked_from_seduction:0 "Eu não vou ser capaz de tentar seduzir [target.GetTitledFirstName] novamente"
+
+ seduce_outcome.8102.t:0 "A Picada da Rejeição"
+ seduce_outcome.8102.desc:0 ""Isso foi longe demais, [target.Custom2('RelationToMe', SCOPE.sC('owner') )]. Eu sou o seu [owner.Custom2('RelationToMe', SCOPE.sC('target') )] por causa [ROOT.Char.GetFaith.HighGodNamePossessive]!"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] as [target.GetSheHe] makes [target.GetHerHis] disdain for my romantic advances clear."
+ seduce_outcome.8102.a:0 "Eu tinha certeza que tínhamos algo especial!"
+
+ seduce_outcome.8103.t:0 "Rejeitado e Exposto"
+ seduce_outcome.8103.desc:0 ""Você me enoja, [owner.GetFirstNameNoTooltip]. Eu sou seu [owner.Custom2('RelationToMe', SCOPE.sC('target') )] por causa [ROOT.Char.GetFaith.HighGodNamePossessive]! Trarei suas perversões grotescas à luz, confie na minha palavra!"\n\n[target.GetFirstName] [target.Custom('quirk_neg_present')] as [target.GetSheHe] makes [target.GetHerHis] disdain for my romantic advances clear."
+ seduce_outcome.8103.a:0 "Você vai fazer isso com sua própria [target.Custom2('RelationToMe', SCOPE.sC('owner') )]?"
+
+
+ 

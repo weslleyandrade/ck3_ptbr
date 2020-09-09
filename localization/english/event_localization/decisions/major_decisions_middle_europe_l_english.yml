@@ -1,0 +1,66 @@
+﻿l_english:
+
+# Forming the Swiss Confederation, by Flavio Verna
+ middle_europe_decisions.0001.t:0 "A Confederação Suíça"
+ middle_europe_decisions.0001.desc:0 "Por muito tempo, as cidades ao redor dos Alpes centrais foram ameaçadas por outros atores dentro do Império. Unidos sob uma única bandeira, eles agora forjaram alianças mutuamente benéficas e receberam a honra do imediatismo imperial. Em honra das contribuições da minha dinastia para as cidades-estado suíças, fui escolhido como chefe desta união, aquele que será a figura de todos os Cantões da nossa nova Confederação Suíça. Não seremos mais ameaçados por pessoas de fora, mas, em vez disso, nos ergueremos como um forte ator independente no Império."
+ middle_europe_decisions.0001.a:0 "Estamos juntos!"
+ middle_europe_decisions.0002.desc.emperor:0 "Depois de anos de conflitos e acordos diplomáticos inquietos, fui forçado a conceder aos cantões suíços o imediatismo imperial.\n\nEsta coleção de cidades alpinas se uniu em uma grande Confederação para se proteger das predações dos burgúndios e dos lordes alemães. Devo ter cuidado para mantê-los sob controle, para que sua realização semear a dissidência entre os burgueses vizinhos."
+ middle_europe_decisions.0002.desc.vassals:0 "Uma nova entidade conhecida como Confederação Suíça surgiu no Império. Eles são um conglomerado de cidades com imediatismo imperial instalado ao redor dos Alpes centrais, e eles entraram em uma aliança defensiva para proteger-se dos outros eleitores ao seu redor.\n\nUma força independente a ser contada, eles se libertaram de quaisquer reivindicações anteriores às suas terras, seja dos antigos burgúndios a oeste ou os senhores alemães ao norte\n\nI devem olhar para esta nova ameaça potencial no Império."
+ middle_europe_decisions.0002.a:0 "Que peculiar..."
+
+# Forming the Archduchy of Austria, by Flavio Verna
+ middle_europe_decisions.0003.t:0 "O Arquidutor da Áustria"
+ middle_europe_decisions.0003.desc:0 "Graças às minhas ilustres realizações à consolidação dos corações austríacos e à tremenda influência que minha dinastia adquiriu sobre o Sacro Império Romano-Germânico, [scoped_emperor.GetTitledFirstName] finalmente reconheceu a primazia da Áustria sobre os outros eleitores históricos da Alemanha.\n\n Daqui para frente, todos os meus sucessores levarão o distinto título de Arquiduques para se separarem dos menores príncipes e princesas do Império."
+ middle_europe_decisions.0003.a:0 "Áustria erit em orbe passado!"
+ middle_europe_decisions.0004.desc.emperor:0 "É justo que os governantes do coração austríaco, lar da minha própria dinastia, sejam separados dos outros príncipes e princesas do Império. \n\nAs tal, recentemente entreguei ao meu [ROOT.Char.Custom2('RelationToMePossessive', SCOPE.sC('scoped_ruler'))] apelos e proclamou [scoped_ruler.GetFirstName] [scoped_ruler.GetTitleTierName] da Áustria."
+ middle_europe_decisions.0004.desc.vassals:0 "Aproveitando-se da influência da dinastia [scoped_ruler.GetDynastyName] sobre o trono imperial, [scoped_ruler.GetFirstName] convenceu [scoped_emperor.GetTitledFirstName] a conceder [scoped_ruler.GetHerHim] honras especiais.\n\n Daqui para frente, a Áustria será considerada um Arquidutor, primeiro entre os principados do Sacro Império Romano-Germânico."
+ middle_europe_decisions.0004.a:0 "Foi inteiramente merecido."
+ middle_europe_decisions.0004.b:0 "Que conveniente..."
+
+# Reforming the Carolingian Empire, by Flavio Verna
+ middle_europe_decisions.0005.t:0 "Sonho de Carlos Magno"
+ middle_europe_decisions.0005.desc:0 "A Europa está inteira mais uma vez. Todos os descendentes dos francos foram trazidos sob uma única bandeira e estão unidos contra os infiéis ao Ocidente e os pagãos para o Oriente.\n\nPor graça de [scoped_ruler.GetFaith.HighGodName], minha família teve o privilégio de manter a coroa deste Império Carolingiano restaurado. E, ao contrário dos que vieram antes de nós, não permitiremos que disputas dinásticas destruam este grande reino."
+ middle_europe_decisions.0005.a:0 "[scoped_ruler.GetFaith.HighGodName] ser elogiado!"
+ middle_europe_decisions.0006.desc:0 "[scoped_ruler.GetTitledFirstName] e [scoped_ruler.GetHerHis] exército de Francos invadiu até agora nas terras do Império que [scoped_ruler.GetSheHe] começou a afirmar que [scoped_ruler.GetSheHe] é o verdadeiro herdeiro de Carlos Magno e do Sacro Império Romano-Germânico apenas uma pálida imitação da glória carolíngio.\n\nCom todas as províncias originais e uma grande parte da Europa Ocidental sob [scoped_ruler.GetHerHis] controle, tornou-se difícil para qualquer um negar tal afirmação."
+ middle_europe_decisions.0006.a:0 "Como ousa [scoped_ruler.GetSheHe]!"
+ middle_europe_decisions.0006.b:0 "Será que este Império vai durar mais, eu me pergunto?"
+
+# Unifying the Burgundies, by Flavio Verna
+ middle_europe_decisions.0007.t:0 "Uma Borgonha"
+ middle_europe_decisions.0007.desc:0 "Todas as terras burgúndios foram unidas sob uma única coroa. Não mais divididos entre reinos mesquinhos e em guerra, nossas terras antigas recuperaram a dignidade de um Reino.\n\nHás já faz algum tempo desde que [former_liege.GetTitledFirstNamePossessive] autoridade sobre mim começou a diminuir ao ponto de eu não sentir mais qualquer fidelidade ao que eu considero ser um par em vez de um liege."
+ middle_europe_decisions.0007.a:0 "Não precisamos de proteção de ninguém!"
+ middle_europe_decisions.0008.desc.liege:0 "Estou preocupado há algum tempo com [scoped_ruler.GetTitledFirstNamePossessive] tentativas de unificar as terras burgúndias sob uma única bandeira, e agora meus piores medos aconteceram.\n\nO cur ingrato decidiu proclamar [scoped_ruler.GetHerselfHimself] [scoped_ruler.GetTitleTierName] da Borgonha e quebrou [scoped_ruler.GetHerHis] juramento de vassalo!"
+ middle_europe_decisions.0008.desc.others:0 "Depois de passar vários anos unindo as terras burgúndias, [scoped_ruler.GetFirstName] decidiu coroar [scoped_ruler.GetHerselfHimself] [scoped_ruler.GetTitleTierName] da Borgonha e declarar independência de [former_liege.GetTitledFirstName].\n\nEste ato descarado de traição é improvável que seja esquecido em breve..."
+ middle_europe_decisions.0008.a:0 "[scoped_ruler.GetSheHe|U] não é nada além de um traidor!"
+ middle_europe_decisions.0008.b:0 "Pelo menos os topógrafos ficarão felizes."
+
+# Empowering Sicilian Parliament, by Flavio Verna
+ middle_europe_decisions.0010.t:0 "A Assembleia dos Estados"
+ middle_europe_decisions.0010.desc:0 "A infraestrutura deixada pelos gregos nas províncias da Sicília e da Apulia servirá como base acelerando a transição de [scoped_ruler.GetPrimaryTitle.GetName] para uma forma mais esclarecida de governança. Reunindo representantes das três Propriedades em um único órgão consultivo guiado por novas leis baseadas nas antigas tradições romanas, garantirei estabilidade e prosperidade no Mediterrâneo para as próximas gerações. Agora eu só preciso decidir onde este Parlamento deve ser mantido."
+ middle_europe_decisions.0010.a:0 "Em Palermo, é um lugar antigo!"
+ middle_europe_decisions.0010.b:0 "Será em Nápoles."
+ middle_europe_decisions.0010.c:0 "Eu deveria considerar seriamente esta decisão."
+ middle_europe_decisions.0011.desc:0 "[scoped_ruler.GetTitledFirstName] nomeou representantes da Nobreza, do Clero e dos Burghers para formar um novo Parlamento no Reino da Sicília.\n\nEste órgão consultivo ajudará os [scoped_ruler.GetTitleTierName] e [scoped_ruler.GetHerHis] sucessores a governar com sabedoria e eficiência, em benefício de todos os seus súditos."
+ middle_europe_decisions.0011.a:0 "Eu vejo..."
+
+# Gothic Innovations, by Flavio Verna
+ middle_europe_decisions.0012.t:0 "Opus Francigenum"
+ middle_europe_decisions.0012.desc:0 "Uma nova era de prosperidade está sobre nós. [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] emergiu da idade das trevas como um farol brilhante da arte e da filosofia.\n\n Nossas cidades estão se transformando em centros de comércio repletos, levantando novas catedrais maravilhosas para rivalizar com os antigos monumentos do Império Romano, desenhando pintores, bardos e filósofos de todos os tipos. Sob o patrocínio iluminado da minha dinastia, o povo [scoped_ruler.GetCulture.GetName] se tornará a inveja de toda a Europa."
+ middle_europe_decisions.0012.a:0 "Que nosso grande trabalho continue!"
+ middle_europe_decisions.0013.t:0 "O Período Gótico"
+ middle_europe_decisions.0013.desc.french:0 "[scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] está passando por um período de grande prosperidade e crescimento, em benefício de todo o nosso povo. \n\nAs cidades estão se transformando em centros de comércio repletos, levantando novas catedrais maravilhosas para rivalizar com os antigos monumentos do Império Romano, desenhando pintores, bardos e filósofos de todos os tipos. Sob o patrocínio iluminado de [scoped_ruler.GetTitledFirstName] e da dinastia [scoped_ruler.GetDynasty.GetBaseName], nos tornaremos a inveja de toda a Europa."
+ middle_europe_decisions.0013.desc.italian:0 "Parece que [scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] está passando por um período de grande prosperidade e crescimento. \n\nPoets, filósofos, arquitetos... Muitas pessoas de conhecimento estão se reunindo em [scoped_ruler.GetTitledFirstNamePossessive] corte, mas tudo o que conseguiram alcançar até agora é um desfile aparentemente interminável de monumentos brutos e bárbaros."
+ middle_europe_decisions.0013.desc.fallback:0 "[scoped_ruler.GetPrimaryTitle.GetNameNoTierNoTooltip] está passando por um período de grande prosperidade e crescimento, em benefício de todos os [ROOT.Char.GetCulture.GetNameNoTooltip] pessoas. \n\nNovas cidades estão se transformando em centros de comércio repletos, levantando novas catedrais maravilhosas para rivalizar com os antigos monumentos do Império Romano, desenhando pintores, bardos e filósofos de todos os tipos. Sob o patrocínio iluminado de [scoped_ruler.GetTitledFirstName] e da dinastia [scoped_ruler.GetDynasty.GetBaseName], esta terra se tornará a inveja de toda a Europa."
+ middle_europe_decisions.0013.a:0 "Em que tempos maravilhosos vivemos!"
+ middle_europe_decisions.0013.b:0 "Bah! Isso nunca vai durar."
+ middle_europe_decisions.0013.c:0 "Bom para eles, suponho..."
+
+# Restore Holy Roman Empire, by Ewan Cowhig Croft
+ middle_europe_decisions.0015.t:0 "O Império do Oeste"
+ middle_europe_decisions.0015.desc:0 "Por muito tempo, o manto do Imperador Romano no Ocidente não foi reclamado. Hoje, enquanto enfrento [founder_hof.GetTitledFirstName] na maior [founder.GetFaith.HouseOfWorship] de todos os [ceremony_locale.GetNameNoTooltip], cercado por meus vassalos e clero, que muda.\n\n Nós trocamos orações e benefações por rote, pedindo a [founder.GetFaith.HighGodName] que me abençoe com a força e misericórdia para governar meu império de acordo com [founder.GetFaith.HighGodHerHis|U] vontade. Solenemente, [founder_hof.GetTitledFirstNameNoTooltip] me presenteia com coroa e espada, e me cobra com os cuidados de toda cristandade.\n\nSilence, seguido por uma onda de hinos, abafados apenas pelos aplausos furiosos dos meus nobres.\n\nAt última. Eu sou o Sacro Imperador Romano."
+ middle_europe_decisions.0015.a:0 "De Augusto, para Carlos Magno, para [founder.GetFirstNameNoTooltip]!"
+ middle_europe_decisions.0016.desc:0 "O Império Romano no Ocidente ficou adormecido por algum tempo, Deixando a [founder.GetFaith.GetAdjectiveNoTooltip] resposta à questão da dignidade imperial incerta na melhor das hipóteses.\n\nUncertain, isto é, até agora, como [founder.GetTitledFirstName], com o consentimento de [founder_hof.GetTitledFirstName], restabeleceu o império de Carlos Magno em uma cerimônia luxuosa organizada pelo maior dos [founder.GetFaith.HouseOfWorshipPlural] em [ceremony_locale.GetNameNoTooltip].\n\nAcross do mundo, [founder.GetFaith.GetAdjectiveNoTooltip] [founder.GetFaith.PriestNeuterPlural] se alegram , confiante de que Roma finalmente tem um herdeiro verdadeiro e piedoso mais uma vez!"
+ middle_europe_decisions.0016.a:0 "Bah, uma presunção pretensiosa de um império."
+ middle_europe_decisions.0016.b:0 "Alemães bárbaros, #emphasis eu #! sou o Imperador Romano!"
+ middle_europe_decisions.0016.c:0 "Esperemos que o império se mostre pacífico."
+ middle_europe_decisions.0016.d:0 "Um espetáculo glorioso!"

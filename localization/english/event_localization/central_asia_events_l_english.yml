@@ -1,0 +1,23 @@
+﻿l_english:
+ central_asia.0001.t:0 "O Mundo Antes de Mim"
+ central_asia.0001.desc:0 "Os líderes do clã sabem por que foram chamados. Passamos uma longa noite isolados no palácio yurt, e eles convocam xamãs e generais para falar diante deles. Não há debate. Eu emergi da tenda como os primeiros raios do sol rompem o horizonte, e todo o exército reunido já está acordado, esperando.\n\nEles me cumprimentam, sabendo que eu não sou apenas seu governante. Eu sou o governante do universo - Genghis Khan."
+ central_asia.0001.a:0 "É aqui que minha conquista realmente começa."
+ central_asia.0001.mongol_invasion_cb:0 "Eu sou capaz de usar o [mongol_invasion_casus_belli|E]"
+
+ central_asia.0002.t:0 "Genghis Khan"
+ central_asia.0002.desc:0 "Fui convocado pelo meu liege para um Grande Kurultai, uma reunião de todos os líderes do clã e vassalo no reino. Todos sabíamos por quê, e nunca houve qualquer dúvida nas deliberações noturnas que foram realizadas no yurt esfumaçado. [genghis_khan.GetFirstName] [genghis_khan.GetDynastyName] é a [genghis_khan.GetLadyLord] do universo - Genghis Khan.\n\nHá não houve cerimônia de coroação, para quem poderia julgá[genghis_khan.GetHerHim]? Em vez disso, [genghis_khan.GetSheHe] entregou uma declaração antes de [genghis_khan.GetHerHis] reunir exércitos.\n\n"Today we go forth and conquer all that lies underneath the Great Sky!""
+ central_asia.0002.a:0 "O mundo tremerá diante de nós!"
+
+ central_asia.0003.desc:0 ", auto-proclamado governante do universo. Uma horda unida de cavaleiros e guerreiros está se espalhando para subjugar aqueles que se recusam a dobrar o joelho.\n\nEstá afirmações ridículas, é claro, mas as notícias também nos alcançaram da queda das grandes cidades diante de um conquistador vicioso..."Genghis Khan", auto-proclamado governante do universo. Uma horda unida de cavaleiros e guerreiros está se espalhando para subjugar aqueles que se recusam a dobrar o joelho.\n\nEstá afirmações ridículas, é claro, mas as notícias também nos alcançaram da queda das grandes cidades diante de um conquistador vicioso..."
+ central_asia.0003.a.distant:0 "Tudo isso vai acabar em breve."
+ central_asia.0003.a.neighbor:0 "Devemos nos preparar. Há dificuldades pela frente."
+
+ central_asia.0011.t:0 "O Berço das Estepes"
+ central_asia.0011.desc:0 "A herança do velho não é apenas um símbolo poderoso, mas uma força orientadora em seu próprio direito. Como antes, os povos diferentes desta terra serão unidos e liderados sob a bandeira da Bactria. Minha bandeira.\n\nCom cascos trovejantes e pés marchando, todos os que viajam entre o Oriente e o Ocidente saberão que governamos o céu aberto."
+ central_asia.0011.a:0 "Carregamos a força de muitos povos!"
+
+ central_asia.0012.desc:0 "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('bactrian_emperor'))], [bactrian_emperor.GetTitledFirstName], reivindicou as terras antigas da Bactria, e pretende governá-las como uma, como os reis fizeram nos tempos antigos.\n\nPara aqueles que viajam entre o Oriente e o Ocidente, esta terra pode parecer inóspita, mas sabemos que ela está verdadeiramente repleta de vida."
+ central_asia.0012.a:0 "Carregamos a força de muitos povos!"
+
+ central_asia.0013.desc:0 "[bactrian_emperor.GetFullName] reivindicou todas as terras da antiga Bactria, e declarou [bactrian_emperor.GetHerselfHimself] como seu único verdadeiro governante. O tolo parece ter esquecido um pequeno detalhe, no entanto. Algumas das terras [bactrian_emperor.GetSheHe] reivindicou ser minha!"
+ central_asia.0013.a:0 "[bactrian_emperor.GetSheHe|U] pode tirá-los das minhas mãos frias e mortas!"

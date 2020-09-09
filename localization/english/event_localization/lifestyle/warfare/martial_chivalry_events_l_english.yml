@@ -1,0 +1,197 @@
+﻿l_english:
+ #A practice duel gone terribly wrong, Peter Vilberg 	
+ martial_chivalry.0001.t:0 "Um Desafio Indigno"
+ martial_chivalry.0001.opening:0 "No começo eu pensei que o simples lacaio um tolo por pisar no campo de treinamento."
+ martial_chivalry.0001.hard_fight:0 "No entanto, a batalha mostrou-se mais duramente travada do que eu esperava, e gradualmente ficou claro que [duel_opponent.GetSheHe] seria incapaz de impedir [duel_opponent.GetHerHis] ataques selvagens e cruéis de me machucar!"
+ martial_chivalry.0001.easy_fight:0 "\n\nAmanto [duel_opponent.GetTitledFirstName] não parecia ameaça no início, rapidamente ficou claro que [duel_opponent.GetSheHe] seria incapaz de impedir [duel_opponent.GetHerHis] ataques selvagens e cruéis de me machucarem!"
+ martial_chivalry.0001.conclusion:0 "Desarmar [duel_opponent.GetHerHim] de repente se tornou uma questão de vida ou morte.\n\nEu tentei não mostrar meu alívio quando [duel_opponent.GetHerHis] espada finalmente atingiu o chão."
+ martial_chivalry.0001.a:0 "Eu poderia usar mais pessoas como você!"
+ martial_chivalry.0001.a.tt:1 "[duel_opponent.GetTitledFirstName] espero que venha para servi-lo bem."
+ martial_chivalry.0001.b:0 "Este camponês - e meus soldados - receberá uma palestra sobre honra."
+ martial_chivalry.0001.b.tt:1 "Seus soldados também se beneficiariam de uma explicação dos direitos e erros do combate pessoal."
+ martial_chivalry.0001.c:0 "Eu [duel_opponent.GetHerHim] ato onde [duel_opponent.GetSheHe] está."
+ martial_chivalry.0001.c.tt:0 "A decapitação em um único golpe é uma maneira segura de impressionar os lacaios - e os nobres - presentes."
+
+
+ #Horse Riding Accident, by Petter Vilberg
+ martial_chivalry.0002.t:0 "Um Choque Repentino"
+ martial_chivalry.0002.desc:0 "Eu andei, apontei, e bati tantas vezes que pensei que nada poderia perturbar meu ritmo. Como eu levo mais um galope para baixo do campo de treino, uma comoção que eu não posso ver faz meu cavalo levantar para cima.\n\nPara um instante, o impulso me mantém preso na parte de trás do cavalo enquanto ele começa a tremer. Então, como se o tempo está fluindo lentamente, eu posso sentir-me tornando-se desalojado."
+ martial_chivalry.0002.a:0 "Acalme-se, [ROOT.Char.Custom('RandomGirlBoy')]! Acalme-se!"
+ martial_chivalry.0002.increase_horse_mastery:1 "Meu domínio da equitação aumenta, e com isso minha experiência no [martial_lifestyle|E]."
+ martial_chivalry.0002.b:0 "Eu mergulho para o solo estável - melhor prevenir do que remediar!"
+
+ martial_chivalry.0003.t:0 "No Comando"
+ martial_chivalry.0003.desc:0 "Eu posso sentir-me sendo jogado à esquerda e à direita, mas nenhum movimento pode me fazer afrouxar meu alcance sobre as rédeas e a sela.\n\nMy comanda eventualmente acalmar o cavalo, e o animal está logo de volta a pisar ansiosamente no chão embalado, tão estável como sempre."
+ martial_chivalry.0003.a:0 "Uma besta tão forte."
+ martial_chivalry.0003.a.tt:1 "Se nada mais, o incidente lhe ensinou um pouco mais sobre o controle de cavalos."
+
+ martial_chivalry.0004.t:0 "Exibição Unglamorous"
+ martial_chivalry.0004.desc:1 "Eu sou jogado no chão cheio de areia, a dor do impacto correndo por cada osso do meu corpo.\n\nO menino estável vem correndo um pouco tarde demais."
+ martial_chivalry.0004.a:0 "Maldito animal!"
+
+ martial_chivalry.0005.t:0 ""Que dia ruim para andar a cavalo""
+ martial_chivalry.0005.desc:1 "O menino do estábulo tenta me ajudar a levantar, mas eu grito para ele parar.\n\nHitting o chão enviou parafusos de dor por todo o meu corpo, e minha velha ferida está doendo pior do que quando estava fresco!"
+ martial_chivalry.0005.a:0 "Eu não deveria ter deixado a cama hoje."
+
+ martial_chivalry.0006.t:0 "O que aconteceu?"
+ martial_chivalry.0006.desc:1 "Eu não me lembro como eu caí no chão, eu só sei de dor ardente em todo o meu corpo. Rostos pouco claros se reúnem ao redor, olhando para mim.\n\nTomisto fica escuro."
+ martial_chivalry.0006.a:0 "Como eu acabei na cama? Onde está meu cavalo?"
+
+ martial_chivalry.0007.t:0 "Meu Reino por um Cavalo"
+ martial_chivalry.0007.desc:0 "Eu pensei que a cavalgada faria sentir-se melhor. Esse pouco esforço me ajudaria a curar. Quando caio no ar, a dor das minhas feridas me deixa por um breve momento de ausência de peso. É o melhor que sinto por semanas.\n\nAs eu esmago até o chão, não preciso mais me preocupar com a dor, ou qualquer outra preocupação terrena."
+ martial_chivalry.0007.a:0 "O que espera além?"
+
+ #Train with your signature weapon, by Linnéa Thimrén
+ martial_chivalry.0010.t:0 "O Caminho do [ROOT.Char.Custom('signature_weapon')|U]"
+ martial_chivalry.0010.desc:0 "O interminável choque de metal no metal, o atrito da armadura, a picada do suor... É uma dança tão familiar quanto cansativa. Para [ROOT.Char.Custom('SignatureWeaponAction')] minha [ROOT.Char.Custom('signature_weapon')], atacar, esquivar, defender e repetir.\n\nMaybe me faria bem praticar minhas habilidades com outra arma."
+ martial_chivalry.0010.a:0 "Eu e meu [ROOT.Char.Custom('signature_weapon')] de confiança não vamos nos separar."
+ martial_chivalry.0010.b:0 "Vamos acabar com a monotonia, me dê outra arma!"
+ martial_chivalry.0010.b.tt1:1 "Você mostra a eles como é feito"
+ martial_chivalry.0010.b.tt2:1 "Você tropeça e se machuca"
+
+
+ #Find an old castle, by Linnéa Thimrén 
+ martial_chivalry.1011.t:0 "Descanse para os Cansados"
+ martial_chivalry.1011.desc:0 "\n\nO sol está se pondo, e a cada passo em direção à ruína parece mais sinistro. Em pouco tempo os soldados estão sussurrando sobre fantasmas."That is where we will make our camp tonight."\n\nO sol está se pondo, e a cada passo em direção à ruína parece mais sinistro. Em pouco tempo os soldados estão sussurrando sobre fantasmas."
+ martial_chivalry.1011.a:0 "Vamos nos aventurar por dentro, tenho certeza que há tesouros a serem encontrados!"
+ martial_chivalry.1011.a.tt:0 "Quem sabe o que você vai encontrar lá dentro?"
+ martial_chivalry.1011.b:0 "Vamos levantar as tendas lá fora, é hora de descansar."
+
+ martial_chivalry.1012.t:0 "Procurando o Desconhecido"
+ martial_chivalry.1012.desc:0 "A escuridão, a umidade e a desolação reinam dentro do castelo, e todos os traços de vida se foram.\n\nPeering até escadas em decomposição eu vejo o que poderia ser os restos de tapeçarias exuberantes e pinturas antigas. Olhando para baixo degraus em espiral eu vejo apenas escuridão chegando longe no chão sob o castelo."
+ martial_chivalry.1012.a:0 "Nós revistamos os andares superiores!"
+ martial_chivalry.1012.a.success:1 "Encontramos um grande tesouro"
+ martial_chivalry.1012.a.failure:1 "Encontramos bugigangas e bugigangas"
+ martial_chivalry.1012.b:0 "O que pode estar escondido na escuridão por baixo?"
+ martial_chivalry.1012.b.tt1:1 "#!"I swear that shadow just moved! Is that... blood? What was that sound?!"#!"
+ martial_chivalry.1012.b.success:1 "Você enfrenta seus medos"
+ martial_chivalry.1012.b.failure:1 "Este lugar te assusta"
+
+ martial_chivalry.1021.t:0 "O Caos da Batalha"
+ martial_chivalry.1021.desc:0 "Uma espada bate no meu peito, um cotovelo bate no meu capacete, um soldado facilmente evita meu contador desajeitado... A batalha simulada se espalha ao meu redor, mas eu luto para encontrar meu foco.\n\n Estou tentado a baixar minha guarda assim que a luta se acalmar, mas eu sei que o segundo ataque está prestes a começar."
+ martial_chivalry.1021.a:0 "Vou me retirar por um momento."
+ martial_chivalry.1021.b:0 "Encontre a cabeça de assalto!"
+ martial_chivalry.1021.b.success:0 "Minha carga é inspiradora"
+ martial_chivalry.1021.b.failure:0 "Eu tropeço e me machuco"
+
+
+ #Practice duel (Prowess skill challenge), Petter Vilberg
+ martial_chivalry.2010.t:0 "O Desafio"
+ martial_chivalry.2010.start.desc:1 "Estou lutando com um dos meus soldados, suando na minha testa, quando eu experimento a estranha sensação de ser observado. Olhando por cima do ombro, eu vejo [challenger.Custom2('MyCharacterIntroduction', ROOT.Char)],"
+ martial_chivalry.2010.like.desc:0 "que acena para mim. Eu ando para cumprimentar [challenger.GetHerHim].\n\n Falamos sobre nossa prática de armas por um tempo, trocando truques e conselhos. Assim como estou prestes a sair para outra rodada, [challenger.GetTitledFirstNamePossessive] rosto se ilumina e [challenger.GetSheHe] sugere que pratiquemos juntos."
+ martial_chivalry.2010.dislike.desc:0 "[challenger.GetFirstNamePossessive] palavras crescem pelo pátio."My [ROOT.Char.GetTitleTierName]!"[challenger.GetFirstNamePossessive] palavras crescem pelo pátio."Would you not prefer to test your skills against me instead?""
+ martial_chivalry.2010.a:0 "Desafio aceito!"
+ martial_chivalry.2010.a.success.tt:1 "Você ganha o duelo de treinos"
+ martial_chivalry.2010.b:0 "Eu prefiro não..."
+ martial_chivalry.2010.a.failure1.tt:0 "[challenger.GetShortUINameNoTooltip] ganha vantagem no duelo"
+ martial_chivalry.2010.a.failure2.tt:1 "Você perde o duelo de treinos"
+
+ martial_chivalry.2011.t:0 "A Mão Superior"
+ martial_chivalry.2011.start.desc:0 "Os sons de [ROOT.Char.Custom('signature_weapon')] se chocando contra [challenger.Custom('signature_weapon')] ecoa entre as paredes do pátio. Todos os olhos estão em nós; todo mundo quer ver seu [ROOT.Char.GetTitleTierName] lutando [ROOT.Char.GetHerHis] [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('challenger'))].\n\n"
+ martial_chivalry.2011.end.desc:0 "A multidão aplaude enquanto eu me ai e sua admiração me faz ousado. Em vez de recuar, tento uma nova técnica que tenho praticado. Os movimentos fluem através de mim e para minha [ROOT.Char.Custom('signature_weapon')] como se fôssemos um. [challenger.GetTitledFirstName] está indefeso diante de mim."
+ martial_chivalry.2011.a:0 "Vamos acabar com isso aqui! Bem lutado."
+ martial_chivalry.2011.b:0 "Vou mostrar [challenger.GetHerHim] não me desafiar de novo!"
+
+ martial_chivalry.2012.t:2 "[challenger.Custom('SignatureWeaponArticle')|U] [challenger.Custom('signature_weapon')|U] em My Throat"
+ martial_chivalry.2012.end.desc:1 "Devo estar cansado do meu treino anterior, porque me movo devagar, incapaz de acompanhar meu adversário. Quando eu me apressei, [challenger.GetSheHe] já se foi, e meus parries vêm no último momento. Não demorou muito para eu me encontrar no chão antes [challenger.GetHerHim]."
+ martial_chivalry.2012.a:0 "Eu rendo! Bem lutado."
+ martial_chivalry.2012.b:0 "Só os covardes se rendem!"
+ martial_chivalry.2012.b.failure.tt:1 "#F você perde o duelo de treinos. #!"
+ 
+ martial_chivalry.2013.t:0 "Humilhação Sangrenta"
+ martial_chivalry.2013.end.desc:0 "Através do uso de um truque sujo, [challenger.GetFirstName] ganha uma vantagem inicial. Não há tempo para me opor, nem quero agir como um desobigo. Mas não posso deixá-lo ir, e minha frustração me desequilibra. Eu faço um arremesso desaconselhável e meu oponente me atinge no chão."
+ martial_chivalry.2013.a:0 "Essa [challenger.Custom('InsultNoun')] torto!"
+ 
+ martial_chivalry.2014.t:0 "Contra todas as probabilidades"
+ martial_chivalry.2014.desc:0 "A julgar pelas exclamações da multidão, eles mal podem acreditar em seus olhos enquanto eu revindo [challenger.GetFirstNamePossessive] [challenger.Custom('signature_weapon')] e desarme [challenger.GetHerHim] em um movimento rápido. Eu sei que foi uma jogada perigosa, mas às vezes você tem que correr grandes riscos para conseguir vitórias gloriosas."
+ martial_chivalry.2014.a:0 "Meu triunfo não será esquecido em breve!"
+
+ martial_chivalry.2015.t:0 "Ridículo Público"
+ martial_chivalry.2015.desc:0 "Eu faço um último ataque desesperado, mas [challenger.GetFirstName] é rápido. [challenger.GetSheHe|U] parries instintivamente, mas como meu ataque foi inesperado, [challenger.GetSheHe] não está no controle total da arma [challenger.GetHerHis]. Paralisando a dor sears através do meu braço."
+ martial_chivalry.2015.a:0 "Por que eu fiz isso?"
+
+ #Vassal struggling to train new recruits, Sean Hughes
+ martial_chivalry.3000.t:0 "Recrutas Indisciplinados"
+ martial_chivalry.3000.desc:0 "Hoje estou observando [bad_commander.GetTitledFirstName] enquanto [bad_commander.GetSheHe] treina algumas das novas taxas [bad_commander.GetHerHis], mas os recrutas sob [bad_commander.GetHerHis] comando se assemelham a uma multidão desorganizada mais do que um exército.\n\nEu vejo como [bad_commander.GetSheHe] luta para obter o controle da situação, claramente empurrada para [bad_commander.GetHerHis] limites."
+ martial_chivalry.3000.desc.callous:0 "Esta demonstração de inaptidão é uma vergonha para o [ROOT.Char.GetPrimaryTitle.GetName] e não pode ser tolerada!"
+ martial_chivalry.3000.desc.compassionate:0 "Tendo estado nessa situação, sei como é difícil trabalhar com soldados destreinados."
+ martial_chivalry.3000.desc.fallback:1 "Embora nunca seja fácil treinar novos soldados, [bad_commander.GetSheHe] precisa fazer melhor do que isso."
+ martial_chivalry.3000.a:0 "Castigar [bad_commander.GetHerHim] por [bad_commander.GetHerHis] fracasso."
+ martial_chivalry.3000.b:0 "Ensine [bad_commander.GetHerHim] o que sei sobre comando."
+ martial_chivalry.3000.b.attempt:0 "[bad_commander.GetTitledFirstNameNoTooltip] tomará uma decisão baseada na personalidade [bad_commander.GetHerHis]"
+ martial_chivalry.3000.b.tt.s:1 "[bad_commander.GetTitledFirstNameNoTooltip] aceita seu conselho"
+ martial_chivalry.3000.b.tt.f:0 "[bad_commander.GetTitledFirstNameNoTooltip] se recusa a ouvir"
+ martial_chivalry.3000.c:0 "Alegrar [bad_commander.GetHerHim] depois que o treinamento acabar."
+
+ martial_chivalry.3000.response.desc:0 "[my_liege.GetTitledFirstName] pararam para me observar hoje enquanto eu estava treinando minhas novas taxas.\n\nEmbarrassingly, meus soldados indisciplinados caíram em uma multidão desordenada enquanto tentavam completar seus exercícios!"
+ martial_chivalry.3001.t:0 "Humilhado!"
+ martial_chivalry.3001.desc:0 "Pior ainda, [my_liege.GetFirstName] me culpou pessoalmente por esse fracasso."
+ martial_chivalry.3001.a:0 "Puna esses recrutas por me fazer parecer mal!"
+ martial_chivalry.3001.b:0 "Eu devo fazer melhor, pelo bem do reino."
+ martial_chivalry.3001.c:0 "Eu falhei [my_liege.GetTitledFirstNameNoTooltip]."
+
+ martial_chivalry.3002.t:0 "Intervenção"
+ martial_chivalry.3002.desc:0 "Agora [my_liege.GetFirstName] está me ensinando sobre o básico de como treinar novas tropas!"
+ martial_chivalry.3002.a:0 "Aceite [my_liege.GetFirstNamePossessiveNoTooltip] conselhos graciosamente."
+ martial_chivalry.3002.b:0 "Maldição que a ralé por me fazer parecer mal!"
+
+ martial_chivalry.3003.t:0 "Conselho aceito"
+ martial_chivalry.3003.desc.1:0 "Eu puxo [bad_commander.GetTitledFirstName] para um lado enquanto recrutas [bad_commander.GetHerHis] tentam continuar seu treinamento." A coisa chave com o treinamento de novos soldados é incutir disciplina! Eu digo-[bad_commander.GetHerHim]. "Sem isso, você será incapaz de depender deles para seguir suas ordens..."
+ martial_chivalry.3003.desc.2:0 "\n\nDepois que eu terminar, [bad_commander.GetFirstName] me agradece antes de caminhar de volta para o campo, onde [bad_commander.GetSheHe] rapidamente assume o controle da situação."
+ martial_chivalry.3003.a:0 "Isso fará [bad_commander.GetFirstNameNoTooltip] um comandante melhor."
+
+ martial_chivalry.3004.t:0 "Conselho rejeitado!"
+ martial_chivalry.3004.desc:0 "Enquanto toco [bad_commander.GetTitledFirstName] no ombro [bad_commander.GetHerHis], [bad_commander.GetSheHe] levanta [bad_commander.GetHerHis] mãos e grita"This is #EMP not#! my fault [ROOT.Char.GetFirstNameNoTooltip]! These idiotic peasants don't know their right hand from their left! How can anyone be expected to turn this rabble into an army!?""
+ martial_chivalry.3004.b:0 "[bad_commander.GetTitledFirstNameNoTooltip] vai se arrepender desta demonstração de imprudência!"
+ martial_chivalry.3004.a:0 "Estou decepcionado com [bad_commander.GetTitledFirstNameNoTooltip]."
+
+ martial_chivalry.3005.t:0 "Consolação"
+ martial_chivalry.3005.desc:0 "Para meu alívio [my_liege.GetFirstName] me abordou após o exercício para me confortar e encorajar meus esforços."
+ martial_chivalry.3005.a:0 "[my_liege.GetSheHe|U] tinha o direito de me repreender, mas não o fez."
+
+
+ #Mounted Warrior Practice, by Petter Vilberg
+ martial_chivalry_special.1201.t:0 "Prática [ROOT.Char.Custom('MountedWarriorAdjective')|U]"
+ martial_chivalry_special.1201.desc:0 "O barulho das cartas e o choque de espadas anéis em meus ouvidos enquanto meu [ROOT.Char.Custom('MountedWarriorTermPlural')] praticam seus braços. Eu os estudo atentamente, tentando determinar os pontos fortes e fracos particulares de cada um.\n\nHá pouco descanso para eles, pois assim que o sino é tocado para sinalizar o fim do corpo a corpo simulado, as portas estáveis são abertas. É hora de trazer as montarias."
+ martial_chivalry_special.1201.a:0 "Hoje vamos cavalgar!"
+ martial_chivalry_special.1201.a.tt:2 "Praticar formações com seus [ROOT.Char.Custom('MountedWarriorTermPlural')] pode ajudar a melhorar sua experiência no [martial_lifestyle|E]."
+ martial_chivalry_special.1201.b:0 "Traga-me minha armadura. Eu não cavalgei no quintain em anos!"
+ martial_chivalry_special.1201.b.tt:1 "\nExercising até o pôr-do-sol não melhorará sua compreensão das táticas, mas isso fará você #EMP forte#!."
+
+ martial_chivalry_special.1202.t:1 "[ROOT.Char.Custom('MountedWarriorAdjective')|U] Practice: A Hilltop View"
+ martial_chivalry_special.1202.desc:0 " [soldier.GetSheHe] diz.\n\nI informo meus [ROOT.Char.Custom('MountedWarriorTermPlural')] enquanto inspeciono sua linha de batalha, preparando-os para a estratégia em questão."Those could serve as the outline of an enemy army," [soldier.GetSheHe] diz.\n\nI informo meus [ROOT.Char.Custom('MountedWarriorTermPlural')] enquanto inspeciono sua linha de batalha, preparando-os para a estratégia em questão."
+ martial_chivalry_special.1202.a:0 "Eu deveria cortar na diagonal e levar o [ROOT.Char.Custom('MountedWarriorTermPlural')] para os 'flancos'."
+ martial_chivalry_special.1202.b:0 "#EMP Chaaarge! #!"
+ martial_chivalry_special.1202.b.tt:1 "\nO seu [ROOT.Char.Custom('MountedWarriorTermPlural')] deve ser conhecido por ferocidade em vez de finesse, e você também deve!"
+
+ martial_chivalry_special.1203.t:1 "[ROOT.Char.Custom('MountedWarriorAdjective')|U] Prática: Ataque de Precisão"
+ martial_chivalry_special.1203.desc:0 "A tempestade de cascos ao meu redor, os gritos de guerreiros montados, seu ímpeto inflexível. Cavalgando na cabeça deles, parece que estou à frente de uma força da natureza. Esta, no entanto, é uma força que dirijo, que responde a cada ordem minha, que eu comando como se fosse uma extensão de mim mesmo.\n\nCargar para os flancos de um exército imaginário, meu [ROOT.Char.Custom('MountedWarriorTermPlural')] nunca se desviar do meu plano, eu sei que é assim que eu trago devastação total ao meu inimigo."
+ martial_chivalry_special.1203.a:0 "É assim que a corrida da vitória se sentirá."
+
+ martial_chivalry_special.1204.t:1 "[ROOT.Char.Custom('MountedWarriorAdjective')|U] Prática: A Fúria das Bestas"
+ martial_chivalry_special.1204.desc:0 "Eu [ROOT.Char.Custom('SignatureWeaponAction')] minha [ROOT.Char.Custom('signature_weapon')], e liderar os pilotos em uma corrida louca descendo a colina. No entanto, entre todo o caos aparente de mudança de armadura, armas levantadas e gritos de batalha, há um plano. À medida que batemos no exército imaginário no campo abaixo, cada soldado encontra seu lugar em nossa linha, preparando ataques, recuando, torcendo as rédeas, e saltando de volta para a briga.\n\n Nós correremos sobre nossos inimigos como uma força da natureza, e eles vão quebrar como uma árvore antes da tempestade."
+ martial_chivalry_special.1204.a:0 "Vamos cortar cada último homem em nosso caminho!"
+
+
+ #Train a warhorse, by Linnéa Thimrén
+ martial_chivalry_special.1601.t:0 "Treinando um cavalo de guerra"
+ martial_chivalry_special.1601.desc:0 "Enquanto inspeciono os estábulos, meu olhar é atraído para um [dummy_gender.Custom('HorseMareStallion')] mantido longe de todos os outros. [dummy_gender.GetSheHe|U] joga [dummy_gender.GetHerHis] cabeça e pisa [dummy_gender.GetHerHis] cascos, exibindo [dummy_gender.GetHerHis] traseiros poderosos e pescoço bem arqueado. Esta criatura tem o melhor dos conformações e o pior dos temperamentos.\n\nEu nunca vi um cavalo de guerra como esse antes, mas o mestre estável insiste que [dummy_gender.GetSheHe] é impossível de treinar."
+ martial_chivalry_special.1601.a:0 "Eu não sou de me afastar de um desafio!"
+ martial_chivalry_special.1601.b:0 "Tal corcel fino vai buscar um preço alto."
+ martial_chivalry_special.1601.c:0 "Meu mestre estável aprenderá muito domando [dummy_gender.GetHerHim]."
+ martial_chivalry_special.1601.a.tt:1 "O cavalo pode se tornar seu próprio corcel"
+
+ martial_chivalry_special.1603.desc:1 "O cavalo alfineta [dummy_gender.GetHerHis] orelhas de volta à medida que me aproximo, [dummy_gender.GetHerHis] desrespeito por mim cristalino. Este primeiro encontro é importante para ganhar [dummy_gender.GetHerHis] confiança e respeito, e eu preciso decidir como fazer isso."
+ martial_chivalry_special.1603.a:0 "Uma mão firme é necessária para domar esta besta!"
+ martial_chivalry_special.1603.a.tt:0 "Provavelmente trabalhará bem com alta habilidade [prowess|E] ou uma personalidade ousada"
+ martial_chivalry_special.1603.b:0 "Se eu for gentil e me mover lentamente, [dummy_gender.GetSheHe] confiarão em mim."
+ martial_chivalry_special.1603.b.tt:0 "Provavelmente trabalhará bem com alta habilidade [diplomacy|E] ou uma personalidade benevolente"
+ martial_chivalry_special.1603.c:0 "Todo mundo tem seu preço - traga as maçãs!"
+ martial_chivalry_special.1603.c.tt:0 "Provavelmente trabalhará bem com alta habilidade [intrigue|E] ou uma personalidade generosa"
+
+ martial_chivalry_special.1604.desc_success:0 "É um sentimento poderoso; o cavalo poderoso segue todos os meus caprichos. Agora que eu ganhei [dummy_gender.GetHerHis] confiança [dummy_gender.GetSheHe] parece quase gostar de mim."
+ martial_chivalry_special.1604.desc_failure:0 "Não importa o que eu tente o cavalo se recusa a ouvir. Minhas tentativas deixam tanto [dummy_gender.GetHerHim] quanto eu suando e com raiva, e quando saio dos estábulos tarde da noite, sei que não voltarei tão cedo."
+ martial_chivalry_special.1604.a:1 "Eu vou mantê[dummy_gender.GetHerHim] como meu cavalo de guerra pessoal!"
+ martial_chivalry_special.1604.a_2:0 "Isso foi gratificante! Eu vou fazê-lo novamente."
+ martial_chivalry_special.1604.b:0 "Pelo menos aprendi o que não #EMP#! fazer..."
+ 

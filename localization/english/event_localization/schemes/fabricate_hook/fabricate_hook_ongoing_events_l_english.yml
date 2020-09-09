@@ -1,0 +1,10 @@
+﻿l_english:
+ fabricate_hook_ongoing.0001.t:0 "$fabricate_hook_header$ Contato familiar"
+ fabricate_hook_ongoing.0001.desc:1 "[target.GetTitledFirstNamePossessive] [target.Custom2('RelationToMe', SCOPE.sC('family_member'))], [family_member.GetTitledFirstName], tem sido extraordinariamente próximo. Mesmo sabendo que eu poderia não ter intenções totalmente puras para [target.GetFirstName], [family_member.GetSheHe] está mais do que disposto a responder minhas perguntas."
+ fabricate_hook_ongoing.0001.a:0 ""Será que [target.GetSheHe] tem algum ponto fraco particular que eu deveria saber?""
+ fabricate_hook_ongoing.0001.b:0 ""Como alguém se aproximaria de [target.GetHerHim]?""
+
+ fabricate_hook_ongoing.0002.t:0 "$fabricate_hook_header$ Influência Indevida"
+ fabricate_hook_ongoing.0002.desc:0 "[target.GetTitledFirstName] parece extraordinariamente cuidadoso em torno [target.GetHerHis] [target.Custom2('RelationToMeShort', hooking_character )], [hooking_character.GetTitledFirstName]. Esse tipo de deferência só pode significar que [hooking_character.GetFirstNameNoTooltip] tem algum tipo de vantagem em [target.GetHerHim].\n\nPerhaps há algo para eu aprender, aqui?"
+ fabricate_hook_ongoing.0002.a:0 "Meus espiões devem procurar uma explicação para este mistério."
+ fabricate_hook_ongoing.0002.b:0 "Eu devo saber o que [hooking_character.GetSheHe] faz [target.GetHerHim] fazer!"

@@ -1,0 +1,5 @@
+﻿l_english:
+ TEMP_GUI_INTERACTION:0 "$EFFECT_LIST_BULLET$ aprisiona #high Duque Gyrth#! \n$EFFECT_LIST_BULLET$ #N Este é um ato de #E tirania#!, fazendo com que seus súditos percam #Z 40#! #E Opinião#! de você#!"
+ TEMP_GUI_INTERACTION_2:0 "$EFFECT_LIST_BULLET$ Toda #high Família #! Duke Gyrth perderá #Z 15#! #E Opinião#! de mim.\n$EFFECT_LIST_BULLET$ perde #Z 30#! #E Opinião#! de mim #dark_grey (Na Prisão)#!"
+ TEMP_GUI_INTERACTION_TITLE:0 "Efeitos sobre #high Duque Gyrth Godwineson#! de East Anglia"
+ TEMP_GUI_HOOK:0 "Use um gancho de #E#!"

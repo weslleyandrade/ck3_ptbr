@@ -1,0 +1,17 @@
+﻿l_english:
+ claim_throne_interaction:0 "Reivindicação do trono #weak (Esquema)#!"
+ claim_throne_interaction_message:0 "Trono Reivindicado"
+
+ demand_payment_interaction:0 "Pagamento de demanda"
+ demand_payment_interaction_desc:0 "Forçar um [recipient.GetShortUINameNoTooltip] a pagar ouro como pagamento por um [hook|E] você segura"
+ demand_payment_interaction_message:0 "Obrigações pagas"
+ RECIPIENT_HAS_TOO_LITTLE_GOLD:0 "[CHARACTER.GetName] não tem ouro suficiente"
+ demand_payment_too_little_gold_tt:0 "#N [recipient.GetFirstNameNoTooltip] não tem ouro suficiente para pagar#!\nI receberá #F menos do que o esperado ([gold_i][SCOPE.ScriptValue('demand_payment_current_gold_value')|0]/[gold_i][SCOPE.ScriptValue('demand_payment_gold_to_pay')|0])#!"
+
+ buy_claim_interaction:0 "Buy Claim"
+ buy_claim_interaction_desc:0 "Pague [piety|E] para ganhar uma [claim|E] em um dos títulos [recipient.GetShortUINamePossessiveNoTooltip] válidos #weak ([buy_claim|E])#!"
+ buy_claim_interaction.message:0 "[target.GetName] alegou!"
+ BUY_CLAIM_ALREADY_HAS_A_CLAIM:1 "Você já tem um [claim|E] sobre este [title|E]"
+ BUY_CLAIM_ALREADY_KING_OR_EMPEROR:1 "Você não pode comprar um [claim|E] em um [kingdom|E] se você já é um [king|E] ou [emperor|E]"
+ BUY_CLAIM_ALREADY_EMPEROR:1 "Você não pode comprar um [claim|E] em um [kingdom|E] se você já é um [emperor|E]"
+ BUY_CLAIM_RELIGIOUS_TITLE:0 "Você não pode comprar um [claim|E] em um título religioso"

@@ -1,0 +1,51 @@
+﻿l_english:
+
+# Reclaiming Britannia, by Linnéa Thimrén
+ british_isles.0001.t:0 "[reclaimer.GetCulture.GetNameNoTooltip|U] Britannia"
+ british_isles.0001.desc:0 "Por muito tempo esta nossa grande ilha está sob domínio estrangeiro - finalmente está de volta às mãos celtas! Eu olho para os campos, e é como se o sol brilhasse pela primeira vez em anos; é como se a terra da abundância e da saúde, Tír na nÓg, tivesse voltado para nos receber. As colinas e vales de nossos ancestrais são mais uma vez abraçados pela cultura [ROOT.Char.GetCulture]"
+ british_isles.0001.custom:0 "Todos os [counties|E] na Britânia"
+ british_isles.0001.a:0 "Louvados sejam os ancestrais!"
+
+ british_isles.0002.desc:0 "O [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('reclaimer'))] [reclaimer.GetName] anunciou oficialmente o renascimento de uma Britânia Celta. \n\nDepois de séculos de domínio estrangeiro, as Ilhas voltaram sob o controle de seus proprietários originais."
+ british_isles.0002.a:0 "Um flagelo [reclaimer.GetCulture.GetNameNoTooltip] sobre as terras..."
+ british_isles.0002.b:0 "Britannia é nossa mais uma vez!"
+
+# Restoring the Danelaw, by Linnéa Thimrén
+ british_isles.1001.t:0 "As Leis Restauradas"
+ british_isles.1001.desc:0 "O Danelaw renasce pelos meus esforços; este reino saberá mais uma vez [restorer.GetCulture.GetName] regra!\n\nI estou caminhando nos passos de lendas como Guðrum e Eric Bloodaxe, campeões do velho, e por [restorer.GetFaith.WarGodName], não deixarei o reino cair para os anglo-saxões nunca mais!"
+ british_isles.1001.a:0 "Uma nova era amanhece!"
+
+ british_isles.1002.t:0 "O Danelaw"
+ british_isles.1002.desc_same_culture:0 "O Danelaw renasce graças aos esforços de [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName]! Mais uma vez, a grande ilha está sob [restorer.GetCulture.GetName] regra."
+ british_isles.1002.desc:0 "Os [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('restorer'))] [restorer.GetName] e [restorer.GetHerHis] vil saqueadores esculpiram um novo reino nas Ilhas e proclamaram-no Reino do Danelaw renascido.\n\nÉ para ser visto se esta tentativa de restaurar [restorer.GetCulture.GetName] governar a Inglaterra será mais bem sucedida do que a última..."
+ british_isles.1002.a:0 "Um flagelo [restorer.GetCulture.GetNameNoTooltip] sobre a terra."
+ british_isles.1002.b:0 "Uma vitória para o [restorer.GetCulture.GetNameNoTooltip]!"
+ british_isles.1002.c:0 "Hm, [restorer.GetCulture.GetNameNoTooltip] você diz? Inscreva-me!"
+
+# Embrace English Culture, by Linnéa Thimrén
+ british_isles.2001.t:0 "[embracer_former_culture.GetNameNoTooltip|U] não mais"
+ british_isles.2001.desc:0 "O tempo em que [embracer.GetCulture.GetCollectiveNounNoTooltip] consideramos a França nossa pátria já passou há muito tempo. Nossos filhos nascem aqui, cercados por saxões, e para eles, a Normandia só será uma linha turva além das margens nebulosas da Britânia.\n\nAnd, como fazemos alguns dos costumes locais nossos, assim como o legado de nossa cultura se espalha por todas as terras saxãs, dando origem a uma nova identidade inglesa."
+ british_isles.2001.a:0 "Viva os ingleses!"
+
+ british_isles.2002.desc:0 "A [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('embracer'))] [embracer.GetName], [embracer.GetHerHis] vassalos, e toda [embracer.GetHerHis] família atendeu ao chamado de Albion e abraçou a cultura inglesa."
+ british_isles.2002.a:0 "Era apenas uma questão de tempo."
+ british_isles.2002.b:0 "Traidores!"
+
+# Request Laudabiliter, by Flavio Verna
+ british_isles.3001.t:0 "Laudably Nós Declaramos,"
+ british_isles.3001.desc:0 "Seu desejo de estender o domínio sagrado da Igreja Universal às tribos bárbaras da Irlanda é uma causa piedosa e justa. Como tal, a Santa Igreja Romana ordena que você tome posse desta ilha e, a partir daí, execute a vontade de Deus. Se você passar por algum infortúnio antes do fim desta campanha sagrada, estendemos este mandato sagrado aos seus legítimos sucessores. Que a Casa [scoped_ruler.GetHouse.GetBaseNameNoTooltip] carregue este esforço sagrado em perpetuidade, até que a vontade divina tenha sido realizada e a Irlanda se unisse sob [scoped_ruler.GetCulture.GetNameNoTooltip] regra"
+ british_isles.3001.a:0 "Prepare nossa frota!"
+ british_isles.3002.t:0 "A Reivindicação sobre a Irlanda"
+ british_isles.3002.desc.irish:0 "Pela Graça de [scoped_pope.GetHerHis|U] Santidade [scoped_pope.GetFirstName], Vigário de Cristo e herdeiro do trono de São Pedro, [scoped_ruler.GetFullName] foi dado direito de domínio divino sobre o Senhor e todas as tribos nele.\n\nMO senhor irlandês que desobedecerá o mandado papal e se recusará a submeter enfrentará a ira de [scoped_ruler.GetTitledFirstName], exércitos [scoped_ruler.GetHerHis] [scoped_ruler.GetCulture.GetName] e Deus Todo-Poderoso."
+ british_isles.3002.a:0 "Vamos ver sobre isso!"
+ british_isles.3002.b:0 "Eu vejo..."
+
+# Refound Dumnonia, by Ewan Cowhig Croft
+ british_isles.4001.t:0 "[founder.GetPrimaryTitle.GetAdjectiveNoTooltip] Reino Restaurado"
+ british_isles.4001.desc:0 "[founder.GetPrimaryTitle.GetNameNoTierNoTooltip] não gosta de invasores, de qualquer tipo. Por séculos, lutamos contra eles, lutando para recuperar nossa casa. Com grande astúcia e habilidade, finalmente consegui retomar as terras da antiga Dumnonia, reencontrando o Reino de [founder.GetPrimaryTitle.GetNameNoTierNoTooltip].\n\nA ameaça estrangeira foi rechaçada, a morte da velha Britânia durou, e agora estou pronto para enfrentar quaisquer novos desafios que [founder.GetFaith.DevilName] possa nos lançar. Venha o que pode, [founder.GetPrimaryTitle.GetNameNoTierNoTooltip] deve suportar."
+ british_isles.4001.a:0 "Eu sou como Corineus renasceu!"
+ british_isles.4001.b:0 "Meu reino é o único título que importa."
+ british_isles.4002.desc:0 "Após séculos de luta, [founder.GetFullName] restaurou o antigo reino da Dumnonia, chamado [founder.GetPrimaryTitle.GetNameNoTier] por seus habitantes, e jogou de volta os invasores estrangeiros de sua ilha.\n\n Embora os outros senhores das Ilhas Britânicas sejam improváveis de suportar esse poder inicial infringindo o que eles vêem como suas terras ancestrais, o povo [founder.GetPrimaryTitle.GetAdjective] tem resistido a invasões piores do que qualquer coisa que esta era moderna possa reunir. Já se preparam para resistir à inevitável retaliação sombria..."
+ british_isles.4002.a:0 "Onen hag oll!"
+ british_isles.4002.b:0 "Vamos empurrá-los de volta para Lands' End."
+ british_isles.4002.c:0 "Reinos menores vêm e vão."

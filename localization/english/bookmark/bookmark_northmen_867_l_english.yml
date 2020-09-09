@@ -1,0 +1,57 @@
+﻿l_english:
+ bm_867_northmen:0 "Ira dos Homens do Norte"
+ bm_867_northmen_desc:1 "Há dois anos, o rei Ælla da Nortúmbria jogou o grande herói viking Ragnarr Loðbrók em um poço de cobras para morrer. Ao ouvir a notícia, os filhos de Ragnarr partiram para a Inglaterra para vingar seu pai.\n\nOs irmãos estabeleceram uma base firme em York e nas Ilhas. Os reis anglo-saxões perderam batalha após batalha - seu futuro parece sombrio de fato.\n\nMato toda a esperança não está perdida, e um grande herói ainda pode virar a maré da história.\n\n#negrito Você colocar toda a Inglaterra sob o domínio nórdico, ou derrotar o Grande Exército Pagão do solo anglo-saxão? #!"
+
+ #Halfdan Whiteshirt
+ bookmark_northmen_halfdan_whiteshirt:0 "Halfdan Whiteshirt"
+ bookmark_northmen_halfdan_whiteshirt_desc:0 "A primeira onda da invasão foi muito boa para Halfdan Whiteshirt. Com a ajuda de seu irmão Ivar, ele lutou contra o controle de York das mãos do rei Ælla. E ele vai tomar muito mais.\n\n#negrito Você vai seguir os passos da história e ter sua vingança sangrenta, ou vigiar um novo caminho para Halfdan? #!"
+
+ bookmark_northmen_halfdan_whiteshirt_alt_gudfrid:0 "$GuT_friT_$"
+ bookmark_northmen_halfdan_whiteshirt_alt_saga:0 "$Saga$ $nick_the_truthspeaker$"
+
+ #Ivar the Boneless
+ bookmark_northmen_ivar_the_boneless:0 "Ivar, o Desossado"
+ bookmark_northmen_ivar_the_boneless_desc:0 "Rumores dizem que Ivar é fraco de corpo, mas ninguém pode afirmar que ele é fraco de espírito. Através da astúcia e confiança, ele uniu um grande número de bandas de guerra nórdricas sob sua bandeira, e conquistou grandes vitórias nestas costas estrangeiras. Mas nem mesmo o maior viking pode enganar a morte. Em 870, Ivar desaparecerá da história para sempre...\n\n#negrito Você pode ganhar as guerras de Ivar, e mantê-lo vivo para governar por muitos anos? #!"
+
+ bookmark_northmen_ivar_the_boneless_alt_barid:0 "$Barid$"
+ bookmark_northmen_ivar_the_boneless_alt_barid_desc:0 "alt desc"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth:0 "$SigfroT_$"
+ bookmark_northmen_ivar_the_boneless_alt_sigfroth_desc:0 "alt desc"
+
+
+ #Sigurdr Snake-in-the-eye
+ bookmark_northmen_sigurdr_snake_in_the_eye:0 "Sigurdr Snake-in-the-Eye"
+ bookmark_northmen_sigurdr_snake_in_the_eye_desc:1 "Enquanto seus irmãos navegavam para a Inglaterra para exigir sua vingança, Sigurd Snake-in-the-Eye ficou para trás para governar as terras de seu falecido pai. Ragnarr Loðbrók deixou-lhe algumas botas muito grandes para encher.\n\n#negrito Os descendentes de Sigurd serão reis da Dinamarca, Noruega e Inglaterra por mais de um século. Pode cumprir o destino da dinastia dele? #!"
+
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud:0 "$Knud$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_knud_desc:0 "alt desc"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof:0 "$Alof$"
+ bookmark_northmen_sigurdr_snake_in_the_eye_alt_alof_desc:0 "alt desc"
+
+ # Björn Ironside
+ bookmark_northmen_bjorn_ironside:0 "Björn Ironside"
+ bookmark_northmen_bjorn_ironside_desc:0 "Björn viveu uma verdadeira vida de aventura de Norseman. Um temível saqueador, ele saqueou toda a França, Ibéria e Itália, juntamente com seu amigo Hæsteinn de Nantes. Agora, as forças da Escandinávia se reúnem para atacar as costas britânicas mais uma vez.\n\n#negrito Embora Björn seja prometido vingar a morte de seu pai na Inglaterra, seus descendentes governarão a Suécia pelos próximos dois séculos. De que lado do Mar do Norte seu destino está? #!"
+
+ bookmark_northmen_bjorn_ironside_alt_ingrid:0 "$Ingrid$"
+ bookmark_northmen_bjorn_ironside_alt_ingrid_desc:0 "alt desc"
+ bookmark_northmen_bjorn_ironside_alt_eirikr:0 "$Eirikr$"
+ bookmark_northmen_bjorn_ironside_alt_eirikr_desc:0 "alt desc"
+
+ #Earl Alfred (the great)
+ bookmark_northmen_earl_alfred:0 "Earl Alfred"
+ bookmark_northmen_earl_alfred_desc:0 "À medida que os vikings avançam mais para o sul, Earl Alfred de Dorset está preparando suas tropas nos próximos anos, Alfred lutará inúmeras batalhas contra os nórdes e colocará um fim à invasão. Quando ele herda o trono de seu irmão, ele se torna um dos maiores reis ingleses ao longo da história.\n\n#negrito Você cumprirá o grande destino de Alfred, ou será esmagado pelo Grande Exército Pagão? #!"
+
+ bookmark_northmen_earl_alfred_alt_aethelred:0 "$E_thelred$"
+ bookmark_northmen_earl_alfred_alt_aethelred_desc:0 "alt desc"
+
+ ##EVENTS##
+ bookmark.0002.t:0 "O Grande"
+ bookmark.0002.desc:0 ", fiquei profundamente honrado. Não pensei mais nisso, mas desde aquele dia, o epíteto cresceu em popularidade.\n\n Onde quer que eu vá, de [capital.GetNameNoTooltip] a [province.GetNameNoTooltip], meus súditos agora me chamam de [ROOT.Char.GetFirstNameNoTooltip] o Grande."long live [ROOT.Char.GetFirstNameNoTooltip] the Great!", fiquei profundamente honrado. Não pensei mais nisso, mas desde aquele dia, o epíteto cresceu em popularidade.\n\n Onde quer que eu vá, de [capital.GetNameNoTooltip] a [province.GetNameNoTooltip], meus súditos agora me chamam de [ROOT.Char.GetFirstNameNoTooltip] o Grande."
+ bookmark.0002.a:0 "Rezo para nunca decepcioná-los."
+
+ bookmark.0004.t:0 "Uma vingança [dead.Char.Custom2('RelationToMePossessive', ROOT.Char)|U]"
+ bookmark.0004.desc:0 "Finalmente, depois de todo esse tempo, eu tenho o [prisoner.Custom('InsultAdjective')] [prisoner.GetName] à minha mercê! Quando soube da minha morte [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('dead'))] [dead.GetNamePossessive] [prisoner.GetHerHis] nas mãos, jurei que teria minha vingança. E eu sou um [ROOT.Char.GetWomanMan] da minha palavra."
+ bookmark.0004.a.custom:0 "Cada [close_family_member|E] de [dead.GetShortUIName]"
+ bookmark.0004.a:0 "Vou rasgar suas costelas em asas de sangue!"
+ bookmark.0004.b:0 "Este [prisoner.GetWomanMan] é seu, grande [ROOT.Char.GetFaith.HighGodName]!"
+ bookmark.0004.c:0 "Tenho outros planos para [prisoner.GetHerHim]..."

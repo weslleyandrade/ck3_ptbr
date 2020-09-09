@@ -1,0 +1,6 @@
+﻿l_english:
+ DESIGNATE_HEIR_CHOOSE:0 "#I Selecione um de seus filhos para ser [designated_heir|E] #!"
+ DESIGNATE_HEIR_ENACT:0 "Designe Herdeiro"
+ DESIGNATE_HEIR_WINDOW_DESIGNATED_HEIR:0 "@warning_icon! atual herdeiro designado"
+ DESIGNATE_HEIR_COST_DESC:0 "Custo: @prestige_icon! $COST$"
+ DESIGNATE_HEIR_SELECT_TARGET:0 "@warning_icon!#X nenhum herdeiro selecionado#!"

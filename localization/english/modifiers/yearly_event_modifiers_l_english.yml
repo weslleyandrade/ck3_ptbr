@@ -1,0 +1,41 @@
+﻿l_english:
+ yearly_0001_improved_diplomacy:0 "Tendo aulas de etiqueta"
+ yearly_0001_improved_martial:0 "Tendo aulas de estratégia"
+ yearly_0001_improved_stewardship:0 "Tendo aulas de finanças"
+ yearly_0001_improved_intrigue:0 "Tendo aulas de intriga"
+ yearly_0001_improved_learning:0 "Tendo aulas de Teologia"
+ yearly_0003_protected_by_liege:0 "Protegido por Liege"
+ yearly_0003_protected_by_liege_desc:0 "O liege deste personagem está ativamente protegendo-os de espiões e esquemas."
+ vassal_distrust_modifier:0 "Vassalos desconfiados"
+ vassal_distrust_modifier_desc:1 "Este liege mostrou que eles têm menos do que fé perfeita no serviço de seus vassalos\nRealm [laws|E]: #N +10% #! mais caro"
+ protected_vassals_honor_modifier:0 "Honra Vassal Protegida"
+ protected_vassals_honor_modifier_desc:0 "Este governante defendeu a honra de seu vassalo em um momento de conflito"
+ liege_looking_away_modifier:0 "Liege Olhando Para Longe"
+ liege_looking_away_modifier_desc:0 "O liege deste personagem é deliberadamente perdoar todas as transgressões, menos graves"
+ yearly_benevolent_forgiveness_modifier:0 "Ato de Benevolência"
+ yearly_benevolent_forgiveness_modifier_desc:1 "Este personagem fez uma gentileza com um vassalo, e quer que todos se lembrem de \nRealm [laws|E]: #P -10% #! mais barato"
+ yearly_close_watch_modifier:0 "Close Watch"
+ yearly_close_watch_modifier_desc:1 "Este personagem está sendo mantido sob vigilância próxima por alguém\nNão se juntar ou criar [factions|E]"
+ yearly_improved_impressions_modifier:0 "Impressões Melhoradas"
+ yearly_improved_impressions_modifier_desc:0 "Este personagem está se esforçando extramente em suas primeiras impressões"
+ yearly_pious_liege_modifier:0 "Piedoso Liege"
+ yearly_pious_liege_modifier_desc:0 "Vassalos religiosos podem confiar que este liege agirá de acordo com seus ensinamentos religiosos"
+ yearly_befriending_fellow_vassals_modifier:0 "Amizade com os vassalos"
+ yearly_befriending_fellow_vassals_modifier_desc:0 "Este personagem está se esforçando para construir relações com outros vassalos de sua liege"
+ 
+ yearly_reduced_theocracy_tax_modifier:0 "Imposto Teocrático Reduzido"
+ yearly_reduced_theocracy_levies_modifier:0 "Orando pela Paz"
+
+ yearly_0011_friends_in_high_places:0 "Amigos em Lugares Altos"
+ yearly_0011_friends_in_high_places_desc:0 "Este personagem fez amigos em lugares bastante altos..."
+
+ cagots_separated_modifier:0 "Cagots secerados"
+ cagots_separated_modifier_desc:0 "Eles são sequestrados em suas próprias cagoteries, e separados de pessoas normais."
+ 
+ cagots_left_in_peace_modifier:0 "Cagots Left in Peace"
+ cagots_left_in_peace_modifier_desc:0 "O resto da população deseja que mais tenha sido feito sobre os Cagots..."
+
+ lunatic_accepting_of_others_modifier:0 "Imaginação Hiperativa"
+ lunatic_accepting_of_others_modifier_desc:0 "Este personagem está sonhando com um mundo onde todos vivem suas vidas em paz."
+
+ all_work_no_play_persian_modifier:0 "Todo o trabalho, sem brincadeira"

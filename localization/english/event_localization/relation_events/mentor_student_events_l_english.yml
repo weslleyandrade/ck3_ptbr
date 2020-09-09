@@ -1,0 +1,13 @@
+﻿l_english:
+ mentor_student.0001.t:0 "O que era uma vez"
+ mentor_student.0001.desc:1 ""Nossa relação acabou, somos muito diferentes para isso dar certo. Você está por conta própria agora." My [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName] exclaims, [mentor_to_lose.Custom('quirk_neg_pp')].\n\n"Nossa relação acabou, somos muito diferentes para isso dar certo. Você está por conta própria agora.""
+ mentor_student.0001.a:0 "Muito bem."
+
+ mentor_student.0002.desc:1 ""Você aprendeu muito, mas para ir ainda mais longe em seus estudos você precisa fazer o seu próprio caminho."\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName] smiles [mentor_to_lose.Custom('quirk_pos_adverb')] and nods. "Você aprendeu muito, mas para ir ainda mais longe em seus estudos você precisa fazer o seu próprio caminho.""
+ mentor_student.0002.a:1 "[mentor_to_lose.GetSheHe|U] realmente me ensinou muito!"
+ mentor_student.0002.b:0 "Sinto que nosso relacionamento vai ficar ainda mais forte agora."
+
+ mentor_student.0003.t:0 "Segundas Intenções"
+ mentor_student.0003.desc:1 "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('mentor_to_lose') )] [mentor_to_lose.GetTitledFirstName] sorri [mentor_to_lose.Custom('quirk_neg_adverb')] como [mentor_to_lose.GetSheHe] me fala de [mentor_to_lose.GetHerHis] últimas vitórias #EMP#!.\n\nI ainda pode ter coisas para aprender, mas está ficando cada vez mais difícil tolerar [mentor_to_lose.GetFirstName] como pessoa."
+ mentor_student.0003.a:0 "Essa relação acabou."
+ mentor_student.0003.b:0 "Se esse é o preço do conhecimento..."

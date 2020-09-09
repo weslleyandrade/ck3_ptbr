@@ -1,0 +1,42 @@
+﻿l_english:
+ #Generic Lines
+ historical_commander_trait.reject.tt:1 "#F Você procurará em outro lugar por #! de inspiração"
+
+ #Hannibal
+ historical_commander_trait.0001.t:0 ""O Inimigo de Roma""
+ historical_commander_trait.0001.desc:0 "Enquanto estudava as táticas dos generais antigos, eu estava [ROOT.Char.Custom('surprised_reaction')] a aprender sobre as façanhas de Hannibal Bacar durante a Segunda Guerra Punic:\n\n#F Conhecido como 'O Inimigo de Roma', a coroação de Hannibal foi a Batalha de Cannae, onde seu exército de cerca de 50.000 superou e cercou os 86.000 maiores e fortes do exército romano. Cercados e incapazes de recuar, apenas 3.000 romanos sobreviveram ao massacre. #!"
+ historical_commander_trait.0001.a:0 "Como Hannibal, vou aniquilar meus inimigos!"
+ historical_commander_trait.0001.b:0 "Hannibal era um verdadeiro mestre das táticas fabianas."
+ historical_commander_trait.0001.c:0 "Versatilidade era a maior força de Hannibal."
+ historical_commander_trait.0001.d:0 "Bah! Ele era um tolo, lutando sua guerra sem esperança."
+ historical_commander_trait.0001.d.good:0 "A brutalidade não é uma característica a ser invejada, mesmo na guerra."
+ #Caesar
+ historical_commander_trait.0002.t:0 "Triunfo de César"
+ historical_commander_trait.0002.desc:0 "Enquanto estudava as táticas dos generais antigos, me diverti ao saber sobre as façanhas de Júlio César durante sua conquista da Gália.\n\n#F Durante seu cerco à Alesia, César determinou que o ataque direto à cidade bem fortificada seria muito caro. Em vez disso, ordenou que seu exército construísse sua própria fortaleza que cercava toda a cidade, prendendo a guarnição inimiga dentro para morrer de fome, ao mesmo tempo em que impedia que os reforços aliviassem os defensores. #!"
+ historical_commander_trait.0002.a:0 "Um pouco de engenhosidade vai um longo caminho em um cerco."
+ historical_commander_trait.0002.b:0 "Faça o inimigo vir até você! Eu gosto disso!"
+ historical_commander_trait.0002.c:0 "César se arriscou com esse plano, mas valeu a pena!"
+ historical_commander_trait.0002.d:0 "Guerras não são travadas assim hoje em dia..."
+ #Alexander
+ historical_commander_trait.0003.t:0 "O Alexander Imparável"
+ historical_commander_trait.0003.desc:0 "Enquanto estudava as táticas dos generais antigos, eu estava [ROOT.Char.Custom('surprised_reaction')] a aprender sobre as façanhas de Alexandre, o Grande, durante sua conquista da Mesopotâmia.\n\n#F Durante o Cerco de Tiro, Alexandre atacou uma fortaleza da ilha demolindo uma cidade próxima e, em seguida, usando os escombros para construir uma calçada que se estende do continente até os muros da cidade. Isso permitiu que seus motores de cerco atacassem diretamente a fortaleza inimiga, embora fosse sua marinha que finalmente criou uma brecha. #!"
+ historical_commander_trait.0003.a:0 "Nenhuma quantidade de água vai parar meus exércitos!"
+ historical_commander_trait.0003.b:0 "Essa calçada foi uma façanha de grande engenhosidade."
+ historical_commander_trait.0003.c:0 "Virar os recursos do meu inimigo contra eles? Brilhante!"
+ historical_commander_trait.0003.d:0 "Por que perder tempo estudando táticas que não funcionaram?"
+
+ #Constantine
+ historical_commander_trait.0004.t:0 "A Visão de Chi-Rho"
+ historical_commander_trait.0004.desc:0 "Enquanto estudava as táticas dos generais antigos, fiquei inspirado quando soube da vitória de Constantino na Batalha da Ponte Miliviana.\n\n#F Na noite anterior à batalha, Constantino sonhou que a vitória seria concedida se pintasse Chi-Rho, um símbolo de Cristo, nos escudos de seu soldado. Ele fez exatamente isso, e no dia seguinte ele invadiu as forças do usurpador Maxentius, que caiu no rio Tibre e se afogou. #!"
+ historical_commander_trait.0004.a:0 "Os ímpios não são páreo para os exércitos de Deus!"
+ historical_commander_trait.0004.b:0 "Como Constantino, nenhum rio pode atrasar minha vitória!"
+ historical_commander_trait.0004.c:0 "Logicamente falando, táticas flexíveis venceram essa batalha."
+ historical_commander_trait.0004.d:0 "Truques para reforçar a moral não são suficientes para ganhar guerras!"
+
+ #Khalid ibn al-Walid
+ historical_commander_trait.0005.t:0 "A Espada de Alá"
+ historical_commander_trait.0005.desc:0 "Enquanto estudava as táticas dos generais históricos, tornei-me contemplativo ao saber sobre a primeira batalha de Khalid ibn al-Walid após sua conversão ao Islã.\n\n#F superado em mais de 3 a 1 pelos bizantinos durante a Batalha de Mu'tah, Khalid reuniu seus soldados vacilantes para manter a linha. Esta posição desafiadora permitiu-lhe organizar um retiro para Medina, salvando seus homens da morte certa. Khalid e seu exército mais tarde conquistaram toda a Arábia em nome de Alá! #!"
+ historical_commander_trait.0005.a:0 "Aqueles que lutarem em nome de Alá serão vitoriosos!"
+ historical_commander_trait.0005.b:0 "A devoção nos mantém fortes quando em menor número."
+ historical_commander_trait.0005.c:0 "Saber #EMP quando#! lutar é tão importante quanto saber #EMP como#!."
+ historical_commander_trait.0005.d:0 "Por que celebrar uma derrota embaraçosa?"

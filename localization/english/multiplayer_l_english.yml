@@ -1,0 +1,9 @@
+﻿l_english:
+ RANDOM_COUNT:0 "Contagem aleatória"
+ RANDOM_SEED:0 "Semente aleatória"
+ GAMESTATE_CHECKSUM:0 "Gamestate checksum"
+ LIVING_CHARACTERS:0 "Personagens vivos"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY:0 "Somente para a Microsoft"
+ MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY_TT:1 "#T $MULTIPLAYER_GUI_PUBLIC_MICROSOFT_ONLY$\n#!$JOM_BULLET_WITH_TAB$O jogo está listado e visível apenas para jogadores da Microsoft Store\n$JOM_BULLET_WITH_TAB$Os jogadores que sabem que a Senha pode participar do jogo, se não houver nenhum, qualquer pessoa pode participar\n$JOM_BULLET_WITH_TAB$Os Jogadores também podem participar se forem convidados ou se o Host compartilhar o ID do servidor\n$JOM_BULLET_WITH_TAB$Only jogadores que usam contas da Microsoft podem participar"
+ MULTIPLAYER_GUI_CLICK_TO_SELECT:0 "Clique no mapa para selecionar um [character|E] para jogar"
+ MULTIPLAYER_GUI_SERVER_BROWSER_PASTE_ID:0 "#T cole o ID do servidor da área de transferência#!"

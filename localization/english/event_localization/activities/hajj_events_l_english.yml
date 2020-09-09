@@ -1,0 +1,17 @@
+﻿l_english:
+ hajj.0001.t:0 "O Hajj"
+ hajj.0001.desc:0 "Chegou a hora de eu empreender a peregrinação a Meca. Foi-me comandado, como tem feito com todos os muçulmanos, mostrar minha submissão ao [ROOT.Char.GetFaith.HighGodName]."
+ hajj.0001.a:0 "Esperei por isso a minha vida inteira."
+
+ hajj.3001.t:0 "$pilgrimage_header$ Meca"
+ hajj.3001.desc:1 "Depois da minha longa viagem cheguei a Meca, pronto para completar o Hajj.\n\nI andei sete vezes ao redor da Caaba, tocando a pedra preta em cada circuito. Rezei no lugar de Abraão, bebi água do poço Zamzam, andei entre Safa e Marwah sete vezes, e me sacrifiquei para [ROOT.Char.GetFaith.HighGodName].\n\nO próximo rito que devo completar é cortar meu cabelo."
+ hajj.3001.desc.male_dominated:0 "Tradicionalmente, os homens raspam tudo, mas a dispensa é ocasionalmente concedida para cortar apenas parte, e as mulheres são restritas a apenas um bloqueio."
+ hajj.3001.desc.female_dominated:0 "Tradicionalmente, as mulheres raspam tudo, mas a dispensa é ocasionalmente concedida para cortar apenas parte, e os homens são restritos a apenas um bloqueio."
+ hajj.3001.desc.equal:0 "Tradicionalmente, é tudo raspado, mas a dispensa é ocasionalmente concedida para cortar apenas parte."
+ hajj.3001.a:0 "Raspe tudo!"
+ hajj.3001.b:0 "Corte só uma mecha de cabelo."
+
+ hajj.3011.t:0 "$pilgrimage_header$ Tawaf al-Wadaa"
+ hajj.3011.desc:0 "O final do Hajj deste ano se aproxima. Depois de dois dias de Ramy al-Jamarat, ou "o apedrejamento do diabo", estou pronto para completar o ritual final de Tawaf al-Wadaa e dizer adeus a Meca.\n\n"
+ hajj.3011.a:0 "Posso ver suas paredes mais uma vez!"
+ hajj.3011.b:0 "Foi isso?"

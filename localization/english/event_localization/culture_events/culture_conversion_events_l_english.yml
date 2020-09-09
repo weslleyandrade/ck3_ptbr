@@ -1,0 +1,6 @@
+﻿l_english:
+ culture_conversion.0001.t:1 "Para ser [new_culture.GetName]"
+ culture_conversion.0001.desc:1 "Com [new_culture.GetName] vestido, [new_culture.GetName] hábitos e um capital cheio de [new_culture.GetCollectiveNoun], não é surpresa que [converting_character.Custom2('MyCharacterIntroduction', ROOT.Char)] não considere mais [converting_character.GetHerselfHimself] [old_culture.GetName], mas [new_culture.GetName] em vez disso!"
+ culture_conversion.0001.a:0 "As coisas mudam, e as pessoas mudam."
+ culture_conversion.0001.b:0 "É uma má ideia deixar nossas velhas tradições para trás."
+ culture_conversion.0001.c:0 "Todos nós deveríamos estar nos movendo com os tempos!"

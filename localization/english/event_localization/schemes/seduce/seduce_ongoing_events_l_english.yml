@@ -1,0 +1,655 @@
+﻿l_english:
+ seduce_ongoing.success.rejection:0 "Isso foi bom, mas não mais."
+ seduce_ongoing.failure.rejection:0 "Não, não, e para sempre não, [owner.GetFirstNameNoTooltip]."
+ seduce_ongoing_decline_event.tt:0 "Eu abandono esta oportunidade para impressionar [target.GetTitledFirstName]"
+ seduce_ongoing_possible_outcomes_tooltip_effect.success.desc:0 "Tudo vai de acordo com o plano"
+ seduce_ongoing_possible_outcomes_tooltip_effect.failure.desc:0 "[target.GetFirstNameNoTooltip] não está impressionado"
+
+ seduce_ongoing.1001.t:0 "A Dança"
+ seduce_ongoing.1001.distant_opening:0 "Eu fiz o meu caminho para o tribunal em [court_of_residence.GetNameNoTier] a tempo para o baile no [court_owner.Custom('ResidenceBuilding')]. Eu consegui um convite, pois eu tenho que ver [target.GetTitledFirstName]."
+ seduce_ongoing.1001.close_opening:0 "Estou participando do baile não apenas porque sou o [ROOT.Char.GetLadyLord|U] do [court_owner.Custom('ResidenceBuilding')], mas porque quero ver [target.GetTitledFirstName] lá."
+ seduce_ongoing.1001.desc:0 "\n\n[target.GetSheHe|U] parece resplandecente, e quando finalmente temos um momento para nós mesmos, ofereço minha sugestão."
+ seduce_ongoing.1001.a:0 "Junte-se a mim no círculo para a próxima dança, minha [target.GetLadyLord]?"
+ seduce_ongoing.1001.a.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado brincalhão. #!"
+ seduce_ongoing.1001.b:0 "Um passeio no jardim, longe de tudo isso?"
+ seduce_ongoing.1001.b.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado atencioso. #!"
+ seduce_ongoing.1001.c:0 "Eu poderia fornecer-lhe um pouco mais de comida?"
+ seduce_ongoing.1001.c.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado ganancioso. #!"
+ seduce_ongoing.1001.d:0 "?"dance"?"
+ seduce_ongoing.1001.d.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado malicioso. #!"
+
+ seduce_ongoing.1003.opening:0 "No [court_owner.Custom('ResidenceBuilding')] dança [owner.GetTitledFirstName] veio até mim, oferecendo [owner.GetHerHis] companhia."
+ seduce_ongoing.1003.dance:0 "\n\nAs nós giramos no chão nós certamente viramos algumas cabeças, e eu estava rindo como um pouco [ROOT.Char.Custom('GirlBoy')]!"
+ seduce_ongoing.1003.walk:0 "Nós caminhamos no jardim, falando sobre todos os tipos de coisas até percebermos que ambos tínhamos perdido a noção do tempo!"
+ seduce_ongoing.1003.food:0 "\n\n[owner.GetSheHe|U] alguns criados trouxeram mais alguns pratos, e ficamos comendo juntos a maior parte da noite. Estava delicioso!"
+ seduce_ongoing.1003.mockery:0 "Nós sentamos tirando sarro dos outros convidados, compartilhando piadas e risadas. Estou completamente impressionado com [owner.GetFirstNamePossessiveNoTooltip] sagacidade incisiva!"
+ seduce_ongoing.1003.fallback:0 "Acabamos nos divertindo tanto, dançamos quase toda a duração da celebração!"
+ seduce_ongoing.1003.a:0 "Eu tive uma noite tão boa!"
+
+ seduce_ongoing.1004.dance:0 "[owner.GetSheHe|U] não entenderam a dica de que eu não estava interessado em dançar, e depois de algumas voltas relutantes tive que pedir a [owner.GetHerHim] para me deixar ir."
+ seduce_ongoing.1004.walk:0 "Enquanto um passeio no jardim estava se preparando, [owner.GetFirstNamePossessive] conversa me entediava imensamente.\n\nI logo fiz minhas desculpas, e encontrei meu caminho de volta para o baile."
+ seduce_ongoing.1004.food:0 "Embora eu não fosse contra [owner.GetHerHis] presença, toda a noite [owner.GetSheHe] enviou servos para cada vez mais pratos de comida. Eu estava rapidamente cheio, e fez minhas desculpas para ir dançar em vez disso."
+ seduce_ongoing.1004.mockery:0 "[target.GetSheHe|U] sentado ao meu lado, fazendo comentários sobre os outros convidados.\n\nNão foi desnecessariamente cruel, mas cru e completamente sem arte também."
+ seduce_ongoing.1004.fallback:0 "[owner.GetSheHe|U] ficava sugerindo maneiras de passar tempo nas celebrações, mas não há muito [owner.GetSheHe] pode fazer quando [owner.GetSheHe] é uma companhia tão terrível [owner.GetHerselfHimself]."
+ seduce_ongoing.1004.a:0 "O que [owner.GetSheHe] estava pensando?"
+
+ seduce_ongoing.1005.dance:0 "[target.GetTitledFirstName] e eu rodamos pelo chão juntos, virando cabeças enquanto [target.GetSheHe] riam para [target.GetHerHis] conteúdo do coração."
+ seduce_ongoing.1005.walk:0 "[target.GetTitledFirstName] e eu andei jardins, falando sobre todos os tipos de coisas. Finalmente percebemos que ambos tínhamos perdido a noção do tempo, e quando voltamos a dança já tinha começado a acabar."
+ seduce_ongoing.1005.food:0 "Eu tive os servos trazendo mais comida para [target.GetTitledFirstName] e eu, e com o passar da noite nós encantamos em cada prato delicioso que os cozinheiros de [court_of_residence.GetNameNoTier] têm a oferecer. Que [target.GetWomanMan] certamente tem um gosto para as coisas mais finas da vida."
+ seduce_ongoing.1005.mockery:0 "Sentamos juntos, fazendo uma piada atrás da outra sobre os outros convidados. Eu não esperava [target.GetTitledFirstName] ser tão hábil na arte do escárnio!"
+ seduce_ongoing.1005.fallback:0 "[target.GetTitledFirstName] e acabei me divertindo tanto, dançamos quase toda a duração da celebração!"
+ seduce_ongoing.1005.a:0 "Que noite tivemos!"
+
+ seduce_ongoing.1006.dance:0 "Eu pensei que estava pronto uma vez [target.GetSheHe] concordou em dançar, mas mesmo que eu me comportei habilmente, [target.GetTitledFirstName] logo inventaram algumas desculpas e me deixaram de pé entre os outros dançarinos."
+ seduce_ongoing.1006.walk:0 "Eu achei uma caminhada agradável, mas talvez estivesse muito frio, ou talvez eu tenha falado demais, pois [target.GetSheHe] logo fez [target.GetHerHis] desculpas e voltou ao baile, nem mesmo esperando para ver se eu estava vindo junto.\n\n Pelo tempo que eu voltei, [target.GetSheHe] estava ocupado se divertindo com os outros dançarinos."
+ seduce_ongoing.1006.food:0 "Talvez houvesse algo de errado com a comida que eu tinha os servos trazer para fora para [target.GetTitledFirstName]? Mesmo depois de [target.GetSheHe] ter feito [target.GetHerHis] desculpas a comida continuava fluindo da cozinha, acumulando-se enquanto eu me sentava escolhendo sozinho."
+ seduce_ongoing.1006.mockery:0 "Não importa o quanto eu tentasse, [target.GetTitledFirstName] não riu das minhas piadas. No final [target.GetSheHe] me acusou de ser cruel sem sentido, e me deixou sentado sozinho."
+ seduce_ongoing.1006.fallback:0 "Eu insistia de maneiras de passarmos tempo nas celebrações, mas [target.GetTitledFirstName] parecia completamente desinteressado. Será que eu fiz alguma coisa errada?"
+ seduce_ongoing.1006.a:0 "Isso foi mal."
+
+ seduce_ongoing.successful.target:0 "Enquanto o presente era anônimo, [owner.GetTitledFirstName] se esforçou muito para ter certeza de que eu descobriria que [owner.GetSheHe] estava por trás disso."
+ seduce_ongoing.unsuccessful.target:0 "\n\nEmbora o presente tenha sido enviado anonimamente, não é difícil entender que [owner.GetTitledFirstName] estava por trás disso..."
+ seduce_ongoing.target_successful.option:0 "[owner.GetSheHe|U] merece meus agradecimentos sem reservas!"
+ seduce_ongoing.target_unsuccessful.option:0 "Talvez haja #EMP alguém#! que vai gostar disso..."
+ 
+ seduce_ongoing.target.opening:0 "[target.Custom2('AppropriateGreeting', ROOT.Char)]"
+ seduce_ongoing.successful.owner:0 "Muito obrigado pela [SCOPE.Custom('SeductionGiftType')] que você me deu. Eu posso se lembrar da última vez que recebi um presente tão maravilhoso!"
+ seduce_ongoing.unsuccessful.owner:0 "Recebi a [SCOPE.Custom('SeductionGiftType')] que você enviou. incerto quanto à razão pela qual você me enviou um presente como este, mas eu tomei nota dele."
+ seduce_ongoing.owner_successful.option:0 "Qualquer coisa para você, [target.GetFirstNameNoTooltip]."
+ seduce_ongoing.owner_unsuccessful.option:0 "O que eu fiz de errado?"
+
+ seduce_ongoing.1101.t:0 "Algo Caro"
+ seduce_ongoing.1101.desc:0 "Um presente é certo para chamar a atenção [target.GetTitledFirstNamePossessive], e certamente qualquer um apreciaria um bom, claramente caro."
+ seduce_ongoing.gift_selection.tapestry:0 "Uma tapeçaria, com [target.GetHerHis] dinastia."
+ seduce_ongoing.gift_selection.tapestry_tt:0 "Acho que [target.GetTitledFirstName] é um [target.GetWomanMan] cuja lealdade é [target.GetHerHis] família e dinastia"
+ seduce_ongoing.gift_selection.horse:0 "Um cavalo de raça pura deve ser apreciado."
+ seduce_ongoing.gift_selection.horse_tt:0 "Acho que [target.GetTitledFirstName] é alguém que aprecia a atividade e o céu aberto"
+ seduce_ongoing.gift_selection.tailor:0 "Um alfaiate para vestir [target.GetHerHim] à perfeição!"
+ seduce_ongoing.gift_selection.tailor_tt:0 "Acho que [target.GetTitledFirstName] aprecia estilo e impressiona"
+ seduce_ongoing.gift_selection.decline:0 "Talvez não."
+
+ seduce_ongoing.1102.t:0 "Um Presente de Trabalho"
+ seduce_ongoing.1102.desc:0 "Todo mundo aprecia um presente, mas talvez eu possa chegar a algo verdadeiramente único que causará uma verdadeira impressão em [target.GetTitledFirstName]!"
+ seduce_ongoing.gift_selection.embroidery:0 "Um bordado com [target.GetHerHis] crista da casa."
+ seduce_ongoing.gift_selection.embroidery_tt:0 "Acho que [target.GetTitledFirstName] se preocupa com a estatura da família [target.GetHerHis]"
+ seduce_ongoing.gift_selection.poem:0 "Poesia encomendada sobre as alegrias da vida, dedicada a [target.GetHerHim]."
+ seduce_ongoing.gift_selection.poem_tt:0 "Acho que [target.GetTitledFirstName] aprecia os prazeres físicos da vida, ou pelo menos a poesia"
+ seduce_ongoing.gift_selection.woodcarving:0 "Um carro de madeira de um castelo!"
+ seduce_ongoing.gift_selection.woodcarving_tt:0 "Acho que [target.GetTitledFirstName] aprecia arquitetura"
+ 
+ seduce_ongoing.1103.t:0 "Pequeno, mas significativo"
+ seduce_ongoing.1103.desc:0 "Nem todo presente tem que ser uma grande declaração de riqueza. Coisas menores podem causar uma impressão muito maior, desde que sejam bem escolhidas. Eu me pergunto o que [target.GetTitledFirstName] apreciaria."
+ seduce_ongoing.gift_selection.jewelry:0 "Um medalhão prateado, sempre perto de [target.GetHerHis] coração."
+ seduce_ongoing.gift_selection.jewelry_tt:0 "Eu acho que [target.GetTitledFirstName] gosta de chamar a atenção das pessoas - ou apenas coisas que brilham"
+ seduce_ongoing.gift_selection.stuffed_animal:0 "Uma raposa de pelúcia certamente seria incomum..."
+ seduce_ongoing.gift_selection.stuffed_animal_tt:0 "Acho que [target.GetTitledFirstName] aprecia símbolos de autoridade - sobre a própria vida"
+ seduce_ongoing.gift_selection.flower_display:0 "Uma exposição de flores, para o jardim em [court_location.GetNameNoTierNoTooltip]."
+ seduce_ongoing.gift_selection.flower_display_tt:0 "Eu acho que [target.GetTitledFirstName] gosta de cuidar das coisas, ou pelo menos aprecia a beleza"
+
+ seduce_ongoing.1104.t:0 "Algo Incomum"
+ seduce_ongoing.1104.desc:0 "Qualquer um pode comprar um sinal de afeto, grande ou pequeno. Se eu quiser impressionar [target.GetTitledFirstName], eu deveria enviar [target.GetHerHim] algo realmente especial"
+ seduce_ongoing.gift_selection.rare_book:0 "Eu deveria adquirir um livro especialmente raro para [target.GetHerHim]."
+ seduce_ongoing.gift_selection.rare_book_tt:0 "Eu acho que [target.GetTitledFirstName] gosta de conhecimento, ou pelo menos os objetos que o contém"
+ seduce_ongoing.gift_selection.handkerchief:0 "Um lenço com meu brasão nele."
+ seduce_ongoing.gift_selection.handkerchief_tt:0 "Eu acho que [target.GetTitledFirstName] faria bom uso de um símbolo de alguém da minha estatura"
+ seduce_ongoing.gift_selection.object:0 "[SCOPE.Custom('SeductionObjectIndefinite')|U], um lembrete do nosso primeiro encontro"
+ seduce_ongoing.gift_selection.object_tt:0 "Acho que [target.GetTitledFirstName] já se importa comigo, de alguma forma"
+
+ seduce_ongoing.1201.t:0 "Um presente bem escolhido"
+ seduce_ongoing.1201.desc:0 "Recebi um presente, uma bela tapeçaria com cenas da história da minha dinastia, e emoldurada por cristas habilmente tecidas!"
+ seduce_ongoing.1201.a:0 "[owner.GetSheHe|U] merece meus agradecimentos sem reservas!"
+
+ seduce_ongoing.1301.t:0 "Um Presente Estranho"
+ seduce_ongoing.1301.desc:0 "Recebi uma tapeçaria, destinada a apresentar cenas da história da minha dinastia, mas as figuras parecem estranhas, e ninguém pode interpretar exatamente o que está acontecendo em qualquer cena."
+ seduce_ongoing.1301.a:0 "Vendê-lo. Ele poderia ser usado como um cobertor, se nada mais."
+
+ seduce_ongoing.1202.opening:0 "Eu tenho dado um cavalo, bem criado e nutrido! A besta magnífica parece perfeita para cavalgar, e"
+ seduce_ongoing.1202.courtier:0 "Eu já peguei [courtier.GetTitledFirstName] eying-lo com inveja."
+ seduce_ongoing.1202.no_courtier:0 "ele já tem vários admiradores na corte."
+
+ seduce_ongoing.1302.desc:0 "Me deram um cavalo, o que me faz pensar o que os outros pensam de mim. Eles esperam que eu iria andar em cima dessa coisa de idade faminta?"
+ seduce_ongoing.1302.a:0 "O que eu vou fazer com essa mula? Vendê-lo."
+
+ seduce_ongoing.1203.desc:0 "Um alfaiate chegou ao tribunal, especificamente para me fornecer qualquer roupa nova que eu possa desejar. Agora que [ROOT.Char.GetHerHis] trabalho é feito, devo dizer que [ROOT.Char.GetSheHe] é muito habilidoso, também!"
+ seduce_ongoing.1203.a:0 "Eu me sinto esplêndido!"
+
+ seduce_ongoing.1303.desc:0 "Um alfaiate chegou ao tribunal para me fornecer qualquer roupa nova que eu possa desejar. [ROOT.Char.GetSheHe|U] logo ficou aterrorizado com a ofensa causada quando me perguntei exatamente o que havia de errado com minhas roupas velhas."
+ seduce_ongoing.1303.a:0 "Pelo menos eu posso vender esses trapos feios [ROOT.Char.GetSheHe] tentou me vestir."
+
+ seduce_ongoing.1204.desc:0 "Eu quase não posso acreditar como eu desembrulhar o pacote de couro. O tomo dentro deve ter um século de idade, se não mais, cuidadosamente escrito, decorado e dourado por mãos antigas."
+ seduce_ongoing.1204.a:0 "Que maravilhas este livro contém?"
+
+ seduce_ongoing.1304.desc:0 "Estou um pouco confuso quando abro o pacote de couro para encontrar um tomo velho empoeirado. Folheando suas páginas, eu encontro algumas ilustrações bonitas, mas eu não consigo nem ler o texto."
+ seduce_ongoing.1304.a:0 "Que uso eu teria para este livro? Vendê-lo."
+
+ seduce_ongoing.1205.desc:0 "Me mandaram um lindo pedaço de bordado grande, replicando minha crista da casa em cores vibrantes! Ele vai fazer para uma lareira perfeita em meus aposentos."
+ seduce_ongoing.1205.a:0 "Seu artesanato, sem dúvida, impressionará."
+
+ seduce_ongoing.1305.desc:0 "Me mandaram um pedaço de bordado grande, supostamente tentando replicar minha crista da casa. Não tenho certeza do que o artista usou como referência, porém, pois certamente não o reconheço. Talvez outra pessoa goste mais..."
+ seduce_ongoing.1305.a:0 "Poderia ter sido bom se tivesse sido a crista certa..."
+
+ seduce_ongoing.1206.desc:0 "Um poeta veio diante de mim para recitar uma composição sobre os prazeres da vida, dedicada a"the [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetTitledFirstName]!""
+ seduce_ongoing.1206.a:0 "Um sopro poético de ar fresco!"
+
+ seduce_ongoing.1306.desc:0 "Os prazeres da vida não incluem este poema."the [ROOT.Char.Custom('ComplimentAdjective')] [ROOT.Char.GetTitledFirstName]."Os prazeres da vida não incluem este poema."
+
+ seduce_ongoing.1207.desc:0 "Eu fui enviado uma escultura de madeira de um castelo em miniatura! Todo convidado que vem por aí admira o detalhe e o artesanato em exibição."
+ seduce_ongoing.1207.a:0 "Que coisa incomum!"
+
+ seduce_ongoing.1307.desc:0 "Me mandaram uma escultura de madeira de... um prédio de algum tipo? Era para ser um castelo! Deveria."
+ seduce_ongoing.1307.a:0 "Eu me pergunto quanto tempo ele pode manter o fogo acontecendo."
+
+ seduce_ongoing.1208.desc:0 "[owner.GetTitledFirstName] me enviou [SCOPE.Custom('SeductionObjectIndefinite')], um símbolo do nosso primeiro encontro."
+ seduce_ongoing.1208.a:0 "Será [owner.GetSheHe] acha que eu jamais esqueceria?"
+
+ seduce_ongoing.1308.desc:0 "[owner.GetTitledFirstName] me enviou [SCOPE.Custom('SeductionObjectIndefinite')], um símbolo do nosso primeiro encontro. [owner.GetSheHe|U] deve ter memórias muito mais afetuosas do que eu."
+
+ seduce_ongoing.1209.desc:0 "Eu recebi um medalhão pequeno, um lindo pedaço de ourives. Embora eu me pergunte o que está dentro, é muito mais importante que outros vão fofocar sobre o que ele pode conter."
+ seduce_ongoing.1209.a:0 "Talvez alguém possa me ajudar a abri-lo, um dia?"
+
+ seduce_ongoing.1309.desc:0 "Recebi um pequeno medalhão, e no início eu não percebi que o pequeno caroço não polido era na verdade prata. Ele não abre também, então eu vejo pouco uso para ele."
+ seduce_ongoing.1309.a:0 "Por que alguém pensaria que eu iria querer isso?"
+
+ seduce_ongoing.1210.desc:0 "É incomum, isso é verdade, mas há algo atraente sobre a raposa de pelúcia que foi colocada diante de mim. Talvez seja o rosnado congelado, vicioso em seus lábios?"
+ seduce_ongoing.1210.a:0 "Não convencional, mas não desagradável."
+
+ seduce_ongoing.1310.desc:0 ""Tire essa coisa de mim!" The stuffed fox has a disgusting snarl on its lips, baring vicious teeth at me."
+ seduce_ongoing.1310.a:0 "Quem gostaria desse tipo de presente?"
+
+ seduce_ongoing.1211.desc:0 "A exposição de flores é de tirar o fôlego, e desde que os camponeses terminaram de plantá-la no jardim, os passeios lá se tornaram muito mais populares."
+ seduce_ongoing.1211.a:0 "Eu não sabia que esse tipo de beleza me tocaria assim."
+
+ seduce_ongoing.1311.desc:0 ""Então você não quer que os plantáss, então, meu [ROOT.Char.GetLadyLord]?" The peasants are standing before me, soil spilling from crates on their yokes. The flower display they carry looks worn and battered."
+ seduce_ongoing.1311.a:0 "Eu não quero aqueles em qualquer lugar perto dos jardins."
+
+ seduce_ongoing.1212.desc:0 "[owner.GetTitledFirstName] me enviou um presente, um lenço com a crista de [owner.GetDynasty.GetBaseName] nele.\n\n Certamente será interessante ver que reação os outros terão quando eu exibir o emblema [owner.GetTitlePossessive] tão flagrantemente."
+ seduce_ongoing.1212.a:0 "É certo deixar uma impressão de um tipo ou outro."
+
+ seduce_ongoing.1312.desc:0 "[owner.GetTitledFirstName] me enviou um presente, um lenço com a crista de [owner.GetDynasty.GetBaseName] nele.\n\nSe [owner.GetSheHe] acha que alguma vez vou exibir [owner.GetHerHis] emblema em público, [owner.GetSheHe] está muito enganado!"
+
+ seduce_ongoing.1801.t:0 "[ROOT.Char.Custom('MistressMaster')|U] das Palavras"
+ seduce_ongoing.1801.start.desc:0 "Como estudioso das artes diplomáticas, estou bem ciente do poder de um elogio eloquente. Mostrar admiração pela melhor qualidade de um [target.GetWomanMan] é um caminho certo para [target.GetHerHis] coração.\n\n"
+ seduce_ongoing.1801.close.desc:0 "Da próxima vez que nos encontrarmos, vou elogiá[target.GetFirstNamePossessive]..."
+ seduce_ongoing.1801.distant.desc:0 "Escreverei uma carta para [target.GetFirstName], elogiando [target.GetHerHis]..."
+
+ seduce_ongoing.1801.compassionate:0 "Coração quente e gentil."
+ seduce_ongoing.1801.bold:0 "Espírito corajoso e irrestrito."
+ seduce_ongoing.1801.honorable:0 "Natureza nobre e leal."
+ seduce_ongoing.1801.greed:0 "Ambição e desejo pela vida."
+ seduce_ongoing.1801.rational:0 "Mente racional e brilhante."
+ seduce_ongoing.1801.zealous:0 "Piedosa e fé inabalável."
+ seduce_ongoing.1801.energetic:0 "Espontaneidade e vigor."
+ seduce_ongoing.1801.forgiving:0 "Perdoar a natureza."
+ seduce_ongoing.1801.beautiful_male:0 "Aparência impressionantemente bonito."
+ seduce_ongoing.1801.beautiful_female:0 "Beleza incomparável e de tirar o fôlego."
+ seduce_ongoing.1801.strong:0 "Impressionante forma física."
+ seduce_ongoing.1801.extroverted:0 "Carisma irresistível."
+ seduce_ongoing.1801.dominant:0 "Presença assertiva e poderosa."
+ seduce_ongoing.1801.compliment.tt:0 "#F O quão bem o elogio é recebido por [target.GetTitledFirstName] é baseado no quão bem ele se adapta [target.GetHerHim]"
+ 
+ seduce_ongoing.1802.t:0 "Palavras Bonitas"
+ seduce_ongoing.1802.close.desc:0 "Enquanto perambulo pelos jardins em contemplação tranquila, minha mente em algum lugar distante, eu quase corro direto para [owner.GetTitledFirstName]. Antes que eu possa me recompondo, [owner.GetSheHe] pede meu perdão, dizendo que [owner.GetSheHe] nunca quis incomodar um [target.Custom('LadyLordWomanMan')] de tal"
+ seduce_ongoing.1802.distant.desc:0 "Recebi uma carta intrigante de [owner.GetTitledFirstName]. Entrelaçados com as investigações normais e anedotas são sutis, mas inconfundíveis, elogios ao meu"
+ seduce_ongoing.1802.compassionate.desc:0 ""compaixão gentil""
+ seduce_ongoing.1802.bold.desc:0 ""coragem espirituosa.""
+ seduce_ongoing.1802.honorable.desc:0 ""moral nobre""
+ seduce_ongoing.1802.greed.desc:0 ""aspirações crescentes.""
+ seduce_ongoing.1802.rational.desc:0 ""singular clareza.""
+ seduce_ongoing.1802.zealous.desc:0 ""fé admirável.""
+ seduce_ongoing.1802.energetic.desc:0 ""energia vital""
+ seduce_ongoing.1802.forgiving.desc:0 ""misericórdia magnânima.""
+ seduce_ongoing.1802.beautiful_male.desc:0 ""aparência impressionante""
+ seduce_ongoing.1802.beautiful_female.desc:0 ""beleza inspiradora""
+ seduce_ongoing.1802.strong.desc:0 ""proezas físicas""
+ seduce_ongoing.1802.extroverted.desc:0 ""encantos irresistíveis.""
+ seduce_ongoing.1802.dominant.desc:0 ""energia assertiva""
+ seduce_ongoing.1802.good.desc:0 "\n\n[owner.GetHerHis|U] palavras revelam um nível de atenção afetuosa que me pega de surpresa."
+ seduce_ongoing.1802.neutral.desc:0 "\n\n[owner.GetHerHis|U] palavras fazem pouco sentido, mas o gesto é de bondade, eu suponho."
+ seduce_ongoing.1802.bad.desc:0 "\n\nI suspeito [owner.GetSheHe] significa bem, mas com certeza soa como sarcasmo finamente velado para mim."
+ seduce_ongoing.1802.a.good:0 "[owner.GetTitledFirstNameNoTooltip]... Você me lisonjeia!"
+ seduce_ongoing.1802.a.bad:0 "Ligeiramente ignorante, mas principalmente doce."
+ seduce_ongoing.1802.b.good:0 "Você deve se esforçar mais da próxima vez."
+ seduce_ongoing.1802.b.bad:0 "Que embaraçoso..."
+ seduce_ongoing.1802.c:0 "Eu não tenho interesse nessas atenções!"
+
+ seduce_ongoing.1601.t:0 "Uma Leitura em [location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.1601.t_no_location:0 "Uma Leitura"
+ seduce_ongoing.1601.desc:0 "As celebrações chegaram ao fim e o entretenimento da noite parecia ter acabado, quando [target.GetTitledFirstName] sugeriu que um funcionário da leitura logo chegasse, imaginando o que os convidados gostariam de ouvir, e vejo minha chance de impressionar [target.GetFirstName]."
+ seduce_ongoing.1601.a:0 "Algo piedoso, como [SCOPE.Custom('RandomReligiousTextName')]."
+ seduce_ongoing.1601.a.tt:0 "Acho que [target.GetSheHe] quer ouvir sobre religião."
+ seduce_ongoing.1601.b:0 "Vamos nos divertir. [SCOPE.Custom('RandomEntertainmentTextName')|U]!"
+ seduce_ongoing.1601.b.tt:0 "Acho que [target.GetSheHe] quer ouvir algo divertido."
+ seduce_ongoing.1601.c:0 "[SCOPE.Custom('RandomInformativeTextName')|U] nos daria uma chance de aprender."
+ seduce_ongoing.1601.c.tt:0 "Acho que [target.GetSheHe] quer ouvir algo informativo."
+
+ seduce_ongoing.1603.desc:0 "Parecia que seria uma noite tediosa quando o entretenimento da festa acabasse, mas [owner.GetTitledFirstName] salvou o dia sugerindo uma leitura de [SCOPE.Custom('BookInQuestion')]!"
+ seduce_ongoing.1603.a:0 "Eu também amo esse!"
+
+ seduce_ongoing.1604.desc:0 " [target.GetSheHe] diz e [target.Custom('quirk_pos_present')]."Good choice, [ROOT.Char.GetFirstName]," [target.GetSheHe] diz e [target.Custom('quirk_pos_present')]."
+ seduce_ongoing.1604.a:0 "Foi ótimo, não foi?"
+
+ seduce_ongoing.1605.desc_1:0 "Um banquete tedioso ficou ainda pior quando [owner.GetTitledFirstName] sugeriu uma leitura de [SCOPE.Custom('BookInQuestion')]."
+ seduce_ongoing.1605.desc_2:0 "Felizmente, [other_guest.GetTitledFirstName] logo sugeriu ler [SCOPE.Custom('GoodBookSuggestion')] em vez disso!"
+ seduce_ongoing.1605.desc_no_other_guest:0 "Felizmente, um atendente logo sugeriu ler [SCOPE.Custom('GoodBookSuggestion')] em vez disso!"
+ seduce_ongoing.1605.a:0 "Uma escolha muito melhor!"
+
+ seduce_ongoing.1606.desc_1:0 "Como o funcionário drones sobre e sobre, eu posso dizer [target.GetFirstNamePossessive] atenção está escorregando."
+ seduce_ongoing.1606.desc_2:0 " e "May I humbly suggest we read [SCOPE.Custom('GoodBookSuggestion')] instead?" e "
+ seduce_ongoing.1606.desc_3:0 "[target.GetFirstName] imediatamente se anima com o interesse renovado."
+ seduce_ongoing.1606.desc_no_other_guest:0 "Um atendente de repente toca dentro"May I humbly suggest we read [SCOPE.Custom('GoodBookSuggestion')] instead?""
+ seduce_ongoing.1606.a:0 "Por que não pensei nisso?"
+
+ seduce_ongoing.1701.t:0 "The Meet"
+ seduce_ongoing.1701.desc:0 "Eu me certifico de passar por [court_of_residence.GetNameNoTier] no dia de um encontro de treinos. [target.GetTitledFirstNamePossessive] oficiais estão se preparando, instruindo jovens [target.Custom('MountedWarriorTermPlural')], e eu acho [target.GetFirstName] vagando entre eles.\n\nO que as intenções que eu tinha, [target.GetHerHis] atenção está claramente em [target.GetHerHis] deveres como a [target.GetLadyLord|U] desses soldados."
+ seduce_ongoing.1701.a:0 "Que tal mostrarmos a esses novatos uma luta simulada?"
+ seduce_ongoing.1701.a.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado ativo ou lúdico. #!"
+ seduce_ongoing.1701.b:0 "Vamos dar uma volta nas ameias, para discutir estratégia."
+ seduce_ongoing.1701.b.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado atencioso. #!"
+ seduce_ongoing.1701.c:0 "Quero ouvir tudo sobre seus planos para a temporada de impostos."
+ seduce_ongoing.1701.c.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado econômico. #!"
+ seduce_ongoing.1701.d:0 "poderia ser feito para parecer um verdadeiro tolo..."[target.Custom('MountedWarriorTermPlural')]"poderia ser feito para parecer um verdadeiro tolo..."
+ seduce_ongoing.1701.d.tt:0 "#F Apelo para [target.GetFirstNamePossessiveNoTooltip] lado malicioso. #!"
+
+ seduce_ongoing.1703.opening:0 "Para minha surpresa, [owner.GetTitledFirstName] veio para a luta para jovens [target.Custom('MountedWarriorTermPlural')] em [court_of_residence.GetNameNoTier]."
+ seduce_ongoing.1703.duel:0 "\n\n[owner.GetSheHe|U] me desafiou para uma luta simulada, e fizemos um belo show para os guerreiros novatos. A luta rapidamente se tornou um esforço intenso, mas no final do dia compartilhamos um abraço, e nos sentimos melhor por nossos esforços."
+ seduce_ongoing.1703.strategy:0 "Nós caminhamos as ameias, discutindo a estratégia longamente enquanto observamos os guerreiros novatos no pátio abaixo. [owner.GetFirstName] tinha alguns pontos perspicazes, e agradeci [owner.GetHerHim] por me fazer repensar algumas das suposições sobre meus novos soldados. As muitas diversões da nossa discussão foram muito envolventes, também..."
+ seduce_ongoing.1703.tax_season:0 "Enquanto o encontro era necessário, eu tinha um tempo muito melhor sentado lá dentro, discutindo meus planos para a próxima temporada de impostos com [owner.GetFirstName]. O que usa é um exército, afinal, sem meios para alimentá-lo, como [owner.GetSheHe] apontou"
+ seduce_ongoing.1703.trap:0 "\n\nAcompragem dos guerreiros novatos era necessário, mas desinteressante, então fiquei grato quando [owner.GetFirstName] sugeriu uma distração divertida. Ter uma página derramar sangue de porcos no chão atrás da bandeja levou alguns dos cavalos menos bem treinados em um medo selvagem, e vários de seus cavaleiros foram jogados no chão, enquanto o resto lutava para segurar!"
+ seduce_ongoing.1703.fallback:0 "\n\nEnquanto observar os guerreiros novatos é geralmente tedioso, [owner.GetFirstName] feito o dia inteiro passar em um momento."
+ seduce_ongoing.1703.a:1 "Devo agradecer [owner.GetFirstName] por [owner.GetHerHis] visita."
+
+ seduce_ongoing.1704.duel:0 "\n\n[owner.GetSheHe|U] insisti em uma disputa simulada na frente dos guerreiros novatos, mas eu não estava prestes a me envergonhar assim. [owner.GetFirstName] parecia abatido, mas eu tinha coisas melhores para gastar meu tempo naquela [owner.GetHerHim] reconfortante."
+ seduce_ongoing.1704.strategy:0 "\n\n[owner.GetSheHe|U] me pediram uma caminhada sobre as ameias, para discutir ideias de estratégias, mas eu me vi tendo que derrubar má sugestão após má sugestão. Talvez [owner.GetFirstName] devesse manter os assuntos [owner.GetSheHe] sabe alguma coisa sobre..."
+ seduce_ongoing.1704.tax_season:0 "Apesar da minha óbvia ocupação com os guerreiros novatos, [owner.GetSheHe] insistiu em discutir meus planos para a próxima temporada de impostos. Eventualmente, tive que deixar [owner.GetHerHim] por [owner.GetHerselfHimself] para que eu pudesse lidar com assuntos importantes."
+ seduce_ongoing.1704.trap:0 "Para meu espanto, [owner.GetSheHe] sugeriu que colocássemos em movimento uma manobra elaborada para causar caos entre os novatos [target.Custom('MountedWarriorTermPlural')]. Será [owner.GetSheHe] não perceber que é a última coisa que eu gostaria?"
+ seduce_ongoing.1704.fallback:0 "\n\n[owner.GetFirstName] queria passar [owner.GetHerHis] conversando, como se [owner.GetSheHe] não percebesse que hoje foi um dia muito movimentado para mim."
+ seduce_ongoing.1704.a:0 "O que entrou em [owner.GetTitledFirstNameNoTooltip]?"
+
+ seduce_ongoing.1705.duel:0 "compartilhamos um abraço solidário, sentindo-se melhor por nossos esforços."battle"compartilhamos um abraço solidário, sentindo-se melhor por nossos esforços."
+ seduce_ongoing.1705.strategy:0 "Caminhando pelas ameias, [target.GetTitledFirstName] e eu compartilhamos muitos pensamentos sobre a melhor forma de empregar guerreiros novatos, como os do pátio abaixo.\n\n Até o final do dia, eu poderia dizer que [target.GetSheHe] me senti tão satisfeito com nossas discussões como eu fiz, mesmo para todas as muitas diversões de nossa discussão - ou talvez por causa deles."
+ seduce_ongoing.1705.tax_season:0 "[target.GetFirstName] e eu passamos a maior parte do dia discutindo nossos planos para a próxima temporada de impostos. Afinal, de que serve um exército se você não pode alimentá-lo? [target.GetSheHe|U] riu de coração com isso.\n\nHás ainda mais risos como nós dois nos encontramos absortos em nossas muitas discussões."
+ seduce_ongoing.1705.trap:0 "Depois de um tempo, sugeri uma distração divertida de ver os guerreiros novatos. Uma página derramou sangue de alguns porcos pelos cochos de água, e o cheiro levou alguns dos cavalos menos bem treinados a um grande medo. Vários jovens [target.Custom('MountedWarriorTermPlural')] foram jogados, e outros mal conseguiam segurar.\n\n[target.GetFirstName] riram alto da cena que eu tinha inventado."
+ seduce_ongoing.1705.fallback:0 "No final da minha visita, [target.GetTitledFirstName] parecia satisfeito."Watching the novices is normally tedious, but today has gone by in an instant!""
+ seduce_ongoing.1705.a:0 "[target.GetSheHe|U] com certeza se lembrará deste dia."
+
+ seduce_ongoing.1706.duel:0 "Passei o resto do dia tentando descobrir se [target.GetSheHe] significava [target.GetHerHim] ou eu."No need for anyone to embarrass themselves like that in front of these young [target.Custom('MountedWarriorTermPlural')]!"Passei o resto do dia tentando descobrir se [target.GetSheHe] significava [target.GetHerHim] ou eu."
+ seduce_ongoing.1706.strategy:0 "[target.GetTitledFirstName] e eu andamos as ameias, enquanto eu tentava oferecer conselhos estratégicos. [target.GetSheHe|U] não parecia com humor para ouvir, no entanto. Tudo o que eu vim com estava cheio de fraquezas, de acordo com [target.GetFirstName], e era óbvio que [target.GetHerHis] atenção estava mais no pátio abaixo do que em mim."
+ seduce_ongoing.1706.tax_season:0 "Tentei discutir a próxima temporada de impostos, e como garantir que [target.GetFirstName] teria os meios para alimentar [target.GetHerHis] exército. Infelizmente, [target.GetFirstNamePossessive] pensamentos estavam em outro lugar, e [target.GetSheHe] rapidamente me deixou para trás, a fim de se concentrar nos guerreiros novatos."
+ seduce_ongoing.1706.trap:0 "Quando sugeri que fizéssemos uma brincadeira sobre a [target.Custom('MountedWarriorTermPlural')] praticante, [target.GetFirstName] só me encarava em choque.\n\n"Pigs blood and rampaging horses? Are you #EMP mad#!, [ROOT.Char.GetWomanMan]?""
+ seduce_ongoing.1706.fallback:0 "Tentei falar com [target.GetTitledFirstName] o dia todo, mas sempre havia algo sobre o encontro exigindo [target.GetHerHis] atenção. No final, eu nunca poderia chamar [target.GetHerHis] atenção por mais de um momento de cada vez, e eu me senti mais no caminho do que qualquer coisa."
+ seduce_ongoing.1706.a:0 "Espero que [target.GetFirstNameNoTooltip] se esqueça deste dia rapidamente."
+
+ seduce_ongoing.2001.t:0 "A Poção do Amor"
+ seduce_ongoing.2001.desc:0 "Um dos meus servos adquiriu uma poção de amor de um velho [dummy_gender.GetWomanMan] na feira, mas alegou que não tinha dado [dummy_gender.GetHerHim] nenhuma sorte.\n\nAs eu seguro a pequena garrafa em minhas mãos eu não posso deixar de pensar em [target.GetTitledFirstName] e me perguntar se talvez minha sorte cairia de forma diferente."
+ seduce_ongoing.2001.a:0 "[target.GetSheHe|U] sem dúvida vai achar divertido!"
+ seduce_ongoing.2001.b:0 "[target.GetFirstNameNoTooltip] adoraria tirar sarro de superstições como esta."
+ seduce_ongoing.2001.c:0 "Eu não tenho tempo para poções de amor sem sentido."
+ seduce_ongoing.2001.c.tt:0 "#F eu preciso de uma oportunidade melhor para mostrar meu afeto do que isso! #!"
+
+
+ seduce_ongoing.2002.desc:0 " que [owner.GetSheHe] tinha obtido de uma feira. Nós derramamos um pouco em nosso vinho e tivemos uma noite divertida fingindo que estava nos afetando, e no final a linha entre o que fingimos e o que era real começou a ficar um pouco embaçado."love potion" que [owner.GetSheHe] tinha obtido de uma feira. Nós derramamos um pouco em nosso vinho e tivemos uma noite divertida fingindo que estava nos afetando, e no final a linha entre o que fingimos e o que era real começou a ficar um pouco embaçado."
+ seduce_ongoing.2002.a:0 "Que diversão divertida!"
+
+ seduce_ongoing.2003.desc:0 " juntamente com um pouco de vinho e passou a noite fingindo que estava nos afetando.\n\nFoi tudo um pouco de diversão inocente, mas a pitada de afeto era clara em [target.GetHerHis] sorriso enquanto [target.GetSheHe] me despediam."love potion" juntamente com um pouco de vinho e passou a noite fingindo que estava nos afetando.\n\nFoi tudo um pouco de diversão inocente, mas a pitada de afeto era clara em [target.GetHerHis] sorriso enquanto [target.GetSheHe] me despediam."
+ seduce_ongoing.2003.a:0 "Tempo juntos bem gasto."
+
+ seduce_ongoing.2004.desc:0 "[owner.GetSheHe] tinha obtido de uma feira. Quando me recusei a beber algo que não sabia o conteúdo, [owner.GetSheHe] parecia ficar um pouco chateado! Logo pedi [owner.GetHerHim] para [owner.GetHerselfHimself] para que eu pudesse entregar cedo."love potion"[owner.GetSheHe] tinha obtido de uma feira. Quando me recusei a beber algo que não sabia o conteúdo, [owner.GetSheHe] parecia ficar um pouco chateado! Logo pedi [owner.GetHerHim] para [owner.GetHerselfHimself] para que eu pudesse entregar cedo."
+ seduce_ongoing.2004.a:0 "O que entrou em [owner.GetHerHim]?"
+
+ seduce_ongoing.2005.desc:0 ", e então se perguntou exatamente o que eu estava tentando fazer. Eu me empolguei um pouco, tentando explicar que era tudo por diversão, e então [target.GetSheHe] me pediu para partir."love potion", e então se perguntou exatamente o que eu estava tentando fazer. Eu me empolguei um pouco, tentando explicar que era tudo por diversão, e então [target.GetSheHe] me pediu para partir."
+ seduce_ongoing.2005.a:0 "Isso foi lamentável."
+
+ seduce_ongoing.2006.t:0 "O"Love Potion""
+ seduce_ongoing.2006.desc:0 "[owner.GetTitledFirstName] me trouxe uma poção de amor [owner.GetSheHe] tinha adquirido de uma feira. Eu achei divertido, e satisfez [owner.GetHerHis] insistência de que nós tentamos alguns .\n\n[owner.GetFirstName] recusou tomar um gole, no entanto, quando eu fiquei violentamente doente!"
+ seduce_ongoing.2006.a:0 "Não estou me sentindo muito bem..."
+ seduce_ongoing.2006.a.tt:0 "#F Damn your stupidity #EMP *bluuurgh#! [owner.GetFirstNameNoTooltip]! #!"
+
+ seduce_ongoing.2007.desc:0 "Oh não! [target.GetTitledFirstName] concordou em experimentar a poção do amor, mas o que era para ser um pequeno ponto de diversão terminou com [target.GetHerHim] vomitando e acamados!"
+ seduce_ongoing.2007.a:0 "Onde está aquele servo que me deu?"
+ 
+ seduce_ongoing.2008.desc:0 "que um servo de [owner.GetHerHis] tinha adquirido em uma feira. Nós não bebemos o líquido desconhecido, mas em vez disso tivemos uma noite adorável com um pouco de vinho, tirando sarro das superstições simples que florescem lá fora.\n\nSe você não pode me dizer qual humor afeta, você não pode afirmar que funciona! Ah, os plebeus acreditarão em qualquer coisa..."love potion"que um servo de [owner.GetHerHis] tinha adquirido em uma feira. Nós não bebemos o líquido desconhecido, mas em vez disso tivemos uma noite adorável com um pouco de vinho, tirando sarro das superstições simples que florescem lá fora.\n\nSe você não pode me dizer qual humor afeta, você não pode afirmar que funciona! Ah, os plebeus acreditarão em qualquer coisa..."
+ seduce_ongoing.2008.a:0 "Eu me diverti tanto com [owner.GetFirstNameNoTooltip]!"
+
+ seduce_ongoing.2009.desc:0 " para [target.GetTitledFirstName], e [target.GetSheHe] ficou tão surpreso com a gulabilidade do meu servo como eu tinha sido!\n\n Passamos a noite discutindo superstição e crenças ridículas. Plebeus vão acreditar em qualquer coisa."love potion" para [target.GetTitledFirstName], e [target.GetSheHe] ficou tão surpreso com a gulabilidade do meu servo como eu tinha sido!\n\n Passamos a noite discutindo superstição e crenças ridículas. Plebeus vão acreditar em qualquer coisa."
+ seduce_ongoing.2009.a:0 "Foi uma noite tão agradável."
+
+ seduce_ongoing.2010.desc:0 "que um servo de [owner.GetHersHis] tinha adquirido. Eu não achei interessante, mas [owner.GetFirstName] continuou falando sobre isso, e sobre como plebeus supersticiosos e ingênuos são."love potion"que um servo de [owner.GetHersHis] tinha adquirido. Eu não achei interessante, mas [owner.GetFirstName] continuou falando sobre isso, e sobre como plebeus supersticiosos e ingênuos são."
+ seduce_ongoing.2010.a:0 "Se você não acredita nisso, não me irrite com isso!"
+
+ seduce_ongoing.2011.desc:0 ", e eu não tive mais sorte tentando discutir superstições camponesas ridículas. Na verdade, [target.GetSheHe] parecia irritado com tudo isso!"love potion", e eu não tive mais sorte tentando discutir superstições camponesas ridículas. Na verdade, [target.GetSheHe] parecia irritado com tudo isso!"
+ seduce_ongoing.2011.a:0 "[target.GetSheHe|U] deve ser extraordinariamente fleumático hoje."
+
+ seduce_ongoing.3001.t:0 "Corações e Mentes"
+ seduce_ongoing.3001.desc:0 "Fui informado de que [target.GetTitledFirstName] está muito próximo de [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('close_character'))], [close_character.GetTitledFirstName]. Ganhar [close_character.GetHerHis] favor pode me ajudar a chamar [target.GetFirstNamePossessive] atenção."
+ seduce_ongoing.3001.a:0 "Eu vou ter [close_character.GetFirstNameNoTooltip] o que [close_character.GetSheHe] pedir."
+ seduce_ongoing.3001.b:0 "Uma demonstração de boa vontade deve fazê-lo."
+ seduce_ongoing.3001.c:0 "Eu poderia ajudar a pagar [close_character.GetHerHis] empréstimos."
+ seduce_ongoing.3001.d:0 "Certamente qualquer um se sentiria abençoado por um dom de ouro."
+ seduce_ongoing.3001.e:0 "Isso não parece certo."
+ seduce_ongoing.3001.e.tt:0 "#F encontrarei outras formas de conquistar [target.GetFirstNamePossessiveNoTooltip] afeto. #!"
+
+ seduce_ongoing.3002.desc:1 "Meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('close_character'))], [close_character.GetTitledFirstName], ultimamente tem me dito o quão impressionado [close_character.GetSheHe] está com a generosidade de [owner.GetTitledFirstName].\n\nAparentemente [owner.GetSheHe] veio para [close_character.GetHerHim] quando [close_character.GetSheHe] mais precisava."
+ seduce_ongoing.3002.a:0 "Talvez eu tenha subestimado [owner.GetHerHim]?"
+ seduce_ongoing.3002.b:1 "[owner.GetFirstName] ajudando [close_character.GetFirstName]? Impressionante, de certa forma."
+
+ seduce_ongoing.3003.desc:0 "Da próxima vez que nos encontrarmos, [target.GetFirstName] me oferece um sorriso mais amplo do que o habitual.\n\n"My [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] [close_character.GetFirstName] told me of how you helped [close_character.GetHerHim], and I wanted to offer my thanks.""
+ seduce_ongoing.3003.a:0 "Qualquer coisa por um [target.Custom2('RelationToMe', SCOPE.sC('close_character'))] de [target.GetFirstNamePossessiveNoTooltip]."
+
+ seduce_ongoing.3004.desc:0 "Parece que [target.GetFirstName] não tomou conhecimento da minha generosidade em relação ao [target.GetHerHis] [target.Custom2('RelationToMe', SCOPE.sC('close_character'))]. Pelo menos [close_character.GetFirstName] é grato!"
+ seduce_ongoing.3004.a:0 "O que é preciso?"
+
+ seduce_ongoing.4001.t:0 "[target.Custom('MusicalPerformerPossessive')|U] Dedicação"
+ seduce_ongoing.4001.desc:0 "Um [target.Custom('MusicalPerformer')] em breve estará se apresentando para a corte em [court_location.GetNameNoTier]. Seria um simples pedido para que [dummy_musician_gender.GetHerHim] mudasse a performance para ser uma dedicação ao [target.GetTitledFirstName], alvo do meu afeto."
+ seduce_ongoing.4001.a:0 "Será uma declaração ousada para o [target.GetLadyLord]!"
+ seduce_ongoing.4001.b:0 "Prefiro alusões veladas ao meu desejo de [target.GetHerHim]."
+ seduce_ongoing.4001.b.failure:0 "A dedicação passa despercebida"
+ seduce_ongoing.4001.c:0 "Eu não deveria me meter em coisas como esta."
+
+ seduce_ongoing.4002.desc:0 "Muitas vezes há artistas na corte, mas desta vez nos prometeram algo especial, e eu certamente consegui.\n\nAs as [ROOT.Char.Custom('MusicalPerformer')] começa mais uma estrofe, tento não mostrar o quão lisonjeado estou com essa dedicação, dirigida a mim na frente de toda a corte."
+ seduce_ongoing.4002.a:0 "[owner.GetTitledFirstNameNoTooltip] realmente superou [owner.GetHerselfHimself]."
+
+ seduce_ongoing.4003.desc:0 "Muitas vezes há artistas na corte, mas desta vez nos prometeram algo especial, e eu certamente consegui.\n\nAs as [ROOT.Char.Custom('MusicalPerformer')] começa mais uma estrofe, eu saio do grande salão em constrangimento. Cada canção é uma dedicação para mim de [owner.GetTitledFirstName]!"
+ seduce_ongoing.4003.a:0 "O nervo!"
+
+ seduce_ongoing.4004.desc:1 "Obrigado por seu dom da música. A performance [target.Custom('MusicalPerformerPossessive')] foi muito apreciada! Eu sempre soube que você era um [ROOT.Char.GetWomanMan] de gosto impecável."
+ seduce_ongoing.4004.a:0 "Perfeito!"
+
+ seduce_ongoing.4005.opening:0 "[target.Custom2('AppropriateGreetingNegative', ROOT.Char)]"
+ seduce_ongoing.4005.desc:0 "Como você se atreve a me envergonhar em público assim?! Você #EMP queria#! eu ter que explicar o que as [target.Custom('MusicalPerformerPossessive')] palavras significavam para"
+ seduce_ongoing.4005.spouse:0 "meu [target.Custom2('RelationToMe', SCOPE.sC('spouse'))]?"
+ seduce_ongoing.4005.court:0 "Toda a corte?"
+ seduce_ongoing.4005.a:0 "Isso não era o que eu queria!"
+
+ seduce_ongoing.4006.desc:0 "Como o [ROOT.Char.Custom('MusicalPerformer')] continua pronunciando linhas de amor e desejo, tento não mostrar ao resto da corte o quanto me sinto lisonjeado.\n\nApesar de [owner.GetSheHe] ser velada atrás da metáfora e da alegoria, sei que esta é uma dedicação de [owner.GetTitledFirstName] para mim."
+ seduce_ongoing.4006.a:0 "Você sabe como chamar minha atenção, [owner.GetFirstName]."
+
+ seduce_ongoing.4007.desc:0 "Talvez minha dedicação ao [target.GetLadyLord] [target.GetFirstName] fosse um pouco sutil demais... [target.GetSheHe|U] parece não ter tomado conhecimento."
+ seduce_ongoing.4007.a:0 "Que desperdício de esforço."
+
+ seduce_ongoing.4011.t:0 "Um Passeio em [court_location.GetNameNoTierNoTooltip]"
+ seduce_ongoing.4011.desc:0 "Pode parecer para a frente, mas estive pensando em convidar [target.GetTitledFirstName] para andar comigo através do [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier]."
+ seduce_ongoing.4011.a:0 "Um passeio pela rua do mercado, para que todos vejam!"
+ seduce_ongoing.4011.b:0 "Vamos ficar em becos de trás. Quem precisa da companhia dos outros?"
+ seduce_ongoing.4011.b.failure:0 "Eu não consigo impressionar [target.GetFirstNameNoTooltip]"
+ seduce_ongoing.4011.c:0 "Talvez não devêssemos fazer isso."
+ seduce_ongoing.4011.c.tt:0 "#F eu possa esperar por outras oportunidades#!"
+
+ seduce_ongoing.4012.opening:0 "Fiquei um pouco surpreso quando [owner.GetTitledFirstName] me convidou para um passeio pelo [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier]."
+ seduce_ongoing.4012.end:0 "No entanto, foi um dia agradável, enquanto andávamos pela rua do mercado, conversando sobre todo tipo de coisa enquanto os comerciantes vendiam seus produtos para os camponeses olhando de boca aberta para nossa comitiva de armaduras."
+ seduce_ongoing.4012.a:0 "Nós certamente causou uma impressão."
+
+ seduce_ongoing.4013.end:0 "Fiquei cada vez mais incerto à medida que [owner.GetSheHe] insistia que andássemos pela rua do mercado, e entre nossa elaborada comitiva e a falta de conversa, ficou claro que [owner.GetSheHe] estava simplesmente tentando se exibir. Eu teria cavalgado fora se não teria causado uma cena."
+ seduce_ongoing.4013.a:0 "Não vamos fazer isso de novo."
+
+ seduce_ongoing.4014.desc:0 "Caro [owner.GetTitledFirstName],\n\nÉ nada menos do que adorável ter sua companhia em [court_location.GetNameNoTier] [court_location.Custom('BaronyTownType')], e espero ver mais de você em breve."
+ seduce_ongoing.4014.a:0 "O prazer era todo meu."
+
+ seduce_ongoing.4015.desc:0 "Para [target.GetTitledFirstName], você esperava me envergonhar em público? Desfilando como um troféu ridículo... Você sabe que tipo de coisas eles estão dizendo na corte?"
+ seduce_ongoing.4015.a:0 "Eu não quis dizer isso!"
+
+ seduce_ongoing.4016.end:0 "Nós passamos pela multidão de becos dos fundos, rindo da surpresa dos plebeus enquanto nossa comitiva passava. No final do dia, eu sabia que o [court_location.Custom('BaronyTownType')] melhor do que eu jamais pensei que faria."
+ seduce_ongoing.4016.a:0 "[target.GetFirstNameNoTooltip] me faz ver tantas novas perspectivas."
+
+ seduce_ongoing.4017.desc:0 "Querido [ROOT.Char.GetTitledFirstName],\n\nOmesso por sua companhia na minha visita ao [court_location.GetNameNoTier] [court_location.Custom('BaronyTownType')], embora sua insistência em ficar em becos e ficar fora de vista me confundiu completamente. Talvez você possa explicar outra hora."
+ seduce_ongoing.4017.a:0 "Foi... nós dois, nós..."
+
+ seduce_ongoing.4018.desc:0 "Querido [owner.GetTitledFirstName], me diverti muito durante sua visita a [court_location.GetNameNoTier]. Agora eu sei partes do [court_location.Custom('BaronyTownType')] eu nunca pensei que iria ver!"
+ seduce_ongoing.4018.a:0 "O prazer era todo meu."
+
+ seduce_ongoing.4101.t:0 "Varanda do Meu Amado"
+ seduce_ongoing.4101.desc_opening:0 "[target.GetTitledFirstNamePossessive] janelas são acesas por um brilho quente, e mesmo do chão eu posso ver movimento dentro.\n\n"
+ seduce_ongoing.4101.desc_same_court:0 "Meu pulso thrums alto em meus ouvidos; Eu posso estar dentro do meu próprio [ROOT.Char.Custom('ResidenceBuilding')], mas ao disputar [target.GetHerHis] desejo, estou trilhando um novo terreno, no entanto."
+ seduce_ongoing.4101.desc_other_court:0 "Meu pulso thrums alto em meus ouvidos; tanto cortejando a chance de dormir [target.GetHerHim], bem como visitar [court_location.GetNameNoTier], me deixou em águas profundas."
+ seduce_ongoing.4101.a:0 "[target.GetFirstNameNoTooltip]! Olhe para fora e brilhe minha noite!"
+ seduce_ongoing.4101.a.tt:0 "#F eu tento ganhar [target.GetHerHis] atenção de uma forma discreta#!"
+ seduce_ongoing.4101.b:0 "Lá em cima eu vou."
+ seduce_ongoing.4101.b.tt:0 "#F Certamente [target.GetSheHe] ficará feliz em me ver! #!"
+ seduce_ongoing.4101.c:0 "Vou deixar [SCOPE.Custom('SeductionObjectIndefinite')] para [target.GetHerHim] encontrar, juntamente com uma nota."
+ seduce_ongoing.4101.c.tt:0 "#F [target.GetSheHe|U] certamente apreciará o gesto sutil, e o que [target.GetSheHe] significa para mim#!"
+ seduce_ongoing.4101.d:0 "É melhor eu sair antes que alguém me veja."
+ seduce_ongoing.4101.d.tt:0 "#F eu não vou me aproximar [target.GetHerHim] como um ladrão na noite! #!"
+
+ seduce_ongoing.4102.t:0 "Beneath My Varanda"
+ seduce_ongoing.4102.desc:0 "Tendo recuado para meus aposentos durante a noite, estou surpreso ao ouvir uma voz abafada me atingindo do lado de fora, soando suspeitamente como [owner.GetTitledFirstName].\n\n"[ROOT.Char.GetTitledFirstNameNoTooltip], I beseech you, let me see your fair visage!""
+ seduce_ongoing.4102.a:0 "É como algo fora de uma história, como romântico!"
+ seduce_ongoing.4102.b:0 "Para que eu seja submetido ao seu hediondo? Não."
+
+ seduce_ongoing.4103.desc:0 "À medida que a luz da porta de abertura [target.GetTitledFirstNamePossessive] se espalha pela varanda, ela também derrama no meu coração.\n\nA mortalha de escuridão ao nosso redor dá à nossa conversa uma estranha sensação de liberdade, e - mesmo que eu tenha ficado no chão - nunca fomos tão íntimos antes."
+ seduce_ongoing.4103.a:0 "Oh [target.GetFirstNameNoTooltip], você é o sol na minha noite!"
+
+ seduce_ongoing.4104.desc:0 "À medida que a luz da porta de abertura [target.GetTitledFirstNamePossessive] derrama pela varanda, ela também derrama no meu coração.\n\nÉ rapidamente escurece quando vejo a careta [target.Custom('quirk_neg_adjective')] no rosto [target.GetHerHis], e morre completamente enquanto [target.GetSheHe] fala."What are you doing here, [ROOT.Char.GetTitledFirstNameNoTooltip]?! Please, leave me alone.""
+ seduce_ongoing.4104.a:0 "Mas... Você é o sol na minha noite escura...!"
+
+ seduce_ongoing.4105.desc:1 "#EMP Gasp! #!\n\nTendo recuei para meus aposentos durante a noite, de repente estou cara a cara com um [owner.GetWomanMan] fora da minha janela... Um [owner.GetWomanMan] que parece suspeito como [owner.GetTitledFirstName]."
+ seduce_ongoing.4105.a:0 "Oh você [owner.GetWomanMan] bobo, entre!"
+ seduce_ongoing.4105.b:0 "Tenho sorte que minhas cortinas são tão grossas."
+ seduce_ongoing.4105.c:0 "Guardas! Ajudem-me, guardas!"
+
+ seduce_ongoing.4106.desc:0 "\n\nA alegria lúdica nos olhos [target.GetHerHis] faz tudo valer a pena."Why would you pull such a stunt, [ROOT.Char.GetFirstNameNoTooltip]? Just use the door like a normal [ROOT.Char.GetWomanMan]. You act as if you have intentions you want to keep secret."\n\nA alegria lúdica nos olhos [target.GetHerHis] faz tudo valer a pena."
+ seduce_ongoing.4106.a:0 "Nenhuma barreira pode me afastar de você!"
+
+ seduce_ongoing.4107.desc_paranoid:0 "\n\n[target.GetHerHis|U] voz me segue para baixo enquanto eu me esforço para fugir, caindo o último do caminho de volta para o chão antes que eu desapareça para a noite."Help, an intruder!"\n\n[target.GetHerHis|U] voz me segue para baixo enquanto eu me esforço para fugir, caindo o último do caminho de volta para o chão antes que eu desapareça para a noite."
+ seduce_ongoing.4107.desc:0 "Assim que eu chegar [target.GetTitledFirstNamePossessive] varanda [target.GetSheHe] sai com uma careta [target.Custom('quirk_neg_adjective')] no rosto [target.GetHerHis].\n\n"What silly stunt is this [ROOT.Char.GetFirstNameNoTooltip]? You cannot — you are a [ROOT.Char.GetTitleTierName]! This is not appropriate.""
+ seduce_ongoing.4107.a:0 "Isso poderia ter sido melhor..."
+ seduce_ongoing.4107.a.tt:0 "#F eu deveria ter sabido melhor do que se esgueirar em um [target.GetWomanMan] tão paranoico! #!"
+
+ seduce_ongoing.4108.desc:0 "Tendo recuado para meus aposentos para a noite eu estou assustado com o que soa como uma pedra batendo na minha janela. Olhando para o jardim escuro eu vejo [SCOPE.Custom('SeductionObjectIndefinite')] deitado no chão enrolado em uma nota, e uma [owner.GetWomanMan] que parece [owner.GetTitledFirstName] desaparecendo na noite.\n\n#EMP Para o [ROOT.Char.Custom2('ComplimentAdjective', ROOT.Char)] [ROOT.Char.GetTitledFirstNameNoTooltip], como um símbolo dos meus sentimentos. #!"
+ seduce_ongoing.4108.a:0 "Vou deixar [SCOPE.Custom('SeductionObjectIndefinite')] para [owner.GetHerHim] encontrar em sua vez!"
+ seduce_ongoing.4108.b:0 "O que eu devo fazer com isso? Vendê-lo fora!"
+
+ seduce_ongoing.4109.desc:1 "Dois [SCOPE.Custom('SeductionObjectMultiple')], esperando por mim em meus aposentos. Nenhuma nota ou saudação, mas eu juro que ainda posso sentir o cheiro doce do [ROOT.Char.Custom2('ComplimentAdjective', SCOPE.sC('target'))] [target.GetTitledFirstName] no ar!"
+ seduce_ongoing.4109.a:0 "Oh, [target.GetFirstNameNoTooltip]!"
+
+ seduce_ongoing.4110.desc:0 "À medida que os dias passam sem qualquer resposta de [target.GetTitledFirstName] eu decido tentar a sorte mais uma vez - talvez [target.GetSheHe] nunca vi o presente em primeiro lugar?\n\nOh, quão rapidamente minha esperança morreu quando encontrei o [SCOPE.Custom('SeductionObject')] debaixo [target.GetHerHis] janela, a marca de um calcanhar ainda visível na lama [target.GetSheHe] aterrado."
+ seduce_ongoing.4110.a:0 "Meu coração está tão partido quanto o [SCOPE.Custom('SeductionObject')]!"
+
+ seduce_ongoing.5001.t_rival:0 "Meu rival [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))|U]"
+ seduce_ongoing.5001.t:0 "O [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('target'))|U] [target.GetWomanMan|U]"
+ seduce_ongoing.5001.desc_tier_up:0 ""A que devo esse prazer, minha #EMP [ROOT.Char.GetTitleTierName]#!?" [target.GetTitledFirstName] asks with a smile that does not even come close to [target.GetHerHis] eyes."
+ seduce_ongoing.5001.desc_tier_down:0 ""O que posso fazer por você, [ROOT.Char.GetTitledFirstNameNoTooltip]?" [target.GetTitledFirstName] mutters under [target.GetHerHis] breath as I approach. "O que posso fazer por você, [ROOT.Char.GetTitledFirstNameNoTooltip]?""
+ seduce_ongoing.5001.desc_ending:0 "\n\nAs hostilidades entre nós fervem como de costume, mas eu tenho um plano sobre como domar os sentimentos tempestuosos que guardamos um para o outro..."
+ seduce_ongoing.5001.a:0 "Qual é o seu pensamento sobre o assunto de [ROOT.GetCharacter.Custom('education_conversation_subject')]?"
+ seduce_ongoing.5001.a.tt:0 "#F Apelo ao lado intelectual [target.GetFirstNamePossessiveNoTooltip]#!"
+ seduce_ongoing.5001.b:0 "Sobre o [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstNameNoTooltip]..."
+ seduce_ongoing.5001.b.tt:0 "#F Apelo ao lado malicioso [target.GetFirstNamePossessiveNoTooltip] zombando [mocked_courtier.GetTitledFirstNameNoTooltip] juntos#!"
+ seduce_ongoing.5001.c_tier_down:0 "A questão é o que #EMP eu #! posso fazer por #EMP você#!, minha [target.GetLadyLord]."
+ seduce_ongoing.5001.c_tier_up:0 "O prazer é todo meu, meu [target.GetLadyLord]. Devemos remediar isso."
+ seduce_ongoing.5001.c.tt:0 "#F Apelo ao lado [target.GetFirstNamePossessiveNoTooltip] luxuoso#!"
+ seduce_ongoing.5001.d:0 "Perdoe a intrusão, eu estava de saída."
+ 
+
+ seduce_ongoing.5003.t:0 "Meu rival [ROOT.Char.Custom2('RelationDescriptor', SCOPE.sC('owner'))|U]"
+ seduce_ongoing.5003.opening:0 "Para cada passo [owner.GetTitledFirstName] me dá em minha direção eu posso sentir meu humor cair. O que o [owner.Custom('InsultNoun')] quer agora?\n\n"
+ seduce_ongoing.5003.conversation:0 "Para minha surpresa, [owner.GetSheHe] me envolveu em uma discussão sobre o tema da [ROOT.GetCharacter.Custom('education_conversation_subject')], e apesar das minhas reservas iniciais sobre [owner.GetHerHis] empresa eu achei muito interessante!"
+ seduce_ongoing.5003.mockery:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]! Você não vai acreditar no que o [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstName] fez hoje!"\nTo my surprise we enjoyed a rather pleasant conversation on the topic of [mocked_courtier.GetFirstNamePossessive] many faults."
+ seduce_ongoing.5003.bodily:0 "Nada poderia me preparar para a tentação de [owner.GetHerHis] carne nua enquanto [owner.GetSheHe] removido [owner.GetHerHis] [owner.Custom('GetUpperClothingArticle')]."
+ seduce_ongoing.5003.fallback:0 "Para minha surpresa, passamos uma noite bastante agradável juntos, rindo sobre os temas mais mundanos e caminhando juntos pelos jardins."
+ seduce_ongoing.5003.a:0 "Nunca antes eu sabia [owner.GetHerHim] ser tão #EMP agradável#!!"
+
+ seduce_ongoing.5004.opening:0 "Para cada passo [owner.GetTitledFirstName] me dá em minha direção eu posso sentir meu humor cair. O que o [owner.Custom('InsultNoun')] quer agora?\n\n"
+ seduce_ongoing.5004.conversation:0 ""Sobre o tema da [owner.Custom('education_conversation_subject')]..."\n\nI do not know why [owner.GetSheHe] imagined that I would be interested in the topic, but I soon made it clear beyond a shadow of a doubt that I was anything but."
+ seduce_ongoing.5004.mockery:0 ""[ROOT.Char.GetTitledFirstNameNoTooltip]! Você não vai acreditar no que o [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstName] fez hoje!"\n\nI cannot imagine what possessed [owner.GetHerHim] to slander [mocked_courtier.GetTitledFirstName] in front of me, but [owner.GetSheHe] could not stop soon enough."
+ seduce_ongoing.5004.bodily:0 "À medida que [owner.GetSheHe] se aproxima desconfortavelmente de mim e começa a puxar sugestivamente [owner.GetHerHis] [owner.Custom('GetUpperClothingArticle')] eu rapidamente recuo."
+ seduce_ongoing.5004.fallback:0 "Aparentemente [owner.GetSheHe] tinha chegado à [owner.GetHerHis] mente para passar o dia comigo, porque [owner.GetSheHe] se recusou a sair antes de eu deixar claro meu desgosto por [owner.GetHerHis] presença."
+ seduce_ongoing.5004.a:0 "Como desagradável uma interação como de costume!"
+
+ seduce_ongoing.5005.conversation:0 "[target.GetTitledFirstNamePossessive] sorriso ilumina [target.GetHerHis] rosto inteiro no final de uma longa conversa sobre [target.Custom('herhis_subject_of_interest')]. Como um silêncio amável se estabelece entre nós eu percebo que estamos muito mais perto do que antes; minha mão quase escova [target.GetHerHis] [target.Custom('GetClothingArticle')]."
+ seduce_ongoing.5005.mockery:0 ""... e a maneira como [mocked_courtier.GetSheHe] [mocked_courtier.Custom('quirk_neg_present')] – Eu nunca vi nada parecido!"\n\nThe laughter we share at [mocked_courtier.GetTitledFirstNamePossessive] expense is more genuine than what I had hoped for, and as an amiable silence settles between us I realize we are standing much closer than before; my hand almost brushes [target.GetHerHis] [target.Custom('GetClothingArticle')]."
+ seduce_ongoing.5005.bodily:0 "Só me dá um gostinho do que [target.GetTitledFirstName] tem a oferecer, mas isso me deixa sedento por mais. Um silêncio amável se instala entre nós quando nos separamos, e percebo que [target.GetSheHe] está mais relaxado do que nunca na minha companhia – [target.Custom('GetUpperClothingArticle')] askew e tudo mais."
+ seduce_ongoing.5005.fallback:0 "Passamos a noite na companhia um do outro, conversando e rindo. Como um silêncio amável se estabelece entre nós eu percebo que estamos muito mais perto do que antes; minha mão quase escova [target.GetHerHis] [target.Custom('GetClothingArticle')]."
+ seduce_ongoing.5005.ending:0 "Oon"I never knew you were such good company, [ROOT.Char.GetFirstNameNoTooltip]!""
+ seduce_ongoing.5005.a:0 "Eu ainda vou mostrar [target.GetHerHim] o quão boa companhia eu posso ser!"
+
+ seduce_ongoing.5006.conversation:0 "Depois de quase uma hora de conversa estranha [target.GetFirstName] parece tão entediado quanto eu já vi [target.GetHerHim]. Quando mudo de tópico de [target.Custom('herhis_subject_of_interest')] para [ROOT.GetCharacter.Custom('education_conversation_subject')] [target.GetSheHe] [target.Custom('quirk_neg_present')] e desculpas [target.GetHerselfHimself]."
+ seduce_ongoing.5006.mockery:0 ""[target.GetTitledFirstNameNoTooltip]! Dá para acreditar que o [mocked_courtier.Custom('InsultNoun')] [mocked_courtier.GetFirstName] na verdade..."\n\nI quickly trail of as the disdain in [target.GetFirstNamePossessive] face grows more and more pronounced."
+ seduce_ongoing.5006.bodily:0 "À medida que me aproximo [target.GetFirstName], sorrindo [ROOT.Char.Custom('quirk_pos_adverb')] e sugestivamente levantando minha [ROOT.Char.Custom('GetUpperClothingArticle')], [target.GetSheHe] rapidamente recua com um olhar de puro desgosto."
+ seduce_ongoing.5006.fallback:0 "À medida que eu me desfaze, tentando encontrar algum ponto em comum com [target.GetFirstName], [target.GetHerHis] desdém cresce mais pronunciado no minuto.\n\nSoon o suficiente [target.GetSheHe] desculpas [target.GetHerselfHimself] e foge da minha empresa."
+ seduce_ongoing.5006.a:0 "Por que estou tentando dormir tão [target.Custom('InsultNounSexual')]?"
+
+ seduce_ongoing.5011.t:0 "Atrações agravantes"
+ seduce_ongoing.5011.desc:0 "Poucos podem me provocar como [target.GetTitledFirstName] podem, e como nos encontramos sozinhos [target.GetSheHe] logo me insulta e me dá a mão. Eu, é claro, respondo em espécie.\n\nI devo admitir que a emoção disso - tanto a luta quanto a proximidade de [target.GetHerHis] suando, heaving, corpo - é suficiente para colocar meu sangue em chamas. Logo eu não poderia dizer se eu estou realmente tentando melhor [target.GetHerHim], ou apenas desenhando a briga..."
+ seduce_ongoing.5011.a:0 "Eu vou ter certeza de que [target.Custom('quirk_neg_adjective')] sorriso deixa [target.GetHerHis] rosto!"
+ seduce_ongoing.5011.b:0 "Posso ajudá-lo a levantar?"
+ seduce_ongoing.5011.c:0 "[target.GetHerHis|U] próximo soco vai tirar sangue."
+ seduce_ongoing.5011.c.tt:0 "#F A dor que eu suporto por amor! #!\nEste opção está disponível por causa de [target.GetFirstNamePossessiveNoTooltip] característica sádica\n\n"
+ seduce_ongoing.5011.d:0 "Lutar como crianças não pode ser o caminho para [target.GetHerHis] coração!"
+
+ seduce_ongoing.5012.desc:0 "Poucos podem me provocar como [owner.GetTitledFirstName] podem, e à medida que nos encontramos sozinhos, logo colocamos o insulto e a mão um no outro.\n\nI devo admitir que a emoção disso - tanto a luta quanto a proximidade de outro suor, heaving, corpo - é suficiente para colocar meu sangue em chamas, e [owner.GetSheHe] não mostra sinais de desistência."
+ seduce_ongoing.5012.a:0 "[owner.GetSheHe|U] é melhor não pegar leve comigo!"
+ seduce_ongoing.5012.b:0 "Basta! Deixe-me."
+
+ seduce_ongoing.5013.desc:0 "[target.GetTitledFirstName] e eu acabamos no chão, brigando como pequenos [target.Custom('GirlsBoysChildren')]. Nossas carrancas logo se transformam em sorrisos, nossos punhos em carícias, nossos juramentos em gemidos...\n\n Se [target.GetSheHe] me notar permanecendo em [target.GetHerHis] abraço restritivo mais longo do que o necessário [target.GetSheHe] não parece se importar."
+ seduce_ongoing.5013.a:0 "É bom para soprar um pouco de vapor!"
+
+ seduce_ongoing.5014.desc:0 "[target.GetTitledFirstName] e eu acabamos no chão, brigando como pequenas [target.Custom('GirlsBoysChildren')], e [target.GetHerHis] carranca logo se transforma em uma careta.\n\n"Let up, you brute!""
+ seduce_ongoing.5014.a:0 "Isso foi lamentável."
+
+ seduce_ongoing.5015.desc:0 "Poucos podem me provocar como [owner.GetTitledFirstName] podem, e como nos encontramos sozinhos, logo colocamos insulto e mão um no outro.\n\nI devo admitir que fiquei surpreso quando [owner.GetSheHe] estendeu a mão para mim, oferecendo-se para me ajudar."
+ seduce_ongoing.5015.a:0 "Obrigado, [owner.GetFirstNameNoTooltip]."
+ seduce_ongoing.5015.b:0 "Quem [owner.GetSheHe] acha que é [owner.GetSheHe]?"
+
+ seduce_ongoing.5016.desc:0 "[target.GetTitledFirstName] e eu acabamos no chão, brigando como pequenas [target.Custom('GirlsBoysChildren')], e nossas carrancas logo se transformam em sorrisos.\n\nAs eu ofereço [target.GetHerHim] uma mão para cima [target.GetSheHe] pega e acena [target.GetHerHis] obrigado."
+
+ seduce_ongoing.5017.desc:0 "[target.GetTitledFirstName] e eu acabamos no chão, brigando como pequenas [target.Custom('GirlsBoysChildren')], e [target.GetHerHis] carranca logo se transforma em uma careta que se aprofunda enquanto eu me levanta antes de [target.GetHerHim].\n\n"Not even helping me up... I should not have expected anything else form such a [owner.Custom('InsultNoun')].""
+
+ seduce_ongoing.5018.desc:0 "Poucos podem me provocar como [owner.GetTitledFirstName] podem, e como nos encontramos sozinhos, logo colocamos insulto e mão um no outro.\n\n Depois de uma breve hesitação sobre [owner.GetHerHis] parte eu ganho a vantagem na briga, e eu não posso deixar de desfrutar de ter [owner.GetHerHim] à minha mercê assim, ofegante e submissa."
+ seduce_ongoing.5018.a:0 "Para se acovardar diante de mim combina com você!"
+ seduce_ongoing.5018.b:0 "Isso é patético. Deixe-me em paz."
+
+ seduce_ongoing.5019.desc:0 "Enquanto [target.GetTitledFirstName] estão acima de mim, não consigo parar o arrepio do medo que escorre até minha coluna enquanto vejo o prazer nos olhos [target.GetHerHis]. Pelo menos [target.GetSheHe] parece ter apreciado o gesto..."
+ seduce_ongoing.5019.a:0 "Esse arrepio foi de antecipação! T-verdadeiramente!"
+
+ seduce_ongoing.5020.desc:0 "Enquanto [target.GetTitledFirstName] está acima de mim, não consigo parar o arrepio do medo que sobe minha coluna enquanto vejo o prazer nos olhos [target.GetHerHis]. Enquanto [target.GetSheHe] se afasta de mim com um escárnio de desgosto, sinto alívio e decepção.\n\n"You could never please me. Leave me alone, [ROOT.Char.GetFirstNameNoTooltip].""
+ seduce_ongoing.5020.a:0 "Isso poderia ter sido melhor... Mas também pior!"
+
+ seduce_ongoing.5101.t:0 "Obrigações e Desejos"
+ seduce_ongoing.5101.desc:1 "[target.GetTitledFirstName] muitas vezes fala comigo de maneiras que deixam claro que [target.GetHerHis] serviço para mim cria uma distância entre nós.\n\nEu preciso fazer [target.GetHerHim] entender que eu quero [target.GetHerHim] de mais maneiras do que como meu vassalo, que eu anseio por [target.GetHerHis] calor, [target.GetHerHis] toque, e aqueles lábios deliciosos."
+ seduce_ongoing.5101.a:0 "Somos iguais antes [ROOT.Char.GetFaith.HighGodNameAlternate], [target.GetFirstNameNoTooltip]!"
+ seduce_ongoing.5101.a.tt:0 "#F enfatizo nossas semelhanças#!"
+ seduce_ongoing.5101.success_tt:0 "Se [target.GetFirstNameNoTooltip] responder positivamente:"
+ seduce_ongoing.5101.b:0 "Há mais maneiras de você me servir, [target.GetFirstNameNoTooltip]..."
+ seduce_ongoing.5101.b.tt:0 "#F enfatizo meu poder#!"
+ seduce_ongoing.5101.c:0 "Eu deveria manter meus sentimentos para mim mesmo por enquanto."
+ seduce_ongoing.5101.c.tt:0 "#F Há melhores maneiras de [target.GetHerHim] saber. #!"
+
+ seduce_ongoing.5102.desc:0 ""Nós... Este... Não precisamos estar vinculados a títulos. Somos mais do que meros nomes. Muito mais." My liege, [owner.GetFirstName], has come to me, and while I am at first uncertain of why, it soon becomes clear. "Nós... Este... Não precisamos estar vinculados a títulos. Somos mais do que meros nomes. Muito mais.""
+ seduce_ongoing.5102.a:0 "Minha [ROOT.Char.Custom2(''RelationToMe'Possessive', SCOPE.sC('owner'))] atenção é lisonjeira."
+ seduce_ongoing.5102.b:0 "Eu não quero mais do que o que já temos."
+
+ seduce_ongoing.5103.desc:0 "Meu querido [target.Custom2('RelationToMe', ROOT.Char)], [ROOT.Char.GetTitledFirstName],\n Estou lisonjeado em ouvir você nos descrever não apenas como liege e vassalo, mas em muitos aspectos como iguais. Que possamos compartilhar um futuro igualmente brilhante para nós dois."
+ seduce_ongoing.5103.a:0 "[target.GetFirstNameNoTooltip], eu vou ter você ainda!"
+
+ seduce_ongoing.5104.desc:0 "[owner.GetFirstName], meu [target.Custom2('RelationToMe', SCOPE.sC('owner'))]!\n O que você implica, o que você pede, é mais impróprio! Tenho minhas obrigações de servidão ao reino, mas não confunda minha lealdade ao desejo."
+ seduce_ongoing.5104.a:0 "Ah, mas [target.GetFirstNameNoTooltip]..."
+
+ seduce_ongoing.5105.desc:0 ""Desejo-lhe não apenas como um vassalo, mas como um [target.GetWomanMan]. Sirva sua [owner.GetLadyLord] desta forma, também!" My liege, [owner.GetFirstName], has come to me, and while I am at first uncertain of why, it soon becomes clear. "Desejo-lhe não apenas como um vassalo, mas como um [target.GetWomanMan]. Sirva sua [owner.GetLadyLord] desta forma, também!""
+ seduce_ongoing.5105.a:0 "Eu posso cuidar de você de maneiras que ninguém mais pode."
+ seduce_ongoing.5105.b:0 "Você tem minhas obrigações, mas nunca terá mais."
+
+ seduce_ongoing.5106.desc:0 "Meu querido [target.Custom2('RelationToMe', ROOT.Char)], [ROOT.Char.GetTitledFirstName],\n Estou lisonjeado que até eu, seu humilde sujeito, possa inspirá-lo desta forma. Vamos ver onde o tempo nos leva."
+
+ seduce_ongoing.5201.t:0 "Mais do que Amigos"
+ seduce_ongoing.5201.desc:0 "[target.GetFirstName] e eu atravessamos o [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier].\n\nAs nos deparamos com uma praça com uma fonte adorável que paramos para receber a atividade agitada ao nosso redor, nossa comitiva momentaneamente desaparecendo ao fundo."
+ seduce_ongoing.5201.a:0 "Vamos jogar uma moeda e desejar romance!"
+ seduce_ongoing.5201.a.tt:0 "Eu acho que [target.GetTitledFirstName] já está fantasiando sobre nós, ou pelo menos romance em geral"
+ seduce_ongoing.5201.b:0 "Lembre-se daquela vez que nós..."
+ seduce_ongoing.5201.b.tt:0 "Acho que [target.GetTitledFirstName] realmente valoriza nossa amizade"
+ seduce_ongoing.5201.c:0 "Eu não vou colocar em risco este momento."
+
+
+ seduce_ongoing.5202.desc:0 "Enquanto meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] e eu atravessamos o [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier] nos deparamos com um quadrado com uma fonte adorável.\n\n"Shall we toss a coin in together, my [ROOT.Char.GetLadyLord]? It is said that it will bring you romance...""
+ seduce_ongoing.5202.a:0 "Vamos fazer três, para dar sorte extra!"
+ seduce_ongoing.5202.b:0 "Soa como algo para um casal fazer, não amigos."
+
+ seduce_ongoing.5203.desc:0 "[target.GetFirstName] alegremente fica ao meu lado, lançando uma moeda na água da fonte e encontrando meu olhar com um sorriso.\n\nO resto da caminhada é tingido com um tom amável provocado pelo nosso desejo compartilhado."
+ seduce_ongoing.5203.a:0 "[target.GetSheHe|U] realmente é [target.Custom2('ComplimentAdjectiveArticle', ROOT.Char)] [target.GetWomanMan]!"
+
+ seduce_ongoing.5204.desc:0 ""Que jogo bobo você está jogando, [ROOT.Char.GetFirstNameNoTooltip]?"\n\n[target.GetFirstName] declines my request of wishing for romance. The rest of the walk is spent in tense silence, and we soon bid each other farewell."
+ seduce_ongoing.5204.a:0 "Meu humor ficou tão escuro quanto as profundezas da fonte..."
+
+ seduce_ongoing.5205.desc:0 "À medida que meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] e eu atravessamos o [court_location.Custom('BaronyTownType')] de [court_location.GetNameNoTier] falamos dos velhos tempos.\n\n"Remember that time we lingered in each other's company well into the night, making plans for the future, imagining a shared one...?""
+ seduce_ongoing.5205.a:0 "Como eu poderia esquecer?"
+ seduce_ongoing.5205.b:0 "Por que [owner.GetSheHe] está trazendo à tona aquela noite embaraçosa?"
+
+ seduce_ongoing.5206.desc:0 "[target.GetFirstName] e eu passamos horas relembrando o passado, e jogando fora futuros hipotéticos juntos.\n\nO resto da caminhada é tingido com um tom amável, e eu não posso deixar de esperar que algumas de nossas teorias lúdicas se transformem em realidade."
+
+ seduce_ongoing.5207.desc:0 ""\n\n[target.GetFirstName] deixa claro que [target.GetSheHe] não tem interesse em especulações para o que poderia ter sido, ou ainda poderia acontecer, entre nós. O resto da caminhada é gasto em silêncio tenso, e logo nos despedimos.""\n\n[target.GetFirstName] deixa claro que [target.GetSheHe] não tem interesse em especulações para o que poderia ter sido, ou ainda poderia acontecer, entre nós. O resto da caminhada é gasto em silêncio tenso, e logo nos despedimos."
+ seduce_ongoing.5207.a:0 "Bem, isso poderia ter sido melhor!"
+
+ seduce_ongoing.5301.t:0 "Um Momento Sozinho"
+ seduce_ongoing.5301.desc:0 "Ninguém jamais acharia estranho que eu me sentasse com meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] à beira da lareira até tarde da noite. No entanto, há uma tensão no ar.\n\nEu não quero nada mais do que puxar [target.GetHerHis] fechar e rasgar as roupas de [target.GetHerHis] corpo, mas se [target.GetSheHe] soubesse disso, [target.GetSheHe] ficaria horrorizada. Ou...?"
+ seduce_ongoing.5301.a:0 "Uma mão na mão [target.GetHerHis] diria tudo."
+ seduce_ongoing.5301.a.tt:0 "#F espero que meus sinais sutis sejam bem recebidos#!"
+ seduce_ongoing.5301.b:0 "Estamos sozinhos, e eu não vou negar-me [target.GetHerHis] lábios."
+ seduce_ongoing.5301.b.tt:0 "#F espero que meu interesse seja bem recebido#!"
+ seduce_ongoing.5301.c:0 "Seria uma pena arruinar uma noite maravilhosa."
+ seduce_ongoing.5301.c.tt:0 "#F Haverá outras vezes. Meu [THIS.Char.Custom2('RelationToMe', SCOPE.sC('target'))] não vai a lugar algum. #!"
+ seduce_ongoing.5301.success_tt:0 "Se [target.GetFirstName] devolver meus avanços:"
+
+ seduce_ongoing.5302.desc:0 "Parece tão certo, eu nem sequer tomo nota no início, mas quando nos sentamos em frente à lareira, minha [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] [owner.GetFirstName] aperta minha mão com uma intensidade muito além das garantias de um [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))].\n\nI pode sentir [target.GetHerHis] pulso acelerar com o desejo."
+ seduce_ongoing.5302.a:0 "Eu me recuso a acreditar que o que eu sinto é errado."
+ seduce_ongoing.5302.b:0 "Estou lisonjeado pela atenção, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], mas não."
+
+ seduce_ongoing.5303.desc:0 "[target.GetFirstName] nem vacilar como minha mão agarra [target.GetHersHis], mesmo que ambos saibamos o que significa. Posso sentir [target.GetHerHis] pulso subindo enquanto nossa conversa continua. Minha palma sua e minha respiração fica superficial antes #EMP O que foi isso? #! Ah, só um servo.\n\nMy [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))] e eu faço nossas desculpas, antes de partir. Separadamente."
+ seduce_ongoing.5303.a:0 "Eu sei que você sentiu isso também, [target.GetFirstNameNoTooltip]."
+
+ seduce_ongoing.5304.desc:0 "[target.GetSheHe|U] me deixa sentado sozinho perto do fogo."A [target.Custom2('RelationToMe', SCOPE.sC('owner'))] should never... This should never be!"[target.GetSheHe|U] me deixa sentado sozinho perto do fogo."
+ seduce_ongoing.5304.a:0 "Eu sei, [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))], mas mesmo assim..."
+
+ seduce_ongoing.5305.desc:0 "Acontece tão de repente, e ainda assim eu não estou surpreso. Em um momento estamos sentados perto do fogo, no outro meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))] se inclina mais perto. Então [owner.GetHerHis] lábios são pressionados contra os meus, mãos acariciando meu pescoço, meus ombros, minhas coxas, minhas entranhas-\n\nO barulho de um servo que se aproxima nos faz romper com toda a pressa, e meus pensamentos rapidamente alcançam meu desejo."
+ seduce_ongoing.5305.a:0 "Parece que as coisas estão finalmente certas."
+
+ seduce_ongoing.5306.desc:0 "[target.GetFirstName] devolve meu beijo, e por alguns momentos emocionantes, está tudo bem com o mundo. Não pode durar, é claro, como nos separamos às pressas antes de sermos vistos por um servo que passa.\n\nQuando partimos para seguir nossos caminhos separados [target.GetSheHe] olha para mim. "I did not fully understand until now, [target.Custom2('RelationToMe', SCOPE.sC('owner'))].""
+ seduce_ongoing.5306.a:0 "Você e eu, meu querido [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('target'))]."
+
+ seduce_ongoing.5307.desc:0 "Não tenho nada a dizer, não tenho como me explicar, antes que [target.GetSheHe] saia correndo da sala."What do you think you are doing?! You are my [target.Custom2('RelationToMe', SCOPE.sC('owner'))]!"Não tenho nada a dizer, não tenho como me explicar, antes que [target.GetSheHe] saia correndo da sala."
+ seduce_ongoing.5307.a:0 "[target.GetFirstNameNoTooltip], eu realmente pensei..."
+
+ seduce_ongoing.6001.t:0 "Só Curioso"
+ seduce_ongoing.6001.desc:0 "Ao visitar outros tribunais, acho benéfico passar um tempo com cortesãos para conhecer sua mentira. Se acontecer de ser com [target.GetTitledFirstName], melhor ainda.\n\n[target.GetSheHe|U] responde minhas perguntas diligentemente, e sinto como se pudesse passar o dia todo ouvindo, e [target.GetSheHe] parece contente em falar."
+ seduce_ongoing.6001.a:0 "Sua [target.Custom2('RelationToMe', SCOPE.sC('court_owner'))] é interessante, mas o que você #EMP #!?"
+ seduce_ongoing.6001.b:0 "Certamente você vai me mencionar para [court_owner.GetFirstNameNoTooltip]?"
+
+ seduce_ongoing.6011.t:0 "Uma Demonstração de Força"
+ seduce_ongoing.6011.desc:0 "Estou vendo as tropas no pátio praticar a broca que eu instruí-los, uma e outra vez. Eu presto tanta atenção que não percebo [target.GetTitledFirstName] venho ao meu lado.\n\n"They move well, but that [dummy_gender.GetWomanMan] is constantly a half-step behind.""
+ seduce_ongoing.6011.a:0 "O mais impressionante! Temos mais em comum do que eu pensava."
+ seduce_ongoing.6011.b:0 "Você tem um olho afiado!"
+ seduce_ongoing.6011.c:0 "Uma tática de distração. Veja o que acontece agora..."
+
+ seduce_ongoing.6021.t:0 "Um Encontro de Mentes"
+ seduce_ongoing.6021.desc:0 "Me surpreendeu que [target.GetTitledFirstName] e eu nos envolvessem em uma discussão sobre assuntos militares, mas [target.GetSheHe] parece quase tão apaixonado quanto eu sobre o assunto. [target.GetSheHe|U] é incrivelmente bem informado, também!"
+ seduce_ongoing.6021.a:0 "Por que [target.GetFirstNameNoTooltip], em todos os meus anos eu nunca ouvi a tal!"
+ seduce_ongoing.6021.b:0 "[target.GetFirstNameNoTooltip], eu nunca soube que tínhamos tanto em comum."
+ seduce_ongoing.6021.c:0 "Conte-me mais sobre seus pensamentos sobre formações de cavalaria..."
+
+ seduce_ongoing.6031.t:0 "Uma Teia"
+ seduce_ongoing.6031.desc:0 " minhas intenções em relação ao [target.GetFirstName] e deixe [target.GetHerHim] sentir que [target.GetSheHe] tem a vantagem."discover" minhas intenções em relação ao [target.GetFirstName] e deixe [target.GetHerHim] sentir que [target.GetSheHe] tem a vantagem."
+ seduce_ongoing.6031.a:0 "Eu também vou deixá-los saber que eu sei que eles sabem..."
+ seduce_ongoing.6031.b:0 "Eu vou ter certeza que os espiões se deparar #EMP algo de interesse. #!"
+ seduce_ongoing.6031.c:0 "Oh, que excelente oportunidade para praticar!"
+
+ seduce_ongoing.6041.t:0 "Compreensão Amorosa"
+ seduce_ongoing.6041.desc:0 "Na minha busca por [target.GetTitledFirstNamePossessive] afeto, seria muito útil saber exatamente quais são os gostos e preferências [target.GetHerHis]..."
+ seduce_ongoing.6041.a:0 "#EMP Pah#!, isso nem é um desafio!"
+ seduce_ongoing.6041.b:0 "Tenho certeza que poderia convencer [target.GetHerHim] a me dizer."
+ seduce_ongoing.6041.b.success:0 "Eu aprendo mais sobre [target.GetFirstNamePossessive] interesses"
+ seduce_ongoing.6041.b.failure:0 "[target.GetFirstName] evita minhas perguntas"
+ seduce_ongoing.6041.c:0 "Meus espiões descobrirão isso em pouco tempo."
+ seduce_ongoing.6041.c.success:0 "Meus espiões são bem sucedidos"
+ seduce_ongoing.6041.c.failure:0 "[target.GetFirstName] ilude meus espiões"
+ seduce_ongoing.6041.d:0 "Você sabe o quê? Eu só vou perguntar."
+
+ seduce_ongoing.6042.desc:0 "Isso é muito interessante... [target.GetFirstName] é um [target.GetWomanMan] de bom gosto."
+ seduce_ongoing.6042.a:0 "Isso vai me ajudar a ganhar [target.GetHerHis] afeto."
+
+ seduce_ongoing.6043.desc:0 "Parece que eu estava talvez um pouco indelicado em se aproximar de [target.GetFirstName]. Agora [target.GetSheHe] se pergunta por que estou tão irracionalmente interessado em [target.GetHerHis] valores!"
+ seduce_ongoing.6043.a:0 "Isso não é bom para mim."
+
+ seduce_ongoing.6051.t:0 "O Véu da Cortesia"
+ seduce_ongoing.6051.close:0 "Eu enquadrou tudo como uma oportunidade para praticar cortesia diplomática. Tenho certeza que [target.GetTitledFirstName] pode ver através da minha desculpa, mas [target.GetSheHe] concordou, no entanto."
+ seduce_ongoing.6051.far:0 "Visitar outro tribunal é sempre uma desculpa para trocar cortesias diplomáticas. Felizmente [target.GetTitledFirstName] estava mais do que disposto a me obrigar."
+ seduce_ongoing.6051.end:0 "\n\nPara qualquer forasteiro, nossas trocas podem ter soado como platitudes vazias exigidas pela tradição. Para nós, no entanto, a paixão queimando sob a superfície de nossas palavras era fogo."
+ seduce_ongoing.6051.a:0 "Ah, refrescante!"
+ seduce_ongoing.6051.b:0 "Algumas das dicas que você me deu, [target.GetFirstNameNoTooltip]..."
+ seduce_ongoing.6051.c:0 "Preciso de mais prática como essa."
+ 

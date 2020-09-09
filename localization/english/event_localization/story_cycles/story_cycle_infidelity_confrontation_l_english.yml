@@ -1,0 +1,100 @@
+﻿l_english:
+
+# Secret has been exposed/discovered — lover/spouse decides how to react, by Mathilda Bjarnehed
+ infidelity_confrontation.1000.t:0 "Infiel"
+ 	#Special confession desc
+ infidelity_confrontation.1000.confession.apologetic_start.desc:0 "[infidelity_partner.GetFirstNameNoTooltip] está em silêncio como se estivesse congelado no tempo, mas eu posso vê-lo em [infidelity_partner.GetHerHis] olhos. Meus medos são verdadeiros. Eu também pareço ter congelado — exceto pelo meu coração, que está batendo forte.\n\nAs palavras finalmente derramam de [infidelity_partner.GetFirstNamePossessiveNoTooltip] lábios, assim como lágrimas de [infidelity_partner.GetHerHis] olhos. "Oh, [infidelity_partner.Custom2('RelationToMeShort', ROOT.Char)], I never meant to hurt you. I swear! I... I will tell you everything. I have shared my bed with "
+ infidelity_confrontation.1000.confession.your_lovername.desc:0 "[infidelity_partners_lover.Custom2('YourCharacterIntroductionNoComma', ROOT.Char)]."
+ infidelity_confrontation.1000.confession.my_lovername.desc:0 "[infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', infidelity_partner)]."
+ infidelity_confrontation.1000.confession.apologetic_end.desc:0 """
+ infidelity_confrontation.1000.confession.unapologetic_start.desc:0 "[infidelity_partner.GetHerHis|U] palavras estão pingando veneno."It took you long enough to notice, #EMP [infidelity_partner.Custom2('RelationToMeShort', ROOT.Char)]#!."[infidelity_partner.GetHerHis|U] palavras estão pingando veneno."Yes, I have lain with another – "
+ infidelity_confrontation.1000.confession.unapologetic_end_opposite_sex.desc:0 "Eu prefiro dormir com cem [infidelity_partners_lover.GetWomenMen] do que passar uma noite com você.""
+ infidelity_confrontation.1000.confession.unapologetic_end_same_sex.desc:0 "[infidelity_partners_lover.GetSheHe|U] é o dobro do [infidelity_partners_lover.GetWomanMan] você jamais será.""
+ 	#Regular desc
+ infidelity_controntation.1000.partner_exposed_intro.desc:0 "[infidelity_partner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] confessou ter um caso com [infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.partners_lover_exposed_intro.desc:0 "[infidelity_partners_lover.Custom2('MyCharacterIntroduction', ROOT.Char)|U] confessou ter um caso com [infidelity_partner.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.exposed_intro.desc:0 "[exposer.Custom2('MyCharacterIntroduction', ROOT.Char)|U] expôs meu caso [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partner'))] [infidelity_partner.GetFirstNamePossessive] com [infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.investigation_intro.desc:0 "Minha investigação foi bem sucedida, e meus medos foram confirmados. [infidelity_partner.GetSheHe|U] está tendo um caso com [infidelity_partners_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]!\n\n"
+ infidelity_controntation.1000.exposed_knew.desc:0 "Agora que toda a história está aberta, meu [ROOT.Char.Custom2('RelationToMeShort', infidelity_partner )] e [infidelity_partner.GetHerHis] [infidelity_partners_lover.Custom('InsultNounSexual')] estão prestes a enfrentar as consequências de seus atos."
+ infidelity_controntation.1000.start_lover.desc:0 "Como se tomar outro amante não fosse suficiente,"
+ infidelity_controntation.1000.start_spouse.desc:0 "Como se violar a santidade do nosso casamento não fosse suficiente,"
+ infidelity_controntation.1000.incest.desc:1 "minha [infidelity_partner.Custom('InsultNoun')] de um [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partner'))] teve que dividir a cama com [infidelity_partners_lover.GetHerHim] de todas as pessoas! [infidelity_partner.GetHerHis|U] própria #EMP [infidelity_partner.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partners_lover'))]#!!\n\nPerhaps que eu deveria saber. Eles sempre foram tão... Perto. [ROOT.Char.GetFaith.HighGodName]. O pensamento deles juntos... Isso me deixa doente."
+ infidelity_controntation.1000.sodomy.desc:1 "minha [infidelity_partner.Custom('InsultNoun')] de um [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('infidelity_partner'))] teve que dividir a cama com [infidelity_partners_lover.GetHerHim] de todas as pessoas! Outro #EMP [infidelity_partner.GetWomanMan]#!!\n\nOh, [ROOT.Char.GetFaith.HighGodName]. O pensamento deles... Juntos... Isso me deixa doente.""
+ infidelity_controntation.1000.regular.desc:0 "Como [infidelity_partner.GetTitledFirstName] poderia dividir [infidelity_partner.GetHerHis] cama com outro? Como [infidelity_partner.GetSheHe] poderia me trair assim? Talvez eu nunca saiba [infidelity_partner.GetHerHis] razões, mas parece não haver dúvida sobre [infidelity_partner.GetHerHis] culpa."
+ 	#Options
+ infidelity_confrontation.1000.demand_break_up.lover:0 "Faça sua escolha. É [infidelity_partners_lover.GetHerHim] ou eu!"
+ infidelity_confrontation.1000.demand_break_up.spouse:0 "Separe- o, ou #EMP #! serão consequências!"
+ infidelity_confrontation.1000.demand_break_up.success:0 "[infidelity_partner.GetFirstNameNoTooltip] cede à sua demanda"
+ infidelity_confrontation.1000.break_up.failure:0 "[infidelity_partner.GetFirstNameNoTooltip] se recusa a terminar o caso"
+ infidelity_confrontation.1000.demand_break_up.flavor:0 "[infidelity_partner.GetFirstNameNoTooltip] é mais provável que concorde se [infidelity_partner.GetSheHe] teme as consequências"
+ infidelity_confrontation.1000.plead_break_up:0 "Meu amor, eu imploro a você! Deixe essa loucura acabar!"
+ infidelity_confrontation.1000.plead_break_up.flavor:1 "[infidelity_partner.GetFirstNameNoTooltip] é mais provável que concorde se [infidelity_partner.GetSheHe] se importa com você, ou se importa com você"
+ infidelity_confrontation.1000.plead_break_up.success:0 "[infidelity_partner.GetFirstNameNoTooltip] termina o caso e pede perdão"
+ infidelity_confrontation.1000.break_up:0 "Eu #EMP sabia#! [infidelity_partner.GetSheHe] era indigno das minhas atenções."
+ infidelity_confrontation.1000.expose:0 "O mundo saberá de seu sórdido caso!"
+ infidelity_confrontation.1000.blackmail:0 "Certamente, você quer que isso permaneça em segredo..."
+ infidelity_confrontation.1000.imprison:0 "O amor vai mantê-lo aquecido nas masmorras."
+ infidelity_confrontation.1000.opt_out:0 "Preciso de tempo para pensar..."
+ infidelity_confrontation.1000.opt_out.knew:0 "Eu me canso desta farsa."
+ infidelity_confrontation.1000.opt_out.blackmail.tt:0 "Eu poderia considerar [blackmailing|E] [infidelity_partner.GetShortUIName], dando [infidelity_partner.GetHerHim] um gostinho de [infidelity_partner.GetHerHis] próprio remédio, ou perdoar [infidelity_partner.GetHerHim]"
+ infidelity_confrontation.1000.opt_out.divorce.tt:0 "Eu poderia considerar [divorcing|E] [infidelity_partner.GetShortUIName], dando [infidelity_partner.GetHerHim] um gostinho de [infidelity_partner.GetHerHis] próprio remédio, ou perdoar [infidelity_partner.GetHerHim]"
+ infidelity_confrontation.1000.opt_out.fallback.tt:0 "Eu poderia considerar dar [infidelity_partner.GetShortUIName] um gostinho de [infidelity_partner.GetHerHis] próprio remédio, ou perdoar [infidelity_partner.GetHerHim]"
+ 
+# Demand break up branch: Demand is presented to infidelity partner, by Mathilda Bjarnehed
+ infidelity_confrontation.1010.start.desc:0 ""Eu sei tudo sobre o seu e [infidelity_partners_lover.GetTitledFirstNamePossessive] sórdido caso! Não perca seu fôlego negando isso!""
+ infidelity_confrontation.1010.sad.desc:0 "Minha voz [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] [confronting_partner.GetFirstNamePossessive] está tremendo, lágrimas escorrendo [confronting_partner.GetHerHis] bochechas.\n\n"
+ infidelity_confrontation.1010.angry.desc:0 "Meu grito [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] [confronting_partner.GetFirstNamePossessive] reverbera através dos meus ossos. É preciso tudo ao meu alcance para não vacilar.\n\n"
+ infidelity_confrontation.1010.break_up.desc:0 ""Eu não posso mais aceitar isso, [ROOT.Char.GetFirstNameNoTooltip]. Você tem que fazer uma escolha. É [infidelity_partners_lover.GetHerHim] ou eu!""
+ infidelity_confrontation.1010.celibacy.desc:0 ""Se você não deixar [infidelity_partners_lover.GetHerHim], eu nunca vou dividir sua cama novamente!""
+ infidelity_confrontation.1010.imprisonment.desc:0 ""Se você se recusar a deixar [infidelity_partners_lover.GetHerHim], eu vou separá-lo com barras de ferro!""
+ infidelity_confrontation.1010.a:0 "Eu vou acabar com isso, eu juro!"
+ infidelity_confrontation.1010.c:0 "Faça o que quiser - [infidelity_partners_lover.GetSheHe] e eu estamos destinados a ser!"
+ 
+# Demand break up branch: Demand is accepted, by Mathilda Bjarnehed
+ infidelity_confrontation.1011.unapologetic_start.desc:0 "[infidelity_partner.GetFirstNamePossessive] olhos brilham como fogos furiosos, mas [infidelity_partner.GetHerHis] voz é fria como gelo.\n\n"Do you think threats will repair our"
+ infidelity_confrontation.1011.unapologetic_marriage.desc:0 "casamento,"
+ infidelity_confrontation.1011.unapologetic_love.desc:0 "Amor,"
+ infidelity_confrontation.1011.unapologetic_end.desc:0 "[ROOT.Char.GetFirstNameNoTooltip]? Bem. Que seja do seu jeito. Mas não se engane - eu não me arrependo do que fiz. Nem por um segundo.""
+ infidelity_confrontation.1011.a:0 "Será que as coisas serão as mesmas entre nós?"
+ infidelity_confrontation.1011.apologetic_start.desc:0 "Lágrimas caem [infidelity_partner.GetFirstNamePossessive] bochechas. São lágrimas de arrependimento, ou medo, eu me pergunto?\n\n"Please, you must forgive me. I beg of you! I will end it, of course I will. It was a stupid mistake — nothing more! I swear it!""
+
+# Demand break up branch: Demand is rejected, by Mathilda Bjarnehed
+ infidelity_confrontation.1012.apologetic_start.desc:0 "[infidelity_partner.GetFirstName] permanece parada e silenciosa enquanto faço minha exigência, lágrimas arrastando-se [infidelity_partner.GetHerHis] bochechas. Mas quando [infidelity_partner.GetSheHe] finalmente fala, [infidelity_partner.GetHerHis] palavras não são o que eu esperava.\n\n"
+ infidelity_confrontation.1012.apologetic_imprisonment.desc:0 ""Sinto muito, mas eu não posso fazê-lo. Prefiro passar o resto dos meus dias nas masmorras do que negar meus sentimentos por [infidelity_partners_lover.GetFirstName]. Se você me odeia tanto - se você quer me ver sofrer - que assim seja.""
+ infidelity_confrontation.1012.apologetic_break_up.desc:0 ""Eu nunca quis machucá-lo, e por isso eu sinto muito. Mas não posso negar meus sentimentos por [infidelity_partners_lover.GetFirstName]. O que temos - nada mais se compara a ele. Nem mesmo você.""
+ infidelity_confrontation.1012.unapologetic_imprisonment.desc:0 "[ROOT.Char.GetFirstNameNoTooltip]? Eu prefiro passar o resto da minha vida nas masmorras do que outro segundo com você!""
+ infidelity_confrontation.1012.unapologetic_break_up.desc:0 "[ROOT.Char.GetFirstNameNoTooltip]? Você sempre foi um tolo. Obrigado por abrir meus olhos. Nunca vi você mais claramente!""
+ infidelity_confrontation.1012.a:0 "Tudo bem! Faça do seu jeito, você [infidelity_partner.Custom('InsultAdjective')] [infidelity_partner.Custom('InsultNounSexual')]!"
+
+ # Demand break up branch: break up notification for the infidelity partner's lover, by Mathilda Bjarnehed
+ infidelity_confrontation.1013.t:1 "[infidelity_partners_lover.Custom2('AppropriateGreeting', infidelity_partner)]"
+ infidelity_confrontation.1013.love.desc:1 "[ROOT.Char.Custom('LoverPetName')|U], pensei que sempre ficaríamos juntos, que nada poderia ficar entre nós. Mas não importa o quanto eu me importe com você, não posso mais ignorar a dura realidade da nossa situação. Nossos sonhos, por mais doces e perfeitos que sejam, nunca foram mais do que isso. E agora eles nunca serão.\n\nDespite tudo, devemos continuar, meu amor. Se não podemos ficar juntos nesta vida, devemos esperar pacientemente pelo próximo."
+ infidelity_confrontation.1013.like.desc:0 "Querida [ROOT.Char.Custom('LoverPetName')]. É com o coração pesado que escrevo esta carta. Tivemos um sonho, um sonho maravilhoso e alegre. Mas nunca foi mais do que isso, e por mais que doa, a resposta é óbvia. Não podemos continuar juntos.\n\nEu quero agradecer por todos os bons tempos. Nunca vou esquecê-los. Que sua vida seja longa e feliz."
+ infidelity_confrontation.1013.neutral.desc:0 "Nossa ligação, por mais agradável que tenha sido, não é mais um assunto privado. Foi bom enquanto durou, mas agora, ele deve acabar.\n\n Tomar cuidado de si mesmo, [ROOT.Char.GetTitledFirstNameNoTooltip]. Esta despedida pode doer hoje, mas eu lhe asseguro - em breve será esquecida."
+ infidelity_confrontation.1013.a:0 "E nem mesmo uma chance de dar um beijo de adeus..."
+
+ # Plead for break up branch: infidelity partner is presented with request, by Mathilda Bjarnehed
+ infidelity_confrontation.1001.kind_start.desc:0 "Minhas lágrimas [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] [confronting_partner.GetFirstNamePossessive] doem muito pior do que palavras duras jamais poderiam. Eu fico crestfallen como"
+ infidelity_confrontation.1001.unkind_start.desc:0 "Minhas lágrimas [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))] [confronting_partner.GetFirstNamePossessive] são genuínas? Talvez isso não seja nada além de um ato, projetado para despertar minha piedade? Eu soltei um suspiro exasperado como"
+ infidelity_confrontation.1001.love_end.desc:0 "[confronting_partner.GetFirstName] desenha um longo e trêmuto fôlego."[ROOT.Char.GetFirstNameNoTooltip], how could you do this? I love you, you foolish [ROOT.Char.GetWomanMan]!"[confronting_partner.GetFirstName] desenha um longo e trêmuto fôlego."Come back to me, my [ROOT.Char.Custom('LoverPetName')]. Leave that [infidelity_partners_lover.Custom('InsultNoun')] and everything will be forgiven.""
+ infidelity_confrontation.1001.regular_end.desc:0 "[confronting_partner.GetSheHe] limpa [confronting_partner.GetHerHis] bochechas com um lenço.\n\n"I know I might not be the perfect [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('confronting_partner'))], but I deserve better than this. We both do. I beg of you — come to your senses and leave that [infidelity_partners_lover.Custom('InsultNoun')]. It is not too late to make things better.""
+ infidelity_confrontation.1020.a:0 "Farei qualquer coisa para merecer seu perdão!"
+ infidelity_confrontation.1020.b:0 "Eu não posso negar meus sentimentos por [infidelity_partners_lover.GetFirstNameNoTooltip]!"
+
+ # Plead for breakup branch: request is accepted, by Mathilda Bjarnehed
+ infidelity_confrontation.1021.love.desc:0 "[infidelity_partner.GetSheHe] sussurra entre soluços."I do not deserve your forgiveness,"[infidelity_partner.GetSheHe] sussurra entre soluços."But I will do everything in my power to change that. I swear it, my love. I swear on my life.""
+ infidelity_confrontation.1021.regular.desc:0 "\n\n[infidelity_partner.GetSheHe|U] balança [infidelity_partner.GetHerHis] cabeça com um suspiro."I had convinced myself I did nothing wrong, but now when it is all out in the open..."\n\n[infidelity_partner.GetSheHe|U] balança [infidelity_partner.GetHerHis] cabeça com um suspiro."I can finally see the error of my ways. Forgive me, [ROOT.Char.GetFirstNameNoTooltip]. Let us try again.""
+ infidelity_confrontation.1021.a:0 "Vai levar tempo, mas vamos reconstruir."
+
+ # Plead for breakup branch: request is rejected, by Mathilda Bjarnehed
+ infidelity_confrontation.1021.unapologetic_start.desc:0 ""Nenhuma quantidade de lágrimas vai me fazer mudar de ideia. Pare de desperdiçar seu tempo - e o meu." [infidelity_partner.GetFirstName] says, [infidelity_partner.Custom('quirk_neg_pp')]. "Nenhuma quantidade de lágrimas vai me fazer mudar de ideia. Pare de desperdiçar seu tempo - e o meu."\n\nHow can [infidelity_partner.GetSheHe] be so cold?"
+ infidelity_confrontation.1022.apologetic_start.desc:0 "[infidelity_partner.GetFirstName] permanece parada e silenciosa enquanto imploro por amor [infidelity_partner.GetHerHis], lágrimas arrastando [infidelity_partner.GetHerHis] bochechas. Mas quando [infidelity_partner.GetSheHe] finalmente fala, [infidelity_partner.GetHerHis] palavras não são o que eu esperava.\n\n"
+ infidelity_confrontation.1022.a:0 "Eu lhe ofereço meu coração, e você jogá-lo fora?"
+
+ # Break up branch: infidelity partner is informed about confronting partner's decision to end it, by Mathilda Bjarnehed
+ infidelity_confrontation.1030.t:0 "[confronting_partner.Custom2('AppropriateGreetingNegative', infidelity_partner)]"
+ infidelity_confrontation.1030.desc:0 "Eu ouvi falar de sua sórdida dalliance pouco com [infidelity_partners_lover.GetTitledFirstName]. Obrigado por revelar sua verdadeira natureza tão claramente!\n\nHás sem dúvida em minha mente; Perdi meu tempo e atenção em um [ROOT.Char.Custom('InsultAdjective')] [ROOT.Char.Custom('InsultNounSexual')]. Você nem sequer merece a tinta da minha pena! Uma vez que esta carta foi enviada, eu não vou poupá-lo de outro pensamento."
+ infidelity_confrontation.1030.a:0 "Se você me deixasse explicar!"
+
+
+  

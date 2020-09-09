@@ -1,0 +1,37 @@
+﻿l_english:
+ bm_1066_rags_to_riches:0 "Rags to Riches"
+ bm_1066_rags_to_riches_desc:1 "Em toda a Europa, as famílias lutam e planejam o poder. Muitas mentiras de terra são disputadas, à medida que batalhas são ganhas e perdidas, e dinastias vêm e vão, à medida que seus governantes são superados.\n\n#ousados Reis de antigamente estão sendo substituídos, enquanto os recém-chegados alcançam as estrelas. Qual você vai ser? #!"
+
+ # Murchad Briain, Duke of Munster, Ireland
+ bookmark_rags_to_riches_petty_king_murchad:0 "Pequeno Rei Murchad"
+ bookmark_rags_to_riches_petty_king_murchad_desc:0 "No início do século XI, a Alta Realeza da Irlanda caiu dentro e fora de casa, como as casas nobres irlandesas têm guerra sobre território, uns contra os outros e colonos vikings. No entanto, a partir de uma linhagem de homens considerados destinados à Realeza, pouco se sabe sobre o breve reinado de Murchad sobre a área menor de Munster.\n\n#negrito Com sua ajuda, talvez um membro da casa de Briain possa sentar-se no trono da Irlanda mais uma vez? #!"
+
+ bookmark_rags_to_riches_petty_king_murchad_alt_brian:0 "$Brian$"
+ bookmark_rags_to_riches_petty_king_murchad_alt_bebinn:0 "$BE_binn$"
+
+ # Matilda di Canossa, Duchess of Tuscany, Italy
+ bookmark_rags_to_riches_duchess_matilda:0 "Duquesa Matilda"
+ bookmark_rags_to_riches_duchess_matilda_desc:0 "Por habilidade ou circunstância, Matilda de Canossa está destinada a herdar um território substancial no norte da Itália. Ela passará a se tornar uma poderosa e bem conectada governante, eventualmente subindo para o posto único de Vigário Imperial e Vice-Rainha da Itália. Muito depois de sua morte, ela continuará sendo uma figura lendária tanto por sua piedosa quanto pela suspeita de bruxaria.\n\n#negrito Você pode garantir que o legado de Mathilda perdura, e continuar a linha canossa por gerações futuras? #!"
+
+ # Yahya Dhunnunid, Emir (Duke) of Toldeo, Iberia
+ bookmark_rags_to_riches_emir_yahya:0 "Emir John"
+ bookmark_rags_to_riches_emir_yahya_desc:1 "O Reino de Toledo será estabelecido no final do século XI, quando o Rei de Leão assumir a cidade homônima. Esta erradicação do Emir Yahya e sua influência significa que a família Dhunnunid perderá seu domínio sobre a região, onde eles reinaram por gerações.\n\n#negrito Através da manipulação de seus rivais, e encontrar mais aliados, você tem o que é preciso para desafiar os Reis da península Ibérica e mudar a história para a casa dhunnunid? #!"
+
+ bookmark_rags_to_riches_emir_yahya_alt_zahida:0 "$Zahida$"
+ bookmark_rags_to_riches_emir_yahya_alt_yahya2:0 "$Yahya$"
+
+ # Vratislav Premyslid, Duke of Bohemia, Czechia
+ bookmark_rags_to_riches_duke_vratislav:0 "Duke Vratislav"
+ bookmark_rags_to_riches_duke_vratislav_desc:0 "A família Přemyslid governa a região da Boêmia há centenas de anos. Eles têm confiado fortemente na Antiguidade para sua sucessão, que, no caso de Duke Vratislav, eventualmente levará a sérias disputas com seus irmãos.\n\n#negrito Para se tornar rei da Boêmia, Vratislav precisará ser tático com seus recursos, tanto materiais quanto não — você está a fim da tarefa? #!"
+
+ bookmark_rags_to_riches_duke_vratislav_alt_judita:0 "$Judita$"
+ bookmark_rags_to_riches_duke_vratislav_alt_ota:0 "$Ota$ $nick_the_handsome$"
+
+
+ # Robert 'The Fox' de Hauteville, Duke of Apulia, Sicily
+ bookmark_rags_to_riches_duke_robert:0 "Duque Robert"
+ bookmark_rags_to_riches_duke_robert_desc:0 "Robert começou sua carreira como ladrão e chefe de um bando de caminhoneiros. Sendo um dos muitos irmãos, o filho aventureiro nunca foi previsto para se tornar um brilhante estrategista e estadista, governando vastas áreas de terra - no entanto, aqui está ele, um poderoso Duque do sul da Itália, pronto para assumir o caminho da história, o que permitirá que os Hautevilles tenham uma base na Sicília por mais de cem anos.\n\n#negrito Se você pode consolidar o poder no reino, o Reino da Sicília aguarda seu governante! #!"
+
+ bookmark_rags_to_riches_duke_robert_alt_bohemond:0 "$Bohemond$"
+ bookmark_rags_to_riches_duke_robert_alt_roger:0 "$Roger$"
+ 

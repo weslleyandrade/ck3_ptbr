@@ -1,0 +1,9 @@
+﻿l_english:
+ house_head_interaction_header:0 "[house_head_interaction|E]on"
+ demand_conversion_interaction:0 "Conversão de Demanda"
+ demand_conversion_interaction_desc:0 "$house_head_interaction_header$ $ask_for_conversion_interaction_desc$"
+ demand_conversion_interaction_extra_icon:0 "$hook_extra_icon$"
+ call_house_member_to_war_interaction:0 "Chame o membro da Casa para a Guerra"
+ call_house_member_to_war_interaction_desc:0 "$house_head_interaction_header$Cham [recipient.GetShortUINameNoTooltip] para servir [recipient.GetHerHis] [house|E] na guerra"
+ call_house_member_to_war_interaction_extra_icon:0 "$hook_extra_icon$"
+

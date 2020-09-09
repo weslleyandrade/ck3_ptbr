@@ -1,0 +1,6 @@
+﻿l_english:
+ #TownType
+ barony_town_type_city:0 "Cidade"
+ barony_town_type_castle_town:0 "Cidade do Castelo"
+ barony_town_type_town:0 "Cidade"
+ barony_town_type_village:0 "Aldeia"

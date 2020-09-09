@@ -1,0 +1,30 @@
+﻿l_english:
+ major_decisions.0100.t:0 "Linhagem Sagrada"
+ major_decisions.0100.desc.temporal:0 "Graças à minha pura devoção e ao trabalho implacável, eu inextricavelmente vinculei os mais sagrados dos escritórios do [scoped_ruler.GetFaith.GetAdjective] fé à dinastia [scoped_ruler.GetDynasty.GetBaseName].\n\nUm número crescente de pessoas no clero e entre os fiéis passou a pensar na minha família como os guardiões escolhidos das relíquias sagradas e os prenúncios da vontade divina."
+ major_decisions.0100.desc.spiritual:0 "Minha devoção inabalável para [scoped_ruler.GetFaith.HighGodNamePossessive] representantes na Terra não passou despercebida. \n\n[scoped_pope.GetTitledFirstName] reconheceu oficialmente as contribuições da minha família e consagrou nosso nome como eternos defensores da fé [scoped_ruler.GetFaith.GetAdjective]."
+ major_decisions.0100.a:0 "Somos um pouco mais do que meros mortais."
+ major_decisions.0100.b:0 "Virtude sem culpa!"
+ major_decisions.0102.desc.temporal:0 "Graças à [scoped_ruler.GetHerHis] conduta impecável e à regra esclarecida, [scoped_ruler.GetTitledFirstName] está prestes a ser imortalizada como pilar de [scoped_ruler.GetFaith.GetName].\n\n[scoped_ruler.GetSheHe|U] tornou-se de longe o [scoped_ruler.GetTitleTierName] mais influente e respeitado da história recente, e alguns afirmam que pode muito bem haver um toque de sangue divino fluindo em veias [scoped_ruler.GetHerHis]."
+ major_decisions.0102.desc.spiritual:0 "Tais são as realizações de [scoped_ruler.GetTitledFirstName] que o [scoped_pope.GetFaith.ReligiousHeadTitleName] [scoped_pope.GetHerselfHimself] oficialmente reconhecido [scoped_ruler.GetHerHis] papel instrumental na defesa e promulgação de virtudes [scoped_ruler.GetFaith.GetAdjective].\n\nA dinastia [scoped_ruler.GetDynasty.GetBaseName] será lembrada por muito tempo de sua piedade e zelo graças à conduta impecável desta grande [scoped_ruler.GetWomanMan]."
+ major_decisions.0102.a:0 "Vivemos em tempos abençoados."
+ major_decisions.0102.b:0 "Eles são um exemplo para todos nós!"
+ major_decisions.0103.desc.temporal:0 "[scoped_ruler.GetTitledFirstName] dedicou [scoped_ruler.GetHerHis] vida para cobrir o manto da ascendência divina em nome de nossa família, e os frutos do trabalho [scoped_ruler.GetHerHis] estão finalmente mostrando. \n\nUm número crescente de pessoas no clero e entre os fiéis passou a pensar em nossa dinastia como os guardiões escolhidos das relíquias sagradas e os prenúncios da vontade divina."
+ major_decisions.0103.desc.spiritual:0 "[scoped_ruler.GetTitledFirstName] dedicou [scoped_ruler.GetHerHis] vida a cortejar o favor do clero [scoped_ruler.GetFaith.GetAdjective], e os frutos do trabalho [scoped_ruler.GetHerHis] estão finalmente mostrando. \n\n[scoped_pope.GetTitledFirstName] reconheceu oficialmente as contribuições de nossa família e consagrou nosso nome como eternos defensores da fé."
+ major_decisions.0103.a:0 "Todos nós devemos ser gratos a [scoped_ruler.GetHerHim]."
+ major_decisions.0103.b:0 "Ainda mais blasfêmia de [scoped_ruler.GetFirstNameNoTooltip]..."
+
+
+#STRENGTHEN BLOODLINE
+ major_decisions.0500.t:0 "A Força do [ROOT.Char.GetDynasty.GetBaseNameNoTooltip]"
+ major_decisions.0500.desc:0 "Por gerações, nossa dinastia é conhecida pela força de seu sangue. Vigor, beleza e intelecto são todos atributos associados ao nome [ROOT.Char.GetDynasty.GetBaseNameNoTooltip].\n\nMy própria excelência só confirma isso — todas as melhores qualidades de nossa dinastia em um indivíduo perfeito. Meu nome e meus dons viverão através de meus descendentes por séculos."
+ major_decisions.0500.a:0 "Temos um futuro brilhante pela frente!"
+
+ #DYNASTY OF MANY CROWNS
+ major_decisions.0501.desc:0 "Através de casamentos, alianças e conquistas cuidadosamente planejadas, a dinastia [ROOT.Char.GetDynasty.GetBaseNameNoTooltip] tomou seu lugar de direito entre os verdadeiros poderes do mundo conhecido.\n\n[realm_1.GetNameNoTierNoTooltip|U], [realm_2.GetNameNoTierNoTooltip|U], [realm_3.GetNameNoTierNoTooltip|U], [realm_4.GetNameNoTierNoTooltip|U]... Nosso domínio se estende por toda parte. Muitas coroas se sentam em cima de nossas cabeças, mas por sangue, estamos unidos como um só."
+ major_decisions.0501.a:0 "Que nosso legado viva para a eternidade!"
+
+ major_decisions.0001.t:0 "Uma Nova Era"
+ major_decisions.0001.desc:0 "Os velhos costumes nos serviram bem, e nós sempre vamos honrá-los. No entanto, como [ROOT.Char.GetTitleAsNameNoTooltip] de [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip], concluí que devemos adotar o feudalismo e seus princípios se continuarmos a prosperar. É o próximo passo crucial em nosso caminho para a grandeza!"
+ major_decisions.0001.a:0 "Viva [ROOT.Char.GetPrimaryTitle.GetNameNoTierNoTooltip]!"
+
+ major_decisions.0002.opening:0 "[actor.Custom2('AppropriateGreeting', ROOT.Char)]"

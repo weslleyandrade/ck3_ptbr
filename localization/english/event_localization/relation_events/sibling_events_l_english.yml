@@ -1,0 +1,92 @@
+﻿l_english:
+ sibling.0001.t:0 "Just Dues"
+ sibling.0001.desc:0 "[sibling.GetTitledFirstName] veio em busca de uma audiência oficial comigo!\n\n"Dear [sibling.Custom2('RelationToMe' , ROOT.GetCharacter )], I have served you loyally. Is it not time I was duly rewarded for my good work?""
+ sibling.0001.a:0 "Eu lhe concederei um título e terra de sua própria!"
+ sibling_promised_land_tt:1 "[sibling.GetFirstName] esperarei que eu forneça um título para [sibling.GetHerHim] muito em breve"
+ sibling.0001.b:0 "Você pode pedir qualquer favor, meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling'))]."
+ sibling.0001.c:0 "Pegue este presente e prove a si mesmo para o mundo, querido [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]!"
+ sibling_funded_for_invasion:0 "[sibling.GetFirstName] procurarão um reino adequado para tentar [sibling.GetHerHis] sorte."
+ sibling_becomes_councillor_tt:0 "[sibling.GetFirstName] se torna um dos meus conselheiros."
+ sibling.0001.e:0 "Você não fez nada mais do que o seu dever, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]!"
+
+ sibling.0002.desc:0 "Meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetFirstName], veio até mim, lembrando-me que uma vez prometi [sibling.GetHerHim] terras e um título de [sibling.GetHerHis] próprio.\n\n"I have waited long enough, [sibling.Custom2('RelationToMe' , ROOT.Char )].""
+ sibling.0002.a:1 "Eu vou te pagar para esquecer essa promessa."
+ sibling.0002.b:0 "Eu não tenho nada para te dar, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]."
+
+ sibling.0003.desc:1 "Meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetFirstName], veio até mim, carregando dízimos de [sibling.GetHerHis] novas terras.\n\n"[sibling.Custom2('RelationToMe' , ROOT.Char )|U]! May these gifts forever bind us as companions as well as we are bound by blood!""
+ sibling.0003.a:0 "Para a família e o reino!"
+
+ sibling.0004.t:0 "Meu [sibling.Custom('SisterBrother')|U] e um Vassalo"
+ sibling.0004.opening:0 "[vassal.GetTitledFirstName] mais uma vez veio reclamar do meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName]."
+ sibling.0004.fallback:0 "\n\nEles simplesmente não podem se dar bem, e desta vez parece que um deles foi longe demais."
+ sibling.0004.a:0 "Meu [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] age em meu nome."
+ sibling.0004.b:0 "Se unam, [sibling.GetFirstNameNoTooltip]!"
+ sibling.0004.c:0 "Devo chide vocês dois gostam de crianças?"
+
+ sibling.0005.t:0 "Uma Fonte de Problemas"
+ sibling.0005.desc:0 "Por um tempo eu soube que o dia do acerto de contas viria para [sibling.Custom2('MyCharacterIntroduction', ROOT.Char )].\n\n[vassal.GetTitledFirstName] me apresentou exigências não apenas em nome de [vassal.GetHerselfHimself], mas de todos os meus [ROOT.GetCharacter.Custom('powerful_vassals_loc')], que eu faço algo sobre o meu intolerável [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )]."
+ sibling.0005.a:0 ""Não se atreva a falar de [sibling.GetHerHim|U] assim!""
+ sibling.0005.b:1 "[sibling.GetSheHe|U] deve aprender que [sibling.GetHerHis] comportamento é inaceitável."
+ sibling.0005.c:1 "Basta, [sibling.GetFirstNameNoTooltip]!"
+
+ sibling.1001.t:0 "Apoio Diplomático"
+ sibling.1001.desc:0 "Meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') ) ], [sibling.GetTitledFirstName], veio até mim com ideias de como colocar [sibling.GetHerHis] língua prateada em bom uso.\n\n"I can serve as an envoy, or even dictate dispatches for your scribes.""
+ sibling.1001.a:0 "Eu sei exatamente onde você seria o mais útil."
+ accepted_sibling_help_tt:0 "Um irmão valioso pode sentir que lhes é devido algum tipo de recompensa..."
+ sibling.1001.b:0 "Eu me recuso a lhe dever qualquer coisa, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]."
+
+ sibling.1002.t:0 "Conhecimento Marcial"
+ sibling.1002.desc:0 "Meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetTitledFirstName], veio até mim para fazer questão de [sibling.GetHerHis] compreensão da guerra."Let me help train your levies, and they'll fight like no army you've seen before.""
+ sibling.1002.a:0 "Eu sei exatamente onde você seria o mais útil."
+ sibling.1002.b:0 "Eu me recuso a lhe dever qualquer coisa, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]."
+
+ sibling.1003.t:0 "Segredos e Sussurros"
+ sibling.1003.desc:0 "Meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetTitledFirstName], se ofereceu para me passar mensagens sobre o que acontece na minha corte.\n\n"A true loyalist among the nobility would be beneficial for you...""
+ sibling.1003.a:0 "Laços familiares são os únicos em quem posso confiar de verdade."
+ sibling.1003.b:0 "Você acha que eu confio em você, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]?"
+
+ sibling.1004.t:0 "O Fluxo de Ouro"
+ sibling.1004.desc:0 "Olhando o trabalho dos meus tesoureiros, meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetTitledFirstName], teve que rir.\n\n"[ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )|U], please allow me to show them how it's done.""
+ sibling.1004.a:0 "Sim, [sibling.GetFirstName], faça meu tesouro crescer."
+ sibling.1004.b:0 "Eu sei por que você quer suas mãos no meu dinheiro, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]..."
+
+ sibling.1005.t:0 "Contemplações sobre Divindade"
+ sibling.1005.desc:0 "Poucas [sibling.GetWomenMen] podem corresponder à visão da minha [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )], [sibling.GetTitledFirstName]. [sibling.GetSheHe|U] agora se oferece para compartilhar um pouco disso comigo, sendo meu conselho em assuntos espirituais."
+ sibling.1005.a:0 "Por favor, ajude a guiar minha mão, [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )]."
+ sibling.1005.b:0 "Eu nunca colocaria minha alma em suas mãos."
+
+ sibling.2001.t:0 "Um Incômodo"
+ sibling.2001.opening:0 "Eu mal posso lidar com ter [sibling.GetTitledFirstName] por perto."
+ sibling.2001.fallback:0 "\n\nse meu [ROOT.GetCharacter.Custom2('RelationToMe' , SCOPE.sC('sibling') )] não está acidentalmente ateando fogo em algo ou desperdiçando meu ouro, [sibling.GetSheHe] está perturbando meus vassalos."
+ sibling.2001.a:0 "Ai de mim!"
+ sibling.2001.b:0 "Basta, [sibling.GetFirstName]!"
+
+ sibling.8001.t:0 "O Custo da Família"
+ sibling.8001.desc:0 "\n\nNow [sibling.GetSheHe] foi longe demais, insistindo em dinheiro para um empreendimento comercial, mas mantendo tudo para [sibling.GetHerselfHimself]!"allowance."\n\nNow [sibling.GetSheHe] foi longe demais, insistindo em dinheiro para um empreendimento comercial, mas mantendo tudo para [sibling.GetHerselfHimself]!"
+ sibling.8001.a:0 "Minha bolsa está agora fechada, [sibling.GetFirstName]!"
+
+ sibling.8002.t:0 "Bolsos Profundos"
+ sibling.8002.desc:0 "Meu [ROOT.GetCharacter.Custom('trait_generous_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName] tem viajado [province.GetName], ouvindo a situação dos camponeses, e generosamente distribuindo presentes e promessas.\n\n[sibling.GetSheHe|U] até deixou bem claro que todas essas eram gentilezas em meu nome."
+ sibling.8002.a:0 "Bom trabalho, [sibling.GetFirstName]."
+ sibling.8002.b:0 "Isso foi feito com o meu ouro?!"
+
+ sibling.8003.t:0 "Indiscrições"
+ sibling.8003.desc:0 "Meu [ROOT.GetCharacter.Custom('trait_lustful_adjective')] [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName] tomou muitas decisões ruins, mas se envolver com uma [sibling.Custom('servant_for_romance')] comum pode ser a pior [sibling.GetSheHe] já fez!"
+ sibling.8003.a:0 "Ah, [sibling.GetFirstName] vai fazer o que [sibling.GetSheHe] quer."
+ risk_of_sibling_producing_bastard_tt:0 "Isso pode ter consequências..."
+ sibling.8003.b:0 "[sibling.GetSheHe|U] pode não ver mais o [sibling.Custom('servant_for_romance')]!"
+
+ sibling.8004.t:0 "Respeito aos Superiores"
+ sibling.8004.desc:1 "Viajando por [province.GetName], minha [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] parece ter incomodado muito os camponeses de várias aldeias e vilas. [sibling.GetTitledFirstName] exigiu não só moradia e ser tratado como se [sibling.GetSheHe] fosse um [ROOT.GetCharacter.Custom2('using_my_title' , SCOPE.sC('sibling') ) ], mas também [sibling.GetSheHe] puniu as pessoas pela menor demonstração de desrespeito"
+ sibling.8004.a:0 "Eu posso ver por que eles estão chateados."
+ peasants_dislike_sibling_tt:0 "Os camponeses de [province.GetName] não estão satisfeitos"
+
+ sibling.8005.t:0 "Uma Recepção Vazia"
+ sibling.8005.desc:0 "Meu [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] [sibling.GetTitledFirstName] deveria receber [vassal.GetTitledFirstName] para [vassal.GetHerHis] visita ao meu tribunal.\n\n[vassal.GetFirstName] foi adiada por dias, no entanto, e agora que [vassal.GetSheHe] chegou, minha [ROOT.GetCharacter.Custom('trait_impatient_adjective')] [ROOT.GetCharacter.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] estava longe de ser encontrada, deixando meu convidado sem ser bem-vindo!"
+ sibling.8005.a:0 "Alguns presentes farão uma boa compensação."
+ sibling.8005.b:0 ""[sibling.GetFirstNameNoTooltip]!!!""
+
+ sibling.8006.t:0 "Duro, mas justo"
+ sibling.8006.desc:1 "Enquanto visitava o tribunal de [vassal.GetTitledFirstName], meu [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )], [sibling.GetTitledFirstName], foi solicitado a julgar em meu nome. [vassal.GetFirstNameNoTooltip] elogiou [sibling.GetFirstNamePossessiveNoTooltip] senso de justiça longamente, e parece muito feliz com minha visita [sibling.Custom('SisterBrotherPossessive')]."
+ sibling.8006.a:0 "[sibling.GetFirstNameNoTooltip] deveria passar mais tempo no tribunal [vassal.GetFirstNamePossessiveNoTooltip]."
+ sibling.8006.b:0 "Eu também tenho alguns casos meu [ROOT.Char.Custom2('RelationToMeShort' , SCOPE.sC('sibling') )] poderia julgar por mim!"

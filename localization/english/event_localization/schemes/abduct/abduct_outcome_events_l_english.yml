@@ -1,0 +1,58 @@
+﻿l_english:
+
+ abduct_event_title:0 "Abduzindo:"
+ do_not_execute_abduct_tooltip:0 "Eu não tento o Sequestro"
+
+ abduct_outcome.1001.t:0 "ataque $abduct_event_title$ rodoviária"
+ abduct_outcome.1001.opening:0 "Meus agentes me dizem que [target.GetTitledFirstName] está planejando viajar"
+ abduct_outcome.1001.arrival:0 "de [departure.GetNameNoTierNoTooltip] para [arrival.GetNameNoTierNoTooltip]."
+ abduct_outcome.1001.no_arrival:0 "dentro do [departure.GetNameNoTier]."
+ abduct_outcome.1001.ending:0 "Providenciei que alguns bandidos interrompam [target.GetHerHis] pequena viagem e certifiquem-se de que [target.GetSheHe] chegue aqui em vez disso."
+ abduct_outcome.1001.a:0 "Em breve [target.GetSheHe] estará à minha mercê!"
+ abduct_outcome.1001.b:0 "Não, o risco é muito grande."
+
+ abduct_outcome.1002.t:0 "$abduct_event_title$ em andamento"
+ abduct_outcome.1002.desc:1 "Uma oportunidade perfeita se apresentou! [target.GetTitledFirstName] viajarão do [target.Custom('ResidenceBuilding')] para a cidade vizinha, com qualquer guarda.\n\n[target.GetSheHe|U] deve pensar [target.GetHerselfHimself] seguro..."
+ abduct_outcome.1002.a:0 "O momento perfeito para atacar!"
+
+ abduct_outcome.1003.t:0 "$abduct_event_title$ convidados indesejáveis"
+ abduct_outcome.1003.desc:0 "Com meus agentes indo e vindo livremente na corte em [court_location.GetNameNoTierNoTooltip], [target.GetTitledFirstName] está ao alcance!\n\nOs agentes estão em posição de deixar entrar um pequeno grupo de pessoas no meio da noite, e cobri-los enquanto saem sem serem detectados. Idealmente, enquanto abafava os gritos de um saco de arroto chutando."
+ abduct_outcome.1003.a:0 "Eu gosto do som deste plano!"
+
+ abduct_outcome.2001.desc:0 "Sucesso! Os bandidos fizeram seu trabalho admiravelmente, e [target.GetTitledFirstName] está em segurança em minhas mãos."
+ abduct_outcome.2001.a:0 "Espero que [target.GetSheHe] goste [target.GetHerHis] novos bairros..."
+
+ abduct_outcome.2002.desc:0 "Antes mesmo de [target.GetTitledFirstName] sabia o que estava acontecendo, meus agentes tinham [target.GetHerHim]! [target.GetSheHe|U] está finalmente em minhas mãos."
+
+ abduct_outcome.2003.desc:1 "Eu não posso acreditar que funcionou! Era tão simples como deixar alguns dos meus aliados entrarem na [target.Custom('ResidenceBuilding')] no meio da noite. \n\n[target.GetTitledFirstName] é, sem dúvida, chutando [target.GetHerselfHimself] sobre a falta de segurança. Felizmente é muito melhor onde [target.GetSheHe] está agora."
+
+ abduct_outcome.4001.opening:0 "Maldições! [target.GetTitledFirstName] escapou dos meus bandidos contratados, e em segurança fez [target.GetHerHis] caminho de volta para [departure.GetNameNoTier]."
+ abduct_outcome.4001.owner_discovered:0 "\n\nDisastrously, um dos bandidos foi capturado mais tarde e confessou tudo, incluindo meu envolvimento!"
+ abduct_outcome.4001.owner_secret:0 "Pelo menos ninguém saberá que os bandidos trabalhavam para mim."
+ abduct_outcome.4001.a:1 "Encontrarei outra maneira de lidar com [target.GetHerHim]."
+ abduct_outcome.4001.b:0 "[target.GetHerHis|U] sorte não vai durar. Hora de tentar de novo!"
+
+ abduct_outcome.4002.opening:0 "Como isso pôde acontecer?! Meus agentes estavam esperando e esperando na hora e lugar corretos, mas [target.GetTitledFirstName] nunca apareceu!"
+ abduct_outcome.4002.owner_discovered:0 "\n\n[target.GetSheHe|U] parece ter vento que eu estava planejando algo!"
+ abduct_outcome.4002.owner_secret:0 "\n\n[target.GetSheHe|U] deve ter vento que algo estava acontecendo, mas pelo menos [target.GetSheHe] nunca saberei que eu estava envolvido."
+
+ abduct_outcome.4003.opening:0 "Não! Meus aliados foram descobertos tentando invadir [target.GetTitledFirstNamePossessive] câmaras. Eu deveria saber que não seria tão fácil."
+ abduct_outcome.4003.owner_discovered:0 "O que é pior, eles confessaram e desistiram do meu envolvimento na trama!"
+ abduct_outcome.4003.owner_secret:0 "Por algum milagre, meus aliados conseguiram sair, e meu envolvimento permanece desconhecido."
+
+ abduct_outcome.5001.t:0 "Abduzido!"
+ abduct_outcome.5001.opening:0 "Fui abduzido por [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]!"
+ abduct_outcome.5001.seized_roadside:0 "\n\nI estava viajando com minha comitiva quando fomos abordados por bandidos. Não sei o que aconteceu com os outros, pois um saco foi puxado sobre minha cabeça. Quando foi finalmente removido, encontrei-me um prisioneiro em [prison_location.GetNameNoTier]."
+ abduct_outcome.5001.on_the_way:0 "\n\nI estava a caminho da cidade com apenas um punhado de guardas, e [owner.GetSheHe] sabia atacar quando eu estaria mais vulnerável!"
+ abduct_outcome.5001.unwelcome_guests:1 "\n\nUm grupo de estranhos invadiu meus aposentos no meio da noite. Traidores devem tê-los deixado entrar na [ROOT.Char.Custom('ResidenceBuilding')], e eu pensei que minha vida tinha acabado. No entanto, eles puxaram um saco na minha cabeça e me arrastaram para fora. Amarrado, eu fui trazido aqui para este calabouço úmido."
+ abduct_outcome.5001.a:0 "Espere até eu sair daqui!"
+
+ abduct_outcome.5002.t:0 "Sequestro evitado!"
+ abduct_outcome.5002.seized_roadside:0 "Eu estava viajando em [departure.GetNameNoTier] quando um grupo de bandidos caiu sobre nós.\n\nEu consegui cavalgar em segurança, pois estava claro que os bandidos não estavam dispostos a me machucar. Em vez disso, eles estavam tentando me capturar vivo!"
+ abduct_outcome.5002.on_the_way:1 "Eu estava a caminho da cidade com apenas um punhado de guardas quando eles atacaram.\n\nThankly, os que eu tinha comigo agiram rapidamente e corajosamente, e eu estava em segurança de volta ao [target.Custom('ResidenceBuilding')] em pouco tempo."
+ abduct_outcome.5002.unwelcome_guests:1 "Uma comoção me acordou no meio da noite. Um grupo de bandidos tinha sido deixado para o [ROOT.Char.Custom('ResidenceBuilding')], e só foram descobertos uma vez na porta dos meus aposentos!"
+ abduct_outcome.5002.fallback:0 "Eu escapei de uma tentativa de sequestro!"
+ abduct_outcome.5002.owner_known:0 "\n\nEssis é, sem dúvida, o trabalho de ninguém menos que o meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('owner'))], [owner.GetTitledFirstName]!"
+ abduct_outcome.5002.owner_not_known:0 "\n\nEu não sei quem está por trás dessa tentativa de sequestro, mas eles ainda estão lá fora..."
+ abduct_outcome.5002.a:0 "Oh, [owner.GetSheHe] vai pagar!"
+ abduct_outcome.5002.b:0 "Eu devo estar em minha guarda."

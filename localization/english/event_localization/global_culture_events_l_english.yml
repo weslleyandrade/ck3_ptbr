@@ -1,0 +1,65 @@
+﻿l_english:
+ global_culture.custom.change_culture:1 "Todos os [old_culture.GetName] condados e personagens do seu reino se tornam [new_culture.GetName]"
+ global_culture.custom.merge_culture:1 "Todos os [old_culture_1.GetName] e [old_culture_2.GetName] condados e personagens em seu reino se tornam [new_culture.GetName]"
+ global_culture.custom.keep_culture:1 "Os [old_culture.GetName] condados e personagens em seu reino mantenham sua cultura."
+ global_culture.custom.trigger:0 "Você não controla pelo menos 80% de todos os [CHARACTER.GetCulture.GetName] condados"
+
+ # Visigoth Split
+ global_culture.0002.t:0 "Destino dos Visigodo"
+ global_culture.0002.desc:0 "Há muito tempo, nossos ancestrais migraram para a península Ibérica e construíram seus primeiros assentamentos. Vivemos aqui por gerações desde então, a terra que nos molda tanto quanto moldamos a terra.\n\nÉ hora de nos perguntarmos, ainda somos visigodos? Ou somos algo totalmente novo?"
+ global_culture.0002.a:0 "Os tempos estão mudando, e devemos mudar com eles."
+ global_culture.0002.b:0 "Não abandonaremos as tradições de nossos ancestrais!"
+
+ global_culture.0005.t:0 "$global_culture.0002.t$"
+ global_culture.0005.desc:0 "Quando os visigodos migraram pela primeira vez para a península ibérica, eles eram estrangeiros em uma terra nova e estranha.\n\nEsta mudou ao longo de muitas gerações, como a terra os moldou tanto quanto eles moldaram a própria terra. Com o tempo, as várias comunidades de visigodos se tornaram distintas e separadas umas das outras.\n\nDespite seu patrimônio compartilhado essas novas comunidades — [castilian.GetName], [catalan.GetName], [occitan.GetName] e [andalusian.GetName] — não se reconhecem mais como parentes."
+ global_culture.0005.a:0 "Só o tempo dirá como isso impacta a região."
+
+ # Norse Split
+ global_culture.0012.t:0 "Destino dos Nórdes"
+ global_culture.0012.desc:0 "Vivendo nas terras duras da Escandinávia, nosso povo tem um histórico de garantir nossa prosperidade e sobrevivência, apesar de negociar, pilhar e lutar como espadas para alugar.\n\nEnto o tempo isso resultou na acumulação de grandes riquezas, fazendo com que nosso povo colocasse raízes e se instalasse em casas permanentes com maior frequência.\n\nAgora esses assentamentos começaram a divergir um do outro culturalmente. , à medida que suas tradições e até mesmo línguas mudam para atender às demandas de seus novos estilos de vida."
+ global_culture.0012.a:0 "Devemos garantir nossa própria prosperidade em primeiro lugar."
+ global_culture.0012.b:0 "Inaceitável! O #EMP nórdico #! permanecerá unido."
+
+ global_culture.0015.t:0 "$global_culture.0012.t$"
+ global_culture.0015.desc:0 "Comerciantes, invasores e mercenários... os nórdes viajaram por muito tempo da Escandinávia por toda a Europa e até mesmo além, deixando sua marca para onde foram.\n\nAgora parece que essa idade pode estar chegando ao fim, pois diferenças culturais e rivalidades entre clãs levaram ao surgimento de [danish.GetName] diferentes, [swedish.GetName] e identidades [norwegian.GetName] entre eles."
+ global_culture.0015.a:0 "O que isso significa para o futuro da Europa?"
+
+ # Suebi Split
+ global_culture.0022.t:0 "Destino do Suebi"
+ global_culture.0022.desc:0 "Sob pressão dos hunos, nossos ancestrais migraram pela primeira vez para a Hispânia há cerca de 500 anos e fundaram seu próprio reino. Isolados das outras tribos germânicas e sujeitos à influência latina, nossas tradições e línguas divergiram descontroladamente.\n\nCom as coisas como elas são, devemos considerar se é hora de recuperar o passado... ou se é melhor olhar para o futuro em vez disso."
+ global_culture.0022.a:0 "O futuro do nosso povo é o português!"
+ global_culture.0022.b:0 "Sempre seremos Suebi!"
+
+ global_culture.0025.t:0 "$global_culture.0022.t$"
+ global_culture.0025.desc:0 "Fugindo dos hunos há quase 500 anos, uma pequena tribo Suebi migrou para a Hispânia e fundou seu próprio reino. Isolados das outras tribos germânicas e sujeitos à influência latina, suas tradições e linguagem divergiram descontroladamente.\n\nAgora os Suebi estão se chamando [portuguese.GetName], cortando os últimos laços com sua herança germânica."
+ global_culture.0025.a:0 "Eles podem chamar a si mesmos o que quiserem."
+
+  # Scottish Split
+ global_culture.0032.t:0 "Ascensão dos Escoceses"
+ global_culture.0032.desc:1 "Embora compartilhemos origens comuns com os outros anglo-saxões, nossos clãs que vivem nas planícies do norte da Grã-Bretanha começaram a divergir cultural e linguisticamente à medida que nos adaptamos à vida no terreno acidentado.\n\nMans de nosso povo estão agora clamando por uma identidade cultural única que podemos chamar de nossa. Algo que podemos nos orgulhar de ser..."
+ global_culture.0032.a:0 "Nós somos escoceses, agora e para sempre!"
+ global_culture.0032.b:0 "Não devemos virar as costas para nossos compatriotas."
+
+ global_culture.0035.t:0 "$global_culture.0032.t$"
+ global_culture.0035.desc:1 "Embora compartilhem origens comuns com os outros anglo-saxões, os clãs que vivem nas planícies do norte da Grã-Bretanha adaptaram-se à vida no terreno acidentado.\n\nDiverging cultural e linguisticamente de seus antigos compatriotas, esses [scottish.GetName] abraçaram entusiasticamente sua nova identidade cultural."
+ global_culture.0035.a:0 "Será que eles serão capazes de prosperar por conta própria?"
+
+
+ # Norman Merge
+ global_culture.3002.t:0 "Ascensão dos Normandos"
+ global_culture.3002.desc:1 "As terras do norte da França forneceram ao nosso povo terreno exuberante e fértil para se estabelecer e expandir.\n\n Adotendo algumas das tradições dos moradores locais, poderemos nos adaptar melhor à região."
+ global_culture.3002.a:0 "Para novos amigos e novos começos!"
+
+ global_culture.3003.t:0 "$global_culture.3002.t$"
+ global_culture.3003.desc:0 "Estamos longe das terras que nossos ancestrais nórdes chamavam de lar, mas são essas terras do norte da França que pensamos como nosso país. Como líder do meu povo, é minha responsabilidade garantir a prosperidade futura e se quisermos florescer, então devemos nos adaptar ao nosso novo ambiente. Devemos aprender com as pessoas cujos ancestrais fizeram uso desses motivos férteis.\n\n Por este decreto, mudaremos nosso modo de vida para beneficiar nossos parentes. Vamos forjar um novo caminho como nosso próprio povo."
+ global_culture.3003.a:0 "De hoje em diante, nos chamamos normandos!"
+
+ global_culture.3005.t:0 "$global_culture.3002.t$"
+ global_culture.3005.desc:0 "Um grupo de colonos nórdes vindos da Escandinávia se estabeleceram na costa norte da França, fazendo um novo lar para si mesmos lá.\n\nO seu líder, [norman_founder.GetTitledFirstName], decretou que [norman_founder.GetHerHis] pessoas adotarão vários costumes e tradições locais para garantir que eles prosperarão nesta nova terra."
+ global_culture.3005.a:0 "O que isso significa para a região?"
+
+ global_culture.3011.t:0 "Spread of [sicilian.GetNameNoTooltip] Culture"
+ global_culture.3011.desc:0 "A mistura eclética de povos no sul da Itália e na Sicília deu à origem uma cultura única, afetada pelas inúmeras influências.\n\nAgora, é claro que as pessoas no [county_to_change.GetName] não se veem mais como [old_culture.GetName], mas como [sicilian.GetCollectiveNoun] nativas!"
+ global_culture.3011.a:0 "Um desenvolvimento interessante..."
+
+ global_culture.3012.a:0 "Maravilhosa!"

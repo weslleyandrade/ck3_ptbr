@@ -1,0 +1,33 @@
+﻿l_english:
+ south_asia.0001.t:0 "Uma Nova Era"
+ south_asia.0001.desc:0 "Multidões cantam meu nome como eu sou purificado nas águas das nascentes celestiais. Eu me levanto como o Chakravarti, legítimo e benevolente governante de todo o mundo.\n\nMy [ROOT.Char.GetFaith.AltPriestTermPlural] me diga que é hora do mundo ser guiado pela minha luz, mas eu não preciso de suas garantias. Enquanto olho através das planícies, posso senti-lo em minha alma."
+ south_asia.0001.a:0 "O mundo fala meu nome."
+
+ south_asia.0002.t:0 "O Chakravarti"
+ south_asia.0002.intro:0 "Multidões estão andando há dias, ou até semanas para participar da cerimônia. [chakravarti.GetTitledFirstNamePossessive] vida inteira levou a este momento."
+ south_asia.0002.text:0 "\n\nI vejo em silêncio atordoado enquanto meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chakravarti'))] emerge das fontes sagradas. [chakravarti.GetHerHis|U] [chakravarti.GetFaith.AltPriestTermPlural] anunciar [chakravarti.GetHerHim] como os Chakravarti, nosso benevolente [chakravarti.GetLadyLord].\n\nNone pode agora contestar que [chakravarti.GetSheHe] é o governante legítimo de todo o mundo."
+ south_asia.0002.a:0 "Estou honrado por ter testemunhado este momento."
+ south_asia.0002.b:0 "Deixe-me lançar-me aos seus pés em exultação!"
+
+ south_asia.0003.text:0 "É só quando meu [ROOT.Char.Custom2('RelationToMe', SCOPE.sC('chakravarti'))] emerge das fontes sagradas que toda a força do momento me atinge. [chakravarti.GetHerHis|U] [chakravarti.GetFaith.AltPriestTermPlural] anunciar [chakravarti.GetHerHim] como os Chakravarti, o legítimo governante de todo o mundo.\n\nAs [chakravarti.GetTitledFirstName] olha sobre as planícies abaixo, não posso deixar de sentir que é verdade."
+ south_asia.0003.a:0 "Deixe-me juntar-me a você em seu triunfo, meu liege!"
+ south_asia.0003.b:0 "O que vem a seguir para o governante do mundo?"
+
+ south_asia.0004.relevant_religion:0 "Arautos têm chegado em massa para trazer notícias do Império da Índia. Pela primeira vez em uma era, um Chakravarti subiu."
+ south_asia.0004.desc:0 ", entusiasmado com [chakravarti.GetHerHis] benevolência."Chakravarti", entusiasmado com [chakravarti.GetHerHis] benevolência."
+ south_asia.0004.text:0 "Com grandes rituais e hordas de crentes a [chakravarti.GetHerHis] pés, [chakravarti.GetTitledFirstName] adotou o manto do legítimo governante do mundo inteiro."
+ south_asia.0004.a:0 "Será [chakravarti.GetSheHe] uma nova ameaça, ou um grande aliado?"
+ south_asia.0004.b:0 "Os pagãos podem manter suas alegações ridículas!"
+
+ south_asia.0011.t:0 "As Águas Sagradas"
+ south_asia.0011.desc:0 "Por um dia inteiro, do nascer ao pôr-do-sol, eu fico na cintura alta no rio que flui. Em minhas mãos, eu levanto a água em direção ao céu, antes de deixá-la cair. Uma e outra vez.\n\n Estou tremendo quando eu voltar para terra firme, onde sou recebido por [ROOT.Char.GetFaith.PriestNeuterPlural] subordinados. Jurei minha proteção não só à água que fluiu através das minhas mãos hoje, mas a todo o rio, e através dela, a eternidade da existência."
+ south_asia.0011.a:0 "Ninguém pode duvidar da minha dedicação à [ROOT.Char.GetFaith.HighGodName]."
+
+ south_asia.0012.desc:0 "Com controle sobre todo o curso do Ganges, [ruler_of_ganges.GetTitledFirstName] reivindicou a tutela espiritual de suas águas sagradas. É uma autoridade sem precedentes para alguém reivindicar, mas o [ruler_of_ganges.GetFaith.PriestNeuterPlural] declarou-o verdadeiro."
+ south_asia.0012.a.like:0 "Parece que a eternidade tem um novo protetor."
+ south_asia.0012.a.dislike:0 "Como se alguém respeitasse um oportunista como [ruler_of_ganges.GetHerHim]!"
+
+ south_asia.0013.t:0 "Meu Propósito Divino Usurpado"
+ south_asia.0013.desc:0 "Com a minha perda de território, minha autoridade sobre o Ganges não é mais respeitada pelo povo e [ROOT.Char.GetFaith.PriestNeuterPlural] do meu reino! Em vez disso, [ruler_of_ganges.GetTitledName] reivindicou a posição que uma vez comandei como o Administrador do Rio Sagrado."
+ south_asia.0013.a:0 "Esse upstart não é nada além de uma fraude!"
+ 

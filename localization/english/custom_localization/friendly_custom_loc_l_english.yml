@@ -1,0 +1,4 @@
+﻿l_english:
+ #GestureOfFriendship
+ bows_deeply_to_firstname_or_me:0 "curva-se profundamente para [ROOT.GetCharacter.GetFirstNameOrMe]"
+ clasps_firstnamepossessive_or_my_hands:0 "fechos [ROOT.GetCharacter.GetFirstNamePossessiveOrMy] mãos"

@@ -1,0 +1,78 @@
+﻿l_english:
+# Forming Outremer, by Flavio Verna
+ middle_east_decisions.0001.t:0 "O Império do Céu"
+ middle_east_decisions.0001.desc:0 "Desde a ascensão de Muhammad, a religião muçulmana tem sido uma força a ser contada em todo o Oriente, e uma ameaça iminente para os adoradores de Cristo. No entanto, graças aos meus esforços para proteger a Terra Santa, este não é mais o caso. Eu empurrei os infiéis das costas do Mediterrâneo e os perseguiu pelos desertos escaldantes da Arábia. Plantei a santa cruz de Nosso Senhor do mar para o mar, e forjei um verdadeiro Império do Céu sobre o crescente quebrado do falso Profeta."
+ middle_east_decisions.0001.a:0 "Que Deus tenha misericórdia deles, pois eu não tenho nenhuma."
+ middle_east_decisions.0002.desc.christians:0 "Desde a ascensão de Muhammad, a religião muçulmana tem sido uma força a ser contada em todo o Oriente, e uma ameaça iminente para os adoradores de Cristo. No entanto, graças aos esforços dos [scoped_ruler.GetTitledFirstName] para assegurar a Terra Santa, este não é mais o caso. Com a bênção de [scoped_ruler.GetFaith.HighGodName], [scoped_ruler.GetFirstName] empurrou os infiéis das costas do Mediterrâneo e os perseguiu pelos desertos escaldantes da Arábia. [scoped_ruler.GetSheHe|U] plantou a santa cruz de Nosso Senhor do mar para o mar, e forjou um verdadeiro Império do Céu sobre o crescente quebrado do falso Profeta."
+ middle_east_decisions.0002.desc.muslims:0 "As hordas bárbaras dos [scoped_ruler.GetTitledFirstName] cruzados trouxeram ruína além da compreensão aos seguidores de [ROOT.Char.GetFaith.HighGodName]!\n\nEles ídolos viles ocuparam todos os lugares sagrados de adoração à nossa fé. Até a cidade sagrada de Meca está agora sob as garras desses porcos blasfemos. Se os verdadeiros seguidores do Profeta não recuperarem a Arábia em breve, este pode ser o começo do fim para o Islã."
+ middle_east_decisions.0002.desc.others:0 "Desde a ascensão de Muhammad, a religião muçulmana tem sido uma força a ser contada em todo o Oriente. No entanto, graças aos esforços dos [scoped_ruler.GetTitledFirstName] para assegurar a Terra Santa, este não é mais o caso. Esta [scoped_ruler.GetFaith.GetAdjective] [scoped_ruler.GetTitleTierName] empurrou os seguidores de Alá das costas do Mediterrâneo e os perseguiu pelos desertos escaldantes da Arábia. [scoped_ruler.GetSheHe|U] plantou a santa cruz do mar para o mar, e forjou o que [scoped_ruler.GetSheHe] chama de Império do Céu sobre o crescente quebrado do Profeta."
+ middle_east_decisions.0002.a:0 "Louvado seja Nosso Senhor!"
+ middle_east_decisions.0002.b:0 "Mil maldições sobre [scoped_ruler.GetHerHis] família!"
+ middle_east_decisions.0002.c:0 "Eu vejo..."
+
+# Restoring the Sunni Caliphate, by Flavio Verna
+ middle_east_decisions.0003.t:0 "Um Novo Califado"
+ middle_east_decisions.0003.desc:0 "Desde a ocupação infiel da terra santa, os verdadeiros seguidores do Profeta foram espalhados aos quatro ventos, sem a liderança ou vontade de retomar a luta sagrada.\n\nEss termina hoje. Ao [reformer.GetFaith.HighGodNamePossessive] misericórdia, recuperei Meca e Medina e parei a maré de infiéis que assobravam a Arábia. Com o apoio de vários estudiosos respeitados do livro, fui reconhecido como o novo Califa de [reformer.GetFaith.GetName], e estou pronto para liderar meus seguidores contra os ídolos perversos que ainda poluem nossa pátria!"
+ middle_east_decisions.0003.a:0 "Allahu Akbar!"
+ middle_east_decisions.0004.desc.ashari:0 "Desde a ocupação infiel da terra santa, os verdadeiros seguidores do Profeta foram espalhados aos quatro ventos, sem a liderança ou vontade de retomar a luta sagrada.\n\nEss termina hoje. Ao [reformer.GetFaith.HighGodNamePossessive] misericórdia, [reformer.GetFirstName] recuperou Meca e Medina e parou a maré de infiéis que assobravam a Arábia. Com o apoio de vários estudiosos respeitados do livro, [reformer.GetSheHe] foi reconhecido como o novo Califa de [reformer.GetFaith.GetName] e está pronto para liderar [reformer.GetHerHis] seguidores contra os ídolos perversos que ainda poluem nossa pátria"
+ middle_east_decisions.0004.desc.other:0 "Desde a ocupação infiel da terra santa, os seguidores de [reformer.GetFaith.GetName] foram espalhados aos quatro ventos, sem a liderança ou vontade de retomar a luta sagrada.\n\nYet, parece que eles finalmente se uniram mais uma vez, sob a sábia liderança de [reformer.GetFirstName]. Depois de ter recuperado as cidades sagradas de Meca e Medina e ter legitimado [reformer.GetHerHis] reivindicar como novo Califa, [reformer.GetFirstName] está pronta para retomar a grande guerra contra os infiéis"
+ middle_east_decisions.0004.a:0 "Allahu Akbar!"
+ middle_east_decisions.0004.b:0 "Melhor o diabo que você conhece, eu suponho..."
+
+# Creating Israel, by Flavio Verna
+ middle_east_decisions.0005.t:0 "A Terra Prometida"
+ middle_east_decisions.0005.desc:0 "Com Jerusalém e a Terra Prometida sob controle judaico, o momento é propício para a criação de uma nova Monarquia Unida chamada Israel - como o grande reino dos tempos antigos sob Davi e Salomão.\n\nO povo judeu de longa data está finalmente no controle de seu próprio destino novamente. A Terra Santa não será mais despedaçada pelos senhores cristãos e muçulmanos em guerra. Que este novo reino inicie uma era de paz e prosperidade para a região!"
+ middle_east_decisions.0005.a:0 "Viva Israel!"
+ middle_east_decisions.0006.desc.others:0 "Tendo trazido Jerusalém de volta sob controle judaico, [scoped_ruler.GetTitledFirstName] decidiu declarar [scoped_ruler.GetHerselfHimself] [scoped_ruler.GetTitleTierName] de um Israel restaurado.\n\nO longo exílio do povo judeu pode finalmente ter chegado ao fim, já que muitas de suas comunidades decidem viajar de volta para a Terra Prometida."
+ middle_east_decisions.0006.a:0 "Chegou a hora!"
+ middle_east_decisions.0006.b:0 "Eu vejo..."
+
+# Restore Jewish High Priesthood, by Flavio Verna
+ middle_east_decisions.0007.t:0 "O Novo [scoped_ruler.GetFaith.GetAdjective] Sacerdócio"
+ middle_east_decisions.0007.desc:0 "Não houve um [new_priest.GetTitleTierName] – um Sumo Sacerdote do Judaísmo – desde que os romanos destruíram o Segundo Templo há cerca de mil anos. Finalmente, esta posição foi preenchida, e o Alto Sacerdócio reconstituído.\n\nComo os sacerdotes judeus dos tempos antigos, o Kohen Gadol era tradicionalmente exigido para ser descendente de Arão, o irmão mais velho de Moisés. Devido à falta de candidatos adequados, essa exigência foi dispensada, mas o novo Sumo Sacerdote ainda goza do respeito das comunidades religiosas judaicas."
+ middle_east_decisions.0007.a:0 "Que [new_priest.GetHerHis] liderança nos inspire!"
+ middle_east_decisions.0008.desc.others:0 "Após o resta restabelecer uma presença judaica significativa em Jerusalém, [scoped_ruler.GetTitledFirstName] promoveu a fundação de um novo [new_priest.GetFaith.GetAdjective] Alto Sacerdócio para liderar os israelitas.\n\nLed por [new_priest.GetTitledFirstName], espera-se que esta congregação traga unidade e orientação às comunidades crescentes de Israel."
+ middle_east_decisions.0008.a:0 "Que [new_priest.GetHerHis] liderança nos inspire!"
+ middle_east_decisions.0008.b:0 "Eu vejo..."
+
+# Restore Zoroastrian High Priesthood, by Flavio Verna
+ middle_east_decisions.0009.t:0 "O Novo [scoped_ruler.GetFaith.GetAdjective] Sacerdócio"
+ middle_east_decisions.0009.desc:0 "Após o interlúdio do exílio e da perseguição após as conquistas árabes, o zoroastrismo foi aceito pelo povo da Pérsia como o único verdadeiro caminho para a justiça. [scoped_ruler.GetTitledFirstName] ordenou que a instituição do escritório do [new_priest.GetTitleTierName], um sacerdote de sacerdotes, governe sobre uma hierarquia clerical restaurada.\n\nA [new_priest.GetTitleTierName] servirá como a mais alta autoridade religiosa do mundo [scoped_ruler.GetFaith.GetAdjective], com poderes que vão desde a bênção de futuras expedições militares até a concessão de divórcios a casais casados."
+ middle_east_decisions.0009.a:0 "A chama eterna queima mais uma vez!"
+ middle_east_decisions.0010.desc.muslims:0 "Os seguidores amaldiçoados de [scoped_ruler.GetFaith.HighGodName] reivindicaram terra e influência suficientes para restabelecer um sacerdócio blasfemo sob a proteção de [scoped_ruler.GetTitledFirstName].\n\n\nSe não parassem logo, esses pagãos adoradores de demônios podem virar a maré da expansão islâmica na Pérsia, poluindo a mente de seus sujeitos inconscientes com mentiras e perversões."
+ middle_east_decisions.0010.desc.others:0 "Os estranhos e adoradores de fogo seguidores de [scoped_ruler.GetFaith.HighGodName] recuperaram o suficiente de seus territórios persas ancestrais para restabelecer um sacerdócio funcional.\n\nSE não pararem em breve, eles podem virar a maré da expansão islâmica e restaurar a Ásia sob a proteção de seus deuses antigos."
+ middle_east_decisions.0010.a:0 "Glória para [scoped_ruler.GetFaith.HighGodName]!"
+ middle_east_decisions.0010.b:0 "Seus demônios não os protegerão do poder de [ROOT.Char.GetFaith.HighGodName]!"
+ middle_east_decisions.0010.c:0 "... Adoração ao fogo?"
+
+# The Saoyshant appears, by Flavio Verna
+ middle_east_decisions.0011.t:0 "O Escolhido de Zoroaster"
+ middle_east_decisions.0011.desc:0 "Desde que o Império Sassânida sucumbiu às invasões árabes, a Pérsia tem sofrido sob o jugo dos governantes maomés. Os últimos remanescentes da antiga ordem zoroastriana recuaram para o norte para as planícies da Ásia Central, mas agora, finalmente, o domínio zoroastriano sobre a Pérsia foi restaurado.\n\nEsta recuperação milagrosa só pode ser atribuída à minha brilhante liderança, e muitos entre os clérigos me decretaram ser o saoshyant - o salvador do mundo que o próprio Zoroaster falou há milhares de anos. Depois de abraçar esse papel, agora sou reverenciado como um ícone sagrado pelos zoroastrianos em todos os lugares."
+ middle_east_decisions.0011.a:0 "Trarei benefício a todos."
+ all_held_counties:0 "Todos os Condados Infiéis"
+ middle_east_decisions.0013.desc:0 "Desde que o Império Sassânida sucumbiu às invasões árabes, a Pérsia tem sofrido sob o jugo dos governantes maomés. Os últimos remanescentes da antiga ordem zoroastriana recuaram para o norte para as planícies da Ásia Central, mas agora, finalmente, o domínio zoroastriano sobre a Pérsia foi restaurado.\n\nEsta recuperação milagrosa só pode ser atribuída a [scoped_ruler.GetFirstNamePossessive] liderança brilhante, e muitos entre os clérigos decretaram [scoped_ruler.GetHerHim] ser o saoshyant — o salvador do mundo que o próprio Zoroaster falou há milhares de anos. Depois de abraçar esse papel, [scoped_ruler.GetTitledFirstNameNoTooltip] agora é reverenciada como um ícone sagrado pelos zoroastrianos em todos os lugares."
+ middle_east_decisions.0013.desc.muslims:0 "Uma vez reduzidos a moradores exilados do deserto, os sacerdotes do maldito blasfemo Zoroaster ressuscitaram de suas cinzas e reivindicaram o trono da Pérsia!\n\n Cheio de orgulho louco, seu [scoped_ruler.GetTitleTierName] agora decidiu proclamar [scoped_ruler.GetHerselfHimself] um deus vivo."
+ middle_east_decisions.0013.desc.others:0 "Desde que o Império Sassânida sucumbiu às invasões árabes, os seguidores de Zoroaster estão fugindo. Seu exílio chegou ao fim nos últimos tempos, à medida que os [scoped_ruler.GetFaith.GetAdjective] fiéis conseguiram restaurar seu antigo Império.\n\nParando em grande parte responsável por essa inesperada reviravolta dos acontecimentos, seu [scoped_ruler.GetTitleTierName] decidiu proclamar [scoped_ruler.GetHerselfHimself] saoshyant, o salvador profetizou de seu credo."
+ middle_east_decisions.0013.a:0 "Que [scoped_ruler.GetSheHe] tragam benefícios para todos nós!"
+ middle_east_decisions.0013.b:0 "Loucura e diabólica!"
+ middle_east_decisions.0013.c:0 "Eu vejo..."
+
+# Create Sultanate of Rum, by Flavio Verna
+ middle_east_decisions.0014.t:0 "Uma Nova Roma"
+ middle_east_decisions.0014.desc:0 "Com a conquista das terras ricas da Ásia Menor, acumulei poder suficiente para formar um novo Sultanato, que certamente vai superar a grandeza de Roma.\n\n Ainda há trabalho a ser feito, mas não tenho dúvidas de que os historiadores consagrarão este momento como um dos grandes passos na conquista da Europa pelos seguidores de [scoped_ruler.GetFaith.HighGodName]."
+ middle_east_decisions.0014.a:0 "Deixe o Oeste tremer!"
+ middle_east_decisions.0015.desc.liege:0 "Depois de uma série de vitórias na Anatólia, [scoped_ruler.GetTitledFirstName] decidiu coroar [scoped_ruler.GetHerselfHimself] [scoped_ruler.GetTitleTierName] de Rum, alegando que [scoped_ruler.GetSheHe] não tem mais nenhuma lealdade a mim e prosseguirá a luta contra os infiéis em [scoped_ruler.GetHerHis] próprios termos."
+ middle_east_decisions.0015.desc.romans:0 "O senhor da guerra selvagem [scoped_ruler.GetTitledFirstName] esculpiu [scoped_ruler.GetHerHis] caminho através da Anatólia e estabeleceu um novo Sultanato na região.\n\nAs se isso não bastasse um insulto, em uma demonstração desprezível de arrogância, [scoped_ruler.GetSheHe] decidiu reivindicar [scoped_ruler.GetHerselfHimself] o título de [scoped_ruler.GetTitleTierName] de Roma."
+ middle_east_decisions.0015.desc.others:0 "A rica província da Ásia Menor, outrora bastião do cristianismo, agora está sob o domínio de [scoped_ruler.GetTitledFirstName], que formou um novo Sultanato na região."
+ middle_east_decisions.0015.a:0 "Como ousa [scoped_ruler.GetSheHe]!"
+ middle_east_decisions.0015.b:0 "Eu vejo..."
+
+ # Revive the Armenian Empire, by Ewan Cowhig Croft
+ middle_east_decisions.1001.t:0 "Uma Nova Águia Sobe"
+ middle_east_decisions.1001.desc:0 "Faz séculos desde a última vez que a Armênia exerceu esse nível de domínio no Levante e no Cáucaso, os impérios gêmeos do Oriente e do Ocidente nos batendo sangrentas várias vezes. Às vezes o Ocidente fala latim, às vezes grego, e às vezes o Oriente fala persa, às vezes árabe, mas sempre esses impérios lutam, e sempre nossas terras antigas parecem ser o campo de batalha.\n\nDepois de hoje, não mais. Eu esculpi de novo os antigos territórios de Tigranes, o Grande, e o padrão-águia da Grande Armênia sobe novamente!"
+ middle_east_decisions.1001.a:0 "Vou continuar para coisas maiores ainda!"
+ middle_east_decisions.1001.b:0 "Não menos uma realização por ser repetitivo."
+ middle_east_decisions.1002.desc:0 "Uma situação estranha vem se formando nas montanhas do Cáucaso há algum tempo. Contra todas as probabilidades, [founder.GetFullNameNoTooltip] conseguiu esculpir um reino considerável, espalhando-se do Mar Cáspio no leste até as margens do Mediterrâneo no oeste. Embora imperfeito, isso praticamente recriou o império morto de Tigranes, o Grande, uma circunstância que os arautos de [founder.GetFullNameNoTooltip] são rápidos em trombeta.\n\nO padrão-águia da Grande Armênia sobe novamente, mas por quanto tempo?"
+ middle_east_decisions.1002.a:0 "A dignidade imperial requer mais do que mera terra."
+ middle_east_decisions.1002.b:0 "Desta vez, nenhum deve nos rasgar em pedaços."
+ middle_east_decisions.1002.c:0 "Tanto uma nota de rodapé quanto seu antecessor."

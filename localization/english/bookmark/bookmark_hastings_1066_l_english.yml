@@ -1,0 +1,55 @@
+﻿l_english:
+ bm_1066_hastings:0 "O Destino da Inglaterra"
+ bm_1066_hastings_desc:1 "Quando o rei sem filhos Eduardo, o Confessor, mergulhou a Inglaterra em uma crise sucessória diferente de qualquer outra que tinha vindo antes.\n\nNos homens tentaram garantir o trono para si mesmos: Harold Godwinson, William, o Bastardo, e Harald Hardrade, enquanto Svend e Malcom estavam de prontidão, prontos para atacar qualquer sinal de fraqueza.\n\n#bold Quem sairá vitorioso após este momento tumultuado na história? #!"
+
+ bookmark_hastings_england:0 "Rei Haroldo da Inglaterra"
+ bookmark_hastings_england_desc:2 "Harold Godwinson era o líder de uma poderosa casa nobre, e o cunhado do Rei, quando o rei sem filhos Edward morreu. Agora, eleito o novo rei da Inglaterra por seus pares, ele enfrenta o desafio de manter o trono, como o cobiçado Duque da Normandia, bem como o rei Harald da Noruega, estimulado e auxiliado pelo irmão exilado de Haroldo, buscando substituí-lo!\n\n#negrito Com um grande exército em suas costas e o apoio dos lordes anglo-saxões - os lobos encontrarão lobos que eles tenham mordido mais do que podem mastigar?"
+
+ bookmark_hastings_england_alt_tostig:0 "$Tostig$"
+ bookmark_hastings_england_alt_eadgifu:0 "$Eadgifu$ $nick_the_fair$"
+
+ bookmark_hastings_normandy:0 "Guilherme, o Bastardo"
+ bookmark_hastings_normandy_desc:1 "A Casa da Normandia remonta à linhagem aos vikings nórdes, e estabeleceu-se no continente da Europa há mais de 200 anos. Agora, Guilherme II sonha em liderar sua família para governar o Reino da Inglaterra, e ele acredita que seu status como sucessor do trono foi prometido pelo falecido rei Eduardo, e até mesmo reconhecido pelo próprio Harold Godwinson. No entanto, agora que Edward se foi, Harold quebrou seu juramento e tomou a coroa para si mesmo!\n\n#negrito William está em guerra com a Inglaterra. Você pode reunir suas forças e reivindicar o que é seu por direito?"
+
+ bookmark_hastings_normandy_alt_robert:0 "$Robert$ $nick_the_curthose$"
+ bookmark_hastings_normandy_alt_william:0 "$William$ $nick_the_red$"
+
+ bookmark_hastings_norway:0 "Harald Hardrade"
+ bookmark_hastings_norway_desc:1 "Tendo demonstrado um talento militar formidável desde a juventude, Harald recentemente tentou, e falhou, conquistar a Dinamarca. Agora, ele olha para além do mar - por contrato antigo, a coroa da Inglaterra deveria ter passado para Harald, quando o último rei morreu sem um herdeiro. Mas, em vez disso, os anglo-saxões colocaram Harold Godwinson no trono! Felizmente, o falso rei fez inimigos, e Tostig Godwinson, irmão de Haroldo, vive no exílio na Noruega...\n\n#negrito Usando seus próprios inimigos contra ele, você pode dar a este Varangian viking controle sobre o Mar do Norte?"
+ 
+ bookmark_hastings_norway_alt_olaf:0 "$Olaf$"
+ bookmark_hastings_norway_alt_ingegerd:0 "$Ingegerd$"
+
+ bookmark_hastings_denmark:0 "Rei Svend da Dinamarca"
+ bookmark_hastings_denmark_desc:1 "Com laços de sangue com a Inglaterra e a Noruega, Svend tem fortes reivindicações para ambos os tronos. Infelizmente, seus exércitos são pequenos e indisciplinados, tornando inviável uma guerra de conquistas. No entanto, há outras maneiras de perseguir seus sonhos...\n\n#bold Se seus filhos se casassem em famílias poderosas, poderia conceder muitas alianças úteis — alianças que você poderia aproveitar para encontrar um império que rivalizaria com Roma em si! #!"
+
+ bookmark_hastings_denmark_alt_harald:0 "$Harald$ $nick_the_whetstone$"
+ bookmark_hastings_denmark_alt_knud:0 "$Knud$"
+
+ bookmark_hastings_scotland:0 "Rei Malcolm da Escócia"
+ bookmark_hastings_scotland_desc:1 ", a situação de Malcolm III é tênue, mas cheia de oportunidades. Ao sul, as ricas terras da Nortúmbria estão vulneráveis enquanto a Inglaterra é dilacerada pela guerra, mas senhores da guerra nórdicos e highlanders gaélicos ainda contestam o domínio do rei em casa.\n\n#negrito As Ilhas Britânicas se enchem de perigos e oportunidades: você pode arrancar uma rosa deste jardim de espinhos? #!"Great Chief", a situação de Malcolm III é tênue, mas cheia de oportunidades. Ao sul, as ricas terras da Nortúmbria estão vulneráveis enquanto a Inglaterra é dilacerada pela guerra, mas senhores da guerra nórdicos e highlanders gaélicos ainda contestam o domínio do rei em casa.\n\n#negrito As Ilhas Britânicas se enchem de perigos e oportunidades: você pode arrancar uma rosa deste jardim de espinhos? #!"
+
+ bookmark_hastings_scotland_alt_duncan:0 "$Duncan$"
+ bookmark_hastings_scotland_alt_donald:0 "$Donald$ $nick_the_fair$"
+
+ bookmark_hastings_france_regency:0 "#D Anna de Kiev#!"
+ bookmark_hastings_france_regency_desc:0 "#D Rainha Mãe da França, guiando a mão do bebê Philippe. #!"
+ bookmark_hastings_english_magnate:0 "Eadgifu, a Feira"
+ bookmark_hastings_english_magnate_desc:0 "Como um dos mais ricos proprietários de terras de toda a Inglaterra e ex-esposa de Haroldo, há muito tempo tenho sido mantido em alta estima pelos outros governantes anglo-saxões.\n\nOmão Harold tomou uma nova esposa quando subiu ao trono, ainda sou poderoso e influente em meu próprio direito, e estou determinado a garantir meu legado."
+ war_1066_Norman_Conquest:0 "Conquista Normanda da Inglaterra"
+ war_1066_Harald_Invasion:0 "Invasão Norueguesa da Inglaterra"
+ war_1066_Seljuk_Invasion:0 "Invasão Seljuk da Armênia"
+ war_1066_Sinhalese_Rebellion:0 "Rebelião Sinhalese"
+
+ debug_bm_1340_history:0 "#D History Debug: 1340#!"
+ debug_bm_1340_history_desc:0 "Execute isso para depurar arquivos de histórico até 1340"
+
+ ### CHARACTERS
+
+ # 1066
+ KING_MALCOLM:0 "Rei Malcolm"
+ KING_HAROLD:0 "Rei Harold"
+ EADGIFU:0 "Eadgifu, a Feira"
+ BASTARD_WILLIAM:0 "Guilherme, o Bastardo"
+ KING_SVEND:0 "Rei Svend"
+ KING_HARALD:0 "Harald Hardrade"

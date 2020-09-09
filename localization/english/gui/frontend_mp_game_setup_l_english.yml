@@ -1,0 +1,7 @@
+﻿l_english:
+ FRONTEND_MP_GAME_SETUP_SELECT_BOOKMARK:0 "@warning_icon! #X nenhum marcador ou salvar jogo selecionado#!"
+ FRONTEND_MP_GAME_SETUP_HOST_HEADER:0 "Host Multiplayer Game"
+ FRONTEND_MP_GAME_SETUP_HOST_NEW_GAME:0 "Novo Jogo"
+ FRONTEND_MP_GAME_SETUP_HOST_SAVED_GAME:0 "Load Saved Game"
+ FRONTEND_MP_GAME_SETUP_GAME_SETTINGS:0 "Configuração do jogo"
+ FRONTEND_MP_GAME_SETUP_VERSION:0 "Versão: [GetGameVersionInfoShort]"

@@ -1,0 +1,15 @@
+﻿l_english:
+ #Become Greatest of Khans
+ become_greatest_of_khans_decision:0 "Torne-se o maior dos Khans"
+ become_greatest_of_khans_decision_desc:0 "#F estou pronto para chamar todos os líderes do clã do outro lado do meu vasto reino para uma reunião. Eles vão me proclamar o Khan de Khans, [ROOT.Char.GetLadyLord|U] de tudo o que está sob o Céu.\nDe lá, nós conquistamos. #!"
+ become_greatest_of_khans_decision_tooltip:0 "Forme o Império Mongol e torne-se o Genghis Khan - o governante do mundo"
+ become_greatest_of_khans_decision_confirm:0 "Chame o Grande Kurultai"
+ become_greatest_of_khans_decision_gain_mongol_empire:1 "Seu reino se torna o [mongol_empire|E]"
+ become_greatest_of_khans_decision_enable_mongol_invasion_cb:1 "Você tem acesso ao [mongol_invasion_casus_belli|E]"
+ GREATEST_OF_KHANS_TITLE_REQUIREMENT:1 "Você deve ser de [king|E] ou [emperor|E] posto"
+
+ #Establish Bactrian Supremacy
+ establish_bactrian_supremacy_decision:0 "Estabelecer supremacia bactriana"
+ establish_bactrian_supremacy_decision_desc:0 "#F Por gerações, os reis bactrianos dominaram a encruzilhada das civilizações. É hora de pegar seu manto, e deixar a notícia se espalhar de caravanserai para oásis que aqui, sob os quatro cantos do céu, somos nós que governamos. #!"
+ establish_bactrian_supremacy_decision_tooltip:0 "Mostrar domínio sobre as rotas de viagem que ligam leste e oeste, norte e sul"
+ establish_bactrian_supremacy_decision_confirm:0 "Reivindicar as terras de idade!"

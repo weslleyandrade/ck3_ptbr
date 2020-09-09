@@ -1,0 +1,76 @@
+﻿l_english:
+
+ sex_scene_text:0 "[ROOT.Char.Custom2('sex_scene_part_1' , SCOPE.sC('second') )] [ROOT.Char.Custom2('sex_scene_part_2' , SCOPE.sC('second') )]\n\n[ROOT.Char.Custom2('sex_scene_part_3' , SCOPE.sC('second') )]\n\n[ROOT.Char.Custom2('sex_scene_ending' , SCOPE.sC('second') )]"
+
+ sex_scene_part_1_location:0 "[ROOT.Char.Custom2('sex_scene_part_1_location' , SCOPE.sC('second') )]"
+ sex_scene_part_1_random:0 "[ROOT.Char.Custom2('sex_scene_part_1_random' , SCOPE.sC('second') )]"
+
+ sex_scene.0001.t:0 "Um Momento Juntos"
+ sex_scene.0001.opening_1:1 "Eu abraço [second.GetHerHim] – [scope.GetHerHis] corpo ansioso contra o meu, [second.GetHerHis] hálito pesado no meu ouvido."
+ sex_scene.0001.opening_2:1 "Pele contra pele – não existe barreira entre nossos corpos enquanto nos alcançamos."
+ sex_scene.0001.opening_3:1 "[second.GetHerHis|U] olhos estão queimando de luxúria enquanto olham para o meu, enquanto eles arrastam pelo meu corpo, enquanto minhas roupas caem."
+ sex_scene.0001.opening_4:1 ""Mostre-me como você se sente," [second.GetSheHe] whispers, breath heavy, as [second.GetSheHe] unlace my [ROOT.GetCharacter.Custom('GetClothingArticle')]."
+ sex_scene.0001.opening_5:0 "À medida que a pele lisa é livre de tecido, uma onda de desejo repentino e forte corre através de mim."
+ sex_scene.0001.opening_6:1 "[second.GetHerHis|U] boca, aqueles lábios macios, que buscam língua. [second.GetHerHis|U] olhos sorriem para mim."
+ sex_scene.0001.opening_7:1 "Vendo [second.GetHerHim] diante de mim, a necessidade é muito grande para controlar."
+ sex_scene.0001.opening_8:1 "Nenhum som jamais inspirou tal luxúria em mim como as palavras [second.GetSheHe] agora sussurra em meu ouvido."
+
+ sex_scene.0001.second_1:1 "Sinto a fome de [second.GetHerHis] tocar queimando na minha pele."
+ sex_scene.0001.second_2:1 "[second.GetHerHis|U] gemidos do meu nome logo aumentam à medida que nossos movimentos ficam mais frenéticos."
+ sex_scene.0001.second_3:1 "Entre beijos apaixonados, respiração pesada e corações batendo, não há fronteira entre [second.GetHerHis] prazer e o meu."
+ sex_scene.0001.second_4:1 "[second.GetSheHe|U] atinge uma mão suave em volta do meu pescoço, puxando meus lábios mais perto. Por um momento eu resisto, mas apenas um momento."
+ sex_scene.0001.second_5:0 "Não há hesitação, nenhum atraso, nenhum tempo para a gentileza. Só há meu desejo."
+ sex_scene.0001.second_6:1 "Traçar dedos levemente através [second.GetHerHis] corpo faz com que [second.GetHerHim] torça e se contorce sob meu toque, arqueando para mais."
+ sex_scene.0001.second_7:1 "Nossos desejos doendo se encontram, e com um empurrão suave nos tornamos um."
+ sex_scene.0001.second_8:1 "[second.GetSheHe|U] moe contra mim, [second.GetHerHis] corpo implorando por algum tipo de libertação."
+ sex_scene.0001.second_9:1 "[second.GetSheHe|U] guia minha mão entre [second.GetHerHis] pernas para me mostrar como é [second.Custom('wet_hard')] [second.GetSheHe]."
+
+ sex_scene.0001.third_1:0 "A intensidade nos consome, o mundo girando em um eixo centrado neste momento."
+ sex_scene.0001.third_2:1 "Eu sei que neste momento, [second.GetSheHe] é minha, e só minha..."
+ sex_scene.0001.third_3:1 "Arrepios sobem na pele [second.GetHerHis] enquanto deixo meus dedos deslizar levemente pelo corpo [second.GetHerHis]. Logo o toque se torna mais firme, e mais faminto. Agarrando."
+ sex_scene.0001.third_4:0 "Eu continuo indo, além de qualquer ponto de exaustão ou razão; não há nada, mas nós dois."
+ sex_scene.0001.third_5:1 "Ninguém nunca me fez sentir assim antes. [second.GetSheHe|U] sorri para mim. [second.GetSheHe|U] sabe."
+ sex_scene.0001.third_6:1 "Eu pensei que sabia como apagar esse fogo, mas [second.GetSheHe] só faz queimar cada vez mais forte, até que seja maior do que qualquer um pode enfrentar."
+
+ sex_scene_ending_location:0 "[ROOT.Char.Custom2('sex_scene_ending_location' , SCOPE.sC('second') )]"
+ sex_scene_ending_random:0 "[ROOT.Char.Custom2('sex_scene_ending_random' , SCOPE.sC('second') )]"
+
+ sex_scene.0001.last_1:1 "Depois eu movo minha mão em gentil carícias através [second.GetHerHis] corpo."
+ sex_scene.0001.last_2:1 "Encharcado de suor de nós dois, [second.GetSheHe] cede e cai em cima de mim."
+ sex_scene.0001.last_3:1 "Quando finalmente nos separamos, posso ver as memórias do prazer piscarem diante de [second.GetHerHis] olhos, uma imagem espelhada minha."
+ sex_scene.0001.last_4:0 "Com um último beijo, todo-consumir, acaba. Este momento vai voltar em sonhos para o resto da minha vida."
+ sex_scene.0001.last_5:1 "[second.GetSheHe|U] parece quase tímido quando nos separamos. Um contraste encantador com a paixão que acabamos de compartilhar."
+ sex_scene.0001.last_6:1 "Quando [second.GetSheHe] se afasta, [second.GetSheHe] olha para mim. [second.GetSheHe|U] morde [second.GetHerHis] lábio em um sorriso carinhoso."
+ sex_scene.0001.a:1 "Até a próxima vez, [second.GetFirstNameNoTooltip]."
+
+ #Localised in a place
+ #sex_scene.0003
+ #Garden
+ sex_scene.0003.opening_garden_1:1 "Meu [second.Custom2('RelationToMe', SCOPE.sC('second'))] veio até mim enquanto eu estava vagando pelos jardins. O cheiro de [second.GetHerHis] pele misturada com a doçura das flores."
+ sex_scene.0003.conclusion_garden_1:1 "[second.GetSheHe|U] me deixou satisfeito e tranquilo atrás de uma cobertura."
+
+ #Private chambers
+ sex_scene.0003.opening_private_chambers_1:1 "Com um coração batendo eu abri a porta para deixá[second.GetHerHim] em meus aposentos privados."
+ sex_scene.0003.conclusion_private_chambers_1:0 "Horas depois, ainda estávamos traçando padrões com dedos acariciando, escrevendo mensagens de amor na pele um do outro."
+
+ #The Stables
+ sex_scene.0003.opening_stables_1:1 "O escândalo que causaria se eu tivesse sido pego com meu [second.Custom2('RelationToMe', SCOPE.sC('second'))], mas não havia mais ninguém nos estábulos naquela noite."
+ sex_scene.0003.conclusion_stables_1:0 "Eu só espero que nossos gemidos de paixão onde afogado pelo pisoteamento e choraming dos cavalos."
+
+#A copse
+ sex_scene.0003.opening_copse_1:1 "Conheci meu [second.Custom2('RelationToMe', SCOPE.sC('second'))] em um bosque não muito longe do [second.Custom('ResidenceBuilding')]. Meu coração estava batendo, mesmo sabendo que ninguém nos veria lá..."
+ sex_scene.0003.conclusion_copse_1:1 "Por um tempo depois que [second.GetSheHe] tinha ido embora, a grama em que eu estava deitada manteve [second.GetHerHis] calor."
+
+#The kitchen
+ sex_scene.0003.opening_kitchen_1:1 "Um servo poderia entrar na cozinha a qualquer momento! Quase protestei quando [second.GetSheHe] me puxou para um balcão, puxando minha [second.Custom('GetClothingArticle')]. Mas quase."
+ sex_scene.0003.conclusion_kitchen_2:1 "Horas depois eu ainda podia sentir a pegajosa do creme [second.GetSheHe] tinha derramado no meu peito."
+ sex_scene.0003.conclusion_kitchen_3:0 "Foi uma onda de emoção, por mais breve que fosse. Eu poderia pular amanhãs guisado, no entanto."
+
+
+ #Custom loc
+ bodypart_localising_chest:0 "em seu peito"
+ bodypart_localising_loins:0 "em seus lombos"
+ bodypart_localising_skin:0 "em sua pele"
+ wet:0 "molhado"
+ hard:0 "duro"
+

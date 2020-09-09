@@ -1,0 +1,44 @@
+﻿l_english:
+ # Extort a Powerful Vassal, by Petter Vilberg
+ subject_extortion.0001.t:0 "Extorquidos Sujeitos: Vassalo Poderoso"
+ subject_extortion.0001.desc:0 " [extortion_target.GetSheHe] insiste."I am loyal, I pay my dues," [extortion_target.GetSheHe] insiste."How can you ask more of me?""
+ subject_extortion.0001.a:0 "Considere isso um pequeno teste extra de lealdade!"
+ subject_extortion.0001.b:0 "Não se preocupe, eu vou ter #EMP todos#! pagar."
+ subject_extortion.0001.c:0 "Oh, mas você ainda me deve, lembra?"
+ subject_extortion.0001.d:0 "Estou apenas brincando, [extortion_target.GetFirstNameNoTooltip]!"
+ subject_extortion.0001.d.flavor:0 "[extortion_target.GetSheHe|U] parece mais chateado do que eu esperava."
+
+ # Extort a County, by Petter Vilberg
+ subject_extortion.0002.t:0 "Extorquir Sujeitos: Camponeses"
+ subject_extortion.0002.desc:0 "Os camponeses do [extortion_target.GetName] parecem estar indo melhor do que se poderia esperar dos impostos que colecionei lá. Uma contribuição extra para o meu tesouro não deve fazer mal.\n\nOh, eles vão reclamar, mas não é isso que os camponeses sempre fazem? Eles vão viver através disso, eu tenho certeza disso."
+ subject_extortion.0002.a:0 "Eles podem fazer o que quiserem, desde que eu pegue meu ouro!"
+ subject_extortion.0002.b:0 "Por que eles nunca são gratos pelo que #EMP fazem#! têm?"
+ subject_extortion.0002.c:0 "Não vale a pena perturbá-los agora."
+
+ # Extort Theocratic Vassals, by Petter Vilberg
+ subject_extortion.0003.t:0 "Extorquir Sujeitos: [ROOT.Char.GetFaith.AltPriestTermPlural|U]"
+ subject_extortion.0003.desc:0 "Será [ROOT.Char.GetFaith.WealthGodName] não quer que eu prospere? E não seria um tesouro bem abastecido ser o melhor meio para isso?\n\nPor alguma razão, o [ROOT.Char.GetFaith.AltPriestTermPlural] está relutante em concordar. Eles parecem pensar que a influência que eles têm sobre suas congregações vai protegê-los."
+ subject_extortion.0003.a:0 "[ROOT.Char.GetFaith.PriestNeuterPlural|U] deve contribuir tanto quanto qualquer outra pessoa!"
+ subject_extortion.0003.b:0 "Eu não mereço isso, [ROOT.Char.GetFaith.HighGodName]?"
+ subject_extortion.0003.c:0 "É uma má ideia perturbar os servos de [ROOT.Char.GetFaith.HighGodNameAlternate]..."
+
+ # Extort all Vassals, by Petter Vilberg
+ subject_extortion.0004.t:0 "Extorquidos Sujeitos: Vassalos"
+ subject_extortion.0004.desc:0 "O objetivo dos meus vassalos é apoiar meus esforços. Embora eles já paguem impostos pelo privilégio, não posso deixar de pensar em quanto mais eu ganharia se todos eles lascassem um pouco mais...\n\n Grande riqueza para mim, a pouco menos algum custo para eles!"
+ subject_extortion.0004.a:0 "Que solução perfeita!"
+ subject_extortion.0004.b:0 "Por que tomar um pouco, quando eu posso levá#EMP muito#!?"
+ subject_extortion.0004.c:0 "Não, suas obrigações já estão cumpridas."
+
+ # Extort Courtiers, by Petter Vilberg
+ subject_extortion.0005.t:0 "Extorquir Sujeitos: Cortesãos"
+ subject_extortion.0005.desc:0 "Meus cortesãos praticamente vivem da minha generosidade. Não é hora de mostrarem sua gratidão?"
+ subject_extortion.0005.a:0 "Eles até #EMP vivem#! pela minha misericórdia sozinho!"
+ subject_extortion.0005.b:0 "Isso não é uma demanda, mas eu espero presentes."
+ subject_extortion.0005.c:0 "Oh, eles já têm tão pouco neste mundo..."
+
+ # Failed to find an extortion target, by Petter Vilberg
+ subject_extortion.9998.t:0 "Sujeitos extorquido"
+ subject_extortion.9998.desc.steward:0 "Meu [steward.GetCouncilTitle] parece ter falhado em encontrar mais fontes de ouro no meu reino."I apologize, my liege, but there is nothing left we can get away with taking.""
+ subject_extortion.9998.desc:0 "Apesar da minha graça e caráter honrado, pareço incapaz de encontrar alguém que esteja disposto a me apoiar mais do que minha lei os obriga. Nenhum deles parece animado em apoiar minhas ideias para novas leis, também.\n\nAm Eu fui forçado a sofrer desamparo nas mãos dos meus servos gananciosos e egoístas?!"
+ subject_extortion.9998.a:0 "Espere! O que é isso clinking em seu bolso?"
+ subject_extortion.9998.b:0 "Espere, o que é isso debaixo do meu assento?"

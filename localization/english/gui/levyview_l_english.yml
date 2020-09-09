@@ -1,0 +1,9 @@
+﻿l_english:
+ LV_HEADER:0 "Levies"
+ LV_COUNTS:0 "[LevyView.GetLivingCount|0]/[LevyView.GetMaxCount|0]"
+ LV_FLAVOR:1 "As taxas consistem em milícias camponesas, rufiões, espadas locais e nobres carentes equipados com ferramentas de motley e armas improvisadas — seus números absolutos compõem a maior parte dos exércitos."
+ LV_RAISED:0 "[LevyView.GetRaisedCount|0] levantadas"
+ LV_UNRAISED:0 "Não radicalizado"
+ LV_MAINTENANCE:0 "Manutenção: [gold_i][LevyView.GetMaintenanceCost|2]/mês"
+ LV_NO_COUNTERS:0 "Levies nunca [counter|E] outros tipos"
+ 

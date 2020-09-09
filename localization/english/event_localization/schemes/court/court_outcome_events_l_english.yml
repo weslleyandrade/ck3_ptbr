@@ -1,0 +1,96 @@
+﻿l_english:
+ #Unused texts for secrecy event
+ court_outcome.0001.t:1 "$court_event_title$ Agora ou Nunca"
+ court_outcome.0001.desc:0 "Oh, [target.GetFirstName], meu [target.Custom('LoverPetName')]! Anseio pelo seu abraço! Acho que vou morrer sem o doce néctar de seus beijos! Devo ir para [target.GetHerHim]? Ou devo ficar longe?"
+ court_outcome.0001.b:0 "Não posso arriscar [target.GetHerHis] segurança..."
+ court_outcome.0001.a:0 "Nada deve ficar entre nós!"
+
+ #Player target picks outcome
+ court_outcome.0003.t:0 "É amor?"
+ court_outcome.0003.success.desc:0 "Eu mal posso lembrar como era minha vida antes de [owner.GetFirstName] declarou [owner.GetHerHis] sentimentos por mim. Esses dias parecem tão sombrios, tão tristes... Mas com [owner.GetHerHim] ao meu lado, tudo e qualquer coisa de repente parece possível!\n\nEu gostaria que pudéssemos continuar assim para sempre, mas no fundo, eu sei que devo fazer a minha escolha. Sou corajoso o suficiente para ceder aos meus sentimentos, ou devo fechar meu coração para [owner.GetFirstNameNoTooltip] para sempre?"
+ court_outcome.0003.failure.desc:0 "Eu mal posso lembrar como era minha vida antes de [owner.GetFirstName] declarou [owner.GetHerHis] amor por mim. Estou lisonjeado, mas também oprimido por [owner.GetHerHis] atenções. Eu me encontro ansiando por um pouco de paz e tranquilidade.\n\nYet, não posso deixar de me preocupar. Eu estaria jogando fora minha única perspectiva de amor verdadeiro? Isso não pode estar certo! Pode...?"
+ court_outcome.0003.a:0 "Eu sou seu, [owner.GetFirstNameNoTooltip]. Agora e para sempre!"
+ court_outcome.0003.a.tt:0 "[owner.GetShortUIName|U] pode se tornar minha Alma gêmea"
+ court_outcome.0003.b.success:0 "Um verdadeiro beijo de amor é tudo que posso dar."
+ court_outcome.0003.b.failure:0 "[owner.GetSheHe|U] merece um beijo, pelo menos, por [owner.GetHerHis] devoção."
+ court_outcome.0003.b.tt:0 "[owner.GetShortUIName|U] não #bold#! se tornará minha Alma gêmea"
+ court_outcome.0003.c:0 "Essa paixão termina hoje."
+
+
+ court_outcome.kiss.tt:0 "[target.GetShortUIName|U] e eu compartilhamos um beijo"
+ 
+ 
+ #Generic keys
+ court_outcome.0001.a.tt:0 "Eu vou em frente com a minha tentativa de romance [target.GetTitledFirstName]"
+
+ ### WILD HUNT ###
+ court_outcome.1000.t:1 "$court_event_title$ A Caçada Selvagem"
+ court_outcome.1000.i_invite.desc:0 "Quando [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] sugeri uma caçada, eu não hesitei em organizar uma. Eu faria qualquer coisa para um mero vislumbre da minha [target.Custom('LoverPetName')]!"
+ court_outcome.1000.own_invite.desc:0 "Quando [target.GetFirstName] me convidou para uma caçada, eu não hesitei em aceitar. Eu não poderia imaginar uma visão mais adorável do que [target.GetHerHis] perfil deslumbrante em cima da parte de trás de um garanhão!"
+ court_outcome.1000.liege_invite.desc:1 "Quando [target_host.Custom2('NamePossessiveCharacterIntroduction', target)] me convidou para uma caçada, eu não hesitei em aceitar. Eu faria qualquer coisa para um mero vislumbre da minha [target.Custom('LoverPetName')]!"
+ court_outcome.1000.end.desc:0 "\n\nI estou perseguindo através da escova inferior, minha página no meu calcanhar e meu cão logo à frente. Parece que encontrou uma trilha! Então, de repente, minha concentração é quebrada pelo grito de um [target.GetWomanMan]!"
+ court_outcome.1000.a:0 ""Estou indo atrás de você, meu amor!""
+ court_outcome.1000.b:0 "Talvez fosse mais sábio enviar a página..."
+ court_outcome.1000.c:0 "Provavelmente foi apenas um pássaro."
+ court_outcome.1000.b.failure:0 "[target.GetFirstNameNoTooltip] é atacada por uma besta selvagem"
+ court_outcome.1000.b.success:0 "[target.GetFirstNameNoTooltip] nunca esteve em perigo"
+
+
+ court_outcome.1001.desc:1 "Dentro do que deve ter sido um minuto, mas senti como uma hora, eu chegar a uma clareira. [target.GetFirstName] está no chão diante de mim, desgrenhado e sem armas. Em frente [target.GetHerHim], e prestes a atacar, está uma enorme [ROOT.Char.Custom('LocalAnimal')] seta de n\nMy atinge a verdade e a besta cai no chão. Por um momento tudo o que [target.GetFirstNameNoTooltip] pode fazer é olhar, mas então [target.GetSheHe] tropeça em mim e joga [target.GetHerselfHimself] em meus braços."
+ court_outcome.1001.a:0 "Eu preciso de você, meu amor, aqui e agora!"
+ court_outcome.1001.b:0 "Um beijo doce é a única recompensa que desejo."
+
+ court_outcome.1002.desc:1 ""O que é isso, [owner.GetTitledFirstNameNoTooltip]? Você acha que eu incapaz de me defender?" I burst through the foliage into the clearing, my heart beating wildly, sweat streaming down my face.\n\nBut the scene before me is not what I expected. There is a [ROOT.Char.Custom('LocalAnimal')], yes — but it is on the ground, an arrow stuck between its eyes. [target.GetFirstNameNoTooltip] lowers [target.GetHerHis] bow as [target.GetSheHe] turns to face me.\n\n"O que é isso, [owner.GetTitledFirstNameNoTooltip]? Você acha que eu incapaz de me defender?""
+ court_outcome.1002.a:0 "Eu... Eu me perdi?"
+
+ court_outcome.1005.desc:0 "À medida que me aproximo, os gritos se intensificam. Deve ser minha [target.Custom('RomanticComplimentAdjective')] [target.GetFirstName] — eu reconheceria [target.GetHerHis] voz em qualquer lugar!\n\nMago há algo #EMP estranho#! sobre [target.GetHerHis] gritos. Não parece que [target.GetFirstNameNoTooltip] está com medo... Ou que [target.GetSheHe] está com dor...\n\nMy coração afunda quando finalmente vejo [target.GetHerHim]: nu como o dia em que [target.GetSheHe] nasceu, rolando na grama com [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
+ court_outcome.1005.a:0 "[target.GetSheHe|U] claramente não tem espaço no [target.GetHerHis] coração para mim."
+ court_outcome.1005.b:1 "[targets_lover.GetFirstNameNoTooltip] vai lamentar o dia em que [targets_lover.GetSheHe] cruzou meu caminho!"
+ court_outcome.1005.c:0 "Eu vou salvá[target.GetHerHim] dessa besta!"
+ court_outcome.1005.c.murder_undiscovered:0 "Minha flecha atinge [targets_lover.GetFirstNameNoTooltip]"
+ court_outcome.1005.c.murder_discovered:0 "Minha flecha atinge [targets_lover.GetFirstNameNoTooltip] mas eu sou descoberto"
+ court_outcome.1005.c.murder_attempt:0 "Eu erro e fundo da cena"
+ court_outcome.1005.d:0 "Se eu não posso ter [target.GetHerHim], ninguém pode!"
+ court_outcome.1005.d.murder_undiscovered:0 "Minha flecha atinge [target.GetFirstNameNoTooltip]"
+ court_outcome.1005.d.murder_discovered:0 "Minha flecha atinge [target.GetFirstNameNoTooltip] mas eu sou descoberto"
+
+ court_outcome.1003.t:0 "A Caçada Selvagem"
+ court_outcome.1004.desc:0 "Meu herói é ninguém menos que [owner.GetTitledFirstName]!"[target.GetFirstNameNoTooltip], my [target.Custom('LoverPetName')]! I thought I had lost you!"Meu herói é ninguém menos que [owner.GetTitledFirstName]!"
+ court_outcome.1003.b:0 "Nós compartilhamos um beijo, doce como mel."
+
+
+ ### INTRUDER ###
+
+ # OWNER CHOICE
+ court_outcome.1100.t:0 "intruso $court_event_title$"
+ court_outcome.1100.start.desc:0 "Toda vez que fecho meus olhos, vejo [target.GetTitledFirstNamePossessive] rosto. O sono não virá. Eu não posso esperar outro momento - camuflado em sombras, eu faço o meu caminho para"
+ court_outcome.1100.targets_residence.desc:0 "[target.GetHerHis] [target.Custom('ResidenceBuilding')]."
+ court_outcome.1100.my_residence.desc:0 "o jardim fora [target.GetHerHis] alojamentos."
+ court_outcome.1100.targets_host_residence.desc:0 "o [target_host.GetTitledFirstNamePossessive] [target.Custom('ResidenceBuilding')]"
+ court_outcome.1100.end.desc:0 "\n\nA visão de [target.GetFirstNamePossessiveNoTooltip] janela da câmara faz meu coração gaguejar. Tão perto, e ainda até agora!\n\nMas espere - quem é esse, subindo a torre? A figura sombria pára [target.GetFirstNamePossessiveNoTooltip] janela e desenrola as persianas..."
+ court_outcome.1100.a:0 "Meu [target.Custom('LoverPetName')] está em perigo - eu devo salvá[target.GetHerHim]!"
+ court_outcome.1100.b:0 ""Guardas! guardas #EMP! #! Há um intruso na torre!"
+ court_outcome.1100.b.failure:0 "[target.GetShortUIName|U] é ferido pelo intruso"
+ court_outcome.1100.b.success:0 "[target.GetShortUIName|U] escapa ileso"
+ court_outcome.1100.c:0 "Eu não vim aqui para lutar com um ladrão."
+
+ # OWNER SUCCESS: You save target from the burglar/comfort target!
+ court_outcome.1101.start.desc:0 "Os sons da luta acima é o maior motivador que eu já conheci. Sem cuidar da vida ou do membro, eu me içando através [target.GetTitledFirstNamePossessive] janela.\n\n"
+ court_outcome.1101.owner_fights.desc:0 "Eu me sinto como se eu tivesse mergulhado em um lago congelado. [target.GetFirstNameNoTooltip] está no chão, o intruso empurrando [target.GetHerHim] para baixo, uma lâmina brilhante entre eles. Com um rugido, agarro o vilão pelo colarinho e jogo [ROOT.Char.GetHerHim] na parede. O resto é um borrão.\n\nQuando o perigo acabou, eu me viro para [target.GetHerHim]."
+ court_outcome.1101.target_fights.desc:0 "A cena que me encontra não é o que eu esperava. Móveis capotados, cortinas desfiadas e [target.GetFirstName] em pé sobre um corpo imóvel com uma adaga ensanguentada em [target.GetHerHis] mão.\n\n"
+ court_outcome.1101.end.desc:0 ""Graças [target.GetFaith.HighGodName] você está aqui, [ROOT.Char.GetFirstNameNoTooltip]!" I ask cautiously. As if my words were a spell, [target.GetSheHe] finally unfreezes, and throws [target.GetHerselfHimself] into my arms. "Graças [target.GetFaith.HighGodName] você está aqui, [ROOT.Char.GetFirstNameNoTooltip]!""
+ court_outcome.1101.a:0 "Eu nunca vou deixar você entrar em perigo novamente!"
+
+ # OWNER FAILURE: Target was fine without your help/is scared 
+ court_outcome.1102.end.desc:0 ""Não se aproxime mais! Sair de uma vez, ou eu #EMP vai#! machucá-lo!" [target.GetSheHe] asks, [target.GetHerHis] voice trembling. I raise my hands, a gesture of peace, but [target.GetSheHe] draws [target.GetHerHis] dagger. "Não se aproxime mais! Sair de uma vez, ou eu #EMP vai#! machucá-lo!""
+ court_outcome.1102.a:0 "Eu só tentei ajudar!"
+
+ # OWNER FAILURE: Target has another lover...
+ court_outcome.1103.desc:0 "Os sons da luta acima é o maior motivador que eu já conheci. Antes mesmo de ter a chance de fazer um plano, eu chego à janela. Eu me içando - mas a visão diante de mim não é o que eu esperava.\n\n[target.GetTitledFirstName] não é exatamente... #EMP lutando#!. Não, [target.GetSheHe] parece estar realmente gostando [target.GetHerselfHimself] - juntamente com [targets_lover.Custom2('MyCharacterIntroductionNoComma', ROOT.Char)]."
+
+ # TARGET SUCCES: is informed about outcome
+ court_outcome.1105.t:0 "Intruso"
+ court_outcome.1105.start.desc:0 "#EMP Crash! #! eu... Onde é que eu estou? O que está acontecendo? Eu olho para a escuridão, meus olhos se ajustando. #EMP [ROOT.Char.GetFaith.HighGodName]. #! Há alguém perto da janela do meu quarto."
+ court_outcome.1105.owner_fights.desc:0 "Eu reconheceria essa voz em qualquer lugar. Meu salvador é ninguém menos que [owner.GetTitledFirstName]!"Listen closely, [ROOT.Char.GetTitleAsNameNoTooltip]. If you do what I say, no one will get—"Eu reconheceria essa voz em qualquer lugar. Meu salvador é ninguém menos que [owner.GetTitledFirstName]!"[target.GetFirstNameNoTooltip], are you alright?"Eu reconheceria essa voz em qualquer lugar. Meu salvador é ninguém menos que [owner.GetTitledFirstName]!"
+ court_outcome.1105.target_fights.desc:0 " Perto da janela está ninguém menos que [owner.GetTitledFirstName], lâmina na mão, pronto para me defender. Eu me jogo em [owner.GetHerHis] braços e [owner.GetSheHe] me segura firme."[target.GetFirstNameNoTooltip], are you alright?" Perto da janela está ninguém menos que [owner.GetTitledFirstName], lâmina na mão, pronto para me defender. Eu me jogo em [owner.GetHerHis] braços e [owner.GetSheHe] me segura firme."
+ court_outcome.1105.a:0 "Oh, meu amor! Nunca me deixe fora de sua vista novamente!"

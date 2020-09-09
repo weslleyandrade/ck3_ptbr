@@ -1,0 +1,19 @@
+﻿l_english:
+ SELECT_CHARACTER_ON_MAP:0 "Escolha um personagem no mapa."
+ PICK_ANY_CHARACTER:1 "Jogue como qualquer governante em [GameSetup.GetSelectedBookmark.GetDate.GetYear]..."
+ BOOKMARK_DISABLED:0 "Este marcador está desativado"
+ BOOKMARK_NOT_PICKED_CHARACTER:0 "Escolha um personagem no marcador antes de começar o jogo. Ou, escolha livremente clicando em 'Escolha qualquer caractere'."
+ SINGLEPLAYER:0 "Single Player"
+
+ GAMESETUP_TUTORIAL_PROMPT_HEADER:1 "Bem-vindo aos Reis Cruzados III"
+ GAMESETUP_TUTORIAL_PROMPT_INTRO:0 "Crusader Kings III é um profundo jogo de estratégia de dinastias e intrigas!"
+ GAMESETUP_TUTORIAL_PROMPT_RECOMMEND:0 "Se você é novo no mundo dos Reis Cruzados, recomendamos fortemente que você jogue o tutorial."
+ GAMESETUP_TUTORIAL_PROMPT_ABOUT_RULER:0 "No tutorial, você vai jogar como $bookmark_rags_to_riches_petty_king_murchad$, um governante na Irlanda. Lidere sua família e dinastia para derrotar seus inimigos e se tornar rei da Irlanda!"
+ GAMESETUP_TUTORIAL_PROMPT_ASK:0 "Aprenda o jogo como $bookmark_rags_to_riches_petty_king_murchad$?"
+
+ GAMESETUP_TUTORIAL_PROMPT_DISABLE:0 "Talvez Mais Tarde"
+ GAMESETUP_TUTORIAL_PROMPT_PLAY_TUTORIAL:0 "$GAMESETUP_PLAY_TUTORIAL$"
+ GAMESETUP_PLAY_TUTORIAL:0 "Play Tutorial"
+ GAMESETUP_GAME_INFO:0 "Informações do jogo"
+ 
+ GAMESETUP_TUTORIAL_PROMPT_PLAY_BUTTON_TOOLTIP:0 "#T jogar como $bookmark_rags_to_riches_petty_king_murchad$, em 1066#!"
